@@ -1,25 +1,5 @@
 # Project-Rose
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-       
-        <li><a href="#contribution-guidlines">Contribution guidlines</a></li>
-        <li><a href="#local-repository-setup">Local Repository Setup</a></li>
-        <li><a href="#running-the-project">Running the project</a></li>
-
-      </ul>
-    </li>
-   
-  </ol>
-
-</details>
-
 ## Getting Started
 
 To setup the project locally follow the steps below.
