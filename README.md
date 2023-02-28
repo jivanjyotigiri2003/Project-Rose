@@ -11,7 +11,7 @@ To setup the project locally follow the steps below. <br>  <hr>
 
 
 <b>❗️NOTE 1</b>: Please abide by the [Contributing Guidelines](https://github.com/Webwiznitr/Project-Rose/blob/main/CONTRIBUTING.md). <br>
-<b>❗️NOTE 2</b>: If you don't found the name of the Component, then think of a apt name for the Component and Create by your own. <br>
+<b>❗️NOTE 2</b>: If you don't find the name of the Component, then think of a apt name for it and Create by your own. <br>
 <b>❗️NOTE 3</b>: Add necessary animation, wherever required.  <br>   <hr>
 
 
