@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      'main': '#850101'
+    },
   },
-  plugins: [],
+  plugins: [
+    require("flowbite/plugin")
+  ],
 }
