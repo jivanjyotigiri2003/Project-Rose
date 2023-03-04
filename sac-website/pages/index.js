@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Carousel from "@/components/FestCarousel/Carousel";
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <p>SAC Website</p>
+        {/* <p>SAC Website</p> */}
+        <Carousel/>
+
       </main>
     </>
   );
