@@ -9,9 +9,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      'main': '#850101'
+    },
   },
   plugins: [
+
+    require("flowbite/plugin")
+
     require('tailwind-scrollbar-hide')
+
   ],
 }
