@@ -2,10 +2,19 @@
 
 ## Getting Started
 
-To setup the project locally follow the steps below.
+To setup the project locally follow the steps below. <br>  <hr>
+
+
+#### <a href="https://www.figma.com/file/v65ypn9VSVhFZ51kwyb5fq/Project-SAC?node-id=157%3A99&t=uic6xLm6YVdbq7WB-0"> <b>Figma Link</b> </a> <hr>
+
 ### Contribution guidlines
 
-NOTE : Please abide by the [Contributing Guidelines](https://github.com/Webwiznitr/Project-Rose/blob/main/CONTRIBUTING.md).
+
+<b>❗️NOTE 1</b>: Please abide by the [Contributing Guidelines](https://github.com/Webwiznitr/Project-Rose/blob/main/CONTRIBUTING.md). <br>
+<b>❗️NOTE 2</b>: If you don't find the name of the Component, then think of a apt name for it and Create by your own. <br>
+<b>❗️NOTE 3</b>: Add necessary animation, wherever required.  <br>   <hr>
+
+
 
 ### Local Repository Setup
 
@@ -16,8 +25,9 @@ Please refer to the project's style and contribution guidelines for submitting p
 3.  **Checkout** into a working branch
 4.  **Commit** changes to your own separate branch
 5.  **Push** your work back up to your fork
-6.  Submit a **Pull request** so that we can review your changes
+6.  Submit a **Pull request** so that we can review your changes 
 
+ <hr>
 
 ### Running the project
 
