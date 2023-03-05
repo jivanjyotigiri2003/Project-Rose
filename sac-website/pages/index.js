@@ -1,5 +1,5 @@
+import ClubName from "@/components/ClubName/ClubName";
 import Head from "next/head";
-
 export default function Home() {
   return (
     <>
@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
       <main>
         <p>SAC Website</p>
+        <ClubName />
       </main>
     </>
   );
