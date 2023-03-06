@@ -1,6 +1,11 @@
+
+import ClubName from "@/components/ClubName/ClubName";
+
+
 import Skew2 from "@/components/Homepage";
 import Head from "next/head";
 import Carousel from "@/components/FestCarousel/Carousel";
+
 
 export default function Home() {
   return (
@@ -13,10 +18,15 @@ export default function Home() {
       </Head>
       <main>
 
+        <p>SAC Website</p>
+        <ClubName />
+
+
         <Skew2/>
 
         {/* <p>SAC Website</p> */}
         <Carousel/>
+
 
 
       </main>
