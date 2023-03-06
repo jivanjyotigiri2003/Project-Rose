@@ -1,6 +1,6 @@
-
 import Navbar from "@/components/Navbar/Navbar";
 import "@/styles/globals.css";
+import "../styles/societyGallery.css";
 export default function App({ Component, pageProps }) {
   return (
     <div>
@@ -12,4 +12,4 @@ export default function App({ Component, pageProps }) {
       {/* <Callandar /> */}
     </div>
   );
-  }
+}
