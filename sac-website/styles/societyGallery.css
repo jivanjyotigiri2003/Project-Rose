@@ -124,3 +124,17 @@ img:hover {
     box-shadow: -10px -10px 18px black;
     z-index: 99999;
 } */
+
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: rgb(225, 8, 8);
+    height: 10vh;
+}
