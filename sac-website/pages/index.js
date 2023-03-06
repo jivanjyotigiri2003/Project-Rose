@@ -18,11 +18,11 @@ export default function Home() {
       </Head>
       <main>
 
-        <p>SAC Website</p>
+      <Skew2/>
+        
         <ClubName />
 
 
-        <Skew2/>
 
         {/* <p>SAC Website</p> */}
         <Carousel/>
