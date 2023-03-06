@@ -1,3 +1,7 @@
+
+import React from 'react'
+
+
 export default function SocietyGallery() {
   return (
     <>
@@ -131,3 +135,4 @@ export default function SocietyGallery() {
     </>
   );
 }
+
