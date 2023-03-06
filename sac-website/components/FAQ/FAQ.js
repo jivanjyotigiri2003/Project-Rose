@@ -26,22 +26,22 @@ const FAQ = () => {
   };
 
   return (
-    <div className="flex justify-between">
+    <div className="flex flex-col-reverse justify-between md:flex-row overflow-hidden w-full">
       <Image
         src={faq}
         alt="FAQ"
-        className='h-screen w-6/12 clip-your-needful-style'
+        className='w-[100vw] clip-your-needful-style-up md:w-[50vw] md:clip-your-needful-style'
       />
       <div className='flex flex-col justify-center items-center w-full'>
 
         <h1
-          className='text-3xl font-bold flex items-start w-4/5 m-3.5 mb-10 ml-10'
+          className='text-3xl font-bold flex items-start w-[96vw]  md:w-4/5 md:m-3.5 md:mb-10 md:ml-10'
         >FAQs</h1>
 
-        <div className='w-4/5'>
+        <div className='w-full md:w-4/5 h-auto'>
           {questions.map((q, index) => (
             <div key={index} className="shadow-xl m-3.5 flex-col text-white">
-              <div className={`bg-[#850101] transition p-3.5 ${index === openQuestionIndex ? "rounded-t-md" : "rounded-md"}`} onClick={() => handleQuestionClick(index)}>
+              <div className={`bg-[#850101] p-3.5 ${index === openQuestionIndex ? "rounded-t-md" : "rounded-md"}`} onClick={() => handleQuestionClick(index)}>
                 <h3 className='flex justify-between'>{q.question} &nbsp;
                 {index === openQuestionIndex && <IoIosArrowUp className='inline' color='white' />}
                 {index !== openQuestionIndex && <IoIosArrowDown className='inline' color='white' />}
