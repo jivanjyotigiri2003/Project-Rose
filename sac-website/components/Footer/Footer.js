@@ -8,7 +8,8 @@ import { BsSuitHeartFill } from "react-icons/bs";
 export default function Footer() {
   return (
     <div className="bg-[#660708]">
-      <div className="  flex content-around justify-around pt-6">
+      <div className="  flex flex-wrap md:flex-row content-around justify-around pt-6">
+        
         <div className=" flex flex-col justify-center content-between ">
           <Image src={logonitr} className="w-24"></Image>
 
@@ -53,23 +54,23 @@ export default function Footer() {
           <h1 className="text-xl font-semibold text-white leading-8 ">
             Contact Us
           </h1>
-          <form className="flex flex-col justify-center">
-            <p className="text-white text-lg leading-8 pt-8 ">Email:</p>
+          <form className="flex flex-col">
+            <p className="text-white text-lg pt-8 ">Email:</p>
             <input
               type="email "
-              className="p-1.5 text-white w-96 h-8 bg-[#A4161A] rounded-md"
+              className=" text-white w-[90vw] md:w-96 h-8 bg-[#A4161A] rounded-md"
             />
             <p className="text-white text-lg leading-8 pt-8 ">Message</p>
-            <textarea className="p-1.5 text-white w-96 h-40 resize-none rounded-md bg-[#A4161A]" />
+            <textarea className=" text-white w-full md:w-96 h-40 resize-none rounded-md bg-[#A4161A]" />
           </form>
         </div>
       </div>
-        <div className="flex p-1">
-          <div className="text-white w-2/5">
+        <div className="flex flex-col-reverse items-center md:flex-row   p-1">
+          <div className="text-white pt-8 md:pt-0 pb-4 md:pb-0 md:w-2/5">
             <AiOutlineCopyrightCircle className="inline" /> Student Activity
             Center, copyright 2023{" "}
           </div>
-          <div className="flex justify-start text-white font-semibold">
+          <div className="flex justify-start pt-4 md:pt-0 text-white font-semibold">
             Made with&nbsp; <BsSuitHeartFill size={24} color={"red"} /> &nbsp;
             by Webwiz
           </div>
