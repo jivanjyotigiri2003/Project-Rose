@@ -1,6 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer utilities {
+  .clip-your-needful-style {
+    clip-path: polygon(0 0, 100% 0, calc(100% - 15vw) 100%, 0 100%);
+  }
+  .clip-your-needful-style-up {
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+
 html,
 body {
   padding: 0;
