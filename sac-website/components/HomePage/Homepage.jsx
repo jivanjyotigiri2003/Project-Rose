@@ -180,15 +180,14 @@ const Skew2 = () => {
           </div>
         </div>
       </div>
-      <div className=" h-[10vh] flex align-middle justify-between bg-red-500">
-        <div className=" border-2 border-red-700 p-5 bg-red-600">dance</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">games</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">laptop</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">music</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">sports</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">write</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">feather</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">ball</div>
+      <div className="h-[10vh] flex  justify-between flex-row whitespace-nowrap bg-red-500">
+        <marquee direction="right" behavior="scroll" className="marquee h-[10vh] flex  justify-between flex-row  bg-red-500">
+        <marquee  className=" border-2 h-[10vh]   border-red-700 p-5 bg-red-800">dance</marquee>
+        <marquee  className=" border-2 h-[10vh]  border-red-700 p-5 bg-red-600">games</marquee>
+        <marquee  className=" border-2 h-[10vh]  border-red-700 p-5 bg-red-800">laptop</marquee>
+        <marquee  className=" border-2 h-[10vh]  border-red-700 p-5 bg-red-600">music</marquee>
+        <marquee className=" border-2 h-[10vh]  border-red-700 p-5 bg-red-800">sports</marquee>
+        </marquee>
       </div>
     </div>
   );

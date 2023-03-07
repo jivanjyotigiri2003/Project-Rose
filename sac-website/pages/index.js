@@ -2,7 +2,7 @@
 import ClubName from "@/components/ClubName/ClubName";
 
 
-import Skew2 from "@/components/Homepage";
+import Skew2 from "@/components/HomePage/Homepage";
 import Head from "next/head";
 import Carousel from "@/components/FestCarousel/Carousel";
 
