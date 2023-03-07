@@ -125,7 +125,7 @@ const Skew2 = () => {
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div className="flex gap-3 text-white">
                     //we will have our svg links here
-                  </div>
+                  </div>1
                   <div>
                     <p className="text-xl font-semibold text-gray-100">
                       Beyond Builder

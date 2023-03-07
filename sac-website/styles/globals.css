@@ -14,7 +14,10 @@
 }
 
 
-html,
+html{
+  font-size: 62.5%;
+}
+/* Now 1 rem = 10px*/
 body {
   padding: 0;
   margin: 0;
