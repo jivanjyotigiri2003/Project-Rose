@@ -1,4 +1,6 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
+import MarqueeIcon from "./MarqueeIcon";
 
 const Skew2 = () => {
   return (
@@ -125,7 +127,8 @@ const Skew2 = () => {
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div className="flex gap-3 text-white">
                     //we will have our svg links here
-                  </div>1
+                  </div>
+                  1
                   <div>
                     <p className="text-xl font-semibold text-gray-100">
                       Beyond Builder
@@ -181,13 +184,9 @@ const Skew2 = () => {
         </div>
       </div>
       <div className="h-[10vh] flex  justify-between flex-row whitespace-nowrap bg-red-500">
-        <marquee direction="right" behavior="scroll" className="marquee h-[10vh] flex  justify-between flex-row  bg-red-500">
-        <marquee  className=" border-2 h-[10vh]   border-red-700 p-5 bg-red-800">dance</marquee>
-        <marquee  className=" border-2 h-[10vh]  border-red-700 p-5 bg-red-600">games</marquee>
-        <marquee  className=" border-2 h-[10vh]  border-red-700 p-5 bg-red-800">laptop</marquee>
-        <marquee  className=" border-2 h-[10vh]  border-red-700 p-5 bg-red-600">music</marquee>
-        <marquee className=" border-2 h-[10vh]  border-red-700 p-5 bg-red-800">sports</marquee>
-        </marquee>
+        <Marquee gradientWidth="100" speed="75">
+          <MarqueeIcon />
+        </Marquee>
       </div>
     </div>
   );
