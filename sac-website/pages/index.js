@@ -5,6 +5,10 @@ import ClubName from "@/components/ClubName/ClubName";
 import Skew2 from "@/components/HomePage/Homepage";
 import Head from "next/head";
 import Carousel2 from "@/components/FestCarousel/Carousel2";
+import Announcement from '../components/Announcement/Announcement';
+import SocietyRepresentative from '../components/SocietyRepresentative/SocietyRepresentative';
+import FAQ from "@/components/FAQ/FAQ";
+import Footer from '../components/Footer/Footer';
 
 
 export default function Home() {
@@ -19,13 +23,22 @@ export default function Home() {
       <main>
 
       <Skew2/>
-        
-        <ClubName />
+      <Announcement/> 
+      <SocietyRepresentative/>
+     <FAQ/>
+
+   <div className="relative">
+   <Carousel2/>
+   </div>
+     
+     
+     <Footer/>
+
+      {/* <ClubName /> */}
 
 
 
         {/* <p>SAC Website</p> */}
-        <Carousel2/>
 
 
 
