@@ -14,8 +14,9 @@ const Carousel2 = () => {
     const [carousel,setCarousel]=useState(data)
     return (
       
-  
-      <AutoplaySlider
+     
+    
+       <AutoplaySlider
       fillParent={true}
       play={true}
       cancelOnInteraction={false} // should stop playing on user interaction
@@ -40,6 +41,7 @@ const Carousel2 = () => {
         })}
      
   </AutoplaySlider>
+    
   )
 }
 
