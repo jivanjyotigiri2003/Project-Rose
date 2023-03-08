@@ -4,7 +4,7 @@ import ClubName from "@/components/ClubName/ClubName";
 
 import Skew2 from "@/components/HomePage/Homepage";
 import Head from "next/head";
-import Carousel from "@/components/FestCarousel/Carousel";
+import Carousel2 from "@/components/FestCarousel/Carousel2";
 
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
 
 
         {/* <p>SAC Website</p> */}
-        <Carousel/>
+        <Carousel2/>
 
 
 
