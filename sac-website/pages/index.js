@@ -4,7 +4,7 @@ import ClubName from "@/components/ClubName/ClubName";
 
 import Skew2 from "@/components/HomePage/Homepage";
 import Head from "next/head";
-import Carousel2 from "@/components/FestCarousel/Carousel2";
+import Carousel4 from "@/components/FestCarousel/Carousel4";
 import Announcement from '../components/Announcement/Announcement';
 import SocietyRepresentative from '../components/SocietyRepresentative/SocietyRepresentative';
 import FAQ from "@/components/FAQ/FAQ";
@@ -29,10 +29,8 @@ export default function Home() {
          <Deanspeaks />
         <SocietyRepresentative />
         <FAQ />
-
-        <div className="relative">
-          <Carousel2 />
-        </div>
+        <Carousel4/> 
+        
 
 
         <Footer />
