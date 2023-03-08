@@ -9,6 +9,8 @@ import Announcement from '../components/Announcement/Announcement';
 import SocietyRepresentative from '../components/SocietyRepresentative/SocietyRepresentative';
 import FAQ from "@/components/FAQ/FAQ";
 import Footer from '../components/Footer/Footer';
+import Aboutsac from "@/components/Dean Speaks/Deanspeaks";
+import Deanspeaks from "@/components/Dean Speaks/Deanspeaks";
 
 
 export default function Home() {
@@ -22,19 +24,22 @@ export default function Home() {
       </Head>
       <main>
 
-      <Skew2/>
-      <Announcement/> 
-      <SocietyRepresentative/>
-     <FAQ/>
+        <Skew2 />
+        <Announcement />
+         <Deanspeaks />
+        <SocietyRepresentative />
+        <FAQ />
 
-   <div className="relative">
-   <Carousel2/>
-   </div>
-     
-     
-     <Footer/>
+        <div className="relative">
+          <Carousel2 />
+        </div>
 
-      {/* <ClubName /> */}
+
+        <Footer />
+       
+
+
+        <ClubName />
 
 
 
