@@ -14,45 +14,48 @@ const Carousel4=() =>{
         onRequestChange={setActiveSlideIndex}
         disableSwipeByMouse={false}	
         autoplay={true}
+        itemsToScroll={1}
+        disableSwipeByTouch={false}
+        itemsToShow={1}
         autoplayDelay={4000}
         delay={0}
         
-        forwardBtnProps={{
-          //here you can also pass className, or any other button element attributes
-          style: {
-            alignSelf: 'center',
-            background: 'black',
-            border: 'none',
-            borderRadius: '50%',
-            color: 'white',
-            cursor: 'pointer',
-            fontSize: '20px',
-            height: 30,
-            lineHeight: 1,
-            textAlign: 'center',
-            width: 30,
-          },
-          children: <span>{`>`}</span>,
-        }}
-        backwardBtnProps={{
-          //here you can also pass className, or any other button element attributes
-          style: {
+        // forwardBtnProps={{
+        //   //here you can also pass className, or any other button element attributes
+        //   style: {
+        //     alignSelf: 'center',
+        //     background: 'black',
+        //     border: 'none',
+        //     borderRadius: '50%',
+        //     color: 'white',
+        //     cursor: 'pointer',
+        //     fontSize: '20px',
+        //     height: 30,
+        //     lineHeight: 1,
+        //     textAlign: 'center',
+        //     width: 30,
+        //   },
+        //   children: <span>{`>`}</span>,
+        // }}
+        // backwardBtnProps={{
+        //   //here you can also pass className, or any other button element attributes
+        //   style: {
             
-            alignSelf: 'center',
-            background: 'black',
-            border: 'none',
-            borderRadius: '50%',
-            color: 'white',
-            cursor: 'pointer',
-            fontSize: '20px',
-            height: 30,
-            lineHeight: 1,
-            textAlign: 'center',
-            width: 30,
+        //     alignSelf: 'center',
+        //     background: 'black',
+        //     border: 'none',
+        //     borderRadius: '50%',
+        //     color: 'white',
+        //     cursor: 'pointer',
+        //     fontSize: '20px',
+        //     height: 30,
+        //     lineHeight: 1,
+        //     textAlign: 'center',
+        //     width: 30,
             
-          },
-          children: <span>{`<`}</span>,
-        }}
+        //   },
+        //   children: <span>{`<`}</span>,
+        // }}
         responsiveProps={[
           {
             itemsToShow: 1,
