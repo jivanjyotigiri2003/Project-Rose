@@ -1,8 +1,11 @@
-
 import ClubName from "@/components/ClubName/ClubName";
 
 
+import Skew2 from "@/components/Homepage";
+
+
 import Skew2 from "@/components/HomePage/Homepage";
+
 import Head from "next/head";
 import Carousel4 from "@/components/FestCarousel/Carousel4";
 import Announcement from '../components/Announcement/Announcement';
@@ -16,7 +19,6 @@ import ClubHero from "@/components/ClubHero/SocietyHero";
 import AboutPage from '../components/AboutPage/AboutPage';
 import Gallery from "@/components/Gallery/Gallery";
 
-
 export default function Home() {
   return (
     <>
@@ -27,6 +29,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+
+        <p>SAC Website</p>
+        <ClubName />
+
+        {/* <Skew2 /> */}
+
+        {/* <p>SAC Website</p> */}
+        {/* <Carousel /> */}
+
 
         {/* <Skew2 />
         <Announcement />
@@ -46,6 +57,7 @@ export default function Home() {
 
 
         {/* <p>SAC Website</p> */}
+
 
 
 
