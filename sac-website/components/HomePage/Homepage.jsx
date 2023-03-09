@@ -1,30 +1,35 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
+import MarqueeIcon from "./MarqueeIcon";
 
 const Skew2 = () => {
   return (
     <div>
-      <div className=" relative flex  h-[90vh] items-center  bg-[url('../public/img1.jpg')] bg-cover p-10">
-        <div className=" absolute mr-auto bg-black-100 w-1/2 h-3/4 pl-16 mt-10">
-          <p className=" text-white pb-5 text-4xl font-normal">
-            welcome to student activity centre!
-          </p>
-          <p className="text-white text-7xl pb-4 font-medium ">
-            Creative caliber <br /> at it's best
-          </p>
-          <p className=" text-white text-xl">
-            Explore the plethora of thrilling events, exciting <br /> fests,
-            diverse clubs and other activities in the <br /> beautiful campus of
-            NIT Rourkela.{" "}
-          </p>
-          <div className=" bg-orange-100 w-32 mt-10 rounded-md p-3">
+      <div className=" relative flex  h-[90vh] items-center  bg-[url('../public/img1.jpg')] bg-cover">
+        <div className=" bg-black-100 w-[100%] h-[100%] pl-8 bg-[#A4161A]/70">
+          <div className="pt-48">
+            <p className=" text-white pb-5 text-3xl xl:text-4xl font-normal">
+              welcome to student activity centre!
+            </p>
+            <p className="text-white text-5xl xl:text-7xl pb-4 font-medium ">
+              Creative caliber <br /> at it's best
+            </p>
+            <p className=" text-white text-lg xl:text-xl">
+              Explore the plethora of thrilling events, exciting <br /> fests,
+              diverse clubs and other activities in the <br /> beautiful campus
+              of NIT Rourkela.{" "}
+            </p>
+          </div>
+
+          {/* <div className=" bg-orange-100 w-32 mt-10 rounded-md p-3">
             <p>whnt to know more</p>
           </div>
           <div className=" bg-orange-100 w-52 mt-3 rounded-md p-3">
             <p>scroll down to explore more</p>
-          </div>
+          </div> */}
 
           {/* section for teh SVG ICON */}
-          <div className=" pt-3 cursor-pointer bg-slate-700 w-fit h-fit rounded-full">
+          {/* <div className=" pt-3 cursor-pointer bg-slate-700 w-fit h-fit rounded-full">
             <svg
               width="72"
               height="72"
@@ -89,14 +94,14 @@ const Skew2 = () => {
                 </filter>
               </defs>
             </svg>
-          </div>
+          </div> */}
         </div>
 
         {/* The container for the image */}
         <div className=" absolute top-0 right-0 ml-10 max-w-6xl px-6 overflow-clip">
           <div className="flex ">
             {/* all images go inside the flex box */}
-            <div className="ml-20 -skew-x-12 group relative h-[90vh] w-56 cursor-pointer overflow-hidden transition-all duration-200 hover:w-[30rem]  shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
+            <div className="ml-20 -skew-x-12 group relative h-[90vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw]  shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <img
                 className="h-full object-cover transition-all duration-200 group-hover:scale-125 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
                 src="http://thecodeplayer.com/uploads/media/3yiC6Yq.jpg"
@@ -115,7 +120,7 @@ const Skew2 = () => {
               </div>
             </div>
 
-            <div className=" -skew-x-12 group relative h-[90vh] w-56 cursor-pointer overflow-hidden transition-all duration-200 hover:w-[30rem] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
+            <div className=" -skew-x-12 group relative h-[90vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <img
                 className="h-full object-cover transition-all duration-200 group-hover:scale-125"
                 src="http://thecodeplayer.com/uploads/media/40Ly3VB.jpg"
@@ -126,6 +131,7 @@ const Skew2 = () => {
                   <div className="flex gap-3 text-white">
                     //we will have our svg links here
                   </div>
+                  1
                   <div>
                     <p className="text-xl font-semibold text-gray-100">
                       Beyond Builder
@@ -136,7 +142,7 @@ const Skew2 = () => {
               </div>
             </div>
 
-            <div className=" -skew-x-12 group relative h-[90vh] w-56 cursor-pointer overflow-hidden transition-all duration-200 hover:w-[30rem] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
+            <div className=" -skew-x-12 group relative h-[90vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <img
                 className="h-full object-cover transition-all duration-200 group-hover:scale-125"
                 src="http://thecodeplayer.com/uploads/media/00kih8g.jpg"
@@ -157,7 +163,7 @@ const Skew2 = () => {
               </div>
             </div>
 
-            <div className=" -skew-x-12 -mr-28 group relative h-[90vh] w-56 cursor-pointer overflow-hidden transition-all duration-200 hover:w-[30rem] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
+            <div className=" -skew-x-12 -mr-28 group relative h-[90vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <img
                 className="h-full object-cover transition-all duration-200 group-hover:scale-125"
                 src="http://thecodeplayer.com/uploads/media/2rT2vdx.jpg"
@@ -180,15 +186,10 @@ const Skew2 = () => {
           </div>
         </div>
       </div>
-      <div className=" h-[10vh] flex align-middle justify-between bg-red-500">
-        <div className=" border-2 border-red-700 p-5 bg-red-600">dance</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">games</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">laptop</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">music</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">sports</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">write</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">feather</div>
-        <div className=" border-2 border-red-700 p-5 bg-red-600">ball</div>
+      <div className="h-[10vh] flex  justify-between flex-row whitespace-nowrap bg-red-500">
+        <Marquee gradientWidth="100" speed="75">
+          <MarqueeIcon />
+        </Marquee>
       </div>
     </div>
   );

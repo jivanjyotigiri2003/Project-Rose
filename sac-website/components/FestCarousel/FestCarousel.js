@@ -4,31 +4,31 @@ const FestCarousel = ({name,category,desc,link,img})=> {
 
   return (
     <>
-      <div className=" bg-black xl:w-[1490px] w-[400px] xl:h-[696px] h-[900px] lg:h-[1100px] md:h-[1200px] sm:h-[900px]   rounded-lg shadow-lg flex justify-center    text-white xl:mr-6 xl:px-2 mx-1 carousel">
-        <div className="xl:flex flex-cols-2 xl:max-w-full  xl:h-full ">   
-        <div className="flex flex-col justify-center  w-full h-2/6 xl:my-52 my-16 lg:my-24 md:my-36 sm:my-24 sm:w-5/6 md:w-5/6  xl:w-2/5  mx-8 md:mx-auto xl:mx-2  pl-2 carousel ">
-          <div className="title font-semibold text-xl md:text-2xl xl:text-3xl my-1 tracking-wide ">
+      <div className=" w-[100vw]  h-[100vh] rounded-lg shadow-lg flex justify-center text-white  ">
+        <div className=" bg-black lg:flex flex-cols-2 xl:max-w-full xl:h-full ">   
+        <div className="lg:ml-6 xl:ml-12 lg:mx-8 mx-8 w-full md:my-0 flex flex-col justify-center lg:w-2/6 lg:h-[100vh] md:h-[45vh] sm:h-[50vh]">
+          <div className=" title font-semibold text-xl md:text-3xl tracking-wide lg:my-0 md:my-0 my-2 ">
             Fests
           </div>
-          <div className="category font-bold text-2xl md:text-3xl xl:text-4xl tracking-wide my-1">
+          <div className="category font-bold text-2xl md:text-4xl tracking-wide my-1">
             {name}
           </div>
-          <div className="category text-lg md:text-xl xl:text-2xl font-normal my-2">
+          <div className="category text-lg md:text-3xl lg:text-2xl font-normal lg:my-2 my-2">
            {category}
-          </div>
+          </div> 
 
-          <p className="w-3/4 flex justify-center  text-md xl:text-xl my-1">
+          <p className="w-full flex justify-center  text-md lg:text-xl my-1 md:text-2xl">
             {desc}
           </p>
           <div className="flex items-center my-2">
-            <button className="border xl:my-2 my-1 px-2 py-2 text-lg rounded-lg mr-1 ">Know More
+            <button className="border lg:my-2 px-2 py-2 text-lg rounded-lg my-2  ">Know More
               {link}
             </button>
           </div>
         </div>
-        <div className=" justify-center  items-start w-full  mx-auto ">
+        <div className="xl:w-[92vw] lg:w-4/6 md:w-[98vw] lg:h-[100vh] md:h-[55vh]  mx-auto md:my-8">
           <img
-            className=" xl:w-full xl:h-full h-[460px] md:h-[500px] sm:h-[360px] w-full  object-cover  p-2"src={img}
+            className="xl:h-full sm:h-[50vh]  md:h-full sm:w-[98vw]  lg:object-contain object-cover   "src={img}
             alt="img"
           />
         </div>
