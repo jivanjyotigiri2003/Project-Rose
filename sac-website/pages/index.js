@@ -2,9 +2,15 @@
 import ClubName from "@/components/ClubName/ClubName";
 
 
-import Skew2 from "@/components/Homepage";
+import Skew2 from "@/components/HomePage/Homepage";
 import Head from "next/head";
-import Carousel from "@/components/FestCarousel/Carousel";
+import Carousel4 from "@/components/FestCarousel/Carousel4";
+import Announcement from '../components/Announcement/Announcement';
+import SocietyRepresentative from '../components/SocietyRepresentative/SocietyRepresentative';
+import FAQ from "@/components/FAQ/FAQ";
+import Footer from '../components/Footer/Footer';
+import Aboutsac from "@/components/Dean Speaks/Deanspeaks";
+import Deanspeaks from "@/components/Dean Speaks/Deanspeaks";
 
 
 export default function Home() {
@@ -18,14 +24,24 @@ export default function Home() {
       </Head>
       <main>
 
-      <Skew2/>
+        <Skew2 />
+        <Announcement />
+         <Deanspeaks />
+        <SocietyRepresentative />
+        <FAQ />
+        <Carousel4/> 
         
+
+
+        <Footer />
+       
+
+
         <ClubName />
 
 
 
         {/* <p>SAC Website</p> */}
-        <Carousel/>
 
 
 
