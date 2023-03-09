@@ -11,6 +11,10 @@ import FAQ from "@/components/FAQ/FAQ";
 import Footer from '../components/Footer/Footer';
 import Aboutsac from "@/components/Dean Speaks/Deanspeaks";
 import Deanspeaks from "@/components/Dean Speaks/Deanspeaks";
+import SocietyGallery from '../components/SocietyGallery/SocietyGallery';
+import ClubHero from "@/components/ClubHero/SocietyHero";
+import AboutPage from '../components/AboutPage/AboutPage';
+import Gallery from "@/components/Gallery/Gallery";
 
 
 export default function Home() {
@@ -24,20 +28,20 @@ export default function Home() {
       </Head>
       <main>
 
-        <Skew2 />
+        {/* <Skew2 />
         <Announcement />
          <Deanspeaks />
         <SocietyRepresentative />
         <FAQ />
-        <Carousel4/> 
+        <Carousel4/>  */}
+        {/* <AboutPage/> */}
+
+       <Gallery/>
+        {/* <Footer />
+       <SocietyGallery/> */}
+{/* <ClubHero/> */}
         
-
-
-        <Footer />
-       
-
-
-        <ClubName />
+        {/* <ClubName /> */}
 
 
 
