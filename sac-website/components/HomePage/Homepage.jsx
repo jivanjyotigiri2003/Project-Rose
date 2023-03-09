@@ -186,7 +186,7 @@ const Skew2 = () => {
           </div>
         </div>
       </div>
-      <div className="h-[10vh] flex  justify-between flex-row whitespace-nowrap bg-red-500">
+      <div className="h-[72px] flex  justify-between flex-row whitespace-nowrap bg-red-500">
         <Marquee gradientWidth="100" speed="75">
           <MarqueeIcon />
         </Marquee>
