@@ -1,9 +1,18 @@
 import React from "react";
 import { ParallaxLayer, Parallax } from "@react-spring/parallax";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
-import { RxHamburgerMenu } from "react-icons/rx";
+import react, { useState } from "react";
+import Link from "next/link";
 
 const HomePageMobile = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const modal = () => {
+    setShowModal(!showModal);
+    setIsOpen(!isOpen);
+    console.log(showModal);
+  };
   return (
     <>
       <div className="h-screen">
@@ -19,9 +28,52 @@ const HomePageMobile = () => {
             />
           </div>
           <div>
-            <RxHamburgerMenu className="text-2xl mb-2 mr-2 text-white" />
+            <button onClick={modal}>
+              {/* <RxHamburgerMenu className="text-2xl mb-2 mr-2 text-white" /> */}
+              <div className="hamburger-icon" onClick={modal}>
+                <div className={`line ${isOpen ? "open" : ""}`}></div>
+                <div className={`line ${isOpen ? "open" : ""}`}></div>
+                <div className={`line ${isOpen ? "open" : ""}`}></div>
+              </div>
+            </button>
           </div>
         </div>
+
+        <div className={`${showModal ? "visible" : "hide"} `}>
+          <ul className="ul-list">
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Home</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Societies</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Gallery</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Events</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">About</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Contact</Link>
+              </button>
+            </li>
+          </ul>
+        </div>
+
         <Parallax pages={1.21}>
           <ParallaxLayer offset={0} speed={0}>
             <p className="bg-[url('../public/hello.jpg')] bg-cover bg-center w-full h-screen">
