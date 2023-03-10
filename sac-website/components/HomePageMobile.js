@@ -15,7 +15,7 @@ const HomePageMobile = () => {
   };
   return (
     <>
-      <div className="h-screen">
+      <div className="h-screen mobile-hide ">
         <div
           style={{ height: "10vh" }}
           className="flex justify-between items-center px-1 py-1 z-9999 bg-red-600 navdiv "
@@ -95,7 +95,7 @@ const HomePageMobile = () => {
                   </div>
                 </div>
 
-                <div className=" flex flex-col items-center justify-center">
+                <div className=" flex flex-col items-center justify-center pt-9">
                   <div className="h-12 w-32 bg-white text-black text-center rounded-lg leading-4 pt-2 font-medium ">
                     Want to <br /> know more?
                   </div>
