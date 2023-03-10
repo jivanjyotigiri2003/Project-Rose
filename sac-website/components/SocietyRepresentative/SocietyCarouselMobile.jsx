@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from "react-feather"
 
 export default function SocietyCarousel({
   children: representative,
-  autoSlide = false,
+  autoSlide = true,
   autoSlideInterval = 4000,
 }) {
   const [curr, setCurr] = useState(0)

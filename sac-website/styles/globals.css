@@ -6,13 +6,17 @@
 
 @layer utilities {
   .clip-your-needful-style {
-    clip-path: polygon(0 0, 100% 0, calc(100% - 15vw) 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 48%  100%, 0 100%);
   }
   .clip-your-needful-style-up {
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
   }
     .clip-your-needful-style-down {
       clip-path: polygon(0% 0%, 100% 0%, 100% 58.8%, 0% 100%);
+    }
+    .clip-your-needful-style-right{
+    clip-path: polygon(48% 0, 100% 0, 100% 100%, 0 100%);
+
     }
 
   .test{
@@ -44,3 +48,4 @@ a {
   box-sizing: border-box;
   
 }
+
