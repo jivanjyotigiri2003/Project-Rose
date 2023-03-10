@@ -1,8 +1,6 @@
 import ClubName from "@/components/ClubName/ClubName";
-import Society from "@/pages/Society"
-import SocietyCom from "@/components/Societies/SocietyCom"
-import Skew2 from "@/components/Homepage";
-
+import Society from "@/pages/Society";
+import SocietyCom from "@/components/Societies/SocietyCom";
 import Skew2 from "@/components/HomePage/Homepage";
 
 import Head from "next/head";
@@ -45,7 +43,7 @@ export default function Home() {
         {/* <Footer /> */}
         {/* <SocietyGallery /> */}
         {/* <ClubHero /> */}
-       {/* <DeanSpeaks/> */}
+        {/* <DeanSpeaks/> */}
         {/* <ClubName /> */}
 
         {/* <p>SAC Website</p> */}
