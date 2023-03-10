@@ -14,6 +14,7 @@ import SocietyGallery from "../components/SocietyGallery/SocietyGallery";
 import ClubHero from "@/components/ClubHero/SocietyHero";
 import AboutPage from "../components/AboutPage/AboutPage";
 import Gallery from "@/components/Gallery/Gallery";
+import HomePageMobile from "@/components/HomePageMobile";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         {/* <Carousel /> */}
 
         <Skew2 />
+        <HomePageMobile />
         <Announcement />
         <Deanspeaks />
         <SocietyRepresentative />
@@ -35,12 +37,12 @@ export default function Home() {
         <Carousel4 />
         <AboutPage />
 
-        <Gallery />
+        {/* <Gallery /> */}
         <Footer />
         <SocietyGallery />
-        <ClubHero />
+        {/* <ClubHero /> */}
 
-        <ClubName />
+        {/* <ClubName /> */}
 
         {/* <p>SAC Website</p> */}
       </main>
