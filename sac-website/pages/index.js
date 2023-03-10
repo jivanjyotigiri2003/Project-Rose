@@ -13,6 +13,10 @@ import AboutPage from '../components/AboutPage/AboutPage';
 import Gallery from "@/components/Gallery/Gallery";
 import ContactPage from "@/components/ContactPage/ContactPage";
 
+
+
+
+
 export default function Home() {
   return (
     <>
@@ -24,9 +28,9 @@ export default function Home() {
       </Head>
       <main>
          
-         <ContactPage/>
-        {/* <p>SAC Website</p>
-        <ClubName /> */}
+         {/* <ContactPage/> */}
+        <p>SAC Website</p>
+        <ClubName /> 
 
         {/* <Skew2 /> */}
 
