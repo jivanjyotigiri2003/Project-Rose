@@ -1,4 +1,7 @@
 import ClubName from "@/components/ClubName/ClubName";
+import Society from "@/pages/Society"
+import SocietyCom from "@/components/Societies/SocietyCom"
+import Skew2 from "@/components/Homepage";
 
 import Skew2 from "@/components/HomePage/Homepage";
 

@@ -1,6 +1,9 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const router = useRouter();
+
   return (
     <>
       <div className=" w-full h-[12vh] p=1 flex justify-between  bg-gradient-to-t from-transparent to-gray-900">
@@ -15,7 +18,7 @@ const Navbar = () => {
             <a href="#">About</a>
           </div>
           <div>
-            <a href="#">Societies</a>
+            <a onClick={() => { router.push("/Society")}} href="#">Societies</a>
           </div>
           <div>
             <a href="#">Events</a>
