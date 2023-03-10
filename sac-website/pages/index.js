@@ -1,7 +1,7 @@
 
 import ClubName from "@/components/ClubName/ClubName";
-
-
+import Society from "@/pages/Society"
+import SocietyCom from "@/components/Societies/SocietyCom"
 import Skew2 from "@/components/Homepage";
 import Head from "next/head";
 import Carousel from "@/components/FestCarousel/Carousel";
@@ -20,12 +20,13 @@ export default function Home() {
 
       <Skew2/>
         
-        <ClubName />
+        <ClubName /> 
 
+         {/* <Society/> 
 
-
-        {/* <p>SAC Website</p> */}
-        <Carousel/>
+        <SocietyCom/> */}
+        <p>SAC Website</p> 
+         <Carousel/>
 
 
 
