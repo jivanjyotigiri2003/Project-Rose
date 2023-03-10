@@ -11,18 +11,28 @@
   .clip-your-needful-style-up {
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
   }
+    .clip-your-needful-style-down {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 58.8%, 0% 100%);
+    }
+
+  .test{
+    border:2px solid #6775f5;    
+  }
+  
 }
 
 
-html{
-  font-size: 62.5%;
-}
+
+
+
 /* Now 1 rem = 10px*/
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  overflow-x: hidden;  
 }
 
 a {
@@ -32,4 +42,5 @@ a {
 
 * {
   box-sizing: border-box;
+  
 }

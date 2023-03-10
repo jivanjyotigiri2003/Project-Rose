@@ -1,11 +1,23 @@
-
 import ClubName from "@/components/ClubName/ClubName";
 import Society from "@/pages/Society"
 import SocietyCom from "@/components/Societies/SocietyCom"
 import Skew2 from "@/components/Homepage";
-import Head from "next/head";
-import Carousel from "@/components/FestCarousel/Carousel";
 
+import Skew2 from "@/components/HomePage/Homepage";
+
+import Head from "next/head";
+import Carousel4 from "@/components/FestCarousel/Carousel4";
+import Announcement from "../components/Announcement/Announcement";
+import SocietyRepresentative from "../components/SocietyRepresentative/SocietyRepresentative";
+import FAQ from "@/components/FAQ/FAQ";
+import Footer from "../components/Footer/Footer";
+import Aboutsac from "@/components/Dean Speaks/Deanspeaks";
+import Deanspeaks from "@/components/Dean Speaks/Deanspeaks";
+import SocietyGallery from "../components/SocietyGallery/SocietyGallery";
+import ClubHero from "@/components/ClubHero/ClubHero";
+import AboutPage from "../components/AboutPage/AboutPage";
+import Gallery from "@/components/Gallery/Gallery";
+import HomePageMobile from "@/components/HomePageMobile";
 
 export default function Home() {
   return (
@@ -17,19 +29,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        {/* <Carousel /> */}
 
-      <Skew2/>
-        
-        <ClubName /> 
+        {/* <Skew2 /> */}
+        {/* <HomePageMobile /> */}
+        {/* <Announcement />
+        <Deanspeaks /> */}
+        {/* <SocietyRepresentative /> */}
+        {/* <FAQ /> */}
+        <Carousel4 />
+        {/* <AboutPage /> */}
+        {/* <ClubHero/> */}
+        {/* <Gallery /> */}
+        {/* <Footer /> */}
+        {/* <SocietyGallery /> */}
+        {/* <ClubHero /> */}
 
-         {/* <Society/> 
+        {/* <ClubName /> */}
 
-        <SocietyCom/> */}
-        <p>SAC Website</p> 
-         <Carousel/>
-
-
-
+        {/* <p>SAC Website</p> */}
       </main>
     </>
   );
