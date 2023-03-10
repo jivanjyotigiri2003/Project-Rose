@@ -11,7 +11,7 @@ import Footer from "../components/Footer/Footer";
 import Aboutsac from "@/components/Dean Speaks/Deanspeaks";
 import Deanspeaks from "@/components/Dean Speaks/Deanspeaks";
 import SocietyGallery from "../components/SocietyGallery/SocietyGallery";
-import ClubHero from "@/components/ClubHero/SocietyHero";
+import ClubHero from "@/components/ClubHero/ClubHero";
 import AboutPage from "../components/AboutPage/AboutPage";
 import Gallery from "@/components/Gallery/Gallery";
 import HomePageMobile from "@/components/HomePageMobile";
@@ -28,18 +28,18 @@ export default function Home() {
       <main>
         {/* <Carousel /> */}
 
-        <Skew2 />
-        <HomePageMobile />
-        <Announcement />
-        <Deanspeaks />
-        <SocietyRepresentative />
-        <FAQ />
+        {/* <Skew2 /> */}
+        {/* <HomePageMobile /> */}
+        {/* <Announcement />
+        <Deanspeaks /> */}
+        {/* <SocietyRepresentative /> */}
+        {/* <FAQ /> */}
         <Carousel4 />
-        <AboutPage />
-
+        {/* <AboutPage /> */}
+        {/* <ClubHero/> */}
         {/* <Gallery /> */}
-        <Footer />
-        <SocietyGallery />
+        {/* <Footer /> */}
+        {/* <SocietyGallery /> */}
         {/* <ClubHero /> */}
 
         {/* <ClubName /> */}
