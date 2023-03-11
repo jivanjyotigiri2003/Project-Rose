@@ -47,7 +47,7 @@ export default function Home() {
 
          
       
-
+<HomePageMobile/>
         <Skew2 />
        
         <Announcement />
@@ -62,8 +62,9 @@ export default function Home() {
      
         <Gallery />
         <FAQ />
-
-        <Footer />
+       
+       
+       
       
       </main>
     </>
