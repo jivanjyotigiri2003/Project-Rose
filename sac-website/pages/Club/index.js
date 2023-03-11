@@ -1,10 +1,11 @@
 import ClubHero from "@/components/ClubHero/ClubHero";
-import announcement from "../announcement";
+
 import AboutNITR from "@/components/AboutPage/AboutNITR";
 import SocietyGallery from "../../components/SocietyGallery/SocietyGallery";
 
 import React from 'react'
 import Footer from "@/components/Footer/Footer";
+import Announcement from "@/components/Announcement/Announcement";
 
 export default function Club
 () {
@@ -12,9 +13,8 @@ export default function Club
     <div>
         <ClubHero/>
         <AboutNITR/>
-        <announcement/>
         <SocietyGallery/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
