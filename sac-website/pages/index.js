@@ -31,6 +31,7 @@ import ContactPage from "@/components/ContactPage/ContactPage";
 
 import HomePageMobile from "@/components/HomePageMobile";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
+import Carousel from '../components/FestCarousel/Carousel';
 
 
 export default function Home() {
@@ -62,7 +63,7 @@ export default function Home() {
          <Deanspeaks />
         <SocietyRepresentative />
         <FAQ />
-        <Carousel4/> 
+       <Carousel/>
         {/* <AboutPage/> */}
 
        {/* <Gallery/> */}
