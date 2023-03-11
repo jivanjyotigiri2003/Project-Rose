@@ -13,7 +13,7 @@ export default function Gallery() {
             <div className="flex justify-center items-center h-screen">
               <h1
                 className={
-                  styles.h1 + " text-white font-bold text-5xl text-center"
+                 " text-white font-bold text-5xl text-center"
                 }
               >
                 SAC MANAGEMENT

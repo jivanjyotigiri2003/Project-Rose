@@ -46,51 +46,25 @@ export default function Home() {
       <main>
 
          
-         {/* <ContactPage/> */}
-        {/* <p>SAC Website</p> */}
-        {/* <ClubName />  */}
-
-        {/* <Skew2 /> */}
-
-        {/* <p>SAC Website</p> */}
-
-        {/* <Carousel /> */}
+      
 
         <Skew2 />
-        {/* <HomePageMobile /> */}
+       
         <Announcement />
 
          <Deanspeaks />
         <SocietyRepresentative />
-        <FAQ />
        <Carousel/>
-        {/* <AboutPage/> */}
-
-       {/* <Gallery/> */}
-        {/* <Footer />
-       <SocietyGallery/> */}
-{/* <ClubHero/> */}
+       
         
 
-        <Deanspeaks />
-        {/* <SocietyRepresentative /> */}
-        {/* <FAQ /> */}
-        {/* <Carousel4 /> */}
-        <AboutPage />
-        {/* <ClubHero/> */}
-        {/* <Gallery /> */}
-        {/* <Footer /> */}
-        {/* <SocietyGallery /> */}
-        {/* <ClubHero /> */}
+       
+     
+        <Gallery />
+        <FAQ />
 
-        {/* <DeanSpeaks/> */}
-
-       {/* <DeanSpeaks/> */}
-
-
-        {/* <ClubName /> */}
-
-        {/* <p>SAC Website</p> */}
+        <Footer />
+      
       </main>
     </>
   );
