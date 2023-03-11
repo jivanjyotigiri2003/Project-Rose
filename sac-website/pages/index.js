@@ -1,12 +1,10 @@
 import ClubName from "@/components/ClubName/ClubName";
 
-import Society from "@/pages/Society";
-import SocietyCom from "@/components/Societies/SocietyCom";
 
 
 import Society from "@/pages/Society"
 import SocietyCom from "@/components/Societies/SocietyCom"
-import Skew2 from "@/components/Homepage";
+
 
 
 import Skew2 from "@/components/HomePage/Homepage";
@@ -48,8 +46,8 @@ export default function Home() {
 
          
          {/* <ContactPage/> */}
-        <p>SAC Website</p>
-        <ClubName /> 
+        {/* <p>SAC Website</p> */}
+        {/* <ClubName />  */}
 
         {/* <Skew2 /> */}
 
@@ -64,7 +62,7 @@ export default function Home() {
          <Deanspeaks />
         <SocietyRepresentative />
         <FAQ />
-        <Carousel4/>  */}
+        <Carousel4/> 
         {/* <AboutPage/> */}
 
        {/* <Gallery/> */}
