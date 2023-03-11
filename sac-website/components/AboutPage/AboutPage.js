@@ -6,7 +6,7 @@ import AboutNITR from './AboutNITR';
 
 const AboutPage = () => {
   return (
-    <>
+    <div>
       <div>
         <div className="h-[100vh] w-[100vw] relative justify-center align-middle flex flex-col">
           <div className=" text-center tracking-wide text-6xl font-bold  text-white z-50 saturate-100 bg-cover top-0 left-0 ">
@@ -30,7 +30,7 @@ const AboutPage = () => {
     <AboutNITR/>
     <DeanSpeaks/>
     <AboutNITR/>
-    </>
+    </div>
   );
 };
 
