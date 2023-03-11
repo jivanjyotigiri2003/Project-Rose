@@ -30,7 +30,7 @@ const SocialsLink = () => {
         return (
           <div className="">
             <a href={socialItem.url}>
-              <img src={socialItem.icon} className="h-[3vh] w-[3vh] " />
+              <img src={socialItem.icon} className="h-[3vh] w-[3vh]" />
             </a>
           </div>
         );
