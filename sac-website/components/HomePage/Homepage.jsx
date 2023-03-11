@@ -4,7 +4,7 @@ import MarqueeIcon from "./MarqueeIcon";
 
 const Skew2 = () => {
   return (
-    <div>
+    <div className="web-hide">
       <div className=" relative flex  h-[90vh] items-center  bg-[url('../public/img1.jpg')] bg-cover">
         <div className=" bg-black-100 w-[100%] h-[100%] pl-8 bg-[#A4161A]/70">
           <div className="pt-48">
@@ -186,7 +186,7 @@ const Skew2 = () => {
           </div>
         </div>
       </div>
-      <div className="h-[10vh] flex  justify-between flex-row whitespace-nowrap bg-red-500">
+      <div className="h-[72px] flex  justify-between flex-row whitespace-nowrap bg-red-500">
         <Marquee gradientWidth="100" speed="75">
           <MarqueeIcon />
         </Marquee>

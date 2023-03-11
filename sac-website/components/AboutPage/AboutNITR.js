@@ -3,16 +3,10 @@ import Image from 'next/image';
 import faq from '../../public/faq.webp';
 
 
-function Deanspeaks() {
+export default function AboutNITR() {
     return (
-        <div className=' lg:flex'>
-            <div>
-            <Image
-                src={faq}
-                alt="FAQ"
-                className='w-[100vw] clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style'
-            />
-            </div>
+        <div className=' lg:flex test'>
+           
             <div className='flex items-center justify-center lg:w-[50%] bg-[] p-2 pb-4 pr-2.5 pl-2.5 pr-12'> 
                     
                     <div>
@@ -22,6 +16,13 @@ function Deanspeaks() {
 
                     </div>
             </div>
+            <div>
+            <Image
+                src={faq}
+                alt="FAQ"
+                className='w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style-right'
+            />
+            </div>
         </div>
 
 
@@ -29,4 +30,3 @@ function Deanspeaks() {
     )
 }
 
-export default Deanspeaks

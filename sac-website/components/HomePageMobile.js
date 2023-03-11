@@ -1,12 +1,21 @@
 import React from "react";
 import { ParallaxLayer, Parallax } from "@react-spring/parallax";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
-import { RxHamburgerMenu } from "react-icons/rx";
+import react, { useState } from "react";
+import Link from "next/link";
 
 const HomePageMobile = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const modal = () => {
+    setShowModal(!showModal);
+    setIsOpen(!isOpen);
+    console.log(showModal);
+  };
   return (
     <>
-      <div className="h-screen">
+      <div className="h-screen mobile-hide ">
         <div
           style={{ height: "10vh" }}
           className="flex justify-between items-center px-1 py-1 z-9999 bg-red-600 navdiv "
@@ -19,9 +28,52 @@ const HomePageMobile = () => {
             />
           </div>
           <div>
-            <RxHamburgerMenu className="text-2xl mb-2 mr-2 text-white" />
+            <button onClick={modal}>
+              {/* <RxHamburgerMenu className="text-2xl mb-2 mr-2 text-white" /> */}
+              <div className="hamburger-icon" onClick={modal}>
+                <div className={`line ${isOpen ? "open" : ""}`}></div>
+                <div className={`line ${isOpen ? "open" : ""}`}></div>
+                <div className={`line ${isOpen ? "open" : ""}`}></div>
+              </div>
+            </button>
           </div>
         </div>
+
+        <div className={`${showModal ? "visible" : "hide"} `}>
+          <ul className="ul-list">
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Home</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Societies</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Gallery</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Events</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">About</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/">Contact</Link>
+              </button>
+            </li>
+          </ul>
+        </div>
+
         <Parallax pages={1.21}>
           <ParallaxLayer offset={0} speed={0}>
             <p className="bg-[url('../public/hello.jpg')] bg-cover bg-center w-full h-screen">
@@ -43,7 +95,7 @@ const HomePageMobile = () => {
                   </div>
                 </div>
 
-                <div className=" flex flex-col items-center justify-center">
+                <div className=" flex flex-col items-center justify-center pt-9">
                   <div className="h-12 w-32 bg-white text-black text-center rounded-lg leading-4 pt-2 font-medium ">
                     Want to <br /> know more?
                   </div>

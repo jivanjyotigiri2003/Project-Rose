@@ -1,20 +1,33 @@
 import ClubName from "@/components/ClubName/ClubName";
+
+import Society from "@/pages/Society"
+import SocietyCom from "@/components/Societies/SocietyCom"
+import Skew2 from "@/components/Homepage";
+
+import Skew2 from "@/components/HomePage/Homepage";
+
+
 import Head from "next/head";
 import Carousel4 from "@/components/FestCarousel/Carousel4";
-import Announcement from '../components/Announcement/Announcement';
-import SocietyRepresentative from '../components/SocietyRepresentative/SocietyRepresentative';
+import Announcement from "../components/Announcement/Announcement";
+import SocietyRepresentative from "../components/SocietyRepresentative/SocietyRepresentative";
 import FAQ from "@/components/FAQ/FAQ";
-import Footer from '../components/Footer/Footer';
-import Aboutsac from "@/components/Dean Speaks/Deanspeaks";
-import Deanspeaks from "@/components/Dean Speaks/Deanspeaks";
-import SocietyGallery from '../components/SocietyGallery/SocietyGallery';
-import ClubHero from "@/components/ClubHero/SocietyHero";
-import AboutPage from '../components/AboutPage/AboutPage';
+import Footer from "../components/Footer/Footer";
+import Aboutsac from "@/components/DeanSpeaks/DeanSpeaks";
+import Deanspeaks from "@/components/DeanSpeaks/DeanSpeaks";
+import SocietyGallery from "../components/SocietyGallery/SocietyGallery";
+import ClubHero from "@/components/ClubHero/ClubHero";
+import AboutPage from "../components/AboutPage/AboutPage";
 import Gallery from "@/components/Gallery/Gallery";
+
 import ContactPage from "@/components/ContactPage/ContactPage";
 
 
 
+
+
+import HomePageMobile from "@/components/HomePageMobile";
+import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
 
 
 export default function Home() {
@@ -27,6 +40,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+
          
          {/* <ContactPage/> */}
         <p>SAC Website</p>
@@ -35,11 +49,13 @@ export default function Home() {
         {/* <Skew2 /> */}
 
         {/* <p>SAC Website</p> */}
+
         {/* <Carousel /> */}
 
-
-        {/* <Skew2 />
+        <Skew2 />
+        {/* <HomePageMobile /> */}
         <Announcement />
+
          <Deanspeaks />
         <SocietyRepresentative />
         <FAQ />
@@ -51,15 +67,22 @@ export default function Home() {
        <SocietyGallery/> */}
 {/* <ClubHero/> */}
         
+
+        <Deanspeaks />
+        {/* <SocietyRepresentative /> */}
+        {/* <FAQ /> */}
+        {/* <Carousel4 /> */}
+        <AboutPage />
+        {/* <ClubHero/> */}
+        {/* <Gallery /> */}
+        {/* <Footer /> */}
+        {/* <SocietyGallery /> */}
+        {/* <ClubHero /> */}
+       {/* <DeanSpeaks/> */}
+
         {/* <ClubName /> */}
 
-
-
         {/* <p>SAC Website</p> */}
-
-
-
-
       </main>
     </>
   );

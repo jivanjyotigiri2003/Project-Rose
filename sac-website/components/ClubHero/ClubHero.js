@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, useScroll } from "framer-motion";
+// import { motion, useScroll } from "framer-motion";
 import SocialsLink from "../SocialsLink/SocialsLink";
 
-const IndexPage = () => {
+const ClubHero = () => {
   return (
     <div>
       <div className=" fixed right-2 top-[50%] -translate-y-[50%]">
@@ -68,4 +68,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default ClubHero ;

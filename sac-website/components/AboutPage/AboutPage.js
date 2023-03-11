@@ -1,42 +1,37 @@
-import React from 'react'
-import Image from 'next/image'
-import styles from '../AboutPage/aboutpage.module.css'
+import React from "react";
+// import { image } from "";
+import DeanSpeaks from '../DeanSpeaks/DeanSpeaks';
+import AboutNITR from './AboutNITR';
+
 
 const AboutPage = () => {
-    return (
-
-        <div className={styles.container}>
-            <div className={styles.img}>
-          <Image src="https://res.cloudinary.com/dgqnhhjgo/image/upload/v1678246494/nit_gate_ubkcbf.jpg"
-               width={1624} height={236} alt="sac" />
-               <h1>About SAC</h1>
-            </div>
-        <div className={styles.main1}>
-            <div className={styles.left} >
-                <Image src="https://res.cloudinary.com/dgqnhhjgo/image/upload/v1678332156/pexels-cl%C3%A9ment-proust-14641908_hrsnpe.jpg"
-                    width={524} height={326} alt="sac" />
-            </div>
-            <div className={styles.right}>
-                <h1>About SAC</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius qui saepe, odit quis ipsa hic vel distinctio illum quas! Ut quasi nobis pariatur quaerat enim iusto sed ipsum facilis obcaecati eaque praesentium eligendi rem modi nemo, tenetur alias voluptate natus quas aperiam a! Repellendus delectus amet repellat, ea libero officiis assumenda dignissimos, dolore quas necessitatibus iure veniam. Blanditiis suscipit sapiente qui laudantium asperiores quibusdam pariatur facilis minima aliquam consequuntur mollitia eveniet, natus explicabo in odio, cumque rerum distinctio recusandae. Quia esse, consequuntur commodi hic excepturi natus libero facere expedita reprehenderit animi distinctio cumque? Error fugit labore aspernatur, magni mollitia vitae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illum fugit mollitia sint odit distinctio ratione blanditiis iste harum vitae id, fugiat repudiandae omnis, quasi consectetur natus nam excepturi ipsum! Ipsa adipisci expedita repellendus assumenda exercitationem possimus voluptatibus minus, dolor veritatis! Aut, voluptatibus beatae? Expedita repellendus cumque amet, fugit dolorem optio. Illo amet pariatur ipsa fugiat magni saepe quaerat harum.</p>
-
-            </div>
+  return (
+    <>
+      <div>
+        <div className="h-[100vh] w-[100vw] relative justify-center align-middle flex flex-col">
+          <div className=" text-center tracking-wide text-6xl font-bold  text-white z-50 saturate-100 bg-cover top-0 left-0 ">
+            About SAC
+            <p className="  pt-10 text-xl font-semibold tracking-wide ">
+              THE TECHNICAL SOCIETY OF STUDENT ACTIVITY CENTRE, NIT
+              <br />
+              ROURKELA IS PROUD TO PRESENT ITS WORKING AND
+              <br />
+              ENTOURAGE TO ALL THE TECHNOCRATS AND INNOVATORS OF
+              <br />
+              MODERN ERA.
+            </p>
+          </div>
+          <div className="absolute z-10 saturate-100 bg-cover top-0 left-0 h-[100%] w-[100%] bg-[url('../public/heroimg.png')]"></div>
+          <div className="absolute z-20 opacity-30 h-[100%] top-0 left-0 w-[100%] bg-[#0B0B0B]"></div>
+          <div className="absolute z-40 opacity-30 h-[100%] top-0 left-0 w-[100%] bg-gradient-to-b from-[rgba(133,1,1,94)] to-[rgb(133,1,1)] "></div>
         </div>
-        <div className={styles.main2}>
-            <div className={styles.left} >
-                <Image src="https://res.cloudinary.com/dgqnhhjgo/image/upload/v1678342239/pexels-jean-paul-montanaro-14842130_ewmsiq.jpg"
-                    width={524} height={326} alt="sac" />
-            </div>
-            <div className={styles.right}>
-                <h1>Vision</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius qui saepe, odit quis ipsa hic vel distinctio illum quas! Ut quasi nobis pariatur quaerat enim iusto sed ipsum facilis obcaecati eaque praesentium eligendi rem modi nemo, tenetur alias voluptate natus quas aperiam a! Repellendus delectus amet repellat, ea libero officiis assumenda dignissimos, dolore quas necessitatibus iure veniam. Blanditiis suscipit sapiente qui laudantium asperiores quibusdam pariatur facilis minima aliquam consequuntur mollitia eveniet, natus explicabo in odio, cumque rerum distinctio recusandae. Quia esse, consequuntur commodi hic excepturi natus libero facere expedita reprehenderit animi distinctio cumque? Error fugit labore aspernatur, magni mollitia vitae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illum fugit mollitia sint odit distinctio ratione blanditiis iste harum vitae id, fugiat repudiandae omnis, quasi consectetur natus nam excepturi ipsum! Ipsa adipisci expedita repellendus assumenda exercitationem possimus voluptatibus minus, dolor veritatis! Aut, voluptatibus beatae? Expedita repellendus cumque amet, fugit dolorem optio. Illo amet pariatur ipsa fugiat magni saepe quaerat harum.</p>
-                
-            </div>
-        </div>
-        </div>
-    )
-}
+      </div>
+    <DeanSpeaks/>
+    <AboutNITR/>
+    <DeanSpeaks/>
+    <AboutNITR/>
+    </>
+  );
+};
 
-export default AboutPage
+export default AboutPage;
