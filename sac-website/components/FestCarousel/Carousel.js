@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SocietyCarousel from './SocietyCarousel'
+import FestCard from './FestCard'
 import data from './data'
 import FestCarousel from './FestCarousel';
 
@@ -11,13 +11,13 @@ export default function Carousel() {
   
   return (
     // <div className='w-screen h-[100vh] max-[500px]:h-[65vh] test'>
-        <SocietyCarousel>
+        <FestCarousel>
 
        
         {carousel.map((data)=>{
           return(
             <div>
-               <FestCarousel
+               <FestCard
             key={data.id}
             name={data.name}
             desc={data.desc}
@@ -28,7 +28,7 @@ export default function Carousel() {
             </div>        
           )
         })} 
-         </SocietyCarousel>   
+         </FestCarousel>   
     // </div>
   )
 }

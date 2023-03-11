@@ -42,7 +42,7 @@ const FAQ = () => {
         <div className='w-full md:w-4/5 h-[70vh] '>
           {questions.map((q, index) => (
             <div key={index} className="shadow-xl m-3.5 flex-col text-white">
-              <div className={`bg-[#850101] p-3.5 transition ease-in-out duration-50000  ${index === openQuestionIndex ? "rounded-t-md" : "rounded-md"}` } onPointerOut={() => handleQuestionClick(index)}>
+              <div className={`bg-[#850101] p-3.5 transition-all duration-200 hover: cursor-pointer ${index === openQuestionIndex ? "rounded-t-md" : "rounded-md"}` } onClick={() => handleQuestionClick(index)}>
                 <h3 className='flex justify-between'>{q.question} &nbsp;
                 {index === openQuestionIndex && <IoIosArrowUp className='inline' color='white' />}
                 {index !== openQuestionIndex && <IoIosArrowDown className='inline' color='white' />}

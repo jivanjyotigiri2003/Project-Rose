@@ -2,14 +2,13 @@ import React from 'react'
 import { IoCall } from "react-icons/io5";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { BiChevronDown } from "react-icons/bi";
-import styles from "../../components/ContactPage/contactpage.module.css"
 
 function ProfileCard() {
   return (
           <div className="  w-[50vw] h-[18vh] md:h-[20vh] md:w-[28vw]  bg-[#FFFCEB] rounded-md flex flex-col justify-center ">
             <h1
               className={
-                styles.h1 +
+               
                 " text-[#A4161A] mt-[-6vh] md:mt-[-3vh] font-semibold mx-auto text-md md:text-3xl"
               }
             >

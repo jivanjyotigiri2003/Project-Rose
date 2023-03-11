@@ -2,7 +2,7 @@ import ClubName from "@/components/ClubName/ClubName";
 
 
 
-import Society from "@/pages/Society"
+import Society from "@/pages/societies"
 import SocietyCom from "@/components/Societies/SocietyCom"
 
 
@@ -11,7 +11,7 @@ import Skew2 from "@/components/HomePage/Homepage";
 
 
 import Head from "next/head";
-import Carousel4 from "@/components/FestCarousel/Carousel4";
+
 import Announcement from "../components/Announcement/Announcement";
 import SocietyRepresentative from "../components/SocietyRepresentative/SocietyRepresentative";
 import FAQ from "@/components/FAQ/FAQ";
@@ -31,6 +31,7 @@ import ContactPage from "@/components/ContactPage/ContactPage";
 
 import HomePageMobile from "@/components/HomePageMobile";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
+import Carousel from '../components/FestCarousel/Carousel';
 
 
 export default function Home() {
@@ -62,7 +63,7 @@ export default function Home() {
          <Deanspeaks />
         <SocietyRepresentative />
         <FAQ />
-        <Carousel4/> 
+       <Carousel/>
         {/* <AboutPage/> */}
 
        {/* <Gallery/> */}

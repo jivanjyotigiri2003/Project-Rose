@@ -58,10 +58,10 @@ export default function Footer() {
             <p className="text-white text-lg pt-8 ">Email:</p>
             <input
               type="email "
-              className=" text-white w-[90vw] md:w-96 h-8 bg-[#A4161A] rounded-md"
+              className=" text-white w-[90vw] md:w-96 h-8 bg-[#A4161A] rounded-md border-none"
             />
             <p className="text-white text-lg leading-8 pt-8 ">Message</p>
-            <textarea className=" text-white w-full md:w-96 h-40 resize-none rounded-md bg-[#A4161A]" />
+            <textarea className=" text-white w-full md:w-96 h-40 resize-none rounded-md bg-[#A4161A] border-none" />
           </form>
         </div>
       </div>

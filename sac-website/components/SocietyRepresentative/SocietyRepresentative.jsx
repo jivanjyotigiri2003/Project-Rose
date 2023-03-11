@@ -18,17 +18,17 @@ export default function SocietyRepresentative() {
   
   
   return (
-    <div className='w-screen h-[100vh] max-[500px]:h-[65vh] test'>
-      <h1 className='w-[100%] h-[5%] '>Society Representative</h1>
+    <div className='w-screen h-[100vh] max-[500px]:h-[65vh] '>
+      <h1 className='w-[100%] h-[7%] text-[2vw] font-[600] '>Sac Officials</h1>
         
 
         {/* For Desktop */}
-        <div className='max-[500px]:hidden w-[100%] h-[95%] flex justify-center items-center p-[2rem] flex-wrap border-2 test '>
+        <div className='max-[500px]:hidden w-[100%] h-[90%] flex justify-center items-center p-[2rem] flex-wrap border-2  '>
           {representative.map((item,index)=>{
             return(
             <div key={index} className="h-[20rem] flex flex-col justify-center items-center "  >
              <div 
-              className='w-[15rem] h-[15rem]  test rounded-[100%]  m-[1rem] drop-shadow-xl'
+              className='w-[15rem] h-[15rem]  test rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl'
               >
 
                 <img src={item.officialsImage} alt="officialsImage" className="w-[100%] h-[100%] rounded-[100%] object-cover"/>
