@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../ContactPage/contactpage.module.css";
+
 import { IoCall } from "react-icons/io5";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { BiChevronDown } from "react-icons/bi";
@@ -8,7 +8,7 @@ import faq from "../../public/faq.webp";
 import ProfileCard from "../ProfileCard/ProfileCard";
 
 function ContactPage() {
-  return (
+  return ( 
     <div className="relative">
       {/* Sac management page */}
       <div className="bg-[url('https://res.cloudinary.com/dkqxnquga/image/upload/v1678430362/image_767_hnhpi2.png')] bg-no-repeat w-full bg-cover bg-center h-full">
@@ -17,7 +17,7 @@ function ContactPage() {
             <div className="flex justify-center items-center h-screen">
               <h1
                 className={
-                  styles.h1 + " text-white font-bold text-5xl text-center"
+                 " text-white font-bold text-5xl text-center"
                 }
               >
                 SAC MANAGEMENT
@@ -41,10 +41,8 @@ function ContactPage() {
       <div className="w-[100%] h-screen relative">
         <div className="bg-[#A4161A] bg-no-repeat w-screen  bg-cover bg-center flex flex-col h-[55vh] pt-[15vh]   ">
           <h1
-            className={
-              styles.h1 +
-              " text-white font-semibold text-xl md:text-6xl pb-[10vh] px-[20%] md:px-[35%]"
-            }
+            className="text-white font-semibold text-center text-xl md:text-6xl pb-[10vh]"
+            
           >
             LCS Representatives
           </h1>
@@ -64,7 +62,7 @@ function ContactPage() {
           </div>
         </div>
         <div className="bg-[#FFFFFF] bg-no-repeat w-screen flex flex-col justify-end items-center bg-cover bg-center h-[45vh]">
-          <h1 className={styles.h1 + " text-[#A4161A]  font-semibold  text-xl"}>
+          <h1 className={ " text-[#A4161A]  font-semibold  text-xl"}>
             See More
           </h1>
           <BiChevronDown className="text-[#A4161A] text-2xl" />
@@ -75,8 +73,8 @@ function ContactPage() {
           <div className="bg-[#A4161A] bg-no-repeat w-screen  bg-cover bg-center flex flex-col h-[55vh] pt-[15vh]   ">
             <h1
               className={
-                styles.h1 +
-                " text-white font-semibold text-xl md:text-6xl pb-[10vh] px-[20%] md:px-[35%]"
+                
+                " text-white font-semibold text-xl md:text-6xl pb-[10vh] text-center"
               }
             >
               FMS Representatives
@@ -98,7 +96,7 @@ function ContactPage() {
           </div>
           <div className="bg-[#FFFFFF] bg-no-repeat w-screen flex flex-col justify-end items-center bg-cover bg-center h-[45vh]">
             <h1
-              className={styles.h1 + " text-[#A4161A]  font-semibold  text-xl"}
+              className={" text-[#A4161A]  font-semibold  text-xl"}
             >
               See More
             </h1>
@@ -110,8 +108,8 @@ function ContactPage() {
             <div className="bg-[#A4161A] bg-no-repeat w-screen  bg-cover bg-center flex flex-col h-[55vh] pt-[15vh]   ">
               <h1
                 className={
-                  styles.h1 +
-                  " text-white font-semibold text-xl md:text-6xl pb-[10vh] px-[20%] md:px-[31%]"
+                  
+                  " text-white font-semibold text-xl md:text-6xl pb-[10vh] text-center"
                 }
               >
                 Technical Representatives
@@ -134,7 +132,7 @@ function ContactPage() {
             <div className="bg-[#FFFFFF] bg-no-repeat w-screen flex flex-col justify-end items-center bg-cover bg-center h-[45vh]">
               <h1
                 className={
-                  styles.h1 + " text-[#A4161A]  font-semibold  text-xl"
+                  " text-[#A4161A]  font-semibold  text-xl"
                 }
               >
                 See More
@@ -147,8 +145,8 @@ function ContactPage() {
               <div className="bg-[#A4161A] bg-no-repeat w-screen  bg-cover bg-center flex flex-col h-[55vh] pt-[15vh]   ">
                 <h1
                   className={
-                    styles.h1 +
-                    " text-white font-semibold text-xl md:text-6xl pb-[10vh] px-[20%] md:px-[26%]"
+                 
+                    " text-white font-semibold text-xl md:text-6xl pb-[10vh] text-center"
                   }
                 >
                   Games & sports Representatives
@@ -171,7 +169,7 @@ function ContactPage() {
               <div className="bg-[#FFFFFF] bg-no-repeat w-screen flex flex-col justify-end items-center bg-cover bg-center h-[45vh]">
                 <h1
                   className={
-                    styles.h1 + " text-[#A4161A]  font-semibold  text-xl"
+                    " text-[#A4161A]  font-semibold  text-xl"
                   }
                 >
                   See More
@@ -190,7 +188,7 @@ function ContactPage() {
                 <div className="flex flex-col  items-start justify-start lg:w-[50%] py-20 pl-2.5 pr-12">
                   <h1
                     className={
-                      styles.h1 +
+                     
                       " text-[#FFFFFF]  font-semibold text-3xl md:text-5xl mb-5 md:mb-10"
                     }
                   >
@@ -198,7 +196,7 @@ function ContactPage() {
                   </h1>
                   <h1
                     className={
-                      styles.h1 +
+                     
                       " text-[#FFFFFF]   text-xl md:text-3xl mb-3 md:mb-7"
                     }
                   >
@@ -206,7 +204,7 @@ function ContactPage() {
                   </h1>
                   <h1
                     className={
-                      styles.h1 +
+                    
                       " text-[#FFFFFF]   text-xl md:text-3xl mb-3 md:mb-7"
                     }
                   >
@@ -214,7 +212,7 @@ function ContactPage() {
                   </h1>
                   <h1
                     className={
-                      styles.h1 +
+                  
                       " text-[#FFFFFF]   text-xl md:text-3xl mb-3 md:mb-7"
                     }
                   >

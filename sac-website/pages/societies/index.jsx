@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
-import Societypage from "../components/Societies/Societypage";
+import Societypage from "../../components/Societies/Societypage";
 // import Logo from "../components/Logo";
 
 

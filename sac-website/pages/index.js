@@ -2,7 +2,7 @@ import ClubName from "@/components/ClubName/ClubName";
 
 
 
-import Society from "@/pages/Society"
+import Society from "@/pages/societies"
 import SocietyCom from "@/components/Societies/SocietyCom"
 
 
