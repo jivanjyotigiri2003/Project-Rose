@@ -1,7 +1,7 @@
 export default function Announcement() {
   return (
-    <div className="lg:flex lg:space-x-8 justify-around my-4 lg:h-[90vh]">
-      <div className="lg:w-[60%] lg:h-[100%]">
+    <div className="lg:flex lg:space-x-8 justify-around test my-4 lg:h-[90vh]">
+      <div className="lg:w-[60%]  test">
         <div className="text-3xl lg:ml-3 mb-6 font-bold text-center">
           Upcoming Events
         </div>
@@ -46,7 +46,7 @@ export default function Announcement() {
           </div>
         </div>
       </div>
-      <div className="lg:w-[30%] lg:h-[100%]">
+      <div className="lg:w-[30%]  test">
         <div className="text-3xl mb-6 font-bold lg:translate-x-6 text-center">
           Announcement
         </div>

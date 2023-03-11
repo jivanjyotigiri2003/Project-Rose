@@ -3,7 +3,7 @@ const FestCarousel = ({name,category,desc,link,img})=> {
 
 
   return (
-    <>
+    <div>
       <div className=" w-[100vw]  h-[100vh] rounded-lg shadow-lg flex justify-center text-white  ">
         <div className=" bg-black lg:flex flex-cols-2 xl:max-w-full xl:h-full ">   
         <div className="  lg:mx-4 p-[1.4rem] w-full md:my-0 flex flex-col justify-center h-[50vh] lg:w-2/6 lg:h-[100vh] md:h-[45vh] sm:h-[50vh] my-4">
@@ -34,7 +34,7 @@ const FestCarousel = ({name,category,desc,link,img})=> {
         </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

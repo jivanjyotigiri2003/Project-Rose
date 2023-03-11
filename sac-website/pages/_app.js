@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import "@/styles/globals.css";
 import "../styles/societyGallery.css";
 
-
+import Footer from "@/components/Footer/Footer"
 
 
 export default function App({ Component, pageProps }) {
@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
         <Navbar />
       </div>
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <Footer />
       {/* <Callandar /> */}
     </div>
   );

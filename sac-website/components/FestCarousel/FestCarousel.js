@@ -42,7 +42,7 @@ export default function SocietyCarousel({
         </button>
       </div>
 
-      <div className="absolute bottom-4 right-0 left-0">
+      {/* <div className="absolute bottom-4 right-0 left-0">
         <div className="flex items-center justify-center gap-2">
           {data.map((_, i) => (
             <div
@@ -53,7 +53,7 @@ export default function SocietyCarousel({
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
