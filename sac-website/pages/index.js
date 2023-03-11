@@ -11,7 +11,7 @@ import Skew2 from "@/components/HomePage/Homepage";
 
 
 import Head from "next/head";
-import Carousel4 from "@/components/FestCarousel/Carousel4";
+
 import Announcement from "../components/Announcement/Announcement";
 import SocietyRepresentative from "../components/SocietyRepresentative/SocietyRepresentative";
 import FAQ from "@/components/FAQ/FAQ";

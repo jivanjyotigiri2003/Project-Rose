@@ -1,6 +1,13 @@
+import {Poppins} from 'next/font/google';
+
+
 import Navbar from "@/components/Navbar/Navbar";
 import "@/styles/globals.css";
 import "../styles/societyGallery.css";
+
+
+
+
 export default function App({ Component, pageProps }) {
   return (
     <div>
