@@ -1,14 +1,9 @@
 import ClubName from "@/components/ClubName/ClubName";
 
-
-
-import Society from "@/pages/societies"
-import SocietyCom from "@/components/Societies/SocietyCom"
-
-
+import Society from "@/pages/societies";
+import SocietyCom from "@/components/Societies/SocietyCom";
 
 import Skew2 from "@/components/HomePage/Homepage";
-
 
 import Head from "next/head";
 
@@ -25,14 +20,9 @@ import Gallery from "@/components/Gallery/Gallery";
 
 import ContactPage from "@/components/ContactPage/ContactPage";
 
-
-
-
-
 import HomePageMobile from "@/components/HomePageMobile";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
-import Carousel from '../components/FestCarousel/Carousel';
-
+import Carousel from "../components/FestCarousel/Carousel";
 
 export default function Home() {
   return (
@@ -44,28 +34,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-
-         
-      
-<HomePageMobile/>
+        <HomePageMobile />
         <Skew2 />
-       
         <Announcement />
-
-         <Deanspeaks />
+        <Deanspeaks />
         <SocietyRepresentative />
-       <Carousel/>
-       
-        
-
-       
-     
+        <Carousel />
         <Gallery />
         <FAQ />
-       
-       
-       
-      
       </main>
     </>
   );
