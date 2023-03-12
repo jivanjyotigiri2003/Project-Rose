@@ -2,20 +2,16 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import MarqueeIcon from "./MarqueeIcon";
 
-
-
 const Skew2 = () => {
   return (
     <div className="web-hide">
-      <div className=" relative flex  h-[100vh] items-center  bg-[url('../public/img1.jpg')] bg-cover">
+      <div className=" relative flex items-center  h-[90vh]  bg-[url('../public/img1.jpg')] bg-cover">
         <div className=" bg-black-100 w-[100%] h-[100%] pl-8 bg-[#A4161A]/70">
           <div className="relative top-[25%] ">
-            
-           
-              <p className=" text-white pb-[1rem] text-3xl xl:text-4xl font-normal">
+            <p className=" text-white pb-[1rem] text-3xl xl:text-4xl font-normal">
               Welcome to Student Activity Centre!
-              </p>
-           
+            </p>
+
             <p className="text-white text-5xl xl:text-7xl py-[2rem] font-medium ">
               Creative Caliber <br /> at it's best
             </p>

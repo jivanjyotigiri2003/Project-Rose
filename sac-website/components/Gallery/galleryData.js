@@ -62,19 +62,3 @@ const data = [
 ];
 
 export default data;
-
-{
-  /* <Marquee gradientWidth="100" speed="75">
-  {data.map((data, idx) => {
-    <div className={style.image_wrapper} key={idx}>
-      <Image
-        src={data.src}
-        height={data.height}
-        width={data.width}
-        alt={data.alt}
-        className="rounded-md"
-      />
-    </div>;
-  })}
-</Marquee>; */
-}
