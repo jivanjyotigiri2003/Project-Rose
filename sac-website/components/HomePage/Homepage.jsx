@@ -106,13 +106,15 @@ const Skew2 = () => {
              </div>
              
               <div className="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
-                <div className=" p-5 insert-x-5 absolute bottom-6">
-                      Games & Sports Society
-                  <div>
-                    
+              <div className=" p-5 insert-x-5 absolute bottom-6">
+                 
+                 <div>
+                   <p className="text-xl font-semibold text-gray-100">
+                  Literary & Culture Society 
+                   </p>
                    
-                  </div>
-                </div>
+                 </div>
+               </div>
               </div>
             </div>
           </div>
