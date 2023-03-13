@@ -21,10 +21,11 @@ export default function App({ Component, pageProps }) {
 
    
     <main className={poppins.className}>
-      <div className=" absolute top-0 z-40 w-full bg-transparent">
+      <div className=" absolute top-0 z-40 w-screen bg-transparent web-hide">
 
         <Navbar />
-      </div> */}
+        
+      </div> 
       <Component {...pageProps} />
       <Footer />
       {/* <Callandar /> */}

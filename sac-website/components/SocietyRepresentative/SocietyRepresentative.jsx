@@ -55,7 +55,7 @@ export default function SocietyRepresentative() {
   ];
 
   return (
-    <div className="w-screen">
+    <div className="w-screen h-[90vh]">
       <Fade direction="up" triggerOnce="true" delay="50">
         <h1 className="w-[100%] h-[7%] text-[2vw] font-[600] p-4">
           Sac Officials
@@ -86,7 +86,7 @@ export default function SocietyRepresentative() {
 
         {/* For Mobile */}
 
-        <div className="min-[500px]:hidden h-[95%] flex justify-center items-center p-[2rem] flex-wrap border-2 border-solid border-indigo-500">
+        {/* <div className="min-[500px]:hidden h-[95%] flex justify-center items-center p-[2rem] flex-wrap border-2 border-solid border-indigo-500">
           <SocietyCarousel>
             {representative.map((item, index) => {
               return (
@@ -108,7 +108,7 @@ export default function SocietyRepresentative() {
               );
             })}
           </SocietyCarousel>
-        </div>
+        </div> */}
       </Fade>
     </div>
   );
