@@ -17,12 +17,12 @@
       clip-path: polygon(0% 0%, 100% 0%, 100% 58.8%, 0% 100%);
     }
     .clip-your-needful-style-right{
-    clip-path: polygon(48% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(24% 0, 100% 0, 100% 100%, 0 100%);
       
     }
 
   .test{
-    /* border:2px solid #6775f5;     */
+    border:2px solid #6775f5;    
   }
   
 }
