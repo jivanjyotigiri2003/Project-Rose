@@ -89,9 +89,9 @@ const HomePageMobile = () => {
                     Creative Caliber <br /> at its best
                   </div>
                   <div className="text-white text-center w-4/5 m-auto text-sm mt-2">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Tempora, incidunt enim ipsam ipsa quaerat libero itaque qui
-                    quis voluptatibus id?
+                    Explore the plethora of thrilling events, exciting fests,
+                    diverse clubs and other activities in the beautiful campus
+                    of NIT Rourkela.
                   </div>
                 </div>
 
@@ -109,7 +109,7 @@ const HomePageMobile = () => {
               </div>
             </p>
           </ParallaxLayer>
-          <ParallaxLayer offset={0.9999999} speed={1.8}>
+          <ParallaxLayer offset={0.9999999} speed={1.94}>
             <div className="cate">
               <img
                 style={{ width: "100%", height: "15.5vh", objectFit: "cover" }}
