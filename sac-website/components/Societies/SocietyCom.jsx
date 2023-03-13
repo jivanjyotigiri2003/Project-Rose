@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 
 const EventCom = () => {
-
   const router = useRouter();
 
   const { event } = router.query;
@@ -17,7 +16,6 @@ const EventCom = () => {
       music: { sec: "music", bgColor: "#A34744" },
       drama: { sec: "drama", bgColor: "#EDAD38" },
       random: { sec: "random", bgColor: "Black" },
-
     },
     danceClick: {
       dance: {
@@ -28,15 +26,15 @@ const EventCom = () => {
       },
       music: {
         marginLeft: "73%",
-        marginLeftDesktop: "79%"
+        marginLeftDesktop: "79%",
       },
       drama: {
         marginLeft: "82%",
-        marginLeftDesktop: "86%"
+        marginLeftDesktop: "86%",
       },
       random: {
         marginLeft: "91%",
-        marginLeftDesktop: "93%"
+        marginLeftDesktop: "93%",
       },
     },
     musicClick: {
@@ -80,29 +78,27 @@ const EventCom = () => {
       },
     },
     randomClick: {
-        dance: {
-          marginLeft: "0",
-        },
-        music: {
-            marginLeft: "9%",
-            marginLeftDesktop: "7%",
-        },
-        drama: {
-          marginLeft: "18%",
-          marginLeftDesktop: "14%",
-        },
-        random: {
-            eventSec: true,
-            marginLeftDesktop: "21%",
-            marginLeft: "27%",
-            bgImgUrl:
-              "",
-          },
+      dance: {
+        marginLeft: "0",
       },
+      music: {
+        marginLeft: "9%",
+        marginLeftDesktop: "7%",
+      },
+      drama: {
+        marginLeft: "18%",
+        marginLeftDesktop: "14%",
+      },
+      random: {
+        eventSec: true,
+        marginLeftDesktop: "21%",
+        marginLeft: "27%",
+        bgImgUrl: "",
+      },
+    },
   };
 
   const [clickState, setClickState] = useState(objMain.musicClick);
-
 
   useEffect(() => {
     if (event) {
@@ -111,7 +107,7 @@ const EventCom = () => {
       if (event == "drama") setClickState(objMain.dramaClick);
       if (event == "random") setClickState(objMain.randomClick);
     }
-  }, [event])
+  }, [event]);
 
   const clickFun = (para) => {
     if (para == "drama") setClickState(objMain.dramaClick);
@@ -121,7 +117,6 @@ const EventCom = () => {
   };
   return (
     <EventSecn>
-      
       <MainSec
         property={clickState.dance}
         info={objMain.info.dance}
