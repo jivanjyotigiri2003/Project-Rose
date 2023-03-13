@@ -11,6 +11,8 @@ import AboutPage from "@/components/AboutPage/AboutPage";
 import Image from "next/image";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
 import dean from "../../public/dean.jpg";
+import SocietyRepresentative from '@/components/SocietyRepresentative/SocietyRepresentative'
+
 
 export default function Club
 () {
@@ -18,7 +20,9 @@ export default function Club
     <div>
         <ClubHero2/>
         <DeanSpeaks/>
+        <SocietyRepresentative/>
         <SocietyGallery/>
+
         {/* <Footer/> */}
     </div>
   )

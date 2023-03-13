@@ -121,6 +121,7 @@ const EventCom = () => {
   };
   return (
     <EventSecn>
+      
       <MainSec
         property={clickState.dance}
         info={objMain.info.dance}
