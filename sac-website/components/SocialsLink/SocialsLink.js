@@ -5,22 +5,22 @@ const SocialsLink = () => {
     {
       name: "LinkedIn",
       icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677806233/Vector_biswa1.png",
-      url: "",
+      url: "https://www.linkedin.com/company/webwiz-nitr/", 
     },
     {
       name: "Facebook",
       icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677806976/Vector_1_cjr4k3.png",
-      url: "",
+      url: "https://www.facebook.com/webwiz.nitr", 
     },
     {
       name: "Twitter",
       icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677807014/Vector_2_ihxmsh.png",
-      url: "",
+      url: "https://twitter.com/webwiznitr",
     },
     {
       name: "Instagram",
       icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677807047/Vector_3_geb5pe.png",
-      url: "",
+      url: "https://www.instagram.com/webwiz.nitr/?hl=en",
     },
   ];
 
