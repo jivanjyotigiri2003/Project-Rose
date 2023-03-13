@@ -55,7 +55,9 @@ export default function SocietyRepresentative() {
   ];
 
   return (
+
     <div className="w-screen ">
+
       <Fade direction="up" triggerOnce="true" delay="50">
         <h1 className="w-[100%] text-xl font-[600] p-4">Sac Officials</h1>
 
@@ -81,6 +83,9 @@ export default function SocietyRepresentative() {
             );
           })}
         </div>
+
+
+      
       </Fade>
     </div>
   );

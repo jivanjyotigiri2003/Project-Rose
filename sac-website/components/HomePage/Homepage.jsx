@@ -5,7 +5,7 @@ import MarqueeIcon from "./MarqueeIcon";
 const Skew2 = () => {
   return (
     <div className="web-hide">
-      <div className=" relative flex items-center  h-[100vh]  bg-[url('../public/img1.jpg')] bg-cover">
+      <div className=" relative flex items-center  h-[100vh]  bg-[url('https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940')] bg-cover">
         <div className=" bg-black-100 w-[100%] h-[100%] pl-8 bg-[#A4161A]/70">
           <div className="relative top-[25%] ">
             <p className=" text-white pb-[1rem] text-3xl xl:text-4xl font-normal">
@@ -103,11 +103,13 @@ const Skew2 = () => {
           <div className="flex ">
             {/* all images go inside the flex box */}
             <div className="ml-20 -skew-x-12 group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw]  shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
+            <div className="h-full">
               <img
                 className="h-full object-cover transition-all duration-200 group-hover:scale-125 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
-                src="http://thecodeplayer.com/uploads/media/3yiC6Yq.jpg"
+                src="https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100"
                 alt=""
               />
+              </div>
               <div className=" invisible absolute inset-0 bg-gradient-to-b from-red-500/10 to-black group-hover:visible">
                 <div className="p-5 insert-x-5 absolute bottom-6">
                   <div className="  flex gap-3 text-white"></div>
@@ -122,11 +124,13 @@ const Skew2 = () => {
             </div>
 
             <div className=" -skew-x-12 group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
+            <div className="h-full">
               <img
                 className="h-full object-cover transition-all duration-200 group-hover:scale-125"
-                src="http://thecodeplayer.com/uploads/media/40Ly3VB.jpg"
+                src="https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291"
                 alt=""
               />
+              </div>
               <div className="invisible absolute inset-0 bg-gradient-to-b from-red-500/20 to-black group-hover:visible">
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div className="flex gap-3 text-white">
@@ -144,11 +148,15 @@ const Skew2 = () => {
             </div>
 
             <div className=" -skew-x-12 group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
-              <img
+            <div className="h-full">
+
+            <img
                 className="h-full object-cover transition-all duration-200 group-hover:scale-125"
-                src="http://thecodeplayer.com/uploads/media/00kih8g.jpg"
+                src="https://ik.imagekit.io/tvfucug8t/299931819_5474832855928681_3837718550837062886_n_2.png?updatedAt=1678715222688"                
                 alt=""
               />
+            </div>
+             
               <div className="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div className="flex gap-3 text-white">
@@ -165,11 +173,15 @@ const Skew2 = () => {
             </div>
 
             <div className=" -skew-x-12 -mr-28 group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
-              <img
+             <div className="h-full">
+             <img
                 className="h-full object-cover transition-all duration-200 group-hover:scale-125"
-                src="http://thecodeplayer.com/uploads/media/2rT2vdx.jpg"
+                src="https://ik.imagekit.io/tvfucug8t/313401932_672173041137923_522549174449123500_n_1.png?updatedAt=1678715228859"
+
                 alt=""
               />
+             </div>
+             
               <div className="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div className="flex gap-3 text-white">
@@ -193,6 +205,7 @@ const Skew2 = () => {
         </Marquee>
       </div>
     </div>
+  
   );
 };
 
