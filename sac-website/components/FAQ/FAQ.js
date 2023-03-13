@@ -47,7 +47,7 @@ const FAQ = () => {
   const handleQuestionClick = (index) => {
     if (index === openQuestionIndex) {
       // if the clicked question is already open, close it
-      setOpenQuestionIndex(null);
+      // setOpenQuestionIndex(null);
     } else {
       // otherwise, open the clicked question and close any others
       setOpenQuestionIndex(index);
