@@ -1,3 +1,5 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,7 +22,7 @@
     }
 
   .test{
-    border:2px solid #6775f5;    
+    /* border:2px solid #6775f5;     */
   }
   
 }
