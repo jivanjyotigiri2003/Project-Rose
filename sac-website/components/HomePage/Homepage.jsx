@@ -5,7 +5,7 @@ import MarqueeIcon from "./MarqueeIcon";
 const Skew2 = () => {
   return (
     <div className="web-hide">
-      <div className=" relative flex items-center  h-[90vh]  bg-[url('../public/img1.jpg')] bg-cover">
+      <div className=" relative flex items-center  h-[100vh]  bg-[url('../public/img1.jpg')] bg-cover">
         <div className=" bg-black-100 w-[100%] h-[100%] pl-8 bg-[#A4161A]/70">
           <div className="relative top-[25%] ">
             <p className=" text-white pb-[1rem] text-3xl xl:text-4xl font-normal">
