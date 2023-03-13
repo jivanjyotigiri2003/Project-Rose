@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import MainSec from "./MainSec";
-import { EventSecn, Logo } from "./styles";
+import { EventSecn, Logo } from "./stylescss";
 // import allEvents from "./event/eventsInfo";
 import { useRouter } from "next/router";
 import Link from "next/link";

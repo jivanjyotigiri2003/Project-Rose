@@ -1,7 +1,7 @@
 import React from "react";
 import EventSec from "./EventSec";
 
-import { Main, SecName, event } from "./styles";
+import { Main, SecName, event } from "./stylescss";
 const MainSec = ({ property, info, clickFun }) => {
   return (
     <Main
