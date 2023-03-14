@@ -12,7 +12,7 @@ const EventCom = () => {
 
   const objMain = {
     info: {
-      dance: { sec: "dance", bgColor: "#153C37" },
+      dance: { sec: "Technical", bgColor: "#153C37" },
       music: { sec: "music", bgColor: "#A34744" },
       drama: { sec: "drama", bgColor: "#EDAD38" },
       random: { sec: "random", bgColor: "Black" },
