@@ -32,7 +32,7 @@ export default function Announcement() {
           <div className="text-3xl my-6 font-bold lg:translate-x-6 text-center">
             Announcement
           </div>
-          <div className="mx-2">
+          <div className="mx-2 text-white">
             {EventsData.map((data) => {
               return (
                 <div className="lg:flex">
