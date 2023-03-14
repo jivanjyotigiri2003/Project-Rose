@@ -27,7 +27,7 @@ export default function SocietyCarousel({
       >
         {data}
       </div>
-      <div className="absolute inset-0 flex items-center justify-between p-1">
+      <div className="absolute inset-0 flex items-center justify-between p-1 md:mt-0 mt-10">
         <button
           onClick={prev}
           className=" rounded-full shadow bg-white opacity-60 hover:opacity-90 "
