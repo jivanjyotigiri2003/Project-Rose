@@ -48,7 +48,17 @@ const HomePageMobile = () => {
             </li>
             <li>
               <button onClick={modal}>
+                <Link href="/about">About</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
                 <Link href="/societies">Societies</Link>
+              </button>
+            </li>
+            <li>
+              <button onClick={modal}>
+                <Link href="/Club">Clubs</Link>
               </button>
             </li>
             <li>
@@ -61,11 +71,7 @@ const HomePageMobile = () => {
                 <Link href="/events">Events</Link>
               </button>
             </li>
-            <li>
-              <button onClick={modal}>
-                <Link href="/about">About</Link>
-              </button>
-            </li>
+
             <li>
               <button onClick={modal}>
                 <Link href="/contact">Contact</Link>
