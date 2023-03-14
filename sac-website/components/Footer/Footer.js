@@ -51,14 +51,14 @@ export default function Footer() {
             <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1">
             Rourkela, Odisha, India, 769008
             </h1>
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto  my-1">
-             0661-246-2020 / 2002
+            <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1 cursor-pointer" ><a href="tel:0661-246-2020 / 2002">0661-246-2020 / 2002</a>
+           
             </h1>
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto  my-1">
-            registrar@nitrkl.ac.in
+            <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1 cursor-pointer" > <a href="mailto:registrar@nitrkl.ac.in"> registrar@nitrkl.ac.in</a>
+           
             </h1>
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1">
-            www.nitrkl.ac.in
+            <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1 cursor-pointer" > <a href="mailto:www.nitrkl.ac.in"> www.nitrkl.ac.in</a>
+           
             </h1>
             <div className="flex space-x-4 py-4 mx-auto  cursor-pointer ">
             <a href="https://www.facebook.com/sac.nitr/" target="_blank"><FaFacebook size={32}  color={"white"}  /></a>
