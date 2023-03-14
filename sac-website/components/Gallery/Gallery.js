@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 
 function Gallery() {
   return (
-    <div className=" bg-[url('../public/img1.jpg')] bg-cover">
+    <div className=" bg-[url('https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940')] bg-cover">
       <div className="bg-[#A4161A]/70 py-24">
         <Fade direction="up" triggerOnce="true" delay="50">
           <Marquee gradientWidth="100" speed="100" pauseOnHover="true">
