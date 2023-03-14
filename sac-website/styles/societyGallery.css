@@ -127,7 +127,8 @@
   top: 0;
   width: 100%;
   z-index: 9;
-  background-color: rgb(225, 8, 8);
+  /* background-color: rgb(225, 8, 8); */
+  background-color: #BA181B;
   height: 10vh;
 }
 

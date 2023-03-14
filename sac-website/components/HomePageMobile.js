@@ -16,7 +16,7 @@ const HomePageMobile = () => {
   return (
     <>
       <div className="h-screen mobile-hide ">
-        <div
+        {/* <div
           style={{ height: "10vh" }}
           className="flex justify-between items-center px-1 py-1 z-9999 bg-red-600 navdiv "
         >
@@ -29,7 +29,6 @@ const HomePageMobile = () => {
           </div>
           <div>
             <button onClick={modal}>
-              {/* <RxHamburgerMenu className="text-2xl mb-2 mr-2 text-white" /> */}
               <div className="hamburger-icon" onClick={modal}>
                 <div className={`line ${isOpen ? "open" : ""}`}></div>
                 <div className={`line ${isOpen ? "open" : ""}`}></div>
@@ -78,7 +77,7 @@ const HomePageMobile = () => {
               </button>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <Parallax pages={1.21}>
           <ParallaxLayer offset={0} speed={0}>
