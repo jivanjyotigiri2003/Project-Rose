@@ -10,6 +10,12 @@ export default function Carousel() {
   return (
     // <div className='w-screen h-[100vh] max-[500px]:h-[65vh] test'>
     <Fade direction="up" triggerOnce="true">
+      <div className="flex flex-col w-full h-full">
+      <div className=" title font-normal text-3xl md:text-5xl tracking-wide  lg:text-4xl   lg:px-10 px-6 p-12    w-full h-[4vh] bg-black text-white ">
+              Fests
+            </div>
+
+     <div>
       <FestCarousel>
         {carousel.map((data) => {
           return (
@@ -26,6 +32,9 @@ export default function Carousel() {
           );
         })}
       </FestCarousel>
+      </div>
+      </div>
     </Fade>
+     
   );
 }
