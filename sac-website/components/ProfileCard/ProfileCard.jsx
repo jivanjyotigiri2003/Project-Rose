@@ -5,7 +5,7 @@ import { BiChevronDown } from "react-icons/bi";
 
 function ProfileCard({designation}) {
   return (
-    <div className=" w-[165px] md:w-[320px] lg:w-[410px] 2xl:w-[570px] h-[360px] md:h-[600px] lg:h-[700px] 2xl:h-[800px] rounded-md overflow-hidden flex flex-col ">
+    <div className=" w-[165px] md:w-[320px] lg:w-[350px] xl:w-[]  h-[360px] md:h-[600px] lg:h-[770px]  rounded-md overflow-hidden flex flex-col ">
     <div className="bg-[#fffceb] h-[30%] rounded-xl flex items-center justify-center">
       <h1
         className={
@@ -15,7 +15,7 @@ function ProfileCard({designation}) {
         {designation}
       </h1>
     </div>
-    <div className="rounded-xl h-[70%] bg-[#A4161A] mx-4 lg:mx-14 -mt-16">
+    <div className="rounded-xl  h-[70%] bg-[#A4161A] mx-4  -mt-16">
       <img
         src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg"
         alt="..."
