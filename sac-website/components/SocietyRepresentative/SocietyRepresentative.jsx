@@ -6,50 +6,50 @@ export default function SocietyRepresentative({data='SAC Officials'}) {
   const representative = [
     {
       officialsImage:
-        "https://ik.imagekit.io/tvfucug8t/offimg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678449462704",
-      name: "John Doe",
+        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+      name: "Prof. Poonam Singh",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/tvfucug8t/offimg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678449462704",
-      name: "John Doe",
+        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+      name: "Prof. Poonam Singh",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/tvfucug8t/offimg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678449462704",
-      name: "John Doe",
+        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+      name: "Prof. Poonam Singh",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/tvfucug8t/offimg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678449462704",
-      name: "John Doe",
+        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+      name: "Prof. Poonam Singh",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/tvfucug8t/offimg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678449462704",
-      name: "John Doe",
+        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+      name: "Prof. Poonam Singh",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/tvfucug8t/offimg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678449462704",
-      name: "John Doe",
+        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+      name: "Prof. Poonam Singh",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/tvfucug8t/offimg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678449462704",
-      name: "John Doe",
+        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+      name: "Prof. Poonam Singh",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/tvfucug8t/offimg.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1678449462704",
-      name: "John Doe",
+        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+      name: "Prof. Poonam Singh",
       designation: "President",
     },
   ];
@@ -69,7 +69,7 @@ export default function SocietyRepresentative({data='SAC Officials'}) {
                 key={index}
                 className="h-[20rem] flex flex-col justify-center items-center "
               >
-                <div className="w-[15rem] h-[15rem]  test rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
+                <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
                   <img
                     src={item.officialsImage}
                     alt="officialsImage"

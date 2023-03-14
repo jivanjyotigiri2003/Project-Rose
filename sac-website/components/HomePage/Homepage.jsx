@@ -110,7 +110,7 @@ const Skew2 = () => {
                  
                  <div>
                    <p className="text-xl font-semibold text-gray-100">
-                  Literary & Culture Society 
+                  Games and Sports
                    </p>
                    
                  </div>
