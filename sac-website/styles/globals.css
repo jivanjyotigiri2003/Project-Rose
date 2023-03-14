@@ -24,7 +24,9 @@
   .test{
     border:2px solid #6775f5;    
   }
-  
+  .text-vertical{
+    text-orientation: upright;
+  }
 }
 
 
