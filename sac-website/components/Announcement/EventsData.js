@@ -1,11 +1,11 @@
 const EventsData = [
-  { event: "Lorem Ipsum" },
-  { event: "Lorem Ipsum" },
-  { event: "Lorem Ipsum" },
-  { event: "Lorem Ipsum" },
-  { event: "Lorem Ipsum" },
-  { event: "Lorem Ipsum" },
-  { event: "Lorem Ipsum" },
+  { event: "Nitrutsav 2023" },
+  { event: "Nitrutsav 2023" },
+  { event: "Nitrutsav 2023" },
+  { event: "Nitrutsav 2023" },
+  { event: "Nitrutsav 2023" },
+  { event: "Nitrutsav 2023" },
+  { event: "Nitrutsav 2023" },
 ];
 
 export default EventsData;

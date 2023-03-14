@@ -17,7 +17,7 @@ function ContactPage() {
           <div className="bg-[#00000073] bg-no-repeat w-full bg-cover bg-center min-h-screen">
             <div className="flex justify-center items-center min-h-screen">
               <h1 className={" text-white font-bold text-5xl text-center"}>
-                SAC MANAGEMENT
+                CONTACT
               </h1>
             </div>
           </div>

@@ -16,7 +16,7 @@ export default function Gallery() {
                  " text-white font-bold text-5xl text-center"
                 }
               >
-                SAC MANAGEMENT
+               Gallery
               </h1>
             </div>
           </div>

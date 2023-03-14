@@ -13,15 +13,16 @@ const Navbar = () => {
           <img src="logo.svg" alt="" />
         </div>
         <div className=" flex justify-around space-x-12 p-5 text-white font-light">
-         <Link  href="/">  Home </Link> 
+          <Link href="/"> Home </Link>
+          <Link href="/about">About</Link>
+
           <Link href="/societies">Societies</Link>
-          
           <Link href="/events">Events</Link>
-         <Link href="/gallery">Gallery</Link>
-         <Link href="/about">About</Link>
+
+          <Link href="/Club">Clubs</Link>
+          <Link href="/gallery">Gallery</Link>
 
           <Link href="/contact">Contact</Link>
-         
         </div>
       </div>
     </div>

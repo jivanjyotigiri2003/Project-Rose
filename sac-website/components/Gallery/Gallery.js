@@ -19,7 +19,7 @@ function Gallery() {
                     height={data.height}
                     width={data.width}
                     alt={data.alt}
-                    className="rounded-md"
+                    className="rounded-md h-[100%]"
                   />
                 </div>
               );

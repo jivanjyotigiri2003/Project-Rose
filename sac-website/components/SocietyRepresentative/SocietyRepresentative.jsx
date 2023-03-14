@@ -2,7 +2,7 @@ import React from "react";
 import SocietyCarousel from "./SocietyCarouselMobile";
 import { Fade } from "react-awesome-reveal";
 
-export default function SocietyRepresentative() {
+export default function SocietyRepresentative({data='SAC Officials'}) {
   const representative = [
     {
       officialsImage:
@@ -59,7 +59,7 @@ export default function SocietyRepresentative() {
     <div className="w-screen ">
 
       <Fade direction="up" triggerOnce="true" delay="50">
-        <h1 className="w-[100%] text-3xl font-[600] p-4 text-center ">Sac Officials</h1>
+        <h1 className="w-[100%] text-3xl font-[600] p-4 text-center ">{data}</h1>
 
         {/* For Desktop */}
         <div className="w-[100%] h-[90%] flex justify-center items-center p-[2rem] flex-wrap">
