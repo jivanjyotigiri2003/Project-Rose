@@ -1,4 +1,6 @@
 import React from "react";
+import { Target } from "react-feather";
+import Link from "next/link";
 const FestCarousel = ({ name, category, desc, link, img }) => {
   return (
     <div>
@@ -20,8 +22,10 @@ const FestCarousel = ({ name, category, desc, link, img }) => {
             </p>
             <div className="flex items-center my-2">
               <button className="border lg:my-2 px-2 py-2 text-lg rounded-lg my-2  ">
-                Know More
-                {link}
+                <a href="https://www.google.com">
+                  Know More
+                  {/* {a} */}
+                </a>
               </button>
             </div>
           </div>

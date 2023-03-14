@@ -5,7 +5,7 @@ const data = [
     category: "Annual Techno-Management Fest",
     desc: "Innovision is one of the biggest technical fests in Eastern India.  ",
     img: "https://res.cloudinary.com/dnqipwdsl/image/upload/v1677824671/inno2_dk4jzk.png",
-    link: "",
+    link: "https://inno.nitrkl.in/",
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ const data = [
     category: "Annual Ethno-cultural Fest",
     desc: "Biggest Ethno-cultural fest of Eastern India ",
     img: "https://res.cloudinary.com/dnqipwdsl/image/upload/v1677857844/Screenshot_132_gjtdim.png",
-    link: "",
+    link: "https://www.multiethnicfest.com/",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const data = [
     category: "Annual Cultural Fest",
     desc: "Biggest Cultural Fest of Eastern India",
     img: "https://res.cloudinary.com/dnqipwdsl/image/upload/v1677824671/inno2_dk4jzk.png",
-    link: "",
+    link: "https://nitrutsav.live/",
   },
   {
     id: 3,
