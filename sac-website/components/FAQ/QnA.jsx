@@ -20,7 +20,7 @@ const QnA = ({question, answer, index}) => {
           {isopen && (
               <div className={`bg-[#e5383b] p-3.5 rounded-b-md transition`}>
                   {answer}
-              </div>
+              </div> 
           )}
       </div>
   )
