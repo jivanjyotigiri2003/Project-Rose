@@ -62,7 +62,7 @@ export default function SocietyRepresentative({data='SAC Officials'}) {
         <h1 className="w-[100%] text-3xl font-[600] p-4 text-center ">{data}</h1>
 
         {/* For Desktop */}
-        <div className="w-[100%] h-[90%] flex justify-center items-center p-[2rem] flex-wrap">
+        <div className="w-[100%]  flex justify-center items-center p-[2rem] flex-wrap">
           {representative.map((item, index) => {
             return (
               <div

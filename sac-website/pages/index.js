@@ -1,6 +1,6 @@
 import ClubName from "@/components/ClubName/ClubName";
 
-import Society from "@/pages/societies";
+import Society from "@/components/Societies";
 import SocietyCom from "@/components/Societies/SocietyCom";
 
 import Skew2 from "@/components/HomePage/Homepage";

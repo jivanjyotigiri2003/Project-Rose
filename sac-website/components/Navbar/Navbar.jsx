@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className=" w-screen h-[12vh] p-[1rem] px-[2rem] flex justify-between  bg-gradient-to-t from-transparent to-gray-900">
+      <div className=" w-screen h-[12vh] p-5 px-[2rem] flex justify-between  bg-gradient-to-t from-transparent to-gray-900">
         <div className=" ">
           <img src="logo.svg" alt="" />
         </div>
