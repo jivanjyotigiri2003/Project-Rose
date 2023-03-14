@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 
 function Gallery() {
   return (
-    <div className=" bg-[url('../public/img1.jpg')] bg-cover">
+    <div className=" bg-[url('https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940')] bg-cover">
       <div className="bg-[#A4161A]/70 h-[100%] py-10">
         <div className="text-4xl font-semibold text-center text-white pb-8">
           Gallery

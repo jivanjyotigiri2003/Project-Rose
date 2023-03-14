@@ -115,7 +115,7 @@ const HomePageMobile = () => {
             </p>
           </ParallaxLayer>
           <ParallaxLayer offset={0.9999999} speed={1.94}>
-            <div className="cate">
+            <div className="cate h-fill ">
               <img
                 style={{ width: "100%", height: "15.5vh", objectFit: "cover" }}
                 className="hover:w-9/12 cursor-pointer overflow-scroll"
@@ -134,8 +134,9 @@ const HomePageMobile = () => {
               />
               <img
                 style={{ width: "100%", height: "15.5vh", objectFit: "cover" }}
-                src="https://ik.imagekit.io/tvfucug8t/313401932_672173041137923_522549174449123500_n_1.png?updatedAt=1678715228859"
+                src="https://ik.imagekit.io/gourab18/sports.png?updatedAt=1678795149858"
                 alt=""
+                // className="test"
               />
             </div>
           </ParallaxLayer>
