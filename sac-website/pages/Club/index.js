@@ -12,6 +12,7 @@ import Image from "next/image";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
 import dean from "../../public/dean.jpg";
 import SocietyRepresentative from "@/components/SocietyRepresentative/SocietyRepresentative";
+import ClubName  from '@/components/ClubName/ClubName';
 
 export default function Club() {
   return (
@@ -19,6 +20,7 @@ export default function Club() {
       <ClubHero2 />
       <DeanSpeaks data={`About Webwiz`} />
       <SocietyRepresentative data={`Club representatives`} />
+      <ClubName/>
       <SocietyGallery />
 
       {/* <Footer/> */}
