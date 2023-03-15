@@ -39,7 +39,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <div className="pb-2 mt-16">
+            <div className=" mt-16">
               <h1 className="text-md font-bold text-white pb-2 pl-2">Events</h1>
               <ul className="text-white text-md cursor-pointer tracking-wide ">
                 <li>
@@ -75,7 +75,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h1 className="text-md font-bold text-white pb-2 pl-2">Events</h1>
+              {/* <h1 className="text-md font-bold text-white pb-2 pl-2">Events</h1> */}
               <ul className="text-white text-md cursor-pointer tracking-wide">
                 <li>
                   {" "}
@@ -90,21 +90,21 @@ export default function Footer() {
                 <li>
                   {" "}
                   <a
-                    href="https://incofibsnitr.com/"
+                    href="https://www.hacknitr.com/"
                     className="hover:font-semibold"
                     target="_blank"
                   >
-                    INCOFIBS
+                    HackNitr
                   </a>{" "}
                 </li>
                 <li>
                   {" "}
                   <a
-                    href="https://website.nitrkl.ac.in/Home/Events/EventDetails.aspx?hfjghfj=NTA0ODA%3d-atf6nOhJPtI%3d&fgkyu4y=Q0VQ-MPz1h3M047U%3d"
+                    href="https://hackodisha2022.tech/"
                     className="hover:font-semibold"
                     target="_blank"
                   >
-                    ICSIMP
+                    HackOdisha
                   </a>{" "}
                 </li>
                 <li>

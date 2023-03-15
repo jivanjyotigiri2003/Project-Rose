@@ -14,7 +14,7 @@ import Footer from "../components/Footer/Footer";
 import Aboutsac from "@/components/DeanSpeaks/DeanSpeaks";
 import Deanspeaks from "@/components/DeanSpeaks/DeanSpeaks";
 import SocietyGallery from "../components/SocietyGallery/SocietyGallery";
-import ClubHero from "@/components/ClubHero/ClubHero";
+// import ClubHero from "@/components/ClubHero/ClubHero";
 import AboutPage from "../components/AboutPage/AboutPage";
 import Gallery from "@/components/Gallery/Gallery";
 
