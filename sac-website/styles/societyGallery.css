@@ -9,6 +9,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   box-sizing: border-box;
 }
@@ -53,7 +54,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0;
+  margin: auto;
   /* animation: carousel 15s infinite linear; */
   animation-play-state: running;
 }
@@ -78,7 +79,7 @@
 .container .box .dream {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 24vw;
   height: auto;
   align-items: center;
 }
@@ -209,5 +210,9 @@ li {
 @media only screen and (min-width: 600px) {
   .mobile-hide {
     display: none;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }

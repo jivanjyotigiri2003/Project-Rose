@@ -12,7 +12,6 @@ export default function Footer() {
       <div className="bg-[#660708] ">
         <div className="  flex flex-wrap md:flex-row content-around justify-around pt-0">
           <div className=" flex flex-col justify-center  ">
-            <Image src={logonitr} className="w-24 pb-4 "></Image>
 
             <h1 className="text-lg font-semibold text-white pt-2 pl-2">
               Sitemap
@@ -39,8 +38,8 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <div className=" mt-16">
-              <h1 className="text-md font-bold text-white pb-2 pl-2">Events</h1>
+            <div className="mt-2  lg:mt-16">
+              <h1 className="text-lg font-bold text-white pb-2 pl-2">Events</h1>
               <ul className="text-white text-md cursor-pointer tracking-wide ">
                 <li>
                   {" "}
@@ -87,16 +86,7 @@ export default function Footer() {
                     VRIDDHI
                   </a>{" "}
                 </li>
-                <li>
-                  {" "}
-                  <a
-                    href="https://www.hacknitr.com/"
-                    className="hover:font-semibold"
-                    target="_blank"
-                  >
-                    HackNitr
-                  </a>{" "}
-                </li>
+               
                 <li>
                   {" "}
                   <a
@@ -110,18 +100,24 @@ export default function Footer() {
                 <li>
                   {" "}
                   <a
-                    href="https://tedxnitrourkela.com/"
+                    href="https://www.hacknitr.com/"
                     className="hover:font-semibold"
                     target="_blank"
                   >
-                    TEDX
+                    HackNitr
                   </a>{" "}
                 </li>
+                
               </ul>
             </div>
           </div>
-          <div className="flex flex-col  my-[12vh]">
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto  my-1">
+          <div className="flex flex-col ">
+            <div className="flex justify-center">
+            <Image src={logonitr} className="w-24 py-4 "></Image>
+            </div>
+        
+
+            <h1 className="text-xl font-normal text-white leading-8 mx-auto   my-1">
               National Institute of Technology
             </h1>
             <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1">
