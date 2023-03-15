@@ -16,8 +16,8 @@ import SocietyRepresentative from "@/components/SocietyRepresentative/SocietyRep
 export default function Club() {
   return (
     <div>
-      <ClubHero2 />
-      <DeanSpeaks data={`About Webwiz`} />
+      <ClubHero2    />
+      <DeanSpeaks data={`About Webwiz`} /> 
       <SocietyRepresentative data={`Club representatives`} />
       {/* <ClubName/> */}
       <SocietyGallery />
