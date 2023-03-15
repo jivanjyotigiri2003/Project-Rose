@@ -7,7 +7,7 @@ export default function ClubName({socName}) {
     
   
    
-    console.log(clubData);
+    // console.log(clubData);
   
    return (
 
