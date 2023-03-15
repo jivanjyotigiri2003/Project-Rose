@@ -4,45 +4,44 @@ import Head from 'next/head';
 
 
 export default function Events() {
-  
   const eventData = [
     {
       image:
         "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-     title: "Noteworthy technology acquisitions 2021",
-      description:"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      title: "Noteworthy technology acquisitions 2021",
+      description:
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
     {
       image:
         "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-     title: "Noteworthy technology acquisitions 2021",
-      description:"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      title: "Noteworthy technology acquisitions 2021",
+      description:
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
     {
       image:
         "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-     title: "Noteworthy technology acquisitions 2021",
-      description:"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      title: "Noteworthy technology acquisitions 2021",
+      description:
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
     {
       image:
         "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-     title: "Noteworthy technology acquisitions 2021",
-      description:"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      title: "Noteworthy technology acquisitions 2021",
+      description:
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
     {
       image:
         "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-     title: "Noteworthy technology acquisitions 2021",
-      description:"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      title: "Noteworthy technology acquisitions 2021",
+      description:
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
- 
   ];
 
-  
-  
-  
-  
   return (
     <>
       <Head>
@@ -96,11 +95,14 @@ export default function Events() {
         </div>
 
         <div className="flex  items-center justify-center">
-          <div className="grid grid-cols-3 space-y-5 place-content-center  ">
+          <div className="grid-container ">
             {eventData.map((event, index) => (
               <div
                 class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-[1rem]"
                 key={index}
+                style={{
+                  boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+                }}
               >
                 <a href="#">
                   <img class="rounded-t-lg" src={event.image} alt="" />

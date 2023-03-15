@@ -6,23 +6,25 @@ import Head from 'next/head.js';
 
 export const socData=[
   {
-      name:"Technical Society",
-      image:"https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291",
+    name: "Technical Society",
+    image:
+      "https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291",
   },
   {
-      name:"Film and Music Society",
-      image:"https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100"
+    name: "Film and Music Society",
+    image: "https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100",
   },
   {
-      name:"Literary and Culture Society",
-      image:"https://ik.imagekit.io/tvfucug8t/299931819_5474832855928681_3837718550837062886_n_2.png?updatedAt=1678715222688",
+    name: "Literary and Culture Society",
+    image:
+      "https://ik.imagekit.io/tvfucug8t/299931819_5474832855928681_3837718550837062886_n_2.png?updatedAt=1678715222688",
   },
   {
-      name:"Games and Sports Society",
-      image:"https://ik.imagekit.io/tvfucug8t/313401932_672173041137923_522549174449123500_n_1.png?updatedAt=1678715228859"
-  }
-]
-
+    name: "Games and Sports Society",
+    image:
+      "https://ik.imagekit.io/tvfucug8t/313401932_672173041137923_522549174449123500_n_1.png?updatedAt=1678715228859",
+  },
+];
 
 export default function societies() {
   const router = useRouter();
@@ -92,4 +94,3 @@ export default function societies() {
       </>
     );
 }
-
