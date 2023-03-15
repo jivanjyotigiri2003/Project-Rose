@@ -9,7 +9,7 @@ import {socData} from '../index.jsx'
 import Head from 'next/head.js';
 import clubData from '../../../data/data.js';
 
-import clubData from "../../../data/data.js";
+// import clubData from "../../../data/data.js";
 
 export default function soc() {
   const router = useRouter();
@@ -104,7 +104,7 @@ export async function getStaticPaths() {
 
 export function getStaticProps({ params }) {
   const clubName = clubData;
-  console.log(clubName);
+  console.log(params);
   const data = clubName.filter((club) => {
     return club.clubSociety == params.socID;
   });
