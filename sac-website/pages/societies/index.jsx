@@ -76,19 +76,22 @@ export default function societies() {
         </Head>
 
         <div className="h-screen w-screen flex ">
-          <div className="absolute h-screen w-screen z-999 bg-black-500/[.8]"></div>
-          {socData.map((soc, index) => (
-            <div className="w-[25%]  h:text-[5vw] h:shadow-lg" key={index}>
-              <Link href={`/societies/${soc.name}`}>
-                <h1 className="absolute h-[100%] w-[25%] p-[1rem] top-[40%] text-[3vw] text-vertical z-100 text-white text-center h:text-underline ">
-                  {soc.name}{" "}
-                </h1>
-              </Link>
-              <img
-                src={soc.image}
-                className="h-[100%] w-[100%] object-cover -z-10"
-              />
-            </div>
+        <div className="absolute h-screen w-screen z-999 bg-black/70"></div>
+      {socData.map((soc, index) => (
+        <div
+          className="w-[25%]  h:shadow-lg transition duration-600 ease-in-out hover:scale-110"
+          key={index}
+        >
+          <Link href={`/societies/${soc.name}`}>
+            <h1 className="absolute h-[100%] w-[25%] h:w-[100%] p-[1rem] top-[40%] text-[3vw]  text-vertical z-100 text-white text-center h:text-underline">
+              {soc.name}
+            </h1>
+          </Link>
+          <img
+            src={soc.image}
+            className="h-[100%] w-[100%] object-cover -z-10 "
+          />
+        </div>
           ))}
         </div>
       </>
