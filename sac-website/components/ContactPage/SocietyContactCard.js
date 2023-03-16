@@ -2,8 +2,6 @@ import React from "react";
 import ContactCard from "./ContactCard";
 
 const SocietyContactCard = ({ societyTitle ,color1,color2,color3,stroke}) => {
-  const stroke1= "w-[60%] mx-auto bg-gradient-to-r from-white via-[#A4161A] to-white h-0.5";
-  const stroke2= "w-[60%] mx-auto bg-gradient-to-r from-[#A4161A] via-white to-[#A4161A] h-0.5"
   return (
      
       <div>
