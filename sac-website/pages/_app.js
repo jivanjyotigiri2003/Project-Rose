@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
       </div>
 
       <Component {...pageProps} />
-      <Footer />
+      {/* <Footer /> */}
       {/* <Callandar /> */}
     </main>
   );
