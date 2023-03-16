@@ -18,22 +18,22 @@ export default function Footer() {
             </h1>
             <ul className="text-white text-md py-2 pl-2 cursor-pointer">
               <li>
-                <Link href="/"> Home </Link>{" "}
+                <Link href="/" className="hover:font-bold"> Home </Link>{" "}
               </li>
               <li>
-                <Link href="/about"> About </Link>{" "}
+                <Link href="/about" className="hover:font-bold"> About </Link>{" "}
               </li>
               <li>
-                <Link href="/societies"> Societies </Link>{" "}
+                <Link href="/societies" className="hover:font-bold"> Societies </Link>{" "}
               </li>
               <li>
-                <Link href="/events"> Events </Link>{" "}
+                <Link href="/events" className="hover:font-bold"> Events </Link>{" "}
               </li>
               <li>
-                <Link href="/gallery"> Gallery </Link>{" "}
+                <Link href="/gallery" className="hover:font-bold"> Gallery </Link>{" "}
               </li>
               <li>
-                <Link href="/contact"> Contact </Link>{" "}
+                <Link href="/contact" className="hover:font-bold"> Contact </Link>{" "}
               </li>
             </ul>
           </div>
