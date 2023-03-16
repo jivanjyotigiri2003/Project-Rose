@@ -9,7 +9,6 @@ import {socData} from '../index.jsx'
 import Head from 'next/head.js';
 import clubData from '../../../data/data.js';
 
-import clubData from "../../../data/data.js";
 
 export default function soc() {
   const router = useRouter();
