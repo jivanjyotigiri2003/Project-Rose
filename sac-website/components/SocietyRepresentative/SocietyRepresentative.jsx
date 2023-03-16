@@ -112,7 +112,7 @@ const representative2 =[
           })}
         </div>
        
-        <div className="w-[100%]  flex justify-between items-center  xl:p-[.1rem] 2xl:p-[4rem] flex-wrap">
+        <div className="w-[100%]  flex justify-between items-center p-[2rem] xl:p-[.1rem] 2xl:p-[4rem] flex-wrap">
         {representative2.map((item, index) => {
             return (
               <div
