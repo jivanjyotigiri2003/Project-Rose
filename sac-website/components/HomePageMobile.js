@@ -12,7 +12,7 @@ const HomePageMobile = () => {
   const modal = () => {
     setShowModal(!showModal);
     setIsOpen(!isOpen);
-    console.log(showModal);
+    // console.log(showModal);
   };
   return (
     <>

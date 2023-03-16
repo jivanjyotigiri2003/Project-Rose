@@ -1,24 +1,25 @@
-import React from 'react'
-import { ClubHero2 } from '@/components/ClubHero/ClubHero2';
-import clubData from '../../../data/data';
-
-export default function club({data}) {
+import React from "react";
+import ClubHero2 from "@/components/ClubHero/ClubHero2";
+import clubData from "../../../data/data";
+import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
+import SocietyRepresentative from "@/components/SocietyRepresentative/SocietyRepresentative";
+export default function club({ data }) {
   return (
     <>
-        <ClubHero2 name={data.clubName} tagline={data.clubTagline} />
-       
+      <ClubHero2 name={data.clubName} tagline={data.clubTagline} />
+      <DeanSpeaks data={`About ${data.clubName}`}/>
+      <SocietyRepresentative data="Club Representatives"/>
+
     </>
-  )
+  );
 }
 
 export async function getStaticPaths() {
-  
-  
-
   const allPaths = clubData.map((path) => {
+    console.log(path.clubSociety)
     return {
       params: {
-        
+        socID: path.clubSociety.toString(),
         club: path.clubName.toString(),
       },
     };
@@ -30,9 +31,8 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({params}) {
-  
-  
+export async function getStaticProps({ params }) {
+  console.log(params);
   const eventData = clubData.find((ev) => params.club == ev.clubName);
 
   return {
