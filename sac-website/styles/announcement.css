@@ -1,0 +1,36 @@
+.fullwrap {
+    position: relative;
+}
+
+.fullcap {
+    position: absolute;
+    z-index: 99;
+    top: 80%;
+    left: 5%;
+    font-size: 1.6rem;
+    color: white;
+    display: none;
+    transition: 0.3s ease-in;
+}
+
+
+.fullwrap:hover .overlay {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fullwrap:hover .fullcap {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    border-radius: .8rem;
+}
