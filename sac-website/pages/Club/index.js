@@ -63,7 +63,8 @@ const Club = ({ name, tagline }) => {
          
            
             </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 p-4  pt-4 mr-4 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 p-4  pt-4 mr-4 glass">
+            
             {category === "" &&
               clubData
                 .sort((a, b) =>
@@ -71,7 +72,7 @@ const Club = ({ name, tagline }) => {
                 )
                 .map((club) => {
                   return (
-                    <div className="flex flex-col justify-center items-center   px-3 py-12 text-center rounded-md bg-white shadow-2xl ">
+                    <div className="flex flex-col justify-center items-center   px-3 py-12 text-center rounded-md bg-white shadow-2xl glow">
                       <div className="xl:w-[15rem] xl:h-[15rem] lg:w-[10rem] lg:h-[10rem] w-[14rem] h-[14rem] p-2   rounded-full">
                         <img
                           className="h-[100%] w-[100%] object-cover rounded-full test"
@@ -114,6 +115,7 @@ const Club = ({ name, tagline }) => {
                 })}
           </div>
         </div>
+        
       </div>
     </div>
   );
