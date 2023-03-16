@@ -15,7 +15,7 @@ export const socData=[
     image: "https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100",
   },
   {
-    name: "Literary and Culture Society",
+    name: "Literary and Cultural Society",
     image:
       "https://ik.imagekit.io/tvfucug8t/299931819_5474832855928681_3837718550837062886_n_2.png?updatedAt=1678715222688",
   },
@@ -75,22 +75,43 @@ export default function societies() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
 
-        <div className="h-screen w-screen flex ">
-          <div className="absolute h-screen w-screen z-999 bg-black-500/[.8]"></div>
-          {socData.map((soc, index) => (
-            <div className="w-[25%]  h:text-[5vw] h:shadow-lg" key={index}>
-              <Link href={`/societies/${soc.name}`}>
-                <h1 className="absolute h-[100%] w-[25%] p-[1rem] top-[40%] text-[3vw] text-vertical z-100 text-white text-center h:text-underline ">
-                  {soc.name}{" "}
-                </h1>
-              </Link>
-              <img
-                src={soc.image}
-                className="h-[100%] w-[100%] object-cover -z-10"
-              />
-            </div>
+        <div className="h-screen w-screen flex flex-col lg:flex-row ">
+         <div className="absolute h-full w-screen z-999 bg-black/70"></div>
+        {socData.map((soc, index) => (
+        <div
+          className="w-[25%] web-hide h:shadow-lg transition duration-600 ease-in-out hover:scale-110"
+          key={index}
+        >
+          <Link href={`/societies/${soc.name}`}>
+            <h1 className="absolute h-[100%] w-[25%] h:w-[100%] p-[1rem] top-[40%] text-[3vw]  text-vertical z-100 text-white text-center h:text-underline ">
+              {soc.name}
+            </h1>
+          </Link>
+          <img
+            src={soc.image}
+            className="h-[100%] w-[100%] object-cover -z-10 "
+          />
+        </div>
+          ))}
+        {socData.map((soc, index) => (
+        <div
+          className="w-[100%] h-[25%] mobile-hide h:shadow-lg transition duration-600 ease-in-out hover:scale-110 test"
+          key={index}
+        >
+          <Link href={`/societies/${soc.name}`}>
+            <h1 className="absolute h-[25vh] w-[100%] h:w-[100%] p-[1rem] py-[10vh]  text-[3vw] test text-vertical z-100 text-white text-center h:text-underline ">
+              {soc.name}
+            </h1>
+          </Link>
+          <img
+            src={soc.image}
+            className="h-[100%] w-[100%] object-cover -z-10 "
+          />
+        </div>
           ))}
         </div>
+
+
       </>
     );
 }

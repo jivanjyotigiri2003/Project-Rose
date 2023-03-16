@@ -59,8 +59,8 @@ export default function soc() {
         <div className="  bg-gradient-to-b from-[#850101cc] to-[#8501011a] bg-no-repeat w-full bg-cover bg-center min-h-screen">
           <div className="bg-[#00000073] bg-no-repeat w-full bg-cover bg-center min-h-screen">
             <div className="flex justify-center items-center min-h-screen">
-              <div className=" text-center tracking-wide text-6xl font-bold  text-white z-50 saturate-100 bg-cover top-0 left-0 ">
-                {socName} Society
+              <div className=" text-center tracking-wide text-6xl font-bold  text-white  saturate-100 bg-cover top-0 left-0 ">
+                {socID} 
                 <p className="  pt-10 text-xl font-semibold tracking-wide ">
                   THE TECHNICAL SOCIETY OF STUDENT ACTIVITY CENTRE, NIT
                   <br />

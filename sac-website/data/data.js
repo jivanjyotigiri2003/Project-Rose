@@ -170,7 +170,7 @@ const clubData=[
     },
     {
      "index": 11,
-     "clubName": "Chitraang ",
+     "clubName": "Chitraang",
      "clubSociety": "Literary and Cultural Society",
      "clubTagline": "Spray my way",
      "clubDescription": "The primary focus of the graffiti club, Chitraang, is to curate creative ideas that are theme-specific and convey messages through the use of art. The club paints graffiti on the SAC wall and other infrastructure as in, different halls of residence, and stages in and around the campus of NIT Rourkela. ",
