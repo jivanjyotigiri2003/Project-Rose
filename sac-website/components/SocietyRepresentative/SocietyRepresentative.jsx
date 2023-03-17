@@ -1,7 +1,6 @@
 import React from "react";
 import SocietyCarousel from "./SocietyCarouselMobile";
 import { Fade } from "react-awesome-reveal";
-import OfficialCard from "../OfficialCard/OfficialCard"
 
 export default function SocietyRepresentative({data='SAC Officials'}) {
   const representative1 = [

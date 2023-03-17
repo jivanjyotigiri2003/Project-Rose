@@ -106,7 +106,7 @@ const AboutPage = () => {
           })}
         </div>
 
-        <div className="w-[100%]  flex justify-between items-center lg:px-[12rem]  flex-wrap ">
+        <div className="w-[100%]  flex justify-center lg:justify-between items-center p-[2rem] lg:px-[12rem]  flex-wrap ">
         {representative2.map((item, index) => {
             return (
               <div
