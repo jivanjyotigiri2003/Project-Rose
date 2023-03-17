@@ -17,7 +17,7 @@ export default function ClubName({socName}) {
 
    <div className="w-screen relative  p-[2rem] bg-red-700 text-white">
        <h1 className="text-center text-[3rem]">Clubs </h1>
-       <div className=" flex lg:flex-row flex-col items-center justify-center flex-wrap  ">
+       <div className=" flex lg:flex-row flex-col items-center justify-center flex-wrap  glass">
        {clubSocData.map
        ((club,index)=>(
          <Link key={index} href={`/societies/${club.clubSociety}/${club.clubName}`} passHref>

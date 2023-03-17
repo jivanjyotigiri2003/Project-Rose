@@ -1,11 +1,34 @@
 import React from "react";
 
 export default function SocietyGallery({ title }) {
+  
+
+  if (title=="Technical Society"){
+    title="Innovision"
+  }else if(title=="Film and Music Society"){
+    title="Cosmo"
+  } else if(title=="Literary and Cultural Society"){
+    title="Nitrutsav"
+  } else if(title="Games and Sports Society"){
+    title="Vriddhi"
+  }
+  
+  const data=[
+    {
+
+    }
+  ]
+  const tech=[
+    {
+      img:""
+    }
+  ]
+
   return (
     <>
       <div className="s-gallery-container">
         <div className="society-name">
-          <h1 className="s-name">{title}</h1>
+          <h1 className="s-name uppercase">{title}</h1>
         </div>
         <div className="society-gallery-container">
           <div className="container">

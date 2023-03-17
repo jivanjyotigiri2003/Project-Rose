@@ -15,11 +15,7 @@ export default function soc() {
   const router = useRouter();
   const { socID } = router.query;
   // console.log(socID);
-  let socName = "Technical";
-  if (socID == 2) socName = "Film & Music";
-  else if (socID == 3) socName = "Literay & Culture";
-  else if (socID == 4) socName = "Games & Sports";
-
+  
   return (
     <>
      <Head>
@@ -80,7 +76,7 @@ export default function soc() {
 
       <ClubName socName={socID} />
 
-      <SocietyGallery />
+      <SocietyGallery title={socID} />
     </>
   );
 }
