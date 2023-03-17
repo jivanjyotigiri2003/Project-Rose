@@ -33,21 +33,9 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067300/SacOfficials/_SMX0057_cdkl0w.jpg",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067310/SacOfficials/_SMX0008_olkbzm.jpg",
       name: "Prasun Chongder",
       designation: "Vice-President, Technical Society",
-    },
-    {
-      officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067300/SacOfficials/_SMX0025_tkytpq.jpg",
-      name: "Winny Routray",
-      designation: "Vice-President, Literary and Cultural Society",
-    },
-    {
-      officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067300/SacOfficials/_SMX0024_faohbx.jpg",
-      name: "Sivaraman J.",
-      designation: "Vice-President, Literary and Cultural Society",
     },
     {
       officialsImage:
@@ -60,6 +48,18 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
         "https://res.cloudinary.com/webwiznitr/image/upload/v1679067309/SacOfficials/_SMX0058_zr1azz.jpg",
       name: "Mayank Yadav",
       designation: "Vice-President, Games and Sports Society",
+    },
+    {
+      officialsImage:
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067300/SacOfficials/_SMX0025_tkytpq.jpg",
+      name: "Winny Routray",
+      designation: "Vice-President, Literary and Cultural Society",
+    },
+    {
+      officialsImage:
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067300/SacOfficials/_SMX0024_faohbx.jpg",
+      name: "Sivaraman J.",
+      designation: "Vice-President, Literary and Cultural Society",
     },
 
     {
