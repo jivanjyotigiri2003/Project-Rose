@@ -12,7 +12,7 @@ const clubData=[
      "clubFacad": "Prof. Sumanta Pyne",
      "clubFacadMob": 9433746069,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1tjfgKwTEH068SkRO6KLHfiXh5JmdZzhAULNxEB4j04s/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1d8NSLDdnrFfOpPJ1J6YZ816ULVUE32kO"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679066856/ClubGroupPhoto/opencode_2021-22_-_Swatishree_Mahapatra_aiqr94.jpg"
     },
     {
      "index": 2,
@@ -28,7 +28,7 @@ const clubData=[
      "clubFacad": "Dr. Arun Kumar",
      "clubFacadMob": 9971867785,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1V4inmYAXBDcZJwErd_Ay8D_gHDzKuwgPSZV2f9R43Mk/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1rXdnxo6aABTra2NXZx-0S2dSxQn7Ezd3"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679066821/ClubGroupPhoto/APS_EB_Pic_-_Abhijit_Panda_e3n095.jpg"
     },
     {
      "index": 3,
@@ -45,7 +45,7 @@ const clubData=[
      "clubFacad": "Prof. Bibhuti Bhusan Nayak",
      "clubFacadMob": 8249427529,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1-4Lu9Tdi3Es5xNdWNC_V8gcvcQG3hsdD39Es_xkNhxo/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1woHy-vhWWg-X-Sxee5UfdIUVguMQUG5c"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679066925/ClubGroupPhoto/InCerS_Club_Members_-_InCerS_NITR_tsx5r7.jpg"
     },
     {
      "index": 4,
@@ -61,7 +61,7 @@ const clubData=[
      "clubFacad": "Prof. Suraj Kumar Behera",
      "clubFacadMob": 9040893760,
      "clubDocccc": "https://drive.google.com/drive/folders/1NUgq2GTKSTAAuOgCYBRPO787yU9J2_Kp?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1nDA3DP1Mpqmlio9jAcyhUtVfupx1L1nX"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679066977/ClubGroupPhoto/sae_united_-_Puneeth_Param_Senapati_ntc6zr.jpg"
     },
     {
      "index": 5,
@@ -78,7 +78,7 @@ const clubData=[
      "clubFacad": "Prof S.N Alam",
      "clubFacadMob": 9937917811,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/17bY3dkgi1lXGIh5JZjFQmbo3R5Agvr8oy2iZnU_3_mM/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1Iy4Dx3cgh6q8J9tamkdOTzLf8wiOEkDo"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679067074/ClubGroupPhoto/IMG20230301181555_-_Aspirants_NITR_yno9jj.jpg"
     },
     {
      "index": 6,
@@ -96,7 +96,7 @@ const clubData=[
      "clubFacad": "Suverna Trivedi",
      "clubFacadMob": 9451811492,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1CyV_1VkRcgUX52oWVMsf_uc8JJHZzF9POzHdlncyLBs/edit#gid=0",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1HX7G1OO45AhcfUdr2R1UszRKf1iOVGaX"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679067189/ClubGroupPhoto/3E_Group_Pic_-_Md_Kudratullah_bznj5b.jpg"
     },
     {
      "index": 7,
