@@ -116,13 +116,14 @@ const HomePageMobile = () => {
             </p>
           </ParallaxLayer>
           <ParallaxLayer offset={0.9999999} speed={1.94}>
-            <div className="cate h-fill ">
+            <div className="cate h-fill relative">
               <div>
                 <h3
                   style={{
                     position: "absolute",
-                    top: "5vh",
-                    left: "18%",
+                    top: "50%",
+                    left: "50%",
+                    
                     color: "white",
                     fontSize: "1.6rem",
                     textShadow: "1px 1px 5px red",

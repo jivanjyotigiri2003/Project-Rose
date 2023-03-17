@@ -35,7 +35,8 @@ const Skew2 = () => {
               <div className="h-full">
                 <img
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
-                  src="https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100"
+                  src="https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291"
+              // 
                   alt=""
                 />
               </div>
@@ -44,7 +45,7 @@ const Skew2 = () => {
                   <div className="  flex gap-3 text-white"></div>
                   <div>
                     <p className="  text-xl font-semibold text-gray-100">
-                      Film & Music Society
+                     Technical Society
                     </p>
                   </div>
                 </div>
@@ -55,7 +56,7 @@ const Skew2 = () => {
               <div className="h-full">
                 <img
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125"
-                  src="https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291"
+                  src="https://ik.imagekit.io/tvfucug8t/313401932_672173041137923_522549174449123500_n_1.png?updatedAt=1678715228859"
                   alt=""
                 />
               </div>
@@ -63,7 +64,7 @@ const Skew2 = () => {
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div>
                     <p className="text-xl font-semibold text-gray-100">
-                      Technical Society
+                    Games and Sports Society
                     </p>
                   </div>
                 </div>
@@ -94,7 +95,7 @@ const Skew2 = () => {
               <div className="h-full">
                 <img
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125"
-                  src="https://ik.imagekit.io/tvfucug8t/313401932_672173041137923_522549174449123500_n_1.png?updatedAt=1678715228859"
+                  src="https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100"
                   alt=""
                 />
               </div>
@@ -103,7 +104,8 @@ const Skew2 = () => {
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div>
                     <p className="text-xl font-semibold text-gray-100">
-                      Games and Sports
+                    Film & Music Society
+
                     </p>
                   </div>
                 </div>
