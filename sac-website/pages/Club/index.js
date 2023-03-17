@@ -32,7 +32,7 @@ const Club = ({ name, tagline }) => {
               All Societies
             </button>
 
-            <div className=" grid gap-4 lg:gap-10 grid-cols-2  lg:grid-cols-4 test mx-4">
+            <div className=" grid gap-4 lg:gap-10 grid-cols-2  lg:grid-cols-4  mx-4">
               <button
                 className="shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-white"
                 onClick={() => setCategory("Technical Society")}
@@ -72,7 +72,7 @@ const Club = ({ name, tagline }) => {
                       >
                         <div className="xl:w-[15rem] xl:h-[15rem] lg:w-[10rem] lg:h-[10rem] w-[14rem] h-[14rem] p-2   rounded-full">
                           <img
-                            className="h-[100%] w-[100%] object-cover rounded-full test"
+                            className="h-[100%] w-[100%] object-cover rounded-full "
                             src="https://res.cloudinary.com/dzbax077h/image/upload/v1677689847/WEBWIZ_BLACK_BACKGROUD_LOGO_1_cjuiib.png"
                             alt=""
                           />
@@ -101,14 +101,14 @@ const Club = ({ name, tagline }) => {
                 )
                 .map((club) => {
                   return (
-                    <div className="flex flex-col  items-center  px-3 py-12 text-center rounded-md bg-white shadow-2xl glow test">
+                    <div className="flex flex-col  items-center  px-3 py-12 text-center rounded-md bg-white shadow-2xl glow ">
                       <Link
                         href={`/societies/${club.clubSociety}/${club.clubName}`}
                         passHref
                       >
                         <div className="xl:w-[15rem] xl:h-[15rem] lg:w-[10rem] lg:h-[10rem] w-[14rem] h-[14rem] p-2   rounded-full">
                           <img
-                            className="h-[100%] w-[100%] object-cover rounded-full test"
+                            className="h-[100%] w-[100%] object-cover rounded-full "
                             src="https://res.cloudinary.com/dzbax077h/image/upload/v1677689847/WEBWIZ_BLACK_BACKGROUD_LOGO_1_cjuiib.png"
                             alt=""
                           />
@@ -118,7 +118,7 @@ const Club = ({ name, tagline }) => {
                         href={`/societies/${club.clubSociety}/${club.clubName}`}
                         passHref
                       >
-                        <div className="text-xl text-center mt-2 font-semibold test">
+                        <div className="text-xl text-center mt-2 font-semibold ">
                           {club.clubName}
                         </div>
                       </Link>
