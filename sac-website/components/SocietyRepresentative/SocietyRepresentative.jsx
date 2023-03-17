@@ -73,6 +73,9 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
       name: "Binod Bihari Sahu",
       designation: "Vice-President, Film and Music Society",
     },
+  ];
+
+  const representative3 = [
     {
       officialsImage:
         "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
@@ -102,7 +105,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
 
         {/* For Desktop */}
 
-        <div className="w-[100%]  flex justify-evenly items-center p-[2rem] flex-wrap">
+        <div className="w-[100%]  flex justify-evenly items-center flex-wrap">
           {representative1.map((item, index) => {
             return (
               <div
@@ -124,8 +127,30 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
           })}
         </div>
 
-        <div className="w-[100%]  flex justify-between items-center p-[2rem] xl:p-[.1rem] 2xl:p-[4rem] flex-wrap">
+        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw_22vw] gap-x-[3vw] place-content-center">
           {representative2.map((item, index) => {
+            return (
+              <div
+                key={index}
+                className="h-[20rem] m-[2rem] flex flex-col justify-center items-center "
+              >
+                <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
+                  <img
+                    src={item.officialsImage}
+                    alt="officialsImage"
+                    className="w-[100%] h-[100%] rounded-[100%] object-cover"
+                  />
+                </div>
+
+                <h2 className="font-bold text-lg text-center">{item.name}</h2>
+                <h5 className="text-lg text-center">{item.designation}</h5>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw] gap-x-[8vw] place-content-center">
+          {representative3.map((item, index) => {
             return (
               <div
                 key={index}
