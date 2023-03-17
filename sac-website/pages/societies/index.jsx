@@ -77,13 +77,15 @@ export default function societies() {
 
         <div className="h-screen w-screen flex flex-col lg:flex-row ">
          <div className="absolute h-full w-screen z-999 bg-black/70"></div>
+        
+        {/* For Desktop */}
         {socData.map((soc, index) => (
         <div
-          className="w-[25%] web-hide h:shadow-lg transition duration-600 ease-in-out hover:scale-110"
+          className="w-[25%] max-[1060px]:hidden hover:shadow-lg transition duration-600 ease-in-out hover:scale-110"
           key={index}
         >
           <Link href={`/societies/${soc.name}`}>
-            <h1 className="absolute h-[100%] w-[25%] h:w-[100%] p-[1rem] top-[40%] text-[3vw]  text-vertical z-100 text-white text-center h:text-underline ">
+            <h1 className="absolute h-[100%] w-[25vw]  p-[1rem] top-[40%] text-[3vw]  text-vertical z-100 text-white text-center   ">
               {soc.name}
             </h1>
           </Link>
@@ -93,13 +95,15 @@ export default function societies() {
           />
         </div>
           ))}
+
+         {/* For Mobile  */}
         {socData.map((soc, index) => (
         <div
-          className="w-[100%] h-[25%] mobile-hide h:shadow-lg transition duration-600 ease-in-out hover:scale-110 test"
+          className="w-[100%] h-[25%] min-[1059px]:hidden h:shadow-lg transition duration-600 ease-in-out hover:scale-110 test"
           key={index}
         >
           <Link href={`/societies/${soc.name}`}>
-            <h1 className="absolute h-[25vh] w-[100%] h:w-[100%] p-[1rem] py-[10vh]  text-[3vw] test text-vertical z-100 text-white text-center h:text-underline ">
+            <h1 className="absolute h-[25vh] w-[100%]  p-[1rem] py-[10vh]  text-[3vw] test text-vertical z-100 text-white text-center h:text-underline ">
               {soc.name}
             </h1>
           </Link>

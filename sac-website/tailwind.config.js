@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       'main': '#850101'
+      
     },
     keyframes: {
       textAnimationLg: {

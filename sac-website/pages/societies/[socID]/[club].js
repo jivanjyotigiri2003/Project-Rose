@@ -6,7 +6,7 @@ import SocietyRepresentative from "@/components/SocietyRepresentative/SocietyRep
 export default function club({ data }) {
   return (
     <>
-      <ClubHero2 name={data.clubName} tagline={data.clubTagline} />
+      <ClubHero2 name={data.clubName} tagline={data.clubTagline} logo={data.clubLogo}/>
       <DeanSpeaks data={`About ${data.clubName}`}/>
       <SocietyRepresentative data="Club Representatives"/>
 
