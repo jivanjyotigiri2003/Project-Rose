@@ -24,7 +24,7 @@ export default function Announcement() {
               </div>
               {UpcomingData.map((data) => {
                 return (
-                  <div className="lg:w-full w-[80%] rounded shadow-inner relative  group   ">
+                  <div className="lg:w-full w-[80%] rounded shadow-inner relative  group">
                     <div class="fullwrap relative">
                       <img
                         className="rounded-xl "
