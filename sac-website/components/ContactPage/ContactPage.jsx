@@ -1,12 +1,15 @@
 import React from "react";
 import { IoCall } from "react-icons/io5";
 import { BsFillEnvelopeFill } from "react-icons/bs";
+import { HiChevronDown } from "react-icons/hi";
 import dean from "../../public/dean.jpg";
 import { Fade } from "react-awesome-reveal";
 import Image from "next/image";
 import SocietyContactCard from "./SocietyContactCard";
 
 function ContactPage() {
+  const stroke1= "w-[60%] mx-auto bg-gradient-to-r from-white via-[#A4161A] to-white h-0.5";
+  const stroke2= "w-[60%] mx-auto bg-gradient-to-r from-[#A4161A] via-white to-[#A4161A] h-0.5"
   return (
     <div className="">
       {/* Sac management page */}
@@ -22,74 +25,46 @@ function ContactPage() {
         </div>
       </div>
 
-      {/* Contact details - Main*/}
-
-      <div className="w-full h-[50vh] bg-[#A4161A] flex space-x-4 px-4 justify-around pt-[25vh] md:pt-[20vh] pb-[5vh]">
-        <div className="w-[50%] md:w-[30%] pt-4 pb-24 bg-white rounded-md">
-          <div className="text-red-600 text-center font-semibold text-xl">
-            President SAC
-          </div>
-          <div className="bg-[#A4161A] w-[80%] h-64 md:h-80 mx-auto mt-3 rounded-md p-2">
-            <img
-              src="https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792"
-              alt=""
-              className="w-28 md:w-36 h-28 md:h-36 mb-3 rounded-full shadow-lg mx-auto"
-            />
-            <div className="text-center text-base lg:text-xl text-white">
-              Prof. Poonam Singh
-            </div>
-            <div className="flex pt-5 justify-center">
-              <BsFillEnvelopeFill className="text-white mr-0.5 mt-1"></BsFillEnvelopeFill>
-              <a
-                href="mailto:sdbjwbdhij@gmail.com"
-                className="text-white text-[0.5rem] sm:text-xs lg:text-sm xl:text-base"
-              >
-                sdbjwbdhij@gmail.com
-              </a>
-            </div>
-          </div>
-        </div>
-        {/* sfdsfsfsfsf*/}
-        <div className="w-[50%] md:w-[30%] pt-4 pb-24 bg-white rounded-md">
-          <div className="text-red-600 text-center font-semibold text-xl">
-            President SAC
-          </div>
-          <div className="bg-[#A4161A] w-[80%] h-64 md:h-80 mx-auto mt-3 rounded-md p-2">
-            <img
-              src="https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792"
-              alt=""
-              className="w-28 md:w-36 h-28 md:h-36 mb-3 rounded-full shadow-lg mx-auto"
-            />
-            <div className="text-center text-base lg:text-xl text-white">
-              Prof. Poonam Singh
-            </div>
-            <div className="flex pt-5 justify-center">
-              <BsFillEnvelopeFill className="text-white mr-0.5 mt-1"></BsFillEnvelopeFill>
-              <a
-                href="mailto:sdbjwbdhij@gmail.com"
-                className="text-white text-[0.5rem] sm:text-xs lg:text-sm xl:text-base"
-              >
-                sdbjwbdhij@gmail.com
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="w-full lg:h-[40vh] h-[30vh]"></div>
+      
 
       {/* SOCIETIES */}
       <Fade direction="up" triggerOnce="true" delay="50">
-        <SocietyContactCard societyTitle="LCS REPRESENTATIIVES" />
+        <div className="w-screen h-fit  bg-[#A4161A] px-4 pt-14 pb-[5vh]">
+          <SocietyContactCard societyTitle="LCS Representatives" color1="#FFFFFF" color2="#000000" color3="#E5383B" stroke={stroke1}/>
+          <div className=" flex flex-col mt-14 md:mt-32 items-center">
+            <p className="text-white font-semibold text-xl">See More</p>
+            <HiChevronDown className="text-white font-bold text-2xl" />
+          </div>
+        </div>
       </Fade>
       <Fade direction="up" triggerOnce="true" delay="50">
-        <SocietyContactCard societyTitle="FMS REPRESENTATIIVES" />
+        <div className="w-screen h-fit bg-white px-4 pt-14 pb-[5vh]">
+          <SocietyContactCard societyTitle="FMS Representatives" color1="#A4161A" color2="#FFFFFF" color3="#FFFFFF" stroke={stroke2} />
+          <div className=" flex flex-col mt-14 md:mt-32 items-center">
+            <p className="text-[#A4161A] font-semibold text-xl">See More</p>
+            <HiChevronDown className="text-[#A4161A] font-bold text-2xl" />
+          </div>
+        </div>
       </Fade>
       <Fade direction="up" triggerOnce="true" delay="50">
-        <SocietyContactCard societyTitle="TECHNICAL REPRESENTATIIVES" />
+        <div className="w-screen h-fit bg-[#A4161A] px-4 pt-14 pb-[5vh]">
+          <SocietyContactCard societyTitle="Technical Representatives" color1="#FFFFFF" color2="#000000" color3="#E5383B" stroke={stroke1} />
+          <div className=" flex flex-col mt-14 md:mt-32 items-center">
+            <p className="text-white font-semibold text-xl">See More</p>
+            <HiChevronDown className="text-white font-bold text-2xl" />
+          </div>
+        </div>
       </Fade>
       <Fade direction="up" triggerOnce="true" delay="50">
-        <SocietyContactCard societyTitle="GAMES AND SPORTS REPRESENTATIIVES" />
+        <div className="w-screen h-fit bg-white px-4 pt-14 pb-[5vh]">
+          <SocietyContactCard societyTitle="Games AND Sports Representatives" color1="#A4161A" color2="#FFFFFF" color3="#FFFFFF" stroke={stroke2}/>
+          <div className=" flex flex-col mt-14 md:mt-32 items-center">
+            <p className="text-[#A4161A] font-semibold text-xl">See More</p>
+            <HiChevronDown className="text-[#A4161A] font-bold text-2xl" />
+          </div>
+        </div>
       </Fade>
+      
 
       {/* sac address */}
       <Fade direction="up" triggerOnce="true" delay="50">
@@ -101,20 +76,20 @@ function ContactPage() {
               className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%] "
             />
           </div>
-          <div className="flex flex-col lg:mt-48 justify-center lg:w-[50%] text-white p-[1rem] pb-4  pl-2.5 pr-12 h-[100%]">
-            <h1 className="font-bold text-xl lg:text-6xl mb-8">
+          <div className="flex flex-col lg:my-auto justify-center lg:w-[50%] text-white p-[1rem] pb-4  pl-2.5 pr-12 h-[100%]">
+            <h1 className="font-bold text-xl lg:text-5xl mb-10">
               SAC Office Address
             </h1>
-            <h1 className=" text-md lg:text-3xl mb-1 lg:mb-3">
+            <h1 className=" text-md lg:text-3xl mb-1 lg:mb-2">
               Student Activity Center
             </h1>
-            <h1 className=" text-md lg:text-3xl mb-1 lg:mb-3">
+            <h1 className=" text-md lg:text-3xl mb-1 lg:mb-2">
               National Institute of Technology Rourkela
             </h1>
-            <h1 className=" text-md lg:text-3xl mb-1 lg:mb-3">
+            <h1 className=" text-md lg:text-3xl mb-1 lg:mb-2">
               Rourkela , Odisha - 769008
             </h1>
-            <div className="bg-[#A4161A] rounded-md w-2/3  lg:mt-3   flex items-center">
+            <div className="bg-[#A4161A] rounded-md w-2/3  lg:mt-2   flex items-center">
               <IoCall className="text-[#FFFFFF] flex justify-center  mr-2 lg:mr-5 text-md lg:text-3xl" />
               <a
                 href="tel:+4733378901"
@@ -123,7 +98,7 @@ function ContactPage() {
                 +4733378901
               </a>
             </div>
-            <div className="bg-[#A4161A] rounded-md w-2/3  lg:my-5   flex items-center ">
+            <div className="bg-[#A4161A] rounded-md w-2/3  lg:my-2   flex items-center ">
               <BsFillEnvelopeFill className="text-[#FFFFFF] flex justify-center mr-2 lg:mr-5 text-md lg:text-3xl" />
               <a
                 href="mailto:sdbjwbdhij@gmail.com"
