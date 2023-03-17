@@ -8,7 +8,7 @@ function DeanSpeaks({ data = "Dean Speaks" }) {
     "https://ik.imagekit.io/gourab18/101717_Paul_McLoughlin_MDD_129853__1_.jpg?updatedAt=1678787663649";
   return (
     <Fade direction="up" triggerOnce="true" delay="50">
-      <div className=" lg:flex bg-[#A4161A]">
+      <div className=" md:flex  bg-[#A4161A]">
         <div>
           <img
             src={dean}
@@ -16,11 +16,11 @@ function DeanSpeaks({ data = "Dean Speaks" }) {
             className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%] shadow-2xl"
           />
         </div>
-        <div className="flex flex-col  justify-center lg:w-[50%] text-white p-[1rem]   pl-[2.5rem] pr-12 h-[100%] ">
-          <h1 className="transition ease-in-out delay-150  font-[500] text-[2rem] tracking-wide pb-[2rem] hover:underline underline-offset-5 ">
+        <div className="flex flex-col  justify-center md:w-[50vw] lg:w-[50%] text-white   p-[1.5rem]   lg:pl-[2.5rem] lg:pr-12 h-[100%] ">
+          <h1 className="transition ease-in-out delay-150  font-[500] text-[1rem] lg:text-[2rem] tracking-wide pb-[2rem] hover:underline underline-offset-5 ">
             {data}
           </h1>
-          <div className="text-[1.2rem] ">
+          <div className="lg:text-[1.2rem] ">
             I would request the students to have a little patience. Staying at
             home might have gotten boring now but I hope that they don’t feel
             disturbed. Today’s young generation is very vibrant, and they do not
