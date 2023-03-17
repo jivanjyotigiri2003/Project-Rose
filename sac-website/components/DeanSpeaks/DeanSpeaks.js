@@ -8,7 +8,7 @@ function DeanSpeaks({ data = "Dean Speaks" }) {
     "https://ik.imagekit.io/gourab18/101717_Paul_McLoughlin_MDD_129853__1_.jpg?updatedAt=1678787663649";
   return (
     <Fade direction="up" triggerOnce="true" delay="50">
-      <div className=" md:flex  bg-[#A4161A]">
+      <div className=" md:flex justify-center items-center bg-[#A4161A]">
         <div>
           <img
             src={dean}
@@ -17,7 +17,7 @@ function DeanSpeaks({ data = "Dean Speaks" }) {
           />
         </div>
         <div className="flex flex-col  justify-center md:w-[50vw] lg:w-[50%] text-white   p-[1.5rem]   lg:pl-[2.5rem] lg:pr-12 h-[100%] ">
-          <h1 className="transition ease-in-out delay-150  font-[500] text-[1rem] lg:text-[2rem] tracking-wide pb-[2rem] hover:underline underline-offset-5 ">
+          <h1 className="transition ease-in-out delay-150  font-[500] text-[1rem] lg:text-[2rem] tracking-wide pb-[2rem]">
             {data}
           </h1>
           <div className="lg:text-[1.2rem] ">

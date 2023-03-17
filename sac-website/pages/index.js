@@ -66,9 +66,8 @@ export default function Home() {
       <main>
         <HomePageMobile />
         <Skew2 />
-        <Deanspeaks data="Director Speaks" />
-        <AboutNITR data="President Sac Speaks" />
-        
+        <AboutNITR data="Director Speaks" />
+        <Deanspeaks data="President Sac Speaks" />
         <Announcement />
         <SocietyRepresentative />
         <Carousel />
