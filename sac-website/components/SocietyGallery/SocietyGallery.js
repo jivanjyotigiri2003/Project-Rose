@@ -11,6 +11,8 @@ export default function SocietyGallery({ title }) {
     title="Nitrutsav"
   } else if(title="Games and Sports Society"){
     title="Vriddhi"
+  }else{
+    title="Gallery"
   }
   
   const data=[

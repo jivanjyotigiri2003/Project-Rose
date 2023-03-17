@@ -75,33 +75,17 @@ const AboutPage = () => {
       <DeanSpeaks data="About SAC" />
       <AboutNITR />
       <DeanSpeaks data="Vision" />
-      <AboutNITR />
       <h1 className="w-[100%] text-3xl font-[600] p-4 text-center ">
-        SAC Representatives
+        Executive Body
       </h1>
       <div
         className="grid grid-cols-[24vw_24vw] place-content-center gap-x-[10vw] pt-[2rem] gap-y-[10vh] pb-[1rem] max-[600px]:grid-cols-[80vw] "
-        // style={{
-        //   display: "grid",
-        //   gridTemplateColumns: "24vw 24vw",
-        //   placeContent: "center",
-        //   columnGap: "10vw",
-        //   paddingTop: "2rem",
-        // }}
+      
       >
         {representative1.map((item, index) => {
           return (
             <div key={index} className="">
-              {/* <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                <img
-                  src={item.officialsImage}
-                  alt="officialsImage"
-                  className="w-[100%] h-[100%] rounded-[100%] object-cover"
-                />
-              </div>
-
-              <h2 className="font-bold text-lg">{item.name}</h2>
-              <h5 className="text-lg">{item.designation}</h5> */}
+            
               <div
                 style={{
                   boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
@@ -119,56 +103,19 @@ const AboutPage = () => {
                   color3="red"
                   // stroke={stroke}
                 />
-                {/* <ContactCard
-                  name="Prof. Poonam Singh"
-                  designation="President SAC"
-                  email="sdbjwbdhij@gmail.com"
-                  // color1={color1}
-                  // color2={color2}
-                  // color3={color3}
-                  // stroke={stroke}
-                /> */}
+              
               </div>
             </div>
           );
         })}
       </div>
-      {/* <div className="w-[100%]  flex justify-center lg:justify-between items-center p-[2rem] lg:px-[12rem]  flex-wrap ">
-        {representative2.map((item, index) => {
-          return (
-            <div
-              key={index}
-              className="h-[20rem] m-[2rem] flex flex-col justify-center items-center "
-            >
-              <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                <img
-                  src={item.officialsImage}
-                  alt="officialsImage"
-                  className="w-[100%] h-[100%] rounded-[100%] object-cover"
-                />
-              </div>
-
-              <h2 className="font-bold text-lg">{item.name}</h2>
-              <h5 className="text-lg">{item.designation}</h5>
-            </div>
-          );
-        })}
-      </div> */}
+   
       {/* class  in society gallery.css */}
       <div className="grid grid-cols-[24vw_24vw_24vw] place-content-center gap-x-[10vw] pt-[2rem] gap-y-[10vh] pb-[2rem] max-[600px]:grid-cols-[80vw]">
         {representative2.map((item, index) => {
           return (
             <div key={index} className="">
-              {/* <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                <img
-                  src={item.officialsImage}
-                  alt="officialsImage"
-                  className="w-[100%] h-[100%] rounded-[100%] object-cover"
-                />
-              </div>
-
-              <h2 className="font-bold text-lg">{item.name}</h2>
-              <h5 className="text-lg">{item.designation}</h5> */}
+             
               <div
                 style={{
                   boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
@@ -186,19 +133,24 @@ const AboutPage = () => {
                   color3="red"
                   // stroke={stroke}
                 />
-                {/* <ContactCard
-                  name="Prof. Poonam Singh"
-                  designation="President SAC"
-                  email="sdbjwbdhij@gmail.com"
-                  // color1={color1}
-                  // color2={color2}
-                  // color3={color3}
-                  // stroke={stroke}
-                /> */}
+                
               </div>
             </div>
           );
         })}
+      </div>
+
+      {/* Group Photo */}
+     
+      
+      <div className=" w-[100vw] h-[100vh] bg-[url('https://ik.imagekit.io/tvfucug8t/Screenshot_2023-03-18_at_4.40.06_AM.png?updatedAt=1679094625940')]">
+       <div className="absolute bg-gradient-to-b from-[#850101cc] to-[#8501011a] w-[100vw] h-[100vh] flex items-center justify-center  ">
+       <div className="h-[85vh] w-[85vw]  rounded-[10px]">
+           <img src="https://ik.imagekit.io/tvfucug8t/_SMX0035__1_.jpg?updatedAt=1679092223529" className="w-[100%] h-[100%] rounded-[10px] "/>
+        </div>
+       </div>
+      
+
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ export default function club({ data }) {
   return (
     <>
       <ClubHero2 name={data.clubName} tagline={data.clubTagline} logo={data.clubLogo}/>
-      <DeanSpeaks data={`About ${data.clubName}`}/>
+      <DeanSpeaks data={`About ${data.clubName}`} description={data.clubDescription}/>
       <SocietyRepresentative data="Club Representatives"/>
 
     </>
@@ -16,7 +16,6 @@ export default function club({ data }) {
 
 export async function getStaticPaths() {
   const allPaths = clubData.map((path) => {
-    console.log(path.clubSociety)
     return {
       params: {
         socID: path.clubSociety.toString(),
@@ -32,7 +31,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  console.log(params);
   const eventData = clubData.find((ev) => params.club == ev.clubName);
 
   return {

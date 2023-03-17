@@ -76,20 +76,20 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     {
       officialsImage:
         "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+      name: "Rajendra Kar",
+      designation: "SAS Officer",
     },
     {
       officialsImage:
         "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+      name: "Nalini Nihar Nayak",
+      designation: "SAS Officer",
     },
     {
       officialsImage:
         "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+      name: "T R Pattnaik",
+      designation: "SAS Officer",
     },
   ];
 

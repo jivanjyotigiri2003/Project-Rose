@@ -20,16 +20,7 @@ const FestCarousel = ({ name, category, desc, link, img }) => {
             <div className="w-full flex justify-center  text-md lg:text-lg xl:text-xl my-0 md:my-2 lg:my-0 md:text-3xl ">
               {desc}
             </div>
-            <div className="flex items-center my-2 cursor-pointer">
-              <div className="border lg:my-2 px-2 py-2 text-lg md:text-lg rounded-lg my-2 cursor-pointer">
-                
-                <a href="https://www.google.com">
-                  Know More
-                </a>
-                
-                
-              </div>
-            </div>
+          
            
           </div>
           <div className="xl:w-[92vw] lg:w-4/6 md:w-[98vw] lg:h-[90vh] md:h-[55vh] h-[50vh] mx-auto md:my-8">
