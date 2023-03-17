@@ -8,20 +8,15 @@ const Skew2 = () => {
     <div className="web-hide">
       <div className=" relative flex items-center  h-[100vh]  bg-[url('https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940')] bg-cover">
         <div className=" bg-black-100 w-[100%] h-[100%] pl-8 bg-[#A4161A]/70 ">
-          <div className="relative top-[25%] xl:mt-12 lg:mt-6  ">
-            <h1 className=" text-white text-4xl xl:text-6xl font-normal my-2  pl-[6rem] ">
-              <span className="font-semibold text-7xl">S</span>tudent
+          <div className="relative top-[25%] xl:mt-6 lg:mt-4">
+            <h1 className=" text-white text-4xl xl:text-7xl font-normal my-2  pl-[6rem] ">
+              <span className="font-medium text-9xl mr-0.5">S</span>tudent
             </h1>
-            <h1 className=" text-white text-4xl xl:text-6xl font-normal my-2  pl-[6rem]">
-              <span className="font-semibold text-7xl">A</span>ctivity
+            <h1 className=" text-white text-4xl xl:text-7xl font-normal my-2  pl-[6rem]">
+              <span className="font-medium text-9xl mr-0.5">A</span>ctivity
             </h1>
-            <h1 className=" text-white text-4xl xl:text-6xl font-normal my-2  pl-[6rem]">
-              <span className="font-semibold text-7xl">C</span>enter
-            </h1>
-            <h1 className=" text-white text-lg xl:text-xl my-8 xl:pl-[2rem] lg:pl-[1rem]">
-              Explore the plethora of thrilling events, exciting <br /> fests,
-              diverse clubs and other activities in the <br /> beautiful campus
-              of NIT Rourkela.{" "}
+            <h1 className=" text-white text-4xl xl:text-7xl font-normal my-2  pl-[6rem]">
+              <span className="font-medium text-9xl mr-0.5">C</span>enter
             </h1>
           </div>
         </div>

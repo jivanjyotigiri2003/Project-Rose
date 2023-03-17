@@ -1,45 +1,47 @@
-import React from 'react'
-import SocietyCarousel from '../../components/SocietyRepresentative/SocietyCarouselMobile';
-import Head from 'next/head';
-
+import React from "react";
+import SocietyCarousel from "../../components/SocietyRepresentative/SocietyCarouselMobile";
+import Head from "next/head";
+import { AiOutlineArrowRight } from "react-icons/ai";
+import { AspectRatio } from "@cloudinary/url-gen/qualifiers";
+import { Fade } from "react-awesome-reveal";
 
 export default function Events() {
   const eventData = [
     {
       image:
-        "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-      title: "Noteworthy technology acquisitions 2021",
+        "https://images.unsplash.com/photo-1549451371-64aa98a6f660?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      title: "Nitrutsav",
       description:
         "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
     {
       image:
-        "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-      title: "Noteworthy technology acquisitions 2021",
+        "https://images.unsplash.com/photo-1587407627257-27b7127c868c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      title: "Innovision",
       description:
         "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
-    {
-      image:
-        "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-      title: "Noteworthy technology acquisitions 2021",
-      description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    },
-    {
-      image:
-        "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-      title: "Noteworthy technology acquisitions 2021",
-      description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    },
-    {
-      image:
-        "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-      title: "Noteworthy technology acquisitions 2021",
-      description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    },
+    // {
+    //   image:
+    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
+    //   title: "Noteworthy technology acquisitions 2021",
+    //   description:
+    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+    // },
+    // {
+    //   image:
+    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
+    //   title: "Noteworthy technology acquisitions 2021",
+    //   description:
+    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+    // },
+    // {
+    //   image:
+    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
+    //   title: "Noteworthy technology acquisitions 2021",
+    //   description:
+    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+    // },
   ];
 
   return (
@@ -94,30 +96,50 @@ export default function Events() {
           </div>
         </div>
 
-        <div className="flex  items-center justify-center">
-          <div className="grid-container ">
-            {eventData.map((event, index) => (
-              <div
-                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-[1rem]"
-                key={index}
-                style={{
-                  boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-                }}
-              >
-                <a href="#">
-                  <img class="rounded-t-lg" src={event.image} alt="" />
-                </a>
-                <div class="p-5">
-                  <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      {event.title}
-                    </h5>
-                  </a>
-                  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    {event.description}
-                  </p>
+        <div className="background-image-event">
+          <Fade direction="left" triggerOnce="true" delay="30">
+            <div className="flex justify-center items-center text-3xl m-5 font-semibold">
+              <h1>Upcoming Events</h1>
+            </div>
+            <div className="flex  items-center justify-center mb-4 ">
+              <div className="grid-container ">
+                {eventData.map((event, index) => (
+                  <div
+                    class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                    key={index}
+                    style={{
+                      boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+                    }}
+                  >
+                    <a href="#">
+                      <img
+                        class="rounded-t-lg  "
+                        style={{
+                          aspectRatio: "3/2",
+                          objectFit: "cover",
+                          width: "97%",
+                          margin: "auto",
+                          marginTop: "2%",
+                        }}
+                        src={event.image}
+                        alt=""
+                      />
+                    </a>
+                    <div class="">
+                      <a href="#">
+                        <h5 class="mb-1 ml-2  mr-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                          {event.title}
+                        </h5>
+                      </a>
+                      <p class="mb-3 ml-2 mr-1 font-normal text-gray-700 dark:text-gray-400 text-sm text-justify">
+                        {event.description}
+                      </p>
 
-                  <button
+                      <a href="#">
+                        <p className="text-blue-500 ml-2 mb-4">Read More...</p>
+                      </a>
+
+                      {/* <button
                     type="button"
                     class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2"
                   >
@@ -142,11 +164,88 @@ export default function Events() {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                  </a>
-                </div>
+                  </a> */}
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </div>
+            <div className="w-full h-0.5 bg-zinc-300 mt-10"></div>
+          </Fade>
+          <Fade direction="right" triggerOnce="true" delay="30">
+            <div className="flex justify-center items-center text-3xl m-5 font-semibold">
+              <h1>Past Events</h1>
+            </div>
+            <div className="flex  items-center justify-center mb-4">
+              <div className="grid-container ">
+                {eventData.map((event, index) => (
+                  <div
+                    class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                    key={index}
+                    style={{
+                      boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+                    }}
+                  >
+                    <a href="#">
+                      <img
+                        class="rounded-t-lg"
+                        style={{
+                          aspectRatio: "3/2",
+                          objectFit: "cover",
+                          width: "97%",
+                          margin: "auto",
+                          marginTop: "2%",
+                        }}
+                        src={event.image}
+                        alt=""
+                      />
+                    </a>
+                    <div class="">
+                      <a href="#">
+                        <h5 class="mb-1 ml-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                          {event.title}
+                        </h5>
+                      </a>
+                      <p class="mb-3 ml-2 font-normal text-gray-700 dark:text-gray-400 text-sm">
+                        {event.description}
+                      </p>
+
+                      <a href="#">
+                        <p className="text-blue-500 ml-2 mb-4">Read More...</p>
+                      </a>
+
+                      {/* <button
+                    type="button"
+                    class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2"
+                  >
+                    Webwiz
+                  </button>
+
+                  <a
+                    href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    Read more
+                    <svg
+                      aria-hidden="true"
+                      class="w-4 h-4 ml-2 -mr-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a> */}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </Fade>
         </div>
       </div>
     </>
