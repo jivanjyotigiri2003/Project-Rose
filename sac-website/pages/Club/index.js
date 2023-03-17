@@ -65,18 +65,19 @@ const Club = ({ name, tagline }) => {
                 )
                 .map((club) => {
                   return (
-                    <div className="flex flex-col items-center  px-3 py-12 text-center rounded-md bg-white shadow-2xl glow">
-                      <Link
-                        href={`/societies/${club.clubSociety}/${club.clubName}`}
-                        passHref
-                      >
-                        <div className="xl:w-[15rem] xl:h-[15rem] lg:w-[10rem] lg:h-[10rem] w-[14rem] h-[14rem] p-2   rounded-full">
-                          <img
-                            className="h-[100%] w-[100%] object-cover rounded-full "
-                            src="https://res.cloudinary.com/dzbax077h/image/upload/v1677689847/WEBWIZ_BLACK_BACKGROUD_LOGO_1_cjuiib.png"
-                            alt=""
-                          />
-                        </div>
+
+                   
+
+                    <div className="flex flex-col justify-center items-center   px-3 py-12 text-center rounded-md bg-white shadow-2xl glow">
+                       <Link  href={`/societies/${club.clubSociety}/${club.clubName}`} passHref>
+                      <div className="xl:w-[15rem] xl:h-[15rem] lg:w-[10rem] lg:h-[10rem] w-[14rem] h-[14rem] p-2   rounded-full">
+                        <img
+                          className="h-[100%] w-[100%] object-cover rounded-full test"
+                          src={club.clubLogo}
+                          alt=""
+                        />
+                      </div>
+
                       </Link>
                       <Link
                         href={`/societies/${club.clubSociety}/${club.clubName}`}
