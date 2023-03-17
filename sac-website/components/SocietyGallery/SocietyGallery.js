@@ -1,160 +1,426 @@
 import React from "react";
 
 export default function SocietyGallery({ title }) {
-  
+  const inno = [
+    [
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+    ],
+    [
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+    ],
+    [
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+    ],
+    [
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+      {
+        img: "",
+      },
+    ],
+  ];
 
-  if (title=="Technical Society"){
-    title="Innovision"
-  }else if(title=="Film and Music Society"){
-    title="Cosmo"
-  } else if(title=="Literary and Cultural Society"){
-    title="Nitrutsav"
-  } else if(title="Games and Sports Society"){
-    title="Vriddhi"
+  const vriddhi = [
+    [
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091167/vriddhi/313422798_672173934471167_5353053668397946669_n_lhwmhi.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091166/vriddhi/313418078_672175431137684_5900774485456394325_n_rwqxgg.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091165/vriddhi/313411703_672174914471069_6302380422973422220_n_f5yfls.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091165/vriddhi/313424111_672175257804368_7881532493826153972_n_wccdhs.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091158/vriddhi/312102125_672171641138063_5309344069083887058_n_tw1def.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091164/vriddhi/313408142_672173191137908_179030676535292571_n_ubcjzt.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091164/vriddhi/313399530_672174211137806_2473869583321684998_n_to56ov.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091163/vriddhi/313403193_672174527804441_7274455991694940856_n_e3hchw.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091163/vriddhi/313424794_672171791138048_6886697182539795023_n_bmwghs.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091163/vriddhi/313403088_672171731138054_9042922834694879676_n_q7kkvf.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091163/vriddhi/313289110_672174317804462_6795470829156283861_n_zmsou3.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091162/vriddhi/313197698_672174074471153_4378366643355888254_n_fjkne8.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091162/vriddhi/313401932_672173041137923_522549174449123500_n_b3npgw.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091162/vriddhi/313024386_672173421137885_7136640522933722263_n_jmmngp.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091161/vriddhi/312602213_672171984471362_4281868766757993968_n_xchzw4.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091161/vriddhi/312854926_672175327804361_2878057346240350250_n_rusige.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091161/vriddhi/312584579_672171814471379_7322028413057662395_n_nkbysf.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091160/vriddhi/312973198_672172581137969_4507714073766461437_n_yhk8y6.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091160/vriddhi/312732078_672174011137826_5531301563542471114_n_iuddbe.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091159/vriddhi/312450734_672173554471205_6054888641551007980_n_j2x34i.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091159/vriddhi/312246343_672173147804579_6451606475779725250_n_ep8tn5.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091159/vriddhi/312718058_672172674471293_1696850733940554492_n_vrgkij.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091165/vriddhi/313400229_672172837804610_3151279488061510126_n_oy6ofz.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091157/vriddhi/312662629_672174694471091_7171453292840865027_n_j5blxv.jpg",
+      },
+    ],
+  ];
+
+  const nitrutsav = [
+    {
+      img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081974/Gallery%20SAC%20Website/313400661_672172031138024_2560228180936505800_n_cuttgz.jpg",
+    },
+  ];
+
+  const cosmo = [
+    {
+      img: "",
+    },
+  ];
+
+  let data1 = vriddhi;
+
+  if (title == "Technical Society") {
+    title = "Innovision";
+    data1 = inno;
+  } else if (title == "Film and Music Society") {
+    title = "Cosmo";
+    data1 = cosmo;
+  } else if (title == "Literary and Cultural Society") {
+    title = "Nitrutsav";
+    data1 = nitrutsav;
+  } else if ((title = "Games and Sports Society")) {
+    title = "Vriddhi";
+    data1 = vriddhi;
   }
-  
-  const data=[
-    {
 
-    }
-  ]
-  const tech=[
-    {
-      img:""
-    }
-  ]
+  // let apple = [
+  //   {
+  //     name: "apple",
+  //   },
+  //   {
+  //     name: "mango",
+  //   },
+  // ];
+
+  // const Users = [
+  //   [
+  //     {
+  //       name: "Deepak",
+  //       rollNo: "123",
+  //     },
+  //     {
+  //       name: "Yash",
+  //       rollNo: "124",
+  //     },
+  //     {
+  //       name: "Raj",
+  //       rollNo: "125",
+  //     },
+  //     {
+  //       name: "Rohan",
+  //       rollNo: "126",
+  //     },
+  //     {
+  //       name: "Puneet",
+  //       rollNo: "127",
+  //     },
+  //     {
+  //       name: "Vivek",
+  //       rollNo: "128",
+  //     },
+  //     {
+  //       name: "Aman",
+  //       rollNo: "129",
+  //     },
+  //   ],
+  // ];
 
   return (
     <>
-      <div>
-        <div className="h-[10vh] bg-black"></div>
-        <div className="s-gallery-container">
-          <div className="society-name">
-            <h1 className="s-name">{title}</h1>
-          </div>
-          <div className="society-gallery-container">
-            <div className="container">
-              <div className="box">
-                <div className="dream">
-                  <img
-                    src="https://images.unsplash.com/photo-1677529457630-393ccee0019f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677461404789-1faafbd934e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677658991675-485a63fe10b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677529458529-2bf0e643214d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://plus.unsplash.com/premium_photo-1663100049063-30f539fd4ba1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1504704911898-68304a7d2807?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                </div>
+      <div className="s-gallery-container">
+        <div className="society-name">
+          <h1 className="s-name">{title}</h1>
+        </div>
+        <div className="society-gallery-container">
+          <div className="container">
+            <div className=" box">
+              {/* <div className=" w-20 h-20 bg-yellow-300 m-5">
+                {Users[0].map((e) => {
+                  return (
+                    <p>
+                      {" "}
+                      name={e.name} rollNo={e.rollNo}{" "}
+                    </p>
+                  );
+                })}
+              </div> */}
+              {/* Section 1 */}
+              <div className="dream">
+                {data1[0].map((e) => {
+                  return <img src={e.img} alt="" />;
+                  // <p>apple</p>;
+                  // <img src={data.img} alt="" />;
+                })}
+              </div>
 
-                <div className="dream">
-                  <img
-                    src="https://plus.unsplash.com/premium_photo-1661716057749-ff55532be02d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677665248618-0425412a4cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677529460256-db11fd8feeff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677461517419-221eb098ea99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1610659606489-77967e40fa35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1551883709-2516220df0bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                </div>
+              {/* Section 2 */}
+              <div className="dream ">
+                {data1[1].map((e) => {
+                  return <img src={e.img} alt="" />;
+                })}
+              </div>
 
-                <div className="dream">
-                  <img
-                    src="https://images.unsplash.com/photo-1677658992057-d90f001e02f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677461404787-2d295bb224e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677688013109-61dda1cfc53f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677690092396-e1efd8a3bc01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://plus.unsplash.com/premium_photo-1661716057749-ff55532be02d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1572575156811-2ae050d748d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                </div>
+              {/* Section 3 */}
+              <div className="dream ">
+                {data1[2].map((e) => {
+                  return <img src={e.img} alt="" />;
+                })}
+              </div>
 
-                <div className="dream">
-                  <img
-                    src="https://images.unsplash.com/photo-1677613935629-5de03180c113?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677665248618-0425412a4cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677529460256-db11fd8feeff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1677461517419-221eb098ea99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1598387993240-44b625d97d7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                  <img
-                    src="https://images.unsplash.com/photo-1551883738-19ffa3dc4c43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
-                    alt=""
-                  />
-                </div>
+              {/* Section 4 */}
+              <div className="dream ">
+                {data1[3].map((e) => {
+                  return <img src={e.img} alt="" />;
+                })}
               </div>
             </div>
           </div>
-          <div className="end-line"></div>
         </div>
+        <div className="end-line"></div>
       </div>
     </>
   );
