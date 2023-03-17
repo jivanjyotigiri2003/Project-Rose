@@ -202,18 +202,14 @@ li {
 }
 
 @media only screen and (max-width: 600px) {
-  .web-hide {
-    display: none;
-  }
+  
     .society-card {
       grid-template-columns: auto auto;
     }
 }
 
 @media only screen and (min-width: 600px) {
-  .mobile-hide {
-    display: none;
-  }
+  
  
 }
 
@@ -225,6 +221,17 @@ li {
     grid-template-columns: 40vw 40vw;
     column-gap: 7vw;
   }
+
+    .web-hide {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+.mobile-hide {
+    display: none;
+  }
+
 }
 
 .grid-container {
