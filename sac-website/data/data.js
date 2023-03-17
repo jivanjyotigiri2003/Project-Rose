@@ -100,7 +100,7 @@ const clubData=[
     },
     {
      "index": 7,
-     "clubName": "Rotaract ",
+     "clubName": "Rotaract",
      "clubSociety": "Literary and Cultural Society",
      "clubTagline": "Service Above Self ",
      "clubDescription": "Rotaract ,with its motto \"Service Above Self\" ,has always tried beating it's own service with something greater every other time. The club with it's roots under the Rotary International, has continued the legacy of sowing the seeds of smiling hearts. The aim of our club has always been to reshape the society and people's perspective. Even though it seems like a drop in the Ocean, Rotaract has never stopped doing it's good work. Every Volunteer collaborates his ideas and efforts to make this change happen. Putting forward the idea of social service, we believe it's not option but a commitment to be made by every individual with open heart. Working for the deprived communities to spreading awareness in the society, Rotaract has been a constant. The constant that not only tried uplifting the society but also itself with every passing event it put it's heart on. With new branches getting added to the Rotaract tree each year , Rotaract keeps growing and flourishing. Rotaract, with all its strength, pledges to make the Nation even smoother and worthier.",
@@ -222,7 +222,7 @@ const clubData=[
     },
     {
      "index": 14,
-     "clubName": "AIChE ",
+     "clubName": "AIChE",
      "clubSociety": "Technical Society",
      "clubTagline": "We are a team of enthusiastic technocrats",
      "clubDescription": "The American Institute of Chemical Engineers Chapter of NIT Rourkela is a student run chemical engineering professional organization. The AIChE NITR since its inception from the year 2016 has striven hard and ultimately came out as a successful chapter, being recognised globally. There are countless number of events which are conducted every year by us including our flagship event Navdhara and an event at the annual techfest INNOVISION. Not just in the institute, but also around, AIChE NITR believes in an overall sustainable growth for all through the application of Chemical Engineering approaches. We also conduct several events at the schools of Rourkela under our K-12 outreach segment. Currently we have 26 elected members (including 2 chairs) in the AIChE Executive Student Committee (ESC).",
@@ -307,7 +307,7 @@ const clubData=[
     },
     {
      "index": 19,
-     "clubName": "THE BIOSCIENCE SOCIETY ",
+     "clubName": "THE BIOSCIENCE SOCIETY",
      "clubSociety": "Technical Society",
      "clubTagline": "Evolve With Time ",
      "clubDescription": "TBS is primarily working with a mission and vision to promote and advance the discipline of biological sciences in society and to conduct events and outreach programs in order to elevate and channel the interest of enthusiasts in the field. Provide a common platform for researchers, students, and enthusiasts to actively participate, connect, and discuss their ideas freely and openly in order to bring massive advancement and opportunities to the bioscience domain.",
@@ -342,7 +342,7 @@ const clubData=[
     // },
     {
      "index": 21,
-     "clubName": "SPIC MACAY ",
+     "clubName": "SPIC MACAY",
      "clubSociety": "Literary and Cultural Society",
      "clubTagline": " Society for the Promotion of Indian Classical Music And Culture Amongst Youth",
      "clubDescription": "The Society for the Promotion of Indian Classical Music And Culture Amongst Youth (SPIC MACAY) is a voluntary youth movement which promotes intangible aspects of Indian cultural heritage by promoting Indian classical music, classical dance, folk music, yoga, meditation, crafts and other aspects of Indian culture; it is a movement with chapters in over 300 towns all over the world.",
@@ -359,7 +359,7 @@ const clubData=[
     },
     {
      "index": 22,
-     "clubName": "The Mavericks ",
+     "clubName": "The Mavericks",
      "clubSociety": "Film and Music Society",
      "clubTagline": "Being Bohemian ",
      "clubDescription": "We are The Mavericks- Official Dance Club of NIT Rourkela. The word Maverick means being unorthodox and independent and so we are while we dance. We discover and encourage all kinds of dance forms be it classical or western and create original routines and perform the unexpected! We also proudly represent NIT Rourkela in other colleges and competitions. We thrive to keep the dance culture in NITR alive. \n",
@@ -408,7 +408,7 @@ const clubData=[
     },
     {
      "index": 25,
-     "clubName": "Cognizen ",
+     "clubName": "Cognizen",
      "clubSociety": "Literary and Cultural Society",
      "clubTagline": "Inspiring Minds",
      "clubDescription": "Cognizen is the official MUN forum of NIT Rourkela. It stands as the economic and political forum of the college and has been actively working on various sectors in line with the aim of the club. Our regular initiatives and events aim to spread political and economic awareness among people.",
@@ -476,7 +476,7 @@ const clubData=[
     },
     {
      "index": 29,
-     "clubName": "VOICE OF VOICELESS ",
+     "clubName": "VOICE OF VOICELESS",
      "clubSociety": "Literary and Cultural Society",
      "clubTagline": "Lending a voice to those who need it most",
      "clubDescription": "Our club tries to maintain a healthy harmony between the animals and humans inside the campus",
@@ -491,7 +491,7 @@ const clubData=[
     },
     {
      "index": 30,
-     "clubName": "Hourglass ",
+     "clubName": "Hourglass",
      "clubSociety": "Literary and Cultural Society",
      "clubTagline": "“Speak to influence, Influence to change”.",
      "clubDescription": "Hourglass is the Official Public Speaking club of NIT Rourkela, which works under the\numbrella of the Literary Society of the Student Activity Centre (SAC). The club aims towards\nthe perfect confluence of communication and leadership skills. The club enhances the\nproficiency in public speaking of its members by several sessions on elocutions,\nextempore, story-yarn, group discussions, and above all, allowing the members to host\nvarious events for the institute. Above all, Hourglass as a Club harvests on the dedication and skills of its members and is always proud of their ventures",
@@ -594,7 +594,7 @@ const clubData=[
     },
     {
      "index": 36,
-     "clubName": "Actomania ",
+     "clubName": "Actomania",
      "clubSociety": "Film and Music Society",
      "clubTagline": "Think Act Display ",
      "clubDescription": "A club with diverse members who are proactive in showcasing their talent through theatre, drama and events. We at our club always try to address the societal issues through our different activities. Come let’s join and helps each other for the overall betterment.",
