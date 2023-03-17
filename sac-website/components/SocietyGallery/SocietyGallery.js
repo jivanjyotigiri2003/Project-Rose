@@ -1,6 +1,55 @@
 import React from "react";
 
 export default function SocietyGallery({ title }) {
+  
+
+const inno=[
+    {
+       img:""
+    },
+    {
+       img:""
+    },
+
+
+    
+  ]
+  const vriddhi=[
+    {
+      img:""
+    },
+  ]
+   const nitrutsav=[
+    {
+      img:""
+    }
+  ]
+   const cosmo=[
+    {
+      img:""
+    }
+  ]
+
+  let data=inno;
+
+
+
+  if (title=="Technical Society"){
+    title="Innovision"
+    data=inno;
+  }else if(title=="Film and Music Society"){
+    title="Cosmo"
+    data=cosmo
+  } else if(title=="Literary and Cultural Society"){
+    title="Nitrutsav"
+    data=nitrutsav
+  } else if(title="Games and Sports Society"){
+    title="Vriddhi"
+    data=vriddhi
+  }
+  
+  
+  
   return (
     <>
       <div className="s-gallery-container">
@@ -12,16 +61,15 @@ export default function SocietyGallery({ title }) {
             <div className="box">
               <div className="dream">
                 <img
-                  src="https://images.unsplash.com/photo-1677529457630-393ccee0019f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
+                  src={data.img}
                   alt=""
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1677461404789-1faafbd934e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                  alt=""
+                  src={data.img}
+                                    alt=""
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1677658991675-485a63fe10b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
-                  alt=""
+                 src={data.img}
                 />
                 <img
                   src="https://images.unsplash.com/photo-1677529458529-2bf0e643214d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60"
