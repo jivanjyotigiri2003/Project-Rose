@@ -31,7 +31,7 @@ const Skew2 = () => {
                 <img
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
                   src="https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291"
-              // 
+                  //
                   alt=""
                 />
               </div>
@@ -40,7 +40,7 @@ const Skew2 = () => {
                   <div className="  flex gap-3 text-white"></div>
                   <div>
                     <p className="  text-xl font-semibold text-gray-100">
-                     Technical Society
+                      Technical Society
                     </p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const Skew2 = () => {
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div>
                     <p className="text-xl font-semibold text-gray-100">
-                    Games and Sports Society
+                      Games and Sports Society
                     </p>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ const Skew2 = () => {
               </div>
             </div>
 
-            <div className=" -skew-x-12 -mr-28 group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
+            <div className=" -skew-x-12 -mr-[9rem] group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <div className="h-full">
                 <img
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125"
@@ -99,8 +99,7 @@ const Skew2 = () => {
                 <div className=" p-5 insert-x-5 absolute bottom-6">
                   <div>
                     <p className="text-xl font-semibold text-gray-100">
-                    Film & Music Society
-
+                      Film & Music Society
                     </p>
                   </div>
                 </div>
