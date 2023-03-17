@@ -1,13 +1,11 @@
+import React from "react";
 
-import React from 'react'
-
-
-export default function SocietyGallery() {
+export default function SocietyGallery({ title }) {
   return (
     <>
       <div className="s-gallery-container">
         <div className="society-name">
-          <h1 className="s-name">INNOVISION</h1>
+          <h1 className="s-name">{title}</h1>
         </div>
         <div className="society-gallery-container">
           <div className="container">
@@ -135,4 +133,3 @@ export default function SocietyGallery() {
     </>
   );
 }
-
