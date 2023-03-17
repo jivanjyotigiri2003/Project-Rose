@@ -65,7 +65,7 @@ const Club = ({ name, tagline }) => {
                 )
                 .map((club) => {
                   return (
-<<<<<<< HEAD
+
                    
 
                     <div className="flex flex-col justify-center items-center   px-3 py-12 text-center rounded-md bg-white shadow-2xl glow">
@@ -77,7 +77,7 @@ const Club = ({ name, tagline }) => {
                           alt=""
                         />
                       </div>
-=======
+
                     <div className="flex flex-col items-center  px-3 py-12 text-center rounded-md bg-white shadow-2xl glow">
                       <Link
                         href={`/societies/${club.clubSociety}/${club.clubName}`}
@@ -90,7 +90,7 @@ const Club = ({ name, tagline }) => {
                             alt=""
                           />
                         </div>
->>>>>>> ff7dbc40bfb60c6aa3ef31b07ae82bb8b779cfe5
+>
                       </Link>
                       <Link
                         href={`/societies/${club.clubSociety}/${club.clubName}`}
