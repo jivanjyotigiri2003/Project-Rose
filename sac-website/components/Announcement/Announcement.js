@@ -19,7 +19,7 @@ export default function Announcement() {
                     src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092337/inno/75210691_2574366819308647_4498087870069735424_n_i0obin.jpg"
                   />
                   <div className="overlay"></div>
-                  <div className="fullcap max-md:-my-6">Celebrity Night</div>
+                  {/*<div className="fullcap max-md:-my-6">Celebrity Night</div> */}
                 </div>
               </div>
               {UpcomingData.map((data) => {
@@ -31,7 +31,7 @@ export default function Announcement() {
                         src={data.src}
                       />
                       <div className="overlay"></div>
-                      <div className="fullcap -my-6 ">Celebrity Night</div>
+                      {/*<div className="fullcap -my-6 ">Celebrity Night</div> */}
                     </div>
                   </div>
                 );
