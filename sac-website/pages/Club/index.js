@@ -30,7 +30,7 @@ const Club = ({ name, tagline }) => {
 
            
             <button
-              className="shadow-xl  rounded-xl md:py-5 xl:py-3 md:px-24  my-4 p-6  h-[10vh] text-sm xl:text-xl xl:h-[10vh] lg:h-[10vh] lg:text-lg  bg-white hover:bg-red-600 hover:text-white mx-auto hover:scale-105 hover:transition duration-200"
+              className="shadow-xl  rounded-xl md:py-5 xl:py-3 md:px-24  my-4 p-6  h-[vh] text-sm  md:text-xl xl:text-xl xl:h-[10vh] lg:h-[10vh] md:h-[5vh] lg:text-sm  bg-white hover:bg-red-600 hover:text-white mx-auto hover:scale-105 hover:transition duration-200"
               onClick={() => (setCategory(""))}
             >
               All Societies
@@ -39,7 +39,7 @@ const Club = ({ name, tagline }) => {
 
             <div className=" grid gap-4 lg:gap-10 grid-cols-2  lg:grid-cols-4  mx-1">
               <button
-                className={`${active==1 ? "sshadow-xl h-[10vh] md:h-[6vh] lg:h-[10vh] rounded-xl p-3 text-xs  xl:text-xl lg:text-lg hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[6vh] lg:h-[10vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-lg hover:scale-105 hover:transition duration-200"}`}
+                className={`${active==1 ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[10vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[10vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"}`}
                 onClick={() => {
                   setCategory("Technical Society")
                   setActive(1)
@@ -49,7 +49,7 @@ const Club = ({ name, tagline }) => {
                 Technical Society
               </button>
               <button
-                className={`${active==2 ? "shadow-xl h-[10vh] md:h-[6vh] lg:h-[10vh] rounded-xl p-3 text-xs  xl:text-xl lg:text-lg hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[6vh] lg:h-[10vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-lg hover:scale-105 hover:transition duration-200"}`}
+                className={`${active==2 ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[10vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[10vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"}`}
                 onClick={() =>{
                   setCategory("Literary and Cultural Society")
                   setActive(2)
@@ -59,7 +59,7 @@ const Club = ({ name, tagline }) => {
                 Literary and Cultural Society
               </button>
               <button
-                className={`${active==3 ? "shadow-xl h-[10vh] md:h-[6vh] lg:h-[10vh] rounded-xl p-3 text-xs  xl:text-xl lg:text-lg hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[6vh] lg:h-[10vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-lg hover:scale-105 hover:transition duration-200"}`}
+                className={`${active==3 ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[10vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[10vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"}`}
                 onClick={() =>{
                   setCategory("Film and Music Society")
                   setActive(3)
@@ -68,7 +68,7 @@ const Club = ({ name, tagline }) => {
                 Film and Music Society
               </button>
               <button 
-              className={`${active==4 ? "sshadow-xl h-[10vh] md:h-[6vh] lg:h-[10vh] rounded-xl p-3 text-xs  xl:text-xl lg:text-lg hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[6vh] lg:h-[10vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-lg hover:scale-105 hover:transition duration-200"}`}
+              className={`${active==4 ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[10vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[10vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"}`}
                  onClick={() =>{
                   setCategory("Games and Sports Society")
                   setActive(4)
