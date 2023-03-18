@@ -1190,7 +1190,27 @@ const clubData=[
        },
       
         
-    
+       {
+        "index": 42,
+        "clubName": "Finance Club",
+        "clubSociety": "Technical Society",
+        "clubTagline": "\"Empowering Financial Literacy, One Step at a Time.\"",
+        "clubDescription": "The Finance Club of NIT Rourkela promotes financial literacy and awareness among the student community. Through various events, workshops, and interactive sessions, the club aims to equip its members with the skills and knowledge needed to make informed financial decisions. Whether you're interested in investing, budgeting, or learning more about personal finance, the Finance Club is the perfect platform to start your journey toward financial freedom. As a finance club, we have organized various sessions pertaining to finance with some of the best people present in the industry.",
+        "clubFoundation": 2020,
+        "clubInstagram": "financeclub_nitrkl (https://www.instagram.com/financeclub_nitrkl/)",
+        "clubLinkedin": "https://www.linkedin.com/company/financeclub",
+        "clubFacebook": "https://m.facebook.com/100064113309537/",
+        "clubTwitter": "financeclub0",
+        "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1678968574/FC_LOGO_-_Abhinandan_Mishra_ywk8jj.jpg",
+        "clubMembers": 110,
+        "clubFacad": "Prof. Syed Nasimul Alam",
+        "clubFacadMob": 9937917811,
+        "clubDocccc": "https://docs.google.com/spreadsheets/d/1fq80hpt6-iExSOUns2SEdthqvxv7rxmDu0SGt5sh31Q/edit?usp=sharing ",
+        "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139141/ClubGroupPhoto/FC_Group_Pic_-_Abhinandan_Mishra_pvgunz.jpg",
+        "clubEB":["President ",["Abhinandan Mishra","9437583729"],"Vice-President",["Rajiv Sahu","9098633074"],"Manager",["Satyam Patra","7327080609"],"Treasurer",["N Vaibhav Kumar","7205044424"],"Secretary",["Krishna Agarwal","9937077609"],"Design Head",["Mayank Sahu","8455034400"]]
+   
+       },
+
       
    ]
 
