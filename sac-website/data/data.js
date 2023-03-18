@@ -1251,7 +1251,7 @@ const clubData = [
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/1YTdNLO_HpHHy-RbiVTIcFVPK2SUdQnxh1xtEohboMiY/edit?usp=sharing",
     clubGroupPhoto:
-      "https://https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168868/20221114_150223_-_Sanjeet_Patro_qmt7j6.jpg.google.com/open?id=1y7VGkuq2njdBuyZCHf2srohzdyoFz9DP",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168868/20221114_150223_-_Sanjeet_Patro_qmt7j6.jpg",
     clubEB: [
       ["President", "Suyash Umesh Verma", "7749028252"],
       ["Vice-President", "Adyasha Jena", "7656814344"],
@@ -1308,7 +1308,7 @@ const clubData = [
     "clubDocccc ":
       "https://docs.google.com/document/d/1jVMlsXCidNAgTd4TMKrb4bVdunfriJqF8-fuCEgCj3E/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168975/Heartbeats_-_devraj_changkakati_hwegre.jpg.com/open?id=1ClA4iW4G4FTN5ixM-23L3uGH2mi1hVTz",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168975/Heartbeats_-_devraj_changkakati_hwegre.jpg",
     clubEB: [
       ["President", "Melvin Ignatius Toppo", "9799097643"],
       ["Vice President", "Gajraj Mohini", "9668779283"],
@@ -1334,7 +1334,7 @@ const clubData = [
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/1wCAu3NpHpNRRc1TJG7YQYYXgI3A6u-tvtbcSUrPpWa0/edit#gid=0",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169117/Club_Photo_-_Shourya_Gyanvarsha_xzxqrx.jpg.google.com/open?id=1_FpLpsfTFF_UgYteNh0rroV_1pLaftf_",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169117/Club_Photo_-_Shourya_Gyanvarsha_xzxqrx.jpg",
     clubEB: [
       ["President", "Amlan Abhilash Mishra", "7657099478"],
       ["Vice-President", "Shourya Gyanvarsha", "6371933919"],
@@ -1363,8 +1363,7 @@ const clubData = [
     clubFacad: "Tapas Kumar Mishra",
     clubFacadMob: 99,
     "clubDocccc ": "zz",
-    ClubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169760/IMG_9448_jjhqkv.jpg",
+    clubGroupPhoto:"https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169760/IMG_9448_jjhqkv.jpg",
     clubEB: [
       ["President", "Gourab Nanda", "7327080609"],
       ["Vice President", "Kumar Shantanu", "6203158074"],
