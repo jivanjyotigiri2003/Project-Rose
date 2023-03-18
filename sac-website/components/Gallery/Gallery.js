@@ -4,6 +4,7 @@ import Marquee from "react-fast-marquee";
 import style from "./Gallery.module.css";
 import data from "./galleryData";
 import { Fade } from "react-awesome-reveal";
+import Link from "next/link";
 
 function Gallery() {
   return (
@@ -17,13 +18,15 @@ function Gallery() {
             {data.map((data, idx) => {
               return (
                 <div className={style.image_wrapper} key={idx}>
-                  <Image
-                    src={data.src}
-                    height={data.height}
-                    width={data.width}
-                    alt={data.alt}
-                    className="rounded-md h-[100%] bg-cover object-cover"
-                  />
+                  <Link href="/gallery">
+                    <Image
+                      src={data.src}
+                      height={data.height}
+                      width={data.width}
+                      alt={data.alt}
+                      className="rounded-md h-[100%] bg-cover object-cover"
+                    />
+                  </Link>
                 </div>
               );
             })}

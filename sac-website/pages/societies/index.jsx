@@ -75,7 +75,7 @@ export default function societies() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
 
-        <div className="h-screen w-screen flex flex-col lg:flex-row mt-[9.8vh]">
+        <div className="h-screen w-screen flex flex-col lg:flex-row max-[1060px]:mt-[9.8vh]  ">
          <div className="absolute h-full w-screen z-999 bg-black/70"></div>
         
         {/* For Desktop */}
