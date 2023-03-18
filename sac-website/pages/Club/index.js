@@ -16,6 +16,7 @@ import Link from "next/link";
 
 const Club = ({ name, tagline }) => {
   const [category, setCategory] = useState("");
+  const [active,setActive]=useState(0);
   return (
     <div className="w-full h-[100vh] bg-[#BA181B] ">
       <div
@@ -27,31 +28,47 @@ const Club = ({ name, tagline }) => {
           <div className="flex flex-col my-2 ">
             <button
               className="shadow-xl  rounded-xl md:py-5 xl:py-3 md:px-24  my-8 p-6  bg-white hover:bg-red-600 hover:text-white mx-auto"
-              onClick={() => setCategory("")}
+              onClick={() => (setCategory(""))}
             >
               All Societies
             </button>
 
             <div className=" grid gap-4 lg:gap-10 grid-cols-2  lg:grid-cols-4  mx-4">
               <button
-                className="shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-white"
-                onClick={() => setCategory("Technical Society")}
+                className={`${active==1 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black"}`}
+                onClick={() => {
+                  setCategory("Technical Society")
+                  setActive(1)
+                }}
+
               >
                 Technical Society
               </button>
               <button
-                className="shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-white"
-                onClick={() => setCategory("Literary and Cultural Society")}
+                className={`${active==2 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black"}`}
+                onClick={() =>{
+                  setCategory("Literary and Cultural Society")
+                  setActive(2)
+                } 
+              }
               >
                 Literary and Cultural Society
               </button>
               <button
-                className="shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-white"
-                onClick={() => setCategory("Film and Music Society")}
+                className={`${active==3 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black"}`}
+                onClick={() =>{
+                  setCategory("Film and Music Society")
+                  setActive(3)
+                }  }
               >
                 Film and Music Society
               </button>
-              <button className="shadow-xl rounded-xl p-3  bg-white hover:bg-red-600 hover:text-white">
+              <button className={`${active==4 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black"}`}
+                 onClick={() =>{
+                  setCategory("Games and Sports Society")
+                  setActive(4)
+                }  }
+              >
                 Games and Sports Society
               </button>
             </div>
@@ -73,7 +90,7 @@ const Club = ({ name, tagline }) => {
                         <div className="xl:w-[15rem] xl:h-[15rem] lg:w-[10rem] lg:h-[10rem] w-[14rem] h-[14rem] p-2   rounded-full">
                           <img
                             className="h-[100%] w-[100%] object-cover rounded-full "
-                            src="https://res.cloudinary.com/dzbax077h/image/upload/v1677689847/WEBWIZ_BLACK_BACKGROUD_LOGO_1_cjuiib.png"
+                            src={club.clubLogo}
                             alt=""
                           />
                         </div>
@@ -109,7 +126,7 @@ const Club = ({ name, tagline }) => {
                         <div className="xl:w-[15rem] xl:h-[15rem] lg:w-[10rem] lg:h-[10rem] w-[14rem] h-[14rem] p-2   rounded-full">
                           <img
                             className="h-[100%] w-[100%] object-cover rounded-full "
-                            src="https://res.cloudinary.com/dzbax077h/image/upload/v1677689847/WEBWIZ_BLACK_BACKGROUD_LOGO_1_cjuiib.png"
+                            src={club.clubLogo}
                             alt=""
                           />
                         </div>

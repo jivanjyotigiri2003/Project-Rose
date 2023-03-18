@@ -1,9 +1,9 @@
 import React from "react";
-import SocietyCarousel from "../../components/SocietyRepresentative/SocietyCarouselMobile";
 import Head from "next/head";
-import { AiOutlineArrowRight } from "react-icons/ai";
-import { AspectRatio } from "@cloudinary/url-gen/qualifiers";
 import { Fade } from "react-awesome-reveal";
+import { MdOutlineWatchLater } from "react-icons/md";
+import { FaGreaterThan } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Events() {
   const eventData = [
@@ -21,27 +21,6 @@ export default function Events() {
       description:
         "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
-    // {
-    //   image:
-    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-    //   title: "Noteworthy technology acquisitions 2021",
-    //   description:
-    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    // },
-    // {
-    //   image:
-    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-    //   title: "Noteworthy technology acquisitions 2021",
-    //   description:
-    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    // },
-    // {
-    //   image:
-    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-    //   title: "Noteworthy technology acquisitions 2021",
-    //   description:
-    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    // },
   ];
 
   return (
@@ -101,11 +80,11 @@ export default function Events() {
             <div className="flex justify-center items-center text-3xl m-5 font-semibold">
               <h1>Upcoming Events</h1>
             </div>
-            <div className="flex  items-center justify-center mb-4 ">
+            <div className="flex  items-center justify-center mb-4 rounded-[.3rem] ">
               <div className="grid-container ">
                 {eventData.map((event, index) => (
                   <div
-                    class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                    class="bg-white border border-gray-200 rounded-[.5rem] shadow dark:bg-gray-800 dark:border-gray-700 p-[.4rem]"
                     key={index}
                     style={{
                       boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
@@ -117,54 +96,48 @@ export default function Events() {
                         style={{
                           aspectRatio: "3/2",
                           objectFit: "cover",
-                          width: "97%",
+                          width: "100%",
                           margin: "auto",
-                          marginTop: "2%",
                         }}
                         src={event.image}
                         alt=""
                       />
                     </a>
-                    <div class="">
+                    <div
+                      class="bg-[#A4161A]"
+                      style={{
+                        borderRadius: "0 0 .5rem .5rem",
+                      }}
+                    >
                       <a href="#">
-                        <h5 class="mb-1 ml-2  mr-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5 class="flex justify-center items-center text-xl pt-1 pb-1 font-semibold text-white">
                           {event.title}
                         </h5>
                       </a>
-                      <p class="mb-3 ml-2 mr-1 font-normal text-gray-700 dark:text-gray-400 text-sm text-justify">
+                      <p
+                        class="pb-5 ml-2 mr-1 font-normal dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 "
+                        style={{
+                          textAlignLast: "center",
+                        }}
+                      >
                         {event.description}
                       </p>
-
-                      <a href="#">
-                        <p className="text-blue-500 ml-2 mb-4">Read More...</p>
-                      </a>
-
-                      {/* <button
-                    type="button"
-                    class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2"
-                  >
-                    Webwiz
-                  </button>
-
-                  <a
-                    href="#"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                  >
-                    Read more
-                    <svg
-                      aria-hidden="true"
-                      class="w-4 h-4 ml-2 -mr-1"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                  </a> */}
+                      <hr />
+                      <div className="flex justify-between items-center ">
+                        <div className="flex justify-center items-center text-white text-xs pt-2 pb-2 pl-2">
+                          <MdOutlineWatchLater className="mr-1" /> March 21,
+                          2023
+                        </div>
+                        <div>
+                          <Link
+                            href="#"
+                            className="text-white pr-[2vh] text-xs"
+                          >
+                            Read More
+                            <FaGreaterThan className="inline ml-1 " />
+                          </Link>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -172,15 +145,16 @@ export default function Events() {
             </div>
             <div className="w-full h-0.5 bg-zinc-300 mt-10"></div>
           </Fade>
+
           <Fade direction="right" triggerOnce="true" delay="30">
             <div className="flex justify-center items-center text-3xl m-5 font-semibold">
               <h1>Past Events</h1>
             </div>
-            <div className="flex  items-center justify-center mb-4">
+            <div className="flex  items-center justify-center mb-4 rounded-[.3rem] ">
               <div className="grid-container ">
                 {eventData.map((event, index) => (
                   <div
-                    class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                    class="bg-white border border-gray-200 rounded-[.5rem] shadow dark:bg-gray-800 dark:border-gray-700 p-[.4rem]"
                     key={index}
                     style={{
                       boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
@@ -188,63 +162,58 @@ export default function Events() {
                   >
                     <a href="#">
                       <img
-                        class="rounded-t-lg"
+                        class="rounded-t-lg  "
                         style={{
                           aspectRatio: "3/2",
                           objectFit: "cover",
-                          width: "97%",
+                          width: "100%",
                           margin: "auto",
-                          marginTop: "2%",
                         }}
                         src={event.image}
                         alt=""
                       />
                     </a>
-                    <div class="">
+                    <div
+                      class="bg-[#A4161A]"
+                      style={{
+                        borderRadius: "0 0 .5rem .5rem",
+                      }}
+                    >
                       <a href="#">
-                        <h5 class="mb-1 ml-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5 class="flex justify-center items-center text-xl pt-1 pb-1 font-semibold text-white">
                           {event.title}
                         </h5>
                       </a>
-                      <p class="mb-3 ml-2 font-normal text-gray-700 dark:text-gray-400 text-sm">
+                      <p
+                        class="pb-5 ml-2 mr-1 font-normal dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 "
+                        style={{
+                          textAlignLast: "center",
+                        }}
+                      >
                         {event.description}
                       </p>
-
-                      <a href="#">
-                        <p className="text-blue-500 ml-2 mb-4">Read More...</p>
-                      </a>
-
-                      {/* <button
-                    type="button"
-                    class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2"
-                  >
-                    Webwiz
-                  </button>
-
-                  <a
-                    href="#"
-                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                  >
-                    Read more
-                    <svg
-                      aria-hidden="true"
-                      class="w-4 h-4 ml-2 -mr-1"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                  </a> */}
+                      <hr />
+                      <div className="flex justify-between items-center ">
+                        <div className="flex justify-center items-center text-white text-xs pt-2 pb-2 pl-2">
+                          <MdOutlineWatchLater className="mr-1" /> March 21,
+                          2023
+                        </div>
+                        <div>
+                          <Link
+                            href="#"
+                            className="text-white pr-[2vh] text-xs"
+                          >
+                            Read More
+                            <FaGreaterThan className="inline ml-1 " />
+                          </Link>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
+            <div className="w-full h-0.5 bg-zinc-300 mt-10"></div>
           </Fade>
         </div>
       </div>

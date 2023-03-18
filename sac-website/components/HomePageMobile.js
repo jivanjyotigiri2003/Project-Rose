@@ -116,20 +116,8 @@ const HomePageMobile = () => {
             </p>
           </ParallaxLayer>
           <ParallaxLayer offset={0.9999999} speed={1.94}>
-            <div className="cate h-fill ">
+            <div className="cate h-fill relative ">
               <div>
-                <h3
-                  style={{
-                    position: "absolute",
-                    top: "5vh",
-                    left: "18%",
-                    color: "white",
-                    fontSize: "1.6rem",
-                    textShadow: "1px 1px 5px red",
-                  }}
-                >
-                  Film & Music Society
-                </h3>
                 <img
                   style={{
                     width: "100%",
@@ -141,13 +129,27 @@ const HomePageMobile = () => {
                   alt=""
                 />
               </div>
+              <h3
+                style={{
+                  position: "absolute",
+                  top: "12%",
+                  left: "50%",
+                  transform: "translate(-50%,-50%)",
+                  color: "white",
+                  fontSize: "1.6rem",
+                  textShadow: "1px 1px 5px red",
+                }}
+              >
+                Film & Music Society
+              </h3>
 
               <div>
                 <h3
                   style={{
                     position: "absolute",
-                    top: "20.7%",
-                    left: "20%",
+                    top: "36%",
+                    left: "50%",
+                    transform: "translate(-50%,-50%)",
                     color: "white",
                     fontSize: "1.6rem",
                     textShadow: "1px 1px 5px red",
@@ -169,8 +171,9 @@ const HomePageMobile = () => {
                 <h3
                   style={{
                     position: "absolute",
-                    top: "35.7%",
-                    left: "10%",
+                    top: "60%",
+                    left: "50%",
+                    transform: "translate(-50%,-50%)",
                     color: "white",
                     fontSize: "1.6rem",
                     textShadow: "1px 1px 5px red",
@@ -192,8 +195,9 @@ const HomePageMobile = () => {
                 <h3
                   style={{
                     position: "absolute",
-                    top: "50.7%",
-                    left: "23%",
+                    top: "85%",
+                    left: "50%",
+                    transform: "translate(-50%,-50%)",
                     color: "white",
                     fontSize: "1.6rem",
                     textShadow: "1px 1px 5px red",

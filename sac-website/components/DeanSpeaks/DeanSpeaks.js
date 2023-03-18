@@ -3,7 +3,7 @@ import Image from "next/image";
 // import dean from "../../public/dean.jpg";
 import { Fade } from "react-awesome-reveal";
 
-function DeanSpeaks({ data = "Dean Speaks" }) {
+function DeanSpeaks({ data = "Dean Speaks" ,description}) {
   const dean =
     "https://ik.imagekit.io/gourab18/101717_Paul_McLoughlin_MDD_129853__1_.jpg?updatedAt=1678787663649";
   return (
@@ -21,13 +21,7 @@ function DeanSpeaks({ data = "Dean Speaks" }) {
             {data}
           </h1>
           <div className="lg:text-[1.2rem] ">
-            I would request the students to have a little patience. Staying at
-            home might have gotten boring now but I hope that they don’t feel
-            disturbed. Today’s young generation is very vibrant, and they do not
-            want to be stuck within the same four walls. But, the situation
-            doesn’t allow us to have all the flexibility which we wish to have.
-            I hope after the pooja vacations things change and soon all the
-            students will be asked to return to campus.
+          {description}
           </div>
         </div>
       </div>

@@ -94,7 +94,7 @@ export default function Footer() {
                     className="hover:font-semibold"
                     target="_blank"
                   >
-                    HackOdisha
+                   INTER-NIT
                   </a>{" "}
                 </li>
                 <li>
@@ -104,7 +104,7 @@ export default function Footer() {
                     className="hover:font-semibold"
                     target="_blank"
                   >
-                    HackNitr
+                    CELEBRITY NIGHT
                   </a>{" "}
                 </li>
                 
