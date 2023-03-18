@@ -2,24 +2,26 @@ import React from "react";
 import SocialsLink from "../SocialsLink/SocialsLink";
 import { FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import DeanSpeaks from "../DeanSpeaks/DeanSpeaks";
-const ClubHero2 = ({ name, tagline,logo }) => {
+const ClubHero2 = ({ name, tagline,logo ,inst,twit,face,link}) => {
   return (
     <div className="w-full h-[100vh]  ">
       {/* <div className=" fixed right-0 top-[50%] -translate-y-[50%] border-2 p-3 r bg-[white] z-[999] shadow-xl rounded-l-lg  "> 
         <SocialsLink />
       </div> */}
       <div className="fixed right-0 top-[50%] -translate-y-[50%] border-2 p-3 r bg-[white]  z-[999] shadow-xl rounded-l-lg ">
-        <a href="https://www.facebook.com/sac.nitr/" target="_blank">
+        <a href={face} target="_blank">
           <FaFacebook size={32} color={"black"} className="mb-2 " />
         </a>
-        <a href="https://www.instagram.com/nitrourkela1961/" target="_blank">
+        <a href={inst} target="_blank">
           <FaInstagram size={32} color={"black"} className="my-2" />
         </a>
-        <a href="https://twitter.com/nitrourkela?lang=en" target="_blank">
+      
+        <a href={twit} target="_blank">
           <FaTwitter size={32} color={"black"} className="my-2" />
         </a>
+       
         <a
-          href="https://www.linkedin.com/school/national-institute-of-technology-rourkela/"
+          href={link}
           target="_blank"
         >
           <FaLinkedin size={32} color={"black"} className="mt-2" />
