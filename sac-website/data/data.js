@@ -306,6 +306,7 @@ const clubData = [
     clubFacadMob: "+91 94379 40105",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/13yGFabexmsFT3OXyrDq3BlLaMgCpnd7-Yn97w9XU9a4/edit",
+    clubEB: [["President", "Satabdi Beuria", "6371991105"]],
   },
   {
     index: 12,
