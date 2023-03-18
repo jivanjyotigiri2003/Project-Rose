@@ -113,7 +113,7 @@ const clubData=[
      "clubFacad": "Prof.Manish Okade",
      "clubFacadMob": "+91 88958 53758",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1BQUNTL1Un1LMvqom309PuFJxjiWfSIENFWpnnpZFx6g/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1dGwLOZ0o37QrQLcEBK-YQ2iupxqLemPG"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679136581/group_photo_rotaract_-_Maya_Yadav_mspkax.jpg"
     },
     {
      "index": 8,
@@ -131,7 +131,7 @@ const clubData=[
      "clubFacad": "Prof R.K Biswal ",
      "clubFacadMob": "82493 48088",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1ADmtPOoLYnc2j1oiALzcV5H3GbcDxfrO9_dZrVTO9-k/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1YfcuzDcPz1s0iuY3xb59bhDsz9rGBJan"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679137275/ClubGroupPhoto/9ddb9730-aaf0-4e39-a5fc-48ade9ee2927_-_Ray_Jew_ig9vqy.jpg"
     },
     {
      "index": 9,
@@ -148,7 +148,7 @@ const clubData=[
      "clubFacad": "Prof. UC Pati",
      "clubFacadMob": 9438622795,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1FI1jv4wnAe38F4krpXOC0Xk1EbtbUTGpN5T3gZJBNKs/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1KSyf7raMXF4Jzx13vTArviHMwuIlwBzD"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679135535/ClubGroupPhoto/WhatsApp_Image_2023-03-14_at_01.08.32_-_Game_To_Aim_rst4lu.jpg"
     },
     {
      "index": 10,
@@ -166,7 +166,7 @@ const clubData=[
      "clubFacad": "Prof. Sambit Bakshi",
      "clubFacadMob": 9778706770,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/165dqUw9OX964YXlx5XThqchSbiZZowWxBm8zYcRHi0U/edit#gid=0",
-     "clubGroupPhoto": "https://drive.google.com/open?id=17iQH4iv1CZPD8eaAryfxjSsdld8MxlFo"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679135697/ClubGroupPhoto/RD_Group_Image_1_-_Tripali_Tah_fm2yt8.jpg"
     },
     {
      "index": 11,
@@ -200,7 +200,7 @@ const clubData=[
      "clubFacad": "Prof. Syed Nasimul Alam ",
      "clubFacadMob": "+91 9937917811",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/19ha1Bsir13VcMNOusar-nykTras1IEDNmQHJUTDLC_U/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1Q5E4djYdvFTAgPQ2YWVPjm_SBMY_YZCc"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679136043/ClubGroupPhoto/DSC00674_-_RITVIC_-_NIT_Rourkela_cncvhw.jpg"
     },
     {
      "index": 13,
@@ -218,7 +218,7 @@ const clubData=[
      "clubFacad": "Prof. Pabitra Mohan Khilar",
      "clubFacadMob": 9556228979,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1QC71CZyg1GCVsVISv4rBTV-SYA7T-50iZ6EjtNaLF8Y/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1SZkp6YpLm-TQjGb_57ecC9IoqU7UZu1g"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679136050/ClubGroupPhoto/WhatsApp_Image_2023-03-14_at_6.01.09_PM_1_-_Bikash_Rao_h8ufd9.jpg"
     },
     {
      "index": 14,
@@ -236,7 +236,7 @@ const clubData=[
      "clubFacad": "Prof. Sujit Sen",
      "clubFacadMob": "+91 99382 46590",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/19tbTU-oF6UaWJJ9GZOHoPAMHZfks-9L0_0L0U4ESEFA/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1wWUCK-Xzam7GFj6NCtCZk-K2Lp-MxX1l"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679137516/ClubGroupPhoto/AIChE_NITR-Club_Group_pic_-_Bibhuti_Bhusan_Pradhan_ulcg6i.jpg"
     },
     {
      "index": 15,
@@ -252,7 +252,7 @@ const clubData=[
      "clubFacad": "Prof. Anup Nandy",
      "clubFacadMob": 6370066981,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/17mO38b6gxHriM8zjABjvTLNHo-uYDKLPe5vd5XEkTEw/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1_QyAZtuamv2IqT_C6o_dHjeIYdBXPvYH"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679136204/ClubGroupPhoto/IMG-20230313-WA0004_-_Manas_Teertha_Nayak_1_x3rcia.jpg"
     },
     {
      "index": 16,
@@ -268,7 +268,7 @@ const clubData=[
      "clubFacad": "DR. SUMAN GHOSH",
      "clubFacadMob": 9437809878,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1rtWvYUsZ_4O69-SMNUHWjWGqIlNid_MMSqFXSe3OFkM/edit#gid=0",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1JxBlDQU8nZusT_LKrXII7tllXlJAiY37"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679136262/ClubGroupPhoto/IMG_2721_-_ASME_NITR_qlcooc.jpg"
     },
     {
      "index": 17,
@@ -286,7 +286,7 @@ const clubData=[
      "clubFacad": "Prof. Dr. Subhajit Monda",
      "clubFacadMob": 8116205595,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1GwCJPaluhwPh8u2VHQfRbQ4Cy7LXFQqu2Ol7RdA8pxc/edit#gid=0",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1L729oCPC1lYWNNjh3BttjECltpR8oDqP"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679136296/ClubGroupPhoto/CEST_GROUP_PHOTO_-_Sushmit_Singh_igdeje.jpg"
     },
     {
      "index": 18,
@@ -320,7 +320,7 @@ const clubData=[
      "clubFacad": "Dr Srinivasan Muthuswamy",
      "clubFacadMob": "+919621429923",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1N_1LlK_s4FbaBvodUdQQDEDbPTLphXqvhhXznk4q2e4/edit?usp=drivesdk",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1IegQ61MrtJS2_c7XOBvcVhL3L4_-1ztu"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679136345/ClubGroupPhoto/IMG-20230314-WA0015_-_The_Bioscience_Society_gawnjq.jpg"
     },
     // {
     //  "index": 20,
@@ -355,7 +355,7 @@ const clubData=[
      "clubFacad": "Prof. Anwesha Sengupta",
      "clubFacadMob": " (+91) 9432187482 ",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1lUPum2ZO_B_qmLxk3Z_UQ4syc8S5RmvRG8YonRIMUy0/edit#gid=0",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1V14oKHXh8SkIGbdc_kZ89V-NgQVGIWrT"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679136520/ClubGroupPhoto/spic_macay_club_-_Abhinav_kumar_Gupta_tffwcl.jpg"
     },
     {
      "index": 22,
@@ -371,7 +371,7 @@ const clubData=[
      "clubFacad": "PS BALAJI",
      "clubFacadMob": 7395979565,
      "clubDocccc": "https://1drv.ms/x/s!Amv22uxFn3R8gRKtVaISaZqwiA4t?e=Hff7ls",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1yS11j9798i718mw9EWATIcohHszXOZqx"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679137655/ClubGroupPhoto/MicrosoftTeams-image_1_-_Krithika_Mudavath_ocdxeu.jpg"
     },
     {
      "index": 23,
@@ -389,7 +389,7 @@ const clubData=[
      "clubFacad": "Dr. Balaji P.S.",
      "clubFacadMob": 7395979565,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1iAFcBveJbHtaJs2cE5GUS2e18NAnBYWCDKImrFCPPrQ/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=18f6k0NvltKC5DLYbARMa2YdugC-Xr5GQ"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679137719/ClubGroupPhoto/PXL_20220805_214847143_-_Devansh_Saxena_jo390j.jpg"
     },
     {
      "index": 24,
@@ -422,7 +422,7 @@ const clubData=[
      "clubFacad": "Dr Mahendra Chinthalla",
      "clubFacadMob": "+91 96555 75685",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1e2gKKEaGezEINCSdZ2JMoUafYvoDP64Lig8uurRvolU/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1G-ZHZFSQtcgEZU4KUkw8gQgPUIG6fD29"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679137904/ClubGroupPhoto/Club_Photos_Cognizen_-_Akankshya_Dash_qgp70p.jpg"
     },
     {
      "index": 26,
@@ -439,7 +439,7 @@ const clubData=[
      "clubFacad": "Prof. Suverna Trivedi",
      "clubFacadMob": 9451811492,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1idx2BqfQv5oo8LrZgoEEFJQbEyMbZzd_rAFq9HUnGSs/edit#gid=0",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1KLj8ZTDHr2PFhFysjTX08H7MD7V4_su1"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679137937/ClubGroupPhoto/Group_Photo_-_Sagar_Mangaraj_ooah5c.jpg"
     },
     {
      "index": 27,
@@ -472,7 +472,7 @@ const clubData=[
      "clubFacad": "Dr Srinivasan Muthuswamy",
      "clubFacadMob": 9621429923,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1jqfeqOsFw49pttvJ4pb7hws8nPcvdcN2yPw9szOajsY/edit?usp=drivesdk",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1-QH0VGkDEHD0gLx3bnNh4wt6EQBdbPv_"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138243/ClubGroupPhoto/IMG_7068_-_Ankush_Lohani_pjhnlb.jpg"
     },
     {
      "index": 29,
@@ -505,7 +505,7 @@ const clubData=[
      "clubFacad": "Proff Tushar Gupta",
      "clubFacadMob": "+91&nbsp;99205&nbsp;81558",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1KYWcoV-K7CupG4WXdHhtDl-mPZACUmgxYTogMED5aI0/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1BeUOzXtzFLJ7sbUSiwbySGLCDwtGXRyb"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138378/ClubGroupPhoto/Hourglass_Club_Group_Photo_-_Abhijeet_Govind_hoa0ow.jpg"
     },
     {
      "index": 31,
@@ -556,7 +556,7 @@ const clubData=[
      "clubFacad": "Professor Devendra Verma",
      "clubFacadMob": 7682943105,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1Jn-HJ0mllhXrIkA-POXprAbMvnidsgfW6j5dFczfjH0/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1Grs2Gm7ZHacLxUQZ-xnrlQOOoSNk--5e"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpghttps://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpg"
     },
     {
      "index": 34,
@@ -590,7 +590,7 @@ const clubData=[
      "clubFacad": "Dr. Divya Singh",
      "clubFacadMob": 9439951426,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1l1q2JH64sQuGYw9EJsD-8zpEMnivTJlDPRnvofNe-MM/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1xhi5VsNEBs_WcIwJNAJr9tf_bp_f9Bt2"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138660/ClubGroupPhoto/WhatsApp_Image_2023-03-13_at_10.57.00_PM_-_Nikita_Agarwal_s8jpou.jpg"
     },
     {
      "index": 36,
@@ -606,7 +606,7 @@ const clubData=[
      "clubFacad": "Prof. Angana sarkar",
      "clubFacadMob": 9733504234,
      "clubDocccc": "https://drive.google.com/drive/folders/1k6qNdWECsUJQrlTjxhGMww-ij8VQpZVi",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1ejGM8qO3pe_FQPLG8jhJJlylbiC8G2aB"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138744/ClubGroupPhoto/IMG-20230314-WA0018_-_Actomania_2029_u6xx5f.jpg"
     },
     {
      "index": 37,
@@ -623,7 +623,7 @@ const clubData=[
      "clubFacad": "Professor Atin Mukherjee",
      "clubFacadMob": "+91 9432892150",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1rFPErU1kqZg4BvcwEj8jEVXGqhWcYbVeEE5C880huH4/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=16inpTH2o10zZ_d6PDA3Wga7d5pdG1Lbf"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138796/ClubGroupPhoto/group_-_Swayam_Mohanty_dukitj.jpg"
     },
     {
      "index": 38,
@@ -641,7 +641,7 @@ const clubData=[
      "clubFacad": "Prof. R. K. BISWAL",
      "clubFacadMob": 8249348088,
      "clubDocccc": "https://drive.google.com/drive/u/0/folders/1rCPtLAAjNraOr3ThRnkeXzedHxOLnJTE",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1MxAMuBOwh3kTpSQehJGkNk1txE6mKNar"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138850/ClubGroupPhoto/IMG_20230314_235217_-_Amit_suryadipta_Kar_dk3egn.jpg"
     },
     {
      "index": 39,
@@ -658,7 +658,7 @@ const clubData=[
      "clubFacad": "Prof. Sanjoy Datta",
      "clubFacadMob": 9556206630,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1ZGpDutWG5-k0_Bl8GynlC7gfM_5XYmXX/edit#gid=577826563",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1ALgvu7UYg2XzZp0zJhZtqxSML0GpQjbt"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138931/ClubGroupPhoto/311780339_234570295561121_8803281892657017261_n_5_-_Krishna_Aditya_Mohanty_khlzhk.png"
     },
     {
      "index": 40,
@@ -676,7 +676,7 @@ const clubData=[
      "clubFacad": "Prof. Prasanta Kumar Bhuyan",
      "clubFacadMob": 9658642180,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1hi_zqcO4FgqEMKvvZ350PpJx5sut-ntwi6GnrAEZO80/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1Lm8KAWvlGTgAUZcd11ACsgXOYTACpUa8"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139008/ClubGroupPhoto/AKRITI_-_Atri_Ranjan_Das_l26oht.jpg"
     },
     {
      "index": 41,
@@ -692,7 +692,7 @@ const clubData=[
      "clubFacad": "Prof. Sambit Bakshi",
      "clubFacadMob": "+91 9778706770",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1z9Rl0_TgpoXD6Nak-K84mZAv-ePPtJGPfvJ-OskE_uA/edit?usp=sharing",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1fgvBR2MTbJWV4t-3-oAGvhTuzMrCSI_V"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139071/ClubGroupPhoto/IMG_4429_-_Susmita_Panda_xmluuw.heic"
     },
     {
      "index": 42,
@@ -710,7 +710,7 @@ const clubData=[
      "clubFacad": "Prof. Syed Nasimul Alam",
      "clubFacadMob": 9937917811,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1fq80hpt6-iExSOUns2SEdthqvxv7rxmDu0SGt5sh31Q/edit?usp=sharing ",
-     "clubGroupPhoto": "https://drive.google.com/open?id=1Xvad2_Mz4zVaKH4l-EJOK9MBXc1r3pM0"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139141/ClubGroupPhoto/FC_Group_Pic_-_Abhinandan_Mishra_pvgunz.jpg"
     }
    ]
 
