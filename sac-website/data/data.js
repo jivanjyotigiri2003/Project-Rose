@@ -13,6 +13,7 @@ const clubData=[
      "clubFacadMob": 9433746069,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1tjfgKwTEH068SkRO6KLHfiXh5JmdZzhAULNxEB4j04s/edit?usp=sharing",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679066856/ClubGroupPhoto/opencode_2021-22_-_Swatishree_Mahapatra_aiqr94.jpg"
+
     },
     {
      "index": 2,
@@ -29,6 +30,7 @@ const clubData=[
      "clubFacadMob": 9971867785,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1V4inmYAXBDcZJwErd_Ay8D_gHDzKuwgPSZV2f9R43Mk/edit?usp=sharing",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679066821/ClubGroupPhoto/APS_EB_Pic_-_Abhijit_Panda_e3n095.jpg"
+     
     },
     {
      "index": 3,
@@ -282,7 +284,7 @@ const clubData=[
      "clubLinkedin": "https://www.linkedin.com/company/cest-club/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BZtQgthQoTN%2BX9s0qD%2F80Kg%3D%3D",
      "clubFacebook": "https://www.facebook.com/cestnitr",
      "clubTwitter": "https://twitter.com/cestnit?s=20",
-     "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1678968571/CEST_LOGO_-_Sushmit_Singh_r1huos.jpg",
+     "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1678968570/CEST_LOGO_-_Sushmit_Singh_elhrvk.jpg",
      "clubMembers": 60,
      "clubFacad": "Prof. Dr. Subhajit Monda",
      "clubFacadMob": 8116205595,
@@ -535,7 +537,14 @@ const clubData=[
      "clubMembers": 35,
      "clubFacad": "Sirsendu Sekhar Ray",
      "clubFacadMob": 6612462288,
-     "clubDocccc": "https://docs.google.com/spreadsheets/d/1lPVD3aBXYuei3NYnkXFcmpTkWyi9QQ6rXTrjjH0OSOU/edit?usp=sharing"
+     "clubDocccc": "https://docs.google.com/spreadsheets/d/1lPVD3aBXYuei3NYnkXFcmpTkWyi9QQ6rXTrjjH0OSOU/edit?usp=sharing",
+     "clubEB":[
+        ["President","Aman Sarin","9439580818"],
+        ["Vice President","Swetlana Chatterjee","9836570232"],
+        ["Secretary","Jagadish Das","7008914381"],
+        ["Coordinator","Soumya Ranjan Nayak","6372529014"],
+        ["Cinematography Head","Raj Aryan Vishwakarma","9977114187"],    
+        ]
     },
     {
      "index": 32,
@@ -552,7 +561,12 @@ const clubData=[
      "clubMembers": 24,
      "clubFacad": "Prasoon Kumar",
      "clubFacadMob": 8105648520,
-     "clubDocccc": "https://docs.google.com/spreadsheets/d/1cl3VbkJQ6YMbze9dd4N-0NdIQV41ZOod-3Qpzu8fGD0/edit?usp=sharing"
+     "clubDocccc": "https://docs.google.com/spreadsheets/d/1cl3VbkJQ6YMbze9dd4N-0NdIQV41ZOod-3Qpzu8fGD0/edit?usp=sharing",
+     "clubEB":[["President",	"Abhay Thakur", "8981564862"],
+        ["Vice President",	"Krishnanshu Sharma","9149890855"],
+        ["Secretary",	"Sudhansh Prasad Arya",	"9462254958"],
+        ["Treasurer",	"Siddharth Shekhar",	"7205849274"],
+        ]
     },
     {
      "index": 33,
@@ -570,7 +584,18 @@ const clubData=[
      "clubFacad": "Professor Devendra Verma",
      "clubFacadMob": 7682943105,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1Jn-HJ0mllhXrIkA-POXprAbMvnidsgfW6j5dFczfjH0/edit?usp=sharing",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpghttps://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpg"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpghttps://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpg",
+     "clubEB":[
+        ["Vipul Dewasthale",	"President",	"9406967902"],
+       [ "Aditi Bhakat",	"Vice-President",	"9832559861"],
+        ["Shreenadan Sahu",	"Secretary",	"7536921319"],
+       [ "Priyanshu Das",	"Treasurer",	"9337991462"],
+       [ "Prerna Komal Chordiya",	"Content Head",	"8625965432"],
+       [ "Abhijeet Govind Anoop",	"PR Head",	"9037474761"],
+        ["Anushka Abhijeet Samant",	"Design Head",	"7715870104"],
+        ["Jagrit Sahu",	"Technical Head",	"6371443154"],
+        ["Isha Biswas",	"Sophomore coordinator",	"6290350648"],
+        ["Aditya Narayan D S Jenamani",	"Sophomore coordinator","7488490089"]]
     },
     {
      "index": 34,
@@ -587,7 +612,17 @@ const clubData=[
      "clubMembers": 50,
      "clubFacad": " Prof. Sasmita Mishra ",
      "clubFacadMob": "+918144923411 / +917750960066",
-     "clubDocccc": "https://docs.google.com/spreadsheets/d/1CjMg06v7DCfO4MOcMtNsVImPXWqHNEbjLXmL0UVH-2A/edit#gid=0"
+     "clubDocccc": "https://docs.google.com/spreadsheets/d/1CjMg06v7DCfO4MOcMtNsVImPXWqHNEbjLXmL0UVH-2A/edit#gid=0",
+     "clubEB":[["President",	"Aayush Dinesh Kandpal",8291690166],
+        ["Secretary",	"Lokesh Kumar Behera",	9090422962],
+        ["Vice President",	"Agamya Khandelwal",	9834204227],
+       [" PR Head",	"Geethasree Koncha",	8277467085],
+        ["Treasurer",	"Yash Choudhary", 	6305588567],
+        ["Event Management Head","Harsh Ramdas Bangar",	7719861972],
+        ["Finance Head",	"Swarnim Agrawal" ,	8319493047],
+        ["Content Head",	"Rishu Nideesh Pathak",	8763637518],
+        ["Event Management Head",	"Abhisri Das",	7008017752],
+        ["Design Head",	"Khushi Agarwal",	9163617910]]
     },
     {
      "index": 35,
@@ -604,7 +639,15 @@ const clubData=[
      "clubFacad": "Dr. Divya Singh",
      "clubFacadMob": 9439951426,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1l1q2JH64sQuGYw9EJsD-8zpEMnivTJlDPRnvofNe-MM/edit?usp=sharing",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138660/ClubGroupPhoto/WhatsApp_Image_2023-03-13_at_10.57.00_PM_-_Nikita_Agarwal_s8jpou.jpg"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138660/ClubGroupPhoto/WhatsApp_Image_2023-03-13_at_10.57.00_PM_-_Nikita_Agarwal_s8jpou.jpg",
+     "clubEB":[["President",	"Nikita Agarwal",	7991030024],
+     ["Vice President",	"Subhendu Shekhar Tripathy",6370021206],
+     ["Chief Coordinator",	"Swapnanil Das",	9163132109],
+     ["Event coordinator",	"Ayashkant Mohapatra",	9438633766],
+    ["Event coordinator",	"Shreejai Pati",	7873180900],
+     ["Design Head",	"Anushka Abhijeet Samant",	7715870104],
+    [ "Treasurer",	"Amandeep",	6204561172]]
+   
     },
     {
      "index": 36,
@@ -620,7 +663,12 @@ const clubData=[
      "clubFacad": "Prof. Angana sarkar",
      "clubFacadMob": 9733504234,
      "clubDocccc": "https://drive.google.com/drive/folders/1k6qNdWECsUJQrlTjxhGMww-ij8VQpZVi",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138744/ClubGroupPhoto/IMG-20230314-WA0018_-_Actomania_2029_u6xx5f.jpg"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138744/ClubGroupPhoto/IMG-20230314-WA0018_-_Actomania_2029_u6xx5f.jpg",
+     "clubEB":[["President",	"Subhankar Dutta", 	7908450565],
+   [  "Vice President","Biswajit Behera",	7326878233],        
+    [ "Secretary",	"Sushree Priyadarshana",	9348753695],
+             
+     ["Treasurer",	"Aster Behera",	9348801131]]
     },
     {
      "index": 37,
@@ -637,7 +685,13 @@ const clubData=[
      "clubFacad": "Professor Atin Mukherjee",
      "clubFacadMob": "+91 9432892150",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1rFPErU1kqZg4BvcwEj8jEVXGqhWcYbVeEE5C880huH4/edit?usp=sharing",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138796/ClubGroupPhoto/group_-_Swayam_Mohanty_dukitj.jpg"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138796/ClubGroupPhoto/group_-_Swayam_Mohanty_dukitj.jpg",
+     "clubEB":[["President",	"Swayam Mohanty",	7978617895],
+        ["Vice President",	"Goutam Sahu",	9078587157],
+       [ "Secretary",	"Ashwini Kumar Nayak",	9438461170],
+        ["Design Head",	"Akshit Anupam Ekka",	9113384543],
+        ["Public Relations Head",	"Sankalp Mishra",	7987467161],
+        ["Treasurer",	"Manas Ranjan Mishra",	7008498374]]
     },
     {
      "index": 38,
@@ -655,7 +709,14 @@ const clubData=[
      "clubFacad": "Prof. R. K. BISWAL",
      "clubFacadMob": 8249348088,
      "clubDocccc": "https://drive.google.com/drive/u/0/folders/1rCPtLAAjNraOr3ThRnkeXzedHxOLnJTE",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138850/ClubGroupPhoto/IMG_20230314_235217_-_Amit_suryadipta_Kar_dk3egn.jpg"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138850/ClubGroupPhoto/IMG_20230314_235217_-_Amit_suryadipta_Kar_dk3egn.jpg",
+     "clubEB":[["PRESIDENT" ,"AMIT SURYADIPTA KAR",		8337976733],
+       [ "VICE- PRESIDENT", "SARTHAK PRASAD SAHOO",		7008698366],
+       [ "EDITOR-IN-CHIEF( SECRETARY)", "AKASH KUMAR SWAIN",		9777612417],
+       ["MANAGEMENT HEAD", "M KALYAN KUMAR"	,	6371245585],
+        ["CONTENT HEAD", "KAILASH CHANDRA PUJAHARI",		8144156673],
+        ["DESIGN HEAD", "JYOTIPRAKASH SAMANTA",		8260833919],
+        ["TREASURER", "V RAJA PATRO",		7789942173]]
     },
     {
      "index": 39,
@@ -672,7 +733,13 @@ const clubData=[
      "clubFacad": "Prof. Sanjoy Datta",
      "clubFacadMob": 9556206630,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1ZGpDutWG5-k0_Bl8GynlC7gfM_5XYmXX/edit#gid=577826563",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138931/ClubGroupPhoto/311780339_234570295561121_8803281892657017261_n_5_-_Krishna_Aditya_Mohanty_khlzhk.png"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138931/ClubGroupPhoto/311780339_234570295561121_8803281892657017261_n_5_-_Krishna_Aditya_Mohanty_khlzhk.png",
+     "clubEB":[["President",	"Krishna Aditya Mohanty", 	9937046915],
+       [" Vice-President",	"Siddharth Ray ",	9668749887],
+       [ "Research Head ",	"Sarthak Sahoo",	6371258214],
+       [ "PR Head",	"Tannmoy", 	7070129599],
+        ["Design Head ", "Ajitesh Srivastava",	7668473007],
+        ["Treasurer",	"Swapnanil Das",	9163132109]]
     },
     {
      "index": 40,
@@ -690,7 +757,13 @@ const clubData=[
      "clubFacad": "Prof. Prasanta Kumar Bhuyan",
      "clubFacadMob": 9658642180,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1hi_zqcO4FgqEMKvvZ350PpJx5sut-ntwi6GnrAEZO80/edit?usp=sharing",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139008/ClubGroupPhoto/AKRITI_-_Atri_Ranjan_Das_l26oht.jpg"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139008/ClubGroupPhoto/AKRITI_-_Atri_Ranjan_Das_l26oht.jpg",
+     "clubEB":[["President","Atri Ranjan Das",	9777369410],
+        ["Vice President",	"Sugyan Bentakar",	7849099718],
+       [ "Chief Coordinator",	"Parth Thakare",	7796304101],
+        ["Design and Content Head",	"Insha Mustafa",	9123436335],
+        ["Art and Craft head",	"Anjan Mridha",	9668361980]
+    ]
     },
     {
      "index": 41,
@@ -706,7 +779,14 @@ const clubData=[
      "clubFacad": "Prof. Sambit Bakshi",
      "clubFacadMob": "+91 9778706770",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1z9Rl0_TgpoXD6Nak-K84mZAv-ePPtJGPfvJ-OskE_uA/edit?usp=sharing",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139071/ClubGroupPhoto/IMG_4429_-_Susmita_Panda_xmluuw.heic"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139071/ClubGroupPhoto/IMG_4429_-_Susmita_Panda_xmluuw.heic",
+     "clubEB": [["President",	"Diwakar Mishra",	7319639134],
+     ["Vice President",	"Prisita Preetam",	8847805647],
+    [ "Technical Head",	"Shubham Arya Singh",	7898729445],
+     ["Treasurer",	"Akansh Nayak",	7848000070],
+     ["Coordinator",	"Bishal Atal ",	 +9779862077887 ],
+    [ "Coordinator","	Susmita Panda",	9861225356]]
+
     },
     {
      "index": 42,
@@ -725,7 +805,146 @@ const clubData=[
      "clubFacadMob": 9937917811,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1fq80hpt6-iExSOUns2SEdthqvxv7rxmDu0SGt5sh31Q/edit?usp=sharing ",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139141/ClubGroupPhoto/FC_Group_Pic_-_Abhinandan_Mishra_pvgunz.jpg"
-    }
+    },
+
+     {
+  "index": 43,
+  "clubName": "SDG Campus Club",
+  "clubSociety": "Literary and Cultural Society",
+  "clubTagline": "A step towards saving our Earth",
+  "clubDescription": "SDG Campus Club is the official sustainability club of NIT Rourkela. Our aim is to work towards achieving the 17 sustainable development goals designated by the UN at an institutional and local level. \n",
+  "clubFoundation": 2020,
+  "clubInstagram": " https://instagram.com/sdgcampusclub_nitrkl?igshid=YmMyMTA2M2Y=",
+  " clubLinkedin": "https://www.linkedin.com/company/sdg-campus-club-nitrkl/",
+  "clubFacebook": "https://www.facebook.com/sdgcampusclubnitrkl",
+  "clubTwitter": " ",
+  "clubLogo": "https://drive.google.com/open?id=1m0cLErTn3BjPIKjKAGdi0YfCzf9EGsjf",
+  "clubMembers": 80,
+  "clubFacad": "Prof. Ramakrishna Biswal",
+  "clubFacadMob": "+91 82493 48088 ",
+  "clubDocccc ": "https://docs.google.com/spreadsheets/d/1YZ2Ao3cVH1HuLKnlFu5FuALJeYWIxa4-RLNBFgzkvgQ/edit?usp=sharing",
+  "clubGroupPhoto": "https://drive.google.com/open?id=1Mng8kPEsTqhTTvehFgy3bYwWauhQmxkd"
+ },
+
+ {
+  "index": 44,
+  "clubName": "Nrityunjay",
+  "clubSociety": "Film and Music Society",
+  "clubTagline": "Let's Dance with Cosmos",
+  "clubDescription": "Indian classical dance is sustained by a profound philosophy. The form seeks to merge with the formless, motions seek to become a part of the motionless, and the dancing individual seeks to become one with the eternal dance of the cosmos. Nrityunjay is the all form inclusive Classical Dance Club of NIT Rourkela. ",
+  "clubFoundation": 2022,
+  "clubInstagram": "https://www.instagram.com/nrityunjay_nitr/",
+  " clubLinkedin": "NA",
+  "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/Group_15_vadmr7.png",
+  "clubMembers": 30,
+  "clubFacad": "Prof Suchismita Chinara",
+  "clubFacadMob": 9437116795,
+  "clubDocccc ": "https://docs.google.com/spreadsheets/d/10nQwLaU7JnJmLinBlNDIbKXcktpgOy61JBqxAudFZbg/edit?usp=sharing",
+  "clubGroupPhoto": "https://drive.google.com/open?id=18QN2R16xRSb14PRKCwMxy9cE2YMxjJNv"
+ },
+ {
+  "index": 45,
+  "clubName": "CYBORG",
+  "clubSociety": "Technical Society",
+  "clubTagline": "WE DESIGN INTELLIGENCE",
+  "clubDescription": "Cyborg is the official Robotics and Automation club of NIT Rourkela, registered under SAC. It was founded in 2008 by the students of NIT Rourkela itself. We at Cyborg innovate and develop projects related to robotics and advanced automation. It is the perfect blend of the following engineering disciplines - Computer Science, Electronics, and Mechanical. Some of the current projects include IGV (Intelligent Ground Vehicle), Autonomous Drone (UAV), Room Automation, Stair Climber bot, Vac bot, Librarian bot, Rubik's cube solver etc. We also participate in various robotics challenges of national and international reputation.",
+  "clubFoundation": 2008,
+  "clubInstagram": "https://www.instagram.com/cyborg_nitr/",
+  " clubLinkedin": "https://www.linkedin.com/company/cyborg-official-robotics-club-of-nit-rourkela/mycompany/",
+  "clubFacebook": "https://www.facebook.com/cyborg.nitr/",
+  "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679160025/Group_14_zfj3sc.png",
+  "clubMembers": 70,
+  "clubFacad": "Prof. Ayas Kanta Swain",
+  "clubFacadMob": "0661-2462458",
+  "clubDocccc ": "https://docs.google.com/spreadsheets/d/1YTdNLO_HpHHy-RbiVTIcFVPK2SUdQnxh1xtEohboMiY/edit?usp=sharing",
+  "clubGroupPhoto": "https://drive.google.com/open?id=1y7VGkuq2njdBuyZCHf2srohzdyoFz9DP"
+ },
+ {
+  "index": 46,
+  "clubName": "SYNERGY",
+  "clubSociety": "Film and Music Society",
+  "clubTagline": "STAY DOPE",
+  "clubDescription": "SYNERGY is the official dance club of NIT Rourkela which specializes in different styles like hip-hop, locking, house and many more. We built our foundation in 2008 and have been thriving since, with our talents and numbers only growing. We hold various titles like Winners of TERPSICHORE of Pearl' 17 - BITS Pilani Hyderabad Campus and Runners Up of the same in 2019. We have held up strong during the covid outbreak in online mode and bagged the winning position in D'SYNC - NIT Trichy 2021. We aspire to achieve even greater heights and keep the essence of dance alive in this prospering family.",
+  "clubFoundation": 2008,
+  "clubInstagram": "synergy_original",
+  " clubLinkedin": "NA",
+  "clubFacebook": "Synergy NIT Rourkela",
+  "clubTwitter": "NA",
+  "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/Group_13_ykzrs5.png",
+  "clubMembers": 40,
+  "clubFacad": "Dr. Harekrushna Sahoo",
+  "clubFacadMob": 8249074243,
+  "clubDocccc ": "https://docs.google.com/spreadsheets/d/1GtXzPKY7yMifN9_2jDJ7aCpcL-wKBHGXXjp4KOTLcs8/edit?usp=sharing",
+  "clubGroupPhoto": "https://drive.google.com/open?id=1fT6K1Q4VvJPhWi57InZV5nGoLu8OZkzr"
+ },
+ {
+  "index": 47,
+  "clubName": "Heartbeats",
+  "clubSociety": "Film and Music Society",
+  "clubTagline": "Heartbeats Hamesha",
+  "clubDescription": "\nHeartbeats is the fusion Music Band of NITR with a legacy of more than 13 years. We strive to cultivate musical talent around the campus and provide a platform to showcase vocal and instrumental prowess. \n",
+  "clubFoundation": 2008,
+  "clubInstagram": "https://www.instagram.com/heartbeats.nitr",
+  " clubLinkedin": "na ",
+  "clubFacebook": "https://www.facebook.com/HeartBeatsNITR",
+  "clubTwitter": "na",
+  "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/Group_12_gd7u0x.png",
+  "clubMembers": 18,
+  "clubFacad": "Prof. Syed Nasimul Alam",
+  "clubFacadMob": 9937917811,
+  "clubDocccc ": "https://docs.google.com/document/d/1jVMlsXCidNAgTd4TMKrb4bVdunfriJqF8-fuCEgCj3E/edit?usp=sharing",
+  "clubGroupPhoto": "https://drive.google.com/open?id=1ClA4iW4G4FTN5ixM-23L3uGH2mi1hVTz"
+ },
+ {
+  "index": 48,
+  "clubName": "SDG Campus Club",
+  "clubSociety": "Literary and Cultural Society",
+  "clubTagline": "A step towards saving our Earth",
+  "clubDescription": "SDG Campus Club is the official sustainability club of NIT Rourkela. Our aim is to work towards achieving the 17 sustainable development goals designated by the UN at an institutional and local level. \n",
+  "clubFoundation": 2020,
+  "clubInstagram": "https://instagram.com/sdgcampusclub_nitrkl?igshid=YmMyMTA2M2Y=",
+  " clubLinkedin": "https://www.linkedin.com/company/sdg-campus-club-nitrkl/",
+  "clubFacebook": "https://www.facebook.com/sdgcampusclubnitrkl",
+  "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/SDG_white_1_-_Srinibas_Panigrahi_zhtxap.png",
+  "clubMembers": 80,
+  "clubFacad": "Prof. Ramakrishna Biswal",
+  "clubFacadMob": " +91 82493 48088 ",
+  "clubDocccc ": "https://docs.google.com/spreadsheets/d/1YZ2Ao3cVH1HuLKnlFu5FuALJeYWIxa4-RLNBFgzkvgQ/edit?usp=sharing",
+  "clubGroupPhoto": "https://drive.google.com/open?id=1V_johAWOHOnPfeSaIOkbr-RRDCDaXgxl"
+ },
+ {
+  "index": 49,
+  "clubName": "The Knights Club",
+  "clubSociety": "Games and Sports Society",
+  "clubTagline": "Going beyond 64 squares.",
+  "clubDescription": "The Knights Club is the official chess club of NIT Rourkela which unites a group of chess enthusiasts who love playing the game and promoting it. We believe chess is more than a board and 16 pieces, it's the endless possibilities that we play for.",
+  "clubFoundation": 2021,
+  "clubInstagram": "https://www.instagram.com/knights_club_nitr/",
+  " clubLinkedin": "https://www.linkedin.com/company/knights-club-nitr/",
+  "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679160025/knight_club_-_Shourya_Gyanvarsha_bodjoh.png",
+  "clubMembers": 68,
+  "clubFacad": "Sirsendu Sekhar Roy",
+  "clubFacadMob": 9178238442,
+  "clubDocccc ": "https://docs.google.com/spreadsheets/d/1wCAu3NpHpNRRc1TJG7YQYYXgI3A6u-tvtbcSUrPpWa0/edit#gid=0",
+  "clubGroupPhoto": "https://drive.google.com/open?id=1_FpLpsfTFF_UgYteNh0rroV_1pLaftf_"
+ },
+ {
+  "index": 50,
+  "clubName": "Webwiz",
+  "clubSociety": "Technical Society",
+  "clubTagline": "We build things that live on the internet",
+  "clubDescription": "We are a community of developers passionate about exploring the latest technologies in web, app development, and blockchain. Our club provides a platform for members to learn, collaborate, and develop their skills in these cutting-edge fields. Apart from that, we also believe in creating user-friendly interfaces, and that's why we encourage and promote the importance of UI/UX design in all our projects, connect with like-minded individuals, and create innovative solutions for the digital world.",
+  "clubFoundation": 2020,
+  "clubInstagram": "https://www.instagram.com/webwiz.nitr/",
+  " clubLinkedin": "https://www.linkedin.com/company/webwiz-nitr/",
+  "clubFacebook": "https://m.facebook.com/webwiz.nitr",
+  "clubTwitter": "https://twitter.com/webwiznitr",
+  "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/WEBWIZ_BLACK_BACKGROUD_LOGO_3_-_Sibasis_Malla_myk9au.png",
+  "clubMembers": "https://twitter.com/webwiznitr?t=_uJSaYbzl_4A_Y1-jBrRjQ&s=08",
+  "clubFacad": "Tapas Kumar Mishra",
+  "clubFacadMob": 99,
+  "clubDocccc ": "zz"
+ }
    ]
 
    export default clubData;
