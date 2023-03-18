@@ -11,27 +11,27 @@ export default function Announcement() {
             Upcoming Events
           </div>
           <div>
-            <div className="grid-cols-3 space-y-2 lg:space-y-0 lg:grid lg:gap-[0.4rem] lg:grid-rows-3 ml-[20%] lg:mx-0  ">
+            <div className="grid-cols-3 space-y-2 lg:space-y-0 lg:grid lg:gap-[0.6rem] lg:grid-rows-3 lg:ml-[20%] max-sm:ml-[20%] ml-[25%] lg:mx-0  ">
               <div className="lg:w-full w-[80%] col-span-2 row-span-2 rounded shadow-inner relative group ">
-                <div class="fullwrap relative">
+                <div class="fullwrap relative ">
                   <img
-                    className="rounded-xl "
+                    className="rounded-xl lg:h-[21rem] h-40 object-cover"
                     src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092337/inno/75210691_2574366819308647_4498087870069735424_n_i0obin.jpg"
                   />
                   <div className="overlay"></div>
-                  <div className="fullcap">Celebrity Night</div>
+                  {/*<div className="fullcap max-md:-my-6">Celebrity Night</div> */}
                 </div>
               </div>
               {UpcomingData.map((data) => {
                 return (
-                  <div className="lg:w-full w-[80%] rounded shadow-inner relative  group">
+                  <div className="lg:w-full w-[80%] rounded  relative group">
                     <div class="fullwrap relative">
                       <img
-                        className="rounded-xl "
-                        src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092337/inno/74680816_2569965773082085_3066309201383915520_n_hzqqjb.jpg"
+                        className="rounded-xl shadow-inner h-40 object-cover"
+                        src={data.src}
                       />
                       <div className="overlay"></div>
-                      <div className="fullcap">Celebrity Night</div>
+                      {/*<div className="fullcap -my-6 ">Celebrity Night</div> */}
                     </div>
                   </div>
                 );

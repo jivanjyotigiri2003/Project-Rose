@@ -72,9 +72,20 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <DeanSpeaks data="About SAC" />
-      <AboutNITR />
-      <DeanSpeaks data="Vision" />
+      <DeanSpeaks
+        data="About SAC"
+        img="https://res.cloudinary.com/webwiznitr/image/upload/v1679159649/SAC_NITR_wkte8l.jpg"
+        description="Along with academic excellence, NIT Rourkela promotes extra-curricular activities to ensure all-round development of personality. The Student Activity Centre (SAC) is the central hub for student activities, student organizations, programming, events, sports, recreation and fun at the institute campus. The Student Activity Centre is organized into four primary societies and a host of satellite clubs. Besides, every society has satellite clubs that have their management under the overall supervision of SAC. The facility is devoted to student recreation and socialization to serve students, faculty, staff, alumni, and guests."
+      />
+      <AboutNITR
+        img="https://i0.wp.com/orissadiary.com/wp-content/uploads/2022/07/NITR-Image.jpg?fit=1920%2C750&ssl=1"
+        description="National Institute of Technology, Rourkela (NITR) embellishes a sound unit of consistency and diligence to emerge as one of the country's most flourishing educational organisations.
+The institute takes pleasure in being the third-best National Institute of Technology, with rankings of 15th in the Engineering sector and 24th in the RnD domain among all participating colleges in NIRF 2022.
+Since abiding the identification of NIT in 2002, we have worked to attain our full potential in every conceivable subject and domain. Our institute, owning the maximum number of branches by any NIT, features a student body of close to 6000 people passionate about their careers.
+Diverse research shows that the NITR student community is continually engaged and focused on ways to develop improved and beneficial technology for the country and humanity."
+      />
+      {/* <DeanSpeaks data="Vision" /> */}
+
       <h1 className="w-[100%] text-3xl font-[600] p-4 text-center ">
         Executive Body
       </h1>

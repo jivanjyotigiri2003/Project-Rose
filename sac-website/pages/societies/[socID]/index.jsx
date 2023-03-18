@@ -15,7 +15,33 @@ export default function soc() {
   const router = useRouter();
   const { socID } = router.query;
   // console.log(socID);
-  
+
+
+  let backImg;
+  if (socID == "Film and Music Society") {
+    backImg =
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150593/societies/FMS_kn3ntq.png";
+  } else if (socID == "Technical Society") {
+    backImg =
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150552/societies/Technical_mpiv9h.png";
+  } else if (socID == "Literary and Cultural Society") {
+    backImg =
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150557/societies/LCS_uzhano.png";
+  } else {
+    backImg =
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150570/societies/G_S_ugs0j8.png";
+  }
+
+
+  let socDescription = "";
+  for (let index = 0; index < 4; index++) {
+    if (socData[index].name == socID)
+      socDescription = socData[index].description;
+  }
+  let socimage = "";
+  for (let index = 0; index < 4; index++) {
+    if (socData[index].name == socID) socimage = socData[index].aboutImg;
+  }
   return (
     <>
       <Head>
@@ -54,9 +80,16 @@ export default function soc() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <div className="bg-[url('../public/heroimg.png')] bg-no-repeat bg-cover bg-center w-full min-h-screen overflow-x-hidden">
-        <div className="  bg-gradient-to-b from-[#850101cc] to-[#8501011a] bg-no-repeat w-full bg-cover bg-center min-h-screen">
-          <div className="bg-[#00000073] bg-no-repeat w-full bg-cover bg-center min-h-screen">
+      <div
+        className="w-screen h-screen "
+        style={{
+          background: "cover",
+          backgroundSize: "100%",
+          background: `url(${backImg})`,
+        }}
+      >
+        <div className="   bg-no-repeat w-full bg-cover bg-center min-h-screen">
+          <div className=" w-full bg-cover bg-center min-h-screen">
             <div className="flex justify-center items-center min-h-screen">
               <div className=" text-center tracking-wide text-6xl font-bold  text-white  saturate-100 bg-cover top-0 left-0 ">
                 {socID}
@@ -74,7 +107,11 @@ export default function soc() {
           </div>
         </div>
       </div>
-      <DeanSpeaks data="About Technincal Society" />
+      <DeanSpeaks
+        data={`About ${socID}`}
+        description={socDescription}
+        img={socimage}
+      />
       <SocietyRepresentative1 />
 
       <ClubName socName={socID} />
