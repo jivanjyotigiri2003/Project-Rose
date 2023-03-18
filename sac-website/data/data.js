@@ -714,7 +714,26 @@ const clubData=[
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1fq80hpt6-iExSOUns2SEdthqvxv7rxmDu0SGt5sh31Q/edit?usp=sharing ",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139141/ClubGroupPhoto/FC_Group_Pic_-_Abhinandan_Mishra_pvgunz.jpg"
     },
-     
+
+     {
+  "index": 43,
+  "clubName": "SDG Campus Club",
+  "clubSociety": "Literary and Cultural Society",
+  "clubTagline": "A step towards saving our Earth",
+  "clubDescription": "SDG Campus Club is the official sustainability club of NIT Rourkela. Our aim is to work towards achieving the 17 sustainable development goals designated by the UN at an institutional and local level. \n",
+  "clubFoundation": 2020,
+  "clubInstagram": " https://instagram.com/sdgcampusclub_nitrkl?igshid=YmMyMTA2M2Y=",
+  " clubLinkedin": "https://www.linkedin.com/company/sdg-campus-club-nitrkl/",
+  "clubFacebook": "https://www.facebook.com/sdgcampusclubnitrkl",
+  "clubTwitter": " ",
+  "clubLogo": "https://drive.google.com/open?id=1m0cLErTn3BjPIKjKAGdi0YfCzf9EGsjf",
+  "clubMembers": 80,
+  "clubFacad": "Prof. Ramakrishna Biswal",
+  "clubFacadMob": "+91 82493 48088 ",
+  "clubDocccc ": "https://docs.google.com/spreadsheets/d/1YZ2Ao3cVH1HuLKnlFu5FuALJeYWIxa4-RLNBFgzkvgQ/edit?usp=sharing",
+  "clubGroupPhoto": "https://drive.google.com/open?id=1Mng8kPEsTqhTTvehFgy3bYwWauhQmxkd"
+ },
+
  {
   "index": 44,
   "clubName": "Nrityunjay",
