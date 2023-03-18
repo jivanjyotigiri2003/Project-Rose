@@ -110,7 +110,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
             return (
               <div
                 key={index}
-                className="h-[20rem] m-[2rem] flex flex-col justify-center items-center "
+                className="h-[20rem]  flex flex-col justify-center items-center "
               >
                 <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
                   <img
@@ -127,7 +127,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
           })}
         </div>
 
-        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw_22vw] gap-x-[3vw] place-content-center">
+        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw_22vw] gap-x-[3vw] place-content-center max-[950px]:grid-cols-[80vw]">
           {representative2.map((item, index) => {
             return (
               <div
@@ -149,7 +149,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
           })}
         </div>
 
-        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw] gap-x-[8vw] place-content-center">
+        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw] gap-x-[8vw] place-content-center max-[950px]:grid-cols-[80vw]">
           {representative3.map((item, index) => {
             return (
               <div
