@@ -277,6 +277,9 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157721/vriddhi/312441715_672174654471095_7249990298566090686_n_xnyqim.jpg",
       },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157725/vriddhi/313911139_671997661155461_5014518808981045190_n_ryl8sw.jpg",
+      },
     ],
     [
       {
@@ -370,9 +373,7 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157726/vriddhi/313437391_671997934488767_869851903035814174_n_k0yebb.jpg",
       },
-      {
-        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157725/vriddhi/313911139_671997661155461_5014518808981045190_n_ryl8sw.jpg",
-      },
+      
     ],
   ];
 
