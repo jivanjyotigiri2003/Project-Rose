@@ -12,28 +12,45 @@ export default function Footer() {
       <div className="bg-[#660708] ">
         <div className="  flex flex-wrap md:flex-row content-around justify-around pt-0">
           <div className=" flex flex-col justify-center  ">
-
             <h1 className="text-lg font-semibold text-white pt-2 pl-2">
               Sitemap
             </h1>
             <ul className="text-white text-md py-2 pl-2 cursor-pointer">
               <li>
-                <Link href="/" className="hover:font-bold"> Home </Link>{" "}
+                <Link href="/" className="hover:font-bold">
+                  {" "}
+                  Home{" "}
+                </Link>{" "}
               </li>
               <li>
-                <Link href="/about" className="hover:font-bold"> About </Link>{" "}
+                <Link href="/about" className="hover:font-bold">
+                  {" "}
+                  About{" "}
+                </Link>{" "}
               </li>
               <li>
-                <Link href="/societies" className="hover:font-bold"> Societies </Link>{" "}
+                <Link href="/societies" className="hover:font-bold">
+                  {" "}
+                  Societies{" "}
+                </Link>{" "}
               </li>
               <li>
-                <Link href="/events" className="hover:font-bold"> Events </Link>{" "}
+                <Link href="/events" className="hover:font-bold">
+                  {" "}
+                  Events{" "}
+                </Link>{" "}
               </li>
               <li>
-                <Link href="/gallery" className="hover:font-bold"> Gallery </Link>{" "}
+                <Link href="/gallery" className="hover:font-bold">
+                  {" "}
+                  Gallery{" "}
+                </Link>{" "}
               </li>
               <li>
-                <Link href="/contact" className="hover:font-bold"> Contact </Link>{" "}
+                <Link href="/contact" className="hover:font-bold">
+                  {" "}
+                  Contact{" "}
+                </Link>{" "}
               </li>
             </ul>
           </div>
@@ -86,36 +103,26 @@ export default function Footer() {
                     VRIDDHI
                   </a>{" "}
                 </li>
-               
+
                 <li>
                   {" "}
-                  <a
-                    href="https://hackodisha2022.tech/"
-                    className="hover:font-semibold"
-                    target="_blank"
-                  >
-                   INTER-NIT
+                  <a href="/" className="hover:font-semibold" target="_blank">
+                    INTER-NIT
                   </a>{" "}
                 </li>
                 <li>
                   {" "}
-                  <a
-                    href="https://www.hacknitr.com/"
-                    className="hover:font-semibold"
-                    target="_blank"
-                  >
+                  <a href="/" className="hover:font-semibold" target="_blank">
                     CELEBRITY NIGHT
                   </a>{" "}
                 </li>
-                
               </ul>
             </div>
           </div>
           <div className="flex flex-col ">
             <div className="flex justify-center">
-            <Image src={logonitr} className="w-24 py-4 "></Image>
+              <Image src={logonitr} className="w-24 py-4 "></Image>
             </div>
-        
 
             <h1 className="text-xl font-normal text-white leading-8 mx-auto   my-1">
               National Institute of Technology
