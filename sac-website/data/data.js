@@ -716,7 +716,7 @@ const clubData=[
     },
      {
   "index": 43,
-  "Club Name": "SDG Campus Club",
+  "clubName": "SDG Campus Club",
   "clubSociety": "Literary and Cultural Society",
   "clubTagline": "A step towards saving our Earth",
   "clubDescription": "SDG Campus Club is the official sustainability club of NIT Rourkela. Our aim is to work towards achieving the 17 sustainable development goals designated by the UN at an institutional and local level. \n",
@@ -734,7 +734,7 @@ const clubData=[
  },
  {
   "index": 44,
-  "Club Name": "Nrityunjay",
+  "clubName": "Nrityunjay",
   "clubSociety": "Film and Music Society",
   "clubTagline": "Let's Dance with Cosmos",
   "clubDescription": "Indian classical dance is sustained by a profound philosophy. The form seeks to merge with the formless, motions seek to become a part of the motionless, and the dancing individual seeks to become one with the eternal dance of the cosmos. Nrityunjay is the all form inclusive Classical Dance Club of NIT Rourkela. ",
@@ -750,7 +750,7 @@ const clubData=[
  },
  {
   "index": 45,
-  "Club Name": "CYBORG",
+  "clubName": "CYBORG",
   "clubSociety": "Technical Society",
   "clubTagline": "WE DESIGN INTELLIGENCE",
   "clubDescription": "Cyborg is the official Robotics and Automation club of NIT Rourkela, registered under SAC. It was founded in 2008 by the students of NIT Rourkela itself. We at Cyborg innovate and develop projects related to robotics and advanced automation. It is the perfect blend of the following engineering disciplines - Computer Science, Electronics, and Mechanical. Some of the current projects include IGV (Intelligent Ground Vehicle), Autonomous Drone (UAV), Room Automation, Stair Climber bot, Vac bot, Librarian bot, Rubik's cube solver etc. We also participate in various robotics challenges of national and international reputation.",
@@ -767,7 +767,7 @@ const clubData=[
  },
  {
   "index": 46,
-  "Club Name": "SYNERGY",
+  "clubName": "SYNERGY",
   "clubSociety": "Film and Music Society",
   "clubTagline": "STAY DOPE",
   "clubDescription": "SYNERGY is the official dance club of NIT Rourkela which specializes in different styles like hip-hop, locking, house and many more. We built our foundation in 2008 and have been thriving since, with our talents and numbers only growing. We hold various titles like Winners of TERPSICHORE of Pearl' 17 - BITS Pilani Hyderabad Campus and Runners Up of the same in 2019. We have held up strong during the covid outbreak in online mode and bagged the winning position in D'SYNC - NIT Trichy 2021. We aspire to achieve even greater heights and keep the essence of dance alive in this prospering family.",
@@ -785,7 +785,7 @@ const clubData=[
  },
  {
   "index": 47,
-  "Club Name": "Heartbeats",
+  "clubName": "Heartbeats",
   "clubSociety": "Film and Music Society",
   "clubTagline": "Heartbeats Hamesha",
   "clubDescription": "\nHeartbeats is the fusion Music Band of NITR with a legacy of more than 13 years. We strive to cultivate musical talent around the campus and provide a platform to showcase vocal and instrumental prowess. \n",
@@ -803,7 +803,7 @@ const clubData=[
  },
  {
   "index": 48,
-  "Club Name": "SDG Campus Club",
+  "clubName": "SDG Campus Club",
   "clubSociety": "Literary and Cultural Society",
   "clubTagline": "A step towards saving our Earth",
   "clubDescription": "SDG Campus Club is the official sustainability club of NIT Rourkela. Our aim is to work towards achieving the 17 sustainable development goals designated by the UN at an institutional and local level. \n",
@@ -820,7 +820,7 @@ const clubData=[
  },
  {
   "index": 49,
-  "Club Name": "The Knights Club",
+  "clubName": "The Knights Club",
   "clubSociety": "Games and Sports Society",
   "clubTagline": "Going beyond 64 squares.",
   "clubDescription": "The Knights Club is the official chess club of NIT Rourkela which unites a group of chess enthusiasts who love playing the game and promoting it. We believe chess is more than a board and 16 pieces, it's the endless possibilities that we play for.",
@@ -836,7 +836,7 @@ const clubData=[
  },
  {
   "index": 50,
-  "Club Name": "Webwiz",
+  "clubName": "Webwiz",
   "clubSociety": "Technical Society",
   "clubTagline": "We build things that live on the internet",
   "clubDescription": "We are a community of developers passionate about exploring the latest technologies in web, app development, and blockchain. Our club provides a platform for members to learn, collaborate, and develop their skills in these cutting-edge fields. Apart from that, we also believe in creating user-friendly interfaces, and that's why we encourage and promote the importance of UI/UX design in all our projects, connect with like-minded individuals, and create innovative solutions for the digital world.",

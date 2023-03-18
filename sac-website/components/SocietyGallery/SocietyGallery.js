@@ -1,6 +1,9 @@
 import React from "react";
+import { socGalleryData } from "./socGalleryData";
 
 export default function SocietyGallery({ title }) {
+  
+  
   const inno = [
     [
       {
@@ -788,12 +791,8 @@ export default function SocietyGallery({ title }) {
   ];
 
   let data1 = inno;
-  let data2;
-  const all=[
-    [],[],[],[]
-  ]
-  console.log(inno)
-  // console.log(inno[0]);
+
+
 
   if (title === "Technical Society") {
     title = "Innovision";
@@ -808,53 +807,11 @@ export default function SocietyGallery({ title }) {
     title = "Vriddhi";
     data1 = vriddhi;
   } else {
-    title = "none";
-    data1[0] = all[0] ;
-    data1[1]=all[1];
+    title = "GALLERY";
+   data1=socGalleryData;
     
   }
 
-  // let apple = [
-  //   {
-  //     name: "apple",
-  //   },
-  //   {
-  //     name: "mango",
-  //   },
-  // ];
-
-  // const Users = [
-  //   [
-  //     {
-  //       name: "Deepak",
-  //       rollNo: "123",
-  //     },
-  //     {
-  //       name: "Yash",
-  //       rollNo: "124",
-  //     },
-  //     {
-  //       name: "Raj",
-  //       rollNo: "125",
-  //     },
-  //     {
-  //       name: "Rohan",
-  //       rollNo: "126",
-  //     },
-  //     {
-  //       name: "Puneet",
-  //       rollNo: "127",
-  //     },
-  //     {
-  //       name: "Vivek",
-  //       rollNo: "128",
-  //     },
-  //     {
-  //       name: "Aman",
-  //       rollNo: "129",
-  //     },
-  //   ],
-  // ];
 
   return (
     <>
@@ -865,22 +822,11 @@ export default function SocietyGallery({ title }) {
         <div className="society-gallery-container">
           <div className="container">
             <div className=" box">
-              {/* <div className=" w-20 h-20 bg-yellow-300 m-5">
-                {Users[0].map((e) => {
-                  return (
-                    <p>
-                      {" "}
-                      name={e.name} rollNo={e.rollNo}{" "}
-                    </p>
-                  );
-                })}
-              </div> */}
-              {/* Section 1 */}
+             
               <div className="dream">
                 {data1[0].map((e) => {
                   return <img src={e.img} alt="" />;
-                  // <p>apple</p>;
-                  // <img src={data.img} alt="" />;
+                  
                 })}
               </div>
 
