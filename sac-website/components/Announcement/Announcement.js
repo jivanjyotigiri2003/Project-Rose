@@ -16,7 +16,7 @@ export default function Announcement() {
                 <div class="fullwrap relative ">
                   <img
                     className="rounded-xl lg:h-[21rem] h-40 object-cover"
-                    src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092337/inno/75210691_2574366819308647_4498087870069735424_n_i0obin.jpg"
+                    src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092335/inno/74214515_2574362329309096_1284408994911223808_n_kqk3o8.jpg"
                   />
                   <div className="overlay"></div>
                   {/*<div className="fullcap max-md:-my-6">Celebrity Night</div> */}
@@ -41,7 +41,7 @@ export default function Announcement() {
         </div>
         <div className="lg:w-[30%]  ">
           <div className="text-3xl my-6 font-bold lg:translate-x-6 text-center">
-            Announcement
+            Timeline
           </div>
           <div className="mx-2 text-white">
             {EventsData.map((data) => {

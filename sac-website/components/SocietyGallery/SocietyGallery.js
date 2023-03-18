@@ -2,8 +2,6 @@ import React from "react";
 import { socGalleryData } from "./socGalleryData";
 
 export default function SocietyGallery({ title }) {
-  
-  
   const inno = [
     [
       {
@@ -60,7 +58,6 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092344/inno/315713213_683488583339702_4597395922957893521_n_k7qo2t.jpg",
       },
-     
     ],
     [
       {
@@ -69,7 +66,7 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092344/inno/315710854_683465026675391_2116365766081638407_n_kjrqeu.jpg",
       },
-      
+
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092343/inno/315637702_681033130251914_8403199372963416692_n_zebmoe.jpg",
       },
@@ -118,7 +115,6 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092339/inno/75456942_2569960329749296_8399239259533344768_n_kvnxfl.jpg",
       },
-     
     ],
     [
       {
@@ -133,7 +129,7 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092338/inno/75534262_2574363752642287_3561131859570065408_n_nhiach.jpg",
       },
-      
+
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679096943/inno/13131363_1012604552151556_866511025157889187_o_wid9gi.jpg",
       },
@@ -376,7 +372,6 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157726/vriddhi/313437391_671997934488767_869851903035814174_n_k0yebb.jpg",
       },
-      
     ],
   ];
 
@@ -527,7 +522,7 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679098999/NU/51078333_2094823220596345_7666022044990963712_n_dmnbml.jpg",
       },
-      
+
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679098994/NU/12322770_959552154123463_3001590398154171492_o_bp3nzw.jpg",
       },
@@ -597,7 +592,6 @@ export default function SocietyGallery({ title }) {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679098996/NU/27788591_1613945458684126_8855358071648154556_o_kfd3lh.jpg",
       },
     ],
-    
   ];
 
   const cosmo = [
@@ -841,8 +835,6 @@ export default function SocietyGallery({ title }) {
 
   let data1 = inno;
 
-
-
   if (title === "Technical Society") {
     title = "Innovision";
     data1 = inno;
@@ -856,11 +848,9 @@ export default function SocietyGallery({ title }) {
     title = "Vriddhi";
     data1 = vriddhi;
   } else {
-    title = "GALLERY";
-   data1=socGalleryData;
-    
+    title = "";
+    data1 = socGalleryData;
   }
-
 
   return (
     <>
@@ -871,11 +861,9 @@ export default function SocietyGallery({ title }) {
         <div className="society-gallery-container">
           <div className="container">
             <div className=" box">
-             
               <div className="dream">
                 {data1[0].map((e) => {
                   return <img src={e.img} alt="" />;
-                  
                 })}
               </div>
 

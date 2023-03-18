@@ -9,16 +9,16 @@ export default function club({ data }) {
   let backImg;
   if (data.clubSociety == "Film and Music Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150593/societies/FMS_kn3ntq.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168254/new%20societies/film1_atasq9.png";
   } else if (data.clubSociety == "Technical Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150552/societies/Technical_mpiv9h.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168250/new%20societies/technical1_lciid6.png";
   } else if (data.clubSociety == "Literary and Cultural Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150557/societies/LCS_uzhano.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168258/new%20societies/lcs_2_xwljvb.png";
   } else {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150570/societies/G_S_ugs0j8.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168252/new%20societies/sport_f8whgf.png";
   }
   return (
     <>
@@ -31,8 +31,6 @@ export default function club({ data }) {
         twit={data.clubTwitter}
         link={data.clubLinkedin}
         backImg={backImg}
-    
-    
       />
       <DeanSpeaks data={`About ${data.clubName}`} image={data.clubGroupPhoto} description={data.clubDescription}/>
       {/* <SocietyRepresentative data="Club Representatives"/> */}
