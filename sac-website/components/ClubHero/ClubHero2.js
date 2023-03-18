@@ -2,7 +2,18 @@ import React from "react";
 import SocialsLink from "../SocialsLink/SocialsLink";
 import { FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import DeanSpeaks from "../DeanSpeaks/DeanSpeaks";
-const ClubHero2 = ({ name, tagline,logo ,inst,twit,face,link}) => {
+const ClubHero2 = ({
+  name,
+  tagline,
+  logo,
+  inst,
+  twit,
+  face,
+  link,
+  backImg,
+}) => {
+  // const backImg =
+  //   "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150593/societies/FMS_kn3ntq.png";
   return (
     <div className="w-full h-[100vh]  ">
       {/* <div className=" fixed right-0 top-[50%] -translate-y-[50%] border-2 p-3 r bg-[white] z-[999] shadow-xl rounded-l-lg  "> 
@@ -15,22 +26,21 @@ const ClubHero2 = ({ name, tagline,logo ,inst,twit,face,link}) => {
         <a href={inst} target="_blank">
           <FaInstagram size={32} color={"black"} className="my-2" />
         </a>
-      
+
         <a href={twit} target="_blank">
           <FaTwitter size={32} color={"black"} className="my-2" />
         </a>
-       
-        <a
-          href={link}
-          target="_blank"
-        >
+
+        <a href={link} target="_blank">
           <FaLinkedin size={32} color={"black"} className="mt-2" />
         </a>
       </div>
+
       <div
-        className="w-full md:h-full mt-0 absolute   
-		bg-no-repeat bg-cover bg-center
-		bg-[url('https://res.cloudinary.com/dnqipwdsl/image/upload/v1678682263/webwiz_zgemsm.jpg')]"
+        className="w-[100vw] h-[100vh]  mt-0 absolute bg-cover "
+        style={{
+          backgroundImage: `url(${backImg})`,
+        }}
       >
         <div class="w-full h-[33vh] max-w-sm  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto md:my-[30vh] my-[34vh]  ">
           <div class="flex flex-col items-center ">

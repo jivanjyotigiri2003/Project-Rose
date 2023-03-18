@@ -6,6 +6,20 @@ import ContactCard from "@/components/ContactPage/ContactCard";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 
 export default function club({ data }) {
+  let backImg;
+  if (data.clubSociety == "Film and Music Society") {
+    backImg =
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150593/societies/FMS_kn3ntq.png";
+  } else if (data.clubSociety == "Technical Society") {
+    backImg =
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150552/societies/Technical_mpiv9h.png";
+  } else if (data.clubSociety == "Literary and Cultural Society") {
+    backImg =
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150557/societies/LCS_uzhano.png";
+  } else {
+    backImg =
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150570/societies/G_S_ugs0j8.png";
+  }
   return (
     <>
       <ClubHero2
@@ -13,7 +27,11 @@ export default function club({ data }) {
         tagline={data.clubTagline}
         logo={data.clubLogo}
         inst={data.clubInstagram}
-    face={data.clubFacebook} twit={data.clubTwitter} link={data.clubLinkedin}
+        face={data.clubFacebook}
+        twit={data.clubTwitter}
+        link={data.clubLinkedin}
+        backImg={backImg}
+    
     
       />
       <DeanSpeaks data={`About ${data.clubName}`} />
