@@ -9,7 +9,7 @@ export default function Events() {
   const pastEventData = [
     {
       image:
-        "https://res.cloudinary.com/dnqipwdsl/image/upload/v1677857844/Screenshot_132_gjtdim.png",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1679094509/cosmo/82071287_2725884917490169_4660738552152195072_n_mgpjk6.jpg",
       title: "Cosmopolitian",
       description:
         "Cosmopolitian is one of the biggest ethno-cultural fests in Eastern India.",
@@ -17,7 +17,7 @@ export default function Events() {
     },
     {
       image:
-        "https://images.unsplash.com/photo-1587407627257-27b7127c868c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1679091159/vriddhi/312246343_672173147804579_6451606475779725250_n_ep8tn5.jpg",
       title: "Vriddhi",
       description:
         "Vriddhi is East India's biggest sports festival.",
@@ -27,7 +27,7 @@ export default function Events() {
   const upcomingEventData = [
     {
       image:
-        "https://images.unsplash.com/photo-1549451371-64aa98a6f660?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1679099004/NU/51396432_2094871717258162_8694953143751933952_n_kxliiy.jpg",
       title: "Nitrutsav",
       description:
         "Nitrutsav is East India's biggest cultural fest. ",
@@ -35,7 +35,7 @@ export default function Events() {
     },
     {
       image:
-        "https://images.unsplash.com/photo-1587407627257-27b7127c868c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1679092335/inno/74214515_2574362329309096_1284408994911223808_n_kqk3o8.jpg",
       title: "Innovision",
       description:
         "Innovision is one of the biggest technical fests in Eastern India.",
@@ -83,7 +83,7 @@ export default function Events() {
       </Head>
       <div>
         {/* Events Hero */}
-        <div className="bg-[url('https://res.cloudinary.com/dkqxnquga/image/upload/v1678430362/image_767_hnhpi2.png')] bg-no-repeat w-full bg-cover bg-center h-full">
+        <div className="bg-[url('https://res.cloudinary.com/webwiznitr/image/upload/v1679092342/inno/315696878_683488323339728_2316976895124832065_n_z8zmbw.jpg')] bg-no-repeat w-full bg-cover bg-center h-full">
           <div className="  bg-gradient-to-b from-[#850101cc] to-[#8501011a] bg-no-repeat w-full bg-cover bg-center h-full">
             <div className="bg-[#00000073] bg-no-repeat w-full bg-cover bg-center h-full">
               <div className="flex justify-center items-center h-screen">

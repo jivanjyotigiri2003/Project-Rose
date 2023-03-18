@@ -124,23 +124,23 @@ export default function Footer() {
               <Image src={logonitr} className="w-24 py-4 "></Image>
             </div>
 
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto   my-1">
+            <h1 className="md:text-xl text-md   font-normal text-white leading-8 mx-auto   my-1">
               National Institute of Technology
             </h1>
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1">
+            <h1 className="md:text-xl text-md  font-normal text-white leading-8 mx-auto my-1">
               Rourkela, Odisha, India, 769008
             </h1>
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1 cursor-pointer">
+            <h1 className="md:text-xl text-md  font-normal text-white leading-8 mx-auto my-1 cursor-pointer">
               <a href="tel:0661-246-2020 / 2002">0661-246-2020 / 2002</a>
             </h1>
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1 cursor-pointer">
+            <h1 className="md:text-xl text-md  font-normal text-white leading-8 mx-auto my-1 cursor-pointer">
               {" "}
               <a href="mailto:registrar@nitrkl.ac.in">
                 {" "}
                 registrar@nitrkl.ac.in
               </a>
             </h1>
-            <h1 className="text-xl font-normal text-white leading-8 mx-auto my-1 cursor-pointer">
+            <h1 className="md:text-xl text-md  font-normal text-white leading-8 mx-auto my-1 cursor-pointer">
               {" "}
               {/* <Link href="www.nitrkl.ac.in"> */}
               <a
@@ -177,9 +177,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col-reverse items-center md:flex-row   p-1">
-          <div className="text-white pt-4 md:pt-0 pb-2 md:pb-0 md:w-2/5">
+          <div className="text-white md:text-xl text-xs  pt-4 md:pt-0 pb-2 md:pb-0 md:w-2/5">
             <AiOutlineCopyrightCircle className="inline" /> Student Activity
-            Center, copyright 2023{" "}
+            Center, Copyright 2023{" "}
           </div>
           <div className="flex justify-start pt-2 md:pt-0 text-white font-semibold">
             Made with&nbsp; <BsSuitHeartFill size={24} color={"red"} /> &nbsp;
