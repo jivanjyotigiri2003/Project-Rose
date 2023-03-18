@@ -31,6 +31,8 @@ export default function club({ data }) {
         twit={data.clubTwitter}
         link={data.clubLinkedin}
         backImg={backImg}
+    
+    
       />
       <DeanSpeaks data={`About ${data.clubName}`} />
       {/* <SocietyRepresentative data="Club Representatives"/> */}

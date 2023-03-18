@@ -75,7 +75,7 @@ export default function societies() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
 
-        <div className="h-screen w-screen flex flex-col lg:flex-row ">
+        <div className="h-screen w-screen flex flex-col lg:flex-row max-[1060px]:mt-[9.8vh]  ">
          <div className="absolute h-full w-screen z-999 bg-black/70"></div>
         
         {/* For Desktop */}
@@ -99,11 +99,11 @@ export default function societies() {
          {/* For Mobile  */}
         {socData.map((soc, index) => (
         <div
-          className="w-[100%] h-[25%] min-[1059px]:hidden h:shadow-lg transition duration-600 ease-in-out hover:scale-110 test"
+          className="w-[100%] h-[25%]  min-[1059px]:hidden h:shadow-lg transition duration-600 ease-in-out hover:scale-110 "
           key={index}
         >
           <Link href={`/societies/${soc.name}`}>
-            <h1 className="absolute h-[25vh] w-[100%]  p-[1rem] py-[10vh]  text-[3vw] test text-vertical z-100 text-white text-center h:text-underline ">
+            <h1 className="absolute h-[25vh] w-[100%]  p-[1rem] py-[10vh]  text-[3vw]  text-vertical z-100 text-white text-center h:text-underline ">
               {soc.name}
             </h1>
           </Link>

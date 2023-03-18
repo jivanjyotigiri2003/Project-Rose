@@ -1,6 +1,9 @@
 import React from "react";
+import { socGalleryData } from "./socGalleryData";
 
 export default function SocietyGallery({ title }) {
+  
+  
   const inno = [
     [
       {
@@ -265,6 +268,21 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091164/vriddhi/313408142_672173191137908_179030676535292571_n_ubcjzt.jpg",
       },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157723/vriddhi/313422753_672174467804447_5162652236522863359_n_xk3t0r.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157722/vriddhi/313404605_671997677822126_451215508336704523_n_mdyxaa.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157721/vriddhi/313044271_672174161137811_8890515530658781753_n_ncubkn.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157721/vriddhi/312441715_672174654471095_7249990298566090686_n_xnyqim.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157725/vriddhi/313911139_671997661155461_5014518808981045190_n_ryl8sw.jpg",
+      },
     ],
     [
       {
@@ -284,6 +302,18 @@ export default function SocietyGallery({ title }) {
       },
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091162/vriddhi/313197698_672174074471153_4378366643355888254_n_fjkne8.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157724/vriddhi/313424794_672171791138048_6886697182539795023_n_m2r8kk.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157723/vriddhi/313410270_671997594488801_3596713117820623674_n_o0xiyl.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157723/vriddhi/312827115_672175041137723_9081006197337464758_n_oplvaa.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157723/vriddhi/313417829_672172467804647_4353764114949922526_n_fqs3vx.jpg",
       },
     ],
     [
@@ -305,6 +335,18 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091160/vriddhi/312973198_672172581137969_4507714073766461437_n_yhk8y6.jpg",
       },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157724/vriddhi/313095357_672174614471099_4145713513787363523_n_fwk7tr.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157724/vriddhi/313864538_671997287822165_201024389537232358_n_sirefw.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157724/vriddhi/313432236_672173117804582_7024212511325160884_n_kcezuq.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157724/vriddhi/313430123_671997351155492_5007465832496389451_n_dheokd.jpg",
+      },
     ],
     [
       {
@@ -325,6 +367,16 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679091157/vriddhi/312662629_672174694471091_7171453292840865027_n_j5blxv.jpg",
       },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157727/vriddhi/312729011_672175087804385_4047438316211949665_n_ahqg1r.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157726/vriddhi/313868507_671997214488839_3617804381210295125_n_bggqwe.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679157726/vriddhi/313437391_671997934488767_869851903035814174_n_k0yebb.jpg",
+      },
+      
     ],
   ];
 
@@ -789,6 +841,8 @@ export default function SocietyGallery({ title }) {
 
   let data1 = inno;
 
+
+
   if (title === "Technical Society") {
     title = "Innovision";
     data1 = inno;
@@ -802,51 +856,11 @@ export default function SocietyGallery({ title }) {
     title = "Vriddhi";
     data1 = vriddhi;
   } else {
-    title = "none";
-    data1 = vriddhi;
+    title = "GALLERY";
+   data1=socGalleryData;
+    
   }
 
-  // let apple = [
-  //   {
-  //     name: "apple",
-  //   },
-  //   {
-  //     name: "mango",
-  //   },
-  // ];
-
-  // const Users = [
-  //   [
-  //     {
-  //       name: "Deepak",
-  //       rollNo: "123",
-  //     },
-  //     {
-  //       name: "Yash",
-  //       rollNo: "124",
-  //     },
-  //     {
-  //       name: "Raj",
-  //       rollNo: "125",
-  //     },
-  //     {
-  //       name: "Rohan",
-  //       rollNo: "126",
-  //     },
-  //     {
-  //       name: "Puneet",
-  //       rollNo: "127",
-  //     },
-  //     {
-  //       name: "Vivek",
-  //       rollNo: "128",
-  //     },
-  //     {
-  //       name: "Aman",
-  //       rollNo: "129",
-  //     },
-  //   ],
-  // ];
 
   return (
     <>
@@ -857,22 +871,11 @@ export default function SocietyGallery({ title }) {
         <div className="society-gallery-container">
           <div className="container">
             <div className=" box">
-              {/* <div className=" w-20 h-20 bg-yellow-300 m-5">
-                {Users[0].map((e) => {
-                  return (
-                    <p>
-                      {" "}
-                      name={e.name} rollNo={e.rollNo}{" "}
-                    </p>
-                  );
-                })}
-              </div> */}
-              {/* Section 1 */}
+             
               <div className="dream">
                 {data1[0].map((e) => {
                   return <img src={e.img} alt="" />;
-                  // <p>apple</p>;
-                  // <img src={data.img} alt="" />;
+                  
                 })}
               </div>
 
