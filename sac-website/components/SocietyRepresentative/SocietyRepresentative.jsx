@@ -110,7 +110,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
             return (
               <div
                 key={index}
-                className="h-[20rem] m-[2rem] flex flex-col justify-center items-center "
+                className="h-[20rem]  flex flex-col justify-center items-center "
               >
                 <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
                   <img
