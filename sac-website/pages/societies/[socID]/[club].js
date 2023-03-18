@@ -13,6 +13,8 @@ export default function club({ data }) {
         name={data.clubName}
         tagline={data.clubTagline}
         logo={data.clubLogo}
+        inst={data.clubInstagram}
+    face={data.clubFacebook} twit={data.clubTwitter} link={data.clubLinkedin}
       />
       <DeanSpeaks data={`About ${data.clubName}`} />
       {/* <SocietyRepresentative data="Club Representatives"/> */}

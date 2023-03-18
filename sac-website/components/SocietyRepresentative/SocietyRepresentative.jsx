@@ -127,7 +127,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
           })}
         </div>
 
-        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw_22vw] gap-x-[3vw] place-content-center">
+        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw_22vw] gap-x-[3vw] place-content-center max-[950px]:grid-cols-[80vw]">
           {representative2.map((item, index) => {
             return (
               <div
@@ -149,7 +149,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
           })}
         </div>
 
-        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw] gap-x-[8vw] place-content-center">
+        <div className="w-[100%]  grid grid-cols-[22vw_22vw_22vw] gap-x-[8vw] place-content-center max-[950px]:grid-cols-[80vw]">
           {representative3.map((item, index) => {
             return (
               <div
