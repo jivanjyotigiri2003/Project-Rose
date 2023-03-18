@@ -21,12 +21,12 @@ export default function ClubName({socName}) {
        ((club,index)=>(
          <Link key={index} href={`/societies/${club.clubSociety}/${club.clubName}`} passHref>
           <div className="h-[12vh] lg:w-[28vw] w-[88vw] text-center flex items-center  p-[1rem] lg:m-[1rem] mb-[1rem] bg-[#ffff] text-black shadow-lg rounded-[10px] cursor-pointer" key={index}>
-          <div className="h-[5rem] w-[5rem] rounded-[100%]  ">
+          <div className="xl:h-[5rem] xl:w-[5rem] lg:h-[4rem] lg:w-[4rem] md:h-[6rem] md:w-[6rem] h-[3rem] w-[3rem] rounded-[100%]  ">
              <img src={club.clubLogo} className="h-[100%] w-[100%] rounded-[100%] object-cover" />
 
           </div>
         
-          <div className="relative text-2xl  font-[600] w-[80%] flex items-center justify-center">
+          <div className="relative md:text-4xl lg:text-xl text-xl  font-[600] w-[80%] flex items-center justify-center">
                {club.clubName}
           </div>
       </div>
