@@ -16,10 +16,10 @@ export default function Announcement() {
                 <div class="fullwrap relative">
                   <img
                     className="rounded-xl "
-                    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                    src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092337/inno/75210691_2574366819308647_4498087870069735424_n_i0obin.jpg"
                   />
                   <div className="overlay"></div>
-                  <div className="fullcap">Image Caption</div>
+                  <div className="fullcap">Celebrity Night</div>
                 </div>
               </div>
               {UpcomingData.map((data) => {
@@ -28,10 +28,10 @@ export default function Announcement() {
                     <div class="fullwrap relative">
                       <img
                         className="rounded-xl "
-                        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+                        src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092337/inno/74680816_2569965773082085_3066309201383915520_n_hzqqjb.jpg"
                       />
                       <div className="overlay"></div>
-                      <div className="fullcap">Image Caption</div>
+                      <div className="fullcap">Celebrity Night</div>
                     </div>
                   </div>
                 );
