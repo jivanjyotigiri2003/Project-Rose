@@ -281,7 +281,7 @@ const clubData=[
      "clubLinkedin": "https://www.linkedin.com/company/cest-club/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BZtQgthQoTN%2BX9s0qD%2F80Kg%3D%3D",
      "clubFacebook": "https://www.facebook.com/cestnitr",
      "clubTwitter": "https://twitter.com/cestnit?s=20",
-     "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1678968571/CEST_LOGO_-_Sushmit_Singh_r1huos.jpg",
+     "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1678968570/CEST_LOGO_-_Sushmit_Singh_elhrvk.jpg",
      "clubMembers": 60,
      "clubFacad": "Prof. Dr. Subhajit Monda",
      "clubFacadMob": 8116205595,
