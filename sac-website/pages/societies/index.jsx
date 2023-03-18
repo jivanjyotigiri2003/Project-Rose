@@ -20,7 +20,7 @@ export const socData = [
     description:
       "The Film and Music Society conducts music competitions and organizes the Celebrity NITE every year wherein great musicians give enthralling performances. A number of films from India and abroad as well as a week long film festival are its other activities.",
     aboutImg:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679098999/NU/51078333_2094823220596345_7666022044990963712_n_dmnbml.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/v1679094509/cosmo/82071287_2725884917490169_4660738552152195072_n_mgpjk6.jpg",
   },
   {
     name: "Literary and Cultural Society",
@@ -29,7 +29,7 @@ export const socData = [
     description:
       "The Literary and Cultural society looks after literary, drama and cultural activities. It arranges debates, quiz and a variety of other competitions both inter-NIT and intra NIT. It also organizes the NITRUTSAV every spring in the month of February.",
     aboutImg:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679094509/cosmo/82071287_2725884917490169_4660738552152195072_n_mgpjk6.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/v1679098999/NU/51078333_2094823220596345_7666022044990963712_n_dmnbml.jpg",
   },
   {
     name: "Games and Sports Society",
