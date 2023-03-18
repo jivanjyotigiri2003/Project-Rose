@@ -1,14 +1,10 @@
 import { Poppins } from "next/font/google";
-
 import Navbar from "@/components/Navbar/Navbar";
 import NavbarMobile from "@/components/Navbar/NavbarMobile";
 import "@/styles/globals.css";
 import "../styles/societyGallery.css";
 import "../styles/announcement.css";
-
 import Footer from "@/components/Footer/Footer";
-
-import { Roboto } from "next/font/google";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -24,7 +20,6 @@ export default function App({ Component, pageProps }) {
       <div className="mobile-hide">
         <NavbarMobile />
       </div>
-
       <Component {...pageProps} />
       <Footer />
       {/* <Callandar /> */}

@@ -1,5 +1,4 @@
 import React from "react";
-import SocietyHero from "../../components/SocietyHero/SocietyHero";
 import Head from "next/head";
 import SocietyGallery from "@/components/SocietyGallery/SocietyGallery";
 
