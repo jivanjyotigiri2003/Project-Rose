@@ -215,7 +215,7 @@ export default function Events() {
                       </p>
                       <hr />
                       <div className="flex justify-between items-center ">
-                        <div className="flex justify-center items-center text-white text-xs pt-2 pb-2 pl-2">
+                        <div className="flex justify-center items-center text-white text-xs pt-2 pb-2 pl-2 flex-wrap">
                           <MdOutlineWatchLater className="mr-1" /> {event.date}
                         </div>
                         <div>
