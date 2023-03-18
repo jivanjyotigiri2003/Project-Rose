@@ -6,41 +6,25 @@ const data = [
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079929/Gallery%20SAC%20Website/IMG_1786_i9bzas.jpg",
-    height: "600",
-    width: "550",
-    alt: "",
-  },
-  // {
-  //   src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079927/Gallery%20SAC%20Website/IMG_20230308_070144_pe9zit.jpg",
-  //   height: "600",
-  //   width: "550",
-  //   alt: "",
-  // },
-  {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079927/Gallery%20SAC%20Website/DSC07739_pqkhxk.jpg",
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679096943/inno/13116038_1012604982151513_4038023389832667068_o_c657xw.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079926/Gallery%20SAC%20Website/NYX_4661-4_btbl1p.jpg",
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092348/inno/315878086_683465460008681_470484218572244043_n_eq93jn.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079926/Gallery%20SAC%20Website/IMG-20230316-WA0013_bdwvid.jpg",
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092346/inno/315722437_683465106675383_1328129438635095592_n_piyuw8.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
-  {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079925/Gallery%20SAC%20Website/311861852_1597432320672136_1076899051738796049_n_a8mxkq.jpg",
-    height: "600",
-    width: "550",
-    alt: "",
-  },
+  
+ 
   {
     src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081977/Gallery%20SAC%20Website/326789574_856978982048869_4484573809603125309_n_rqrjta.jpg",
     height: "600",
@@ -121,6 +105,49 @@ const data = [
   },
   {
     src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081972/Gallery%20SAC%20Website/74214515_2574362329309096_1284408994911223808_n_kckk9t.jpg",
+    height: "600",
+    width: "550",
+    alt: "",
+  },
+  {
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092337/inno/74601223_2574361862642476_2683581586145804288_n_scgjxw.jpg",
+    height: "600",
+    width: "550",
+    alt: "",
+  },
+  
+  {
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092346/inno/315769370_683466470008580_4666538054288297478_n_ldjs0n.jpg",
+    height: "600",
+    width: "550",
+    alt: "",
+  },
+  {
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079929/Gallery%20SAC%20Website/IMG_1786_i9bzas.jpg",
+    height: "600",
+    width: "550",
+    alt: "",
+  },
+  // {
+  //   src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079927/Gallery%20SAC%20Website/IMG_20230308_070144_pe9zit.jpg",
+  //   height: "600",
+  //   width: "550",
+  //   alt: "",
+  // },
+  {
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079927/Gallery%20SAC%20Website/DSC07739_pqkhxk.jpg",
+    height: "600",
+    width: "550",
+    alt: "",
+  },
+  {
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079926/Gallery%20SAC%20Website/NYX_4661-4_btbl1p.jpg",
+    height: "600",
+    width: "550",
+    alt: "",
+  },
+  {
+    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092339/inno/75456942_2569960329749296_8399239259533344768_n_kvnxfl.jpg",
     height: "600",
     width: "550",
     alt: "",
