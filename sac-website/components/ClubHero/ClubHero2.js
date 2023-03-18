@@ -44,9 +44,9 @@ const ClubHero2 = ({
       >
         <div
           className="absolute top-0 left-0 right-0 bottom-0 bg-black "
-          style={{ opacity: "0.4" }}
+          style={{ opacity: "0.3" }}
         ></div>
-        <div class="w-full h-[33vh] max-w-sm  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto md:my-[30vh] my-[34vh]   ">
+        <div class="w-full h-[33vh] max-w-sm  rounded-lg shadow   mx-auto md:my-[30vh] my-[34vh]   ">
           <div class="flex flex-col items-center  ">
             <img
               class="lg:w-52 lg:h-52 md:w-64 md:h-64 w-32 h-32 lg:mb-3 md:mb-5 mb-6 rounded-full shadow-lg  border-4"
@@ -56,7 +56,7 @@ const ClubHero2 = ({
             <h5 class="lg:my-2 md:my-4 my- md:text-4xl lg:text-3xl font-bold tracking-widest text-white ">
               {name}
             </h5>
-            <span class="lg:text-sm xl:text-xl md:text-xl text-gray-300 text-center md:w-[50vw] lg:w-[36vw] w-[80vw] my-2 ">
+            <span class="lg:text-sm xl:text-xl md:text-xl text-white text-center md:w-[50vw] lg:w-[36vw] w-[80vw] my-2 ">
               {tagline}{" "}
             </span>{" "}
           </div>
