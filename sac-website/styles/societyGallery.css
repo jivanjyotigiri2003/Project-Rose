@@ -201,6 +201,10 @@ li {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+
+.parallax-card{
+  font-size: 1.4rem;
+}
 @media only screen and (max-width: 600px) {
   
     .society-card {
@@ -225,11 +229,20 @@ li {
     .web-hide {
       display: none;
     }
+
 }
 
 @media only screen and (min-width: 900px) {
 .mobile-hide {
     display: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 300px) {
+  .parallax-card{
+    font-size: 1.1rem;
   }
 
 }

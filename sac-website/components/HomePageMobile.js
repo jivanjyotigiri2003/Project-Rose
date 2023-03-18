@@ -134,13 +134,13 @@ const HomePageMobile = () => {
                 style={{ opacity: "0.6" }}
               ></div>
               <h3
+                className="parallax-card"
                 style={{
                   position: "absolute",
                   top: "12%",
                   left: "50%",
                   transform: "translate(-50%,-50%)",
                   color: "white",
-                  fontSize: "1.6rem",
                   textShadow: "1px 1px 5px red",
                   textAlign: "center",
                 }}
@@ -150,13 +150,14 @@ const HomePageMobile = () => {
 
               <div>
                 <h3
+                  className="parallax-card"
                   style={{
                     position: "absolute",
                     top: "36%",
                     left: "50%",
                     transform: "translate(-50%,-50%)",
                     color: "white",
-                    fontSize: "1.6rem",
+
                     textShadow: "1px 1px 5px red",
                     textAlign: "center",
                   }}
@@ -175,13 +176,14 @@ const HomePageMobile = () => {
               </div>
               <div>
                 <h3
+                  className="parallax-card"
                   style={{
                     position: "absolute",
                     top: "60%",
                     left: "50%",
                     transform: "translate(-50%,-50%)",
                     color: "white",
-                    fontSize: "1.6rem",
+
                     textShadow: "1px 1px 5px red",
                     textAlign: "center",
                   }}
@@ -200,13 +202,14 @@ const HomePageMobile = () => {
               </div>
               <div>
                 <h3
+                  className="parallax-card"
                   style={{
                     position: "absolute",
                     top: "85%",
                     left: "50%",
                     transform: "translate(-50%,-50%)",
                     color: "white",
-                    fontSize: "1.6rem",
+
                     textShadow: "1px 1px 5px red",
                     textAlign: "center",
                   }}
