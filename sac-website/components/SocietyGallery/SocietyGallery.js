@@ -788,6 +788,12 @@ export default function SocietyGallery({ title }) {
   ];
 
   let data1 = inno;
+  let data2;
+  const all=[
+    [],[],[],[]
+  ]
+  console.log(inno)
+  // console.log(inno[0]);
 
   if (title === "Technical Society") {
     title = "Innovision";
@@ -803,7 +809,9 @@ export default function SocietyGallery({ title }) {
     data1 = vriddhi;
   } else {
     title = "none";
-    data1 = vriddhi;
+    data1[0] = all[0] ;
+    data1[1]=all[1];
+    
   }
 
   // let apple = [
