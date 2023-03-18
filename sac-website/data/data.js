@@ -1279,7 +1279,7 @@ const clubData = [
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/1GtXzPKY7yMifN9_2jDJ7aCpcL-wKBHGXXjp4KOTLcs8/edit?usp=sharing",
     clubGroupPhoto:
-      "https://https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168915/1678823795278_-_Rohan_Kumar_1_hqmf7t.jpg.google.com/open?id=1fT6K1Q4VvJPhWi57InZV5nGoLu8OZkzr",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168915/1678823795278_-_Rohan_Kumar_1_hqmf7t.jpg",
     clubEB: [
       ["Chief-Coordinator", "Akash Vardhan Lakkineni", "7337045524"],
       ["Chief-Coordinator", "Rohan Kumar Sethi", "8114989857"],
@@ -1308,7 +1308,7 @@ const clubData = [
     "clubDocccc ":
       "https://docs.google.com/document/d/1jVMlsXCidNAgTd4TMKrb4bVdunfriJqF8-fuCEgCj3E/edit?usp=sharing",
     clubGroupPhoto:
-      "https://drive.https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168975/Heartbeats_-_devraj_changkakati_hwegre.jpg.com/open?id=1ClA4iW4G4FTN5ixM-23L3uGH2mi1hVTz",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168975/Heartbeats_-_devraj_changkakati_hwegre.jpg.com/open?id=1ClA4iW4G4FTN5ixM-23L3uGH2mi1hVTz",
     clubEB: [
       ["President", "Melvin Ignatius Toppo", "9799097643"],
       ["Vice President", "Gajraj Mohini", "9668779283"],
@@ -1334,7 +1334,7 @@ const clubData = [
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/1wCAu3NpHpNRRc1TJG7YQYYXgI3A6u-tvtbcSUrPpWa0/edit#gid=0",
     clubGroupPhoto:
-      "https://https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169117/Club_Photo_-_Shourya_Gyanvarsha_xzxqrx.jpg.google.com/open?id=1_FpLpsfTFF_UgYteNh0rroV_1pLaftf_",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169117/Club_Photo_-_Shourya_Gyanvarsha_xzxqrx.jpg.google.com/open?id=1_FpLpsfTFF_UgYteNh0rroV_1pLaftf_",
     clubEB: [
       ["President", "Amlan Abhilash Mishra", "7657099478"],
       ["Vice-President", "Shourya Gyanvarsha", "6371933919"],
