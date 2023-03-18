@@ -1,6 +1,5 @@
 import ClubName from "@/components/ClubName/ClubName";
 import Skew2 from "@/components/HomePage/Homepage";
-
 import Head from "next/head";
 
 import Announcement from "../components/Announcement/Announcement";
@@ -60,6 +59,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
+        
         <HomePageMobile />
         <Skew2 />
         <AboutNITR

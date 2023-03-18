@@ -6,6 +6,7 @@ import "../styles/societyGallery.css";
 import "../styles/announcement.css";
 import Footer from "@/components/Footer/Footer";
 
+
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
@@ -14,6 +15,7 @@ const poppins = Poppins({
 export default function App({ Component, pageProps }) {
   return (
     <main className={poppins.className}>
+      
       <div className=" absolute top-0 z-40 w-screen bg-transparent web-hide">
         <Navbar />
       </div>
