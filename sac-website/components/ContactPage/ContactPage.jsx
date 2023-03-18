@@ -44,8 +44,8 @@ function ContactPage() {
       <Fade direction="up" triggerOnce="true" delay="50">
         <div className=" md:flex">
           <div>
-            <Image
-              src={dean}
+            <img
+              src="https://res.cloudinary.com/webwiznitr/image/upload/v1679166960/SAC_2_qkwrrc.png"
               alt="FAQ"
               className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%] "
             />
