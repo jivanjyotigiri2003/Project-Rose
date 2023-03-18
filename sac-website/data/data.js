@@ -1222,7 +1222,7 @@ const clubData = [
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/10nQwLaU7JnJmLinBlNDIbKXcktpgOy61JBqxAudFZbg/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168814/20230119_194656_-_SATYAM_SONI_hchhiw.heic",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679174272/20230119_194656_-_SATYAM_SONI_hchhiw__2_dfsfts.jpg",
     clubEB: [
       ["President", "Aditi Bhakat", "9832559861"],
       ["Treasurer", "Satyam Soni", "8717974194"],

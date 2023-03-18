@@ -22,19 +22,19 @@ const ClubCard = ({ name, designation, phone }) => {
         {designation}
       </div>
       {/* <div className={stroke}></div> */}
-      <div
+      <a
         className="flex p-2 my-5 mx-auto w-[85%] rounded-lg h-fit  justify-center"
         style={{ backgroundColor: "red" }}
+        href={`tel:${phone}`}
       >
         <IoCall className=" mr-3 lg:mt-1 -mt-0.5" style={{ color: "white" }} />
-        <a
-          href="mailto:sdbjwbdhij@gmail.com"
+        <div
           className=" text-[0.5rem] sm:text-xs lg:text-sm xl:text-base"
           style={{ color: "white" }}
         >
           {phone}
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   );
 };
