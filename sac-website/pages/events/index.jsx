@@ -13,15 +13,14 @@ export default function Events() {
       title: "Cosmopolitian",
       description:
         "Cosmopolitian is one of the biggest ethno-cultural fests in Eastern India.",
-        link: "https://www.multiethnicfest.com/",
+      link: "https://www.multiethnicfest.com/",
     },
     {
       image:
         "https://res.cloudinary.com/webwiznitr/image/upload/v1679091159/vriddhi/312246343_672173147804579_6451606475779725250_n_ep8tn5.jpg",
       title: "Vriddhi",
-      description:
-        "Vriddhi is East India's biggest sports festival.",
-        link:'https://vriddhi2022.live/'
+      description: "Vriddhi is East India's biggest sports festival.",
+      link: "https://vriddhi2022.live/",
     },
   ];
   const upcomingEventData = [
@@ -29,9 +28,8 @@ export default function Events() {
       image:
         "https://res.cloudinary.com/webwiznitr/image/upload/v1679099004/NU/51396432_2094871717258162_8694953143751933952_n_kxliiy.jpg",
       title: "Nitrutsav",
-      description:
-        "Nitrutsav is East India's biggest cultural fest. ",
-        link: "https://nitrutsav.live/",
+      description: "Nitrutsav is East India's biggest cultural fest. ",
+      link: "https://nitrutsav.live/",
     },
     {
       image:
@@ -39,7 +37,7 @@ export default function Events() {
       title: "Innovision",
       description:
         "Innovision is one of the biggest technical fests in Eastern India.",
-        link: "https://inno.nitrkl.in/",
+      link: "https://inno.nitrkl.in/",
     },
   ];
 
@@ -130,14 +128,15 @@ export default function Events() {
                       }}
                     >
                       <a href="#">
-                        <h5 class="flex justify-center items-center text-xl pt-1 pb-1 font-semibold text-white">
+                        <h5 class="flex justify-center items-center text-base pt-1 pb-1 font-semibold text-white">
                           {event.title}
                         </h5>
                       </a>
                       <p
-                        class="pb-5 ml-2 mr-1 font-normal dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 "
+                        class="pb-5 ml-2 mr-1 font-normal dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 h-[10vh]"
                         style={{
                           textAlignLast: "center",
+                          overflow: "auto",
                         }}
                       >
                         {event.description}
@@ -153,7 +152,6 @@ export default function Events() {
                             href={event.link}
                             target="_blank"
                             className="text-white pr-[2vh] text-xs"
-                            
                           >
                             Read More
                             <FaGreaterThan className="inline ml-1 " />
@@ -202,14 +200,15 @@ export default function Events() {
                       }}
                     >
                       <a href="#">
-                        <h5 class="flex justify-center items-center text-xl pt-1 pb-1 font-semibold text-white">
+                        <h5 class="flex justify-center items-center text-base pt-1 pb-1 font-semibold text-white">
                           {event.title}
                         </h5>
                       </a>
                       <p
-                        class="pb-5 ml-2 mr-1 font-normal dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 "
+                        class="pb-5 ml-2 mr-1 font-normal dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 h-[10vh]"
                         style={{
                           textAlignLast: "center",
+                          overflow: "auto",
                         }}
                       >
                         {event.description}

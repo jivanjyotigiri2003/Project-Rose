@@ -133,10 +133,11 @@ const SocietyContactCard = ({
           })}
         </div>
       </div>
-      <div className="flex items-center justify-center mt-32">
-        <div className="grid grid-cols-1 md:grid-cols-3 place-content-center md:gap-x-4 gap-y-24 lg:gap-y-32">
-          {representative3.map((data, idx) => {
-            return (
+
+      <div className=" grid grid-cols-[25vw_25vw_25vw]  place-content-center  gap-x-[5vw] max-[900px]:grid-cols-[80vw]  max-[767px]:place-content-center ml-10">
+        {representative3.map((data, idx) => {
+          return (
+            <div className="flex items-center mt-[10vh] ">
               <ContactCard
                 index={idx}
                 name={data.name}
@@ -148,9 +149,9 @@ const SocietyContactCard = ({
                 stroke={stroke}
                 image={data.officialsImage}
               />
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
