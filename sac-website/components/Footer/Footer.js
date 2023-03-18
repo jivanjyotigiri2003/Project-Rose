@@ -12,10 +12,10 @@ export default function Footer() {
       <div className="bg-[#660708] ">
         <div className="  flex flex-wrap md:flex-row content-around justify-around pt-0">
           <div className=" flex flex-col justify-center  ">
-            <h1 className="text-lg font-semibold text-white pt-2 pl-2">
+            <h1 className="text-lg font-semibold text-white pt-0 mt-4 pl-2">
               Sitemap
             </h1>
-            <ul className="text-white text-md py-2 pl-2 cursor-pointer">
+            <ul className="text-white text-md py-1 pl-2 cursor-pointer">
               <li>
                 <Link href="/" className="hover:font-bold">
                   {" "}
@@ -55,8 +55,8 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <div className="mt-2  lg:mt-16">
-              <h1 className="text-lg font-bold text-white pb-2 pl-2">Events</h1>
+            <div className=" lg:mt-16">
+              <h1 className="text-lg font-bold text-white md:mt-0 mt-5  pl-2">Events</h1>
               <ul className="text-white text-md cursor-pointer tracking-wide ">
                 <li>
                   {" "}

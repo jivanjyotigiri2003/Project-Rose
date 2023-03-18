@@ -13,7 +13,7 @@ const ContactCard = ({
 }) => {
   return (
     <div
-      className="w-[90%] md:w-[22vw] py-8 max-md:h-fit rounded-md px-0.5"
+      className="w-[90%] md:w-[22vw] py-8 max-md:h-fit rounded-md px-1.5"
       style={{ backgroundColor: color1 }}
     >
       <div className="w-40 md:w-36 h-40 md:h-36 mb-5 rounded-full shadow-lg mx-auto ">
@@ -35,6 +35,11 @@ const ContactCard = ({
         {designation}
       </div>
       <div className={stroke}></div>
+      <a
+          href="mailto:sdbjwbdhij@gmail.com" target="_blank"
+          className=" text-[0.5rem] sm:text-xs lg:text-sm xl:text-base"
+          style={{ color: color1 }}
+        >
       <div
         className="flex p-2 my-5 mx-auto w-[85%] rounded-lg h-fit  justify-center"
         style={{ backgroundColor: color3 }}
@@ -43,14 +48,11 @@ const ContactCard = ({
           className=" mr-3 lg:mt-1 -mt-0.5"
           style={{ color: color1 }}
         ></BsFillEnvelopeFill>
-        <a
-          href="mailto:sdbjwbdhij@gmail.com"
-          className=" text-[0.5rem] sm:text-xs lg:text-sm xl:text-base"
-          style={{ color: color1 }}
-        >
+       
           {email}
-        </a>
+       
       </div>
+      </a>
     </div>
   );
 };

@@ -93,7 +93,7 @@ export default function soc() {
             <div className="flex justify-center items-center min-h-screen">
               <div className=" text-center tracking-wide text-6xl font-bold  text-white  saturate-100 bg-cover top-0 left-0 ">
                 {socID}
-                <p className="  pt-10 text-xl font-semibold tracking-wide ">
+                <p className="  pt-10 md:text-2xl lg:text-xl text-sm   font-semibold tracking-wide mx-4 ">
                   THE TECHNICAL SOCIETY OF STUDENT ACTIVITY CENTRE, NIT
                   <br />
                   ROURKELA IS PROUD TO PRESENT ITS WORKING AND
