@@ -179,7 +179,7 @@ export default function Footer() {
         <div className="flex flex-col-reverse items-center md:flex-row   p-1">
           <div className="text-white md:text-xl text-xs  pt-4 md:pt-0 pb-2 md:pb-0 md:w-2/5">
             <AiOutlineCopyrightCircle className="inline" /> Student Activity
-            Center, copyright 2023{" "}
+            Center, Copyright 2023{" "}
           </div>
           <div className="flex justify-start pt-2 md:pt-0 text-white font-semibold">
             Made with&nbsp; <BsSuitHeartFill size={24} color={"red"} /> &nbsp;
