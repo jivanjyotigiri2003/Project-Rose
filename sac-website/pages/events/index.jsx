@@ -1,8 +1,5 @@
 import React from "react";
-import SocietyCarousel from "../../components/SocietyRepresentative/SocietyCarouselMobile";
 import Head from "next/head";
-import { AiOutlineArrowRight } from "react-icons/ai";
-import { AspectRatio } from "@cloudinary/url-gen/qualifiers";
 import { Fade } from "react-awesome-reveal";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { FaGreaterThan } from "react-icons/fa";
@@ -24,27 +21,6 @@ export default function Events() {
       description:
         "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     },
-    // {
-    //   image:
-    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-    //   title: "Noteworthy technology acquisitions 2021",
-    //   description:
-    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    // },
-    // {
-    //   image:
-    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-    //   title: "Noteworthy technology acquisitions 2021",
-    //   description:
-    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    // },
-    // {
-    //   image:
-    //     "https://ik.imagekit.io/tvfucug8t/image_766.png?updatedAt=1678715230940",
-    //   title: "Noteworthy technology acquisitions 2021",
-    //   description:
-    //     "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-    // },
   ];
 
   return (
@@ -139,7 +115,7 @@ export default function Events() {
                         </h5>
                       </a>
                       <p
-                        class="pb-5 ml-2 mr-1 font-normal text-gray-700 dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 "
+                        class="pb-5 ml-2 mr-1 font-normal dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 "
                         style={{
                           textAlignLast: "center",
                         }}
@@ -209,7 +185,7 @@ export default function Events() {
                         </h5>
                       </a>
                       <p
-                        class="pb-5 ml-2 mr-1 font-normal text-gray-700 dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 "
+                        class="pb-5 ml-2 mr-1 font-normal dark:text-gray-400 text-sm text-justify rounded-[.2rem] text-white pl-2 pr-3 "
                         style={{
                           textAlignLast: "center",
                         }}
