@@ -34,7 +34,7 @@ export default function club({ data }) {
     
     
       />
-      <DeanSpeaks data={`About ${data.clubName}`} />
+      <DeanSpeaks data={`About ${data.clubName}`} image={data.clubGroupPhoto} description={data.clubDescription}/>
       {/* <SocietyRepresentative data="Club Representatives"/> */}
 
       <div
