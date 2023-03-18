@@ -32,7 +32,7 @@ export default function club({ data }) {
         link={data.clubLinkedin}
         backImg={backImg}
       />
-      <DeanSpeaks data={`About ${data.clubName}`} />
+      <DeanSpeaks data={`About ${data.clubName}`} image={data.clubGroupPhoto} description={data.clubDescription}/>
       {/* <SocietyRepresentative data="Club Representatives"/> */}
 
       <div
