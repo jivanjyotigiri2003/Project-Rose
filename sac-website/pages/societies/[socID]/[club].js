@@ -2,8 +2,6 @@ import React from "react";
 import ClubHero2 from "@/components/ClubHero/ClubHero2";
 import clubData from "../../../data/data";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
-import ContactCard from "@/components/ContactPage/ContactCard";
-import { BsFillEnvelopeFill } from "react-icons/bs";
 import ClubCard from "./ClubCard";
 
 export default function club({ data }) {
@@ -41,9 +39,14 @@ export default function club({ data }) {
       {/* <SocietyRepresentative data="Club Representatives"/> */}
 
       <div className="md:grid md:grid-cols-3">
-        {data.clubEB.map((data) => {
+        {data.clubEB.map((data, idx) => {
           return (
-            <ClubCard name={data[1]} designation={data[0]} phone={data[2]} />
+            <ClubCard
+              key={idx}
+              name={data[1]}
+              designation={data[0]}
+              phone={data[2]}
+            />
           );
         })}
       </div>
