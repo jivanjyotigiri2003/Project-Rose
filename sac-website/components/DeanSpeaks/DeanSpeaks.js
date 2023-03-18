@@ -2,15 +2,16 @@ import React from "react";
 import Image from "next/image";
 // import dean from "../../public/dean.jpg";
 import { Fade } from "react-awesome-reveal";
-const dean =
-  "https://ik.imagekit.io/gourab18/101717_Paul_McLoughlin_MDD_129853__1_.jpg?updatedAt=1678787663649";
-function DeanSpeaks({ data = "Dean Speaks", description, img = { dean } }) {
+
+function DeanSpeaks({ data = "Dean Speaks" ,description,image}) {
+  const dean =
+    "https://ik.imagekit.io/gourab18/101717_Paul_McLoughlin_MDD_129853__1_.jpg?updatedAt=1678787663649";
   return (
     <Fade direction="up" triggerOnce="true" delay="50">
       <div className=" md:flex justify-center items-center bg-[#A4161A]">
         <div className=" h-[100%]">
           <img
-            src={img}
+            src={image}
             alt="FAQ"
             className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%] object-cover shadow-2xl"
           />
