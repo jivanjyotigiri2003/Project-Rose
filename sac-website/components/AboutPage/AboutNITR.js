@@ -16,7 +16,7 @@ export default function AboutNITR({ data = "About NITR", img, description }) {
           <img
             src={img}
             alt="FAQ"
-            className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] h-[100%] md:clip-your-needful-style-right"
+            className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] h-[100%] md:clip-your-needful-style-right object-cover"
           />
         </div>
       </div>

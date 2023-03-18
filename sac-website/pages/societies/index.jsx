@@ -115,7 +115,7 @@ export default function societies() {
             key={index}
           >
             <Link href={`/societies/${soc.name}`}>
-              <h1 className="absolute h-[25vh] w-[100%]  p-[1rem] py-[10vh]  text-[3vw]  text-vertical z-100 text-white text-center h:text-underline ">
+              <h1 className="absolute h-[25vh] w-[100%]  p-[1rem] py-[10vh]  text-[5vw]  text-vertical z-100 text-white text-center h:text-underline ">
                 {soc.name}
               </h1>
             </Link>
