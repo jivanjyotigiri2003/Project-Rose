@@ -27,7 +27,7 @@ const Club = ({ name, tagline }) => {
         <div className="m-6">
           <div className="flex flex-col my-2 ">
             <button
-              className="shadow-xl  rounded-xl md:py-5 xl:py-3 md:px-24  my-8 p-6  bg-white hover:bg-red-600 hover:text-white mx-auto"
+              className="shadow-xl  rounded-xl md:py-5 xl:py-3 md:px-24  my-8 p-6  bg-white hover:bg-red-600 hover:text-white mx-auto hover:scale-105 hover:transition duration-200"
               onClick={() => (setCategory(""))}
             >
               All Societies
@@ -35,7 +35,7 @@ const Club = ({ name, tagline }) => {
 
             <div className=" grid gap-4 lg:gap-10 grid-cols-2  lg:grid-cols-4  mx-4">
               <button
-                className={`${active==1 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black"}`}
+                className={`${active==1 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black hover:scale-105 hover:transition duration-200"}`}
                 onClick={() => {
                   setCategory("Technical Society")
                   setActive(1)
@@ -45,7 +45,7 @@ const Club = ({ name, tagline }) => {
                 Technical Society
               </button>
               <button
-                className={`${active==2 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black"}`}
+                className={`${active==2 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black hover:scale-105 hover:transition duration-200"}`}
                 onClick={() =>{
                   setCategory("Literary and Cultural Society")
                   setActive(2)
@@ -55,7 +55,7 @@ const Club = ({ name, tagline }) => {
                 Literary and Cultural Society
               </button>
               <button
-                className={`${active==3 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black"}`}
+                className={`${active==3 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black hover:scale-105 hover:transition duration-200"}`}
                 onClick={() =>{
                   setCategory("Film and Music Society")
                   setActive(3)
@@ -63,7 +63,7 @@ const Club = ({ name, tagline }) => {
               >
                 Film and Music Society
               </button>
-              <button className={`${active==4 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black"}`}
+              <button className={`${active==4 ? "shadow-xl rounded-xl p-3 hover:bg-white hover:text-black bg-red-600 text-white" : "shadow-xl rounded-xl p-3 bg-white hover:bg-red-600 hover:text-black hover:scale-105 hover:transition duration-200"}`}
                  onClick={() =>{
                   setCategory("Games and Sports Society")
                   setActive(4)
@@ -82,7 +82,7 @@ const Club = ({ name, tagline }) => {
                 )
                 .map((club) => {
                   return (
-                    <div className="flex flex-col items-center  px-3 py-12 text-center rounded-md bg-white shadow-2xl glow">
+                    <div className="flex flex-col items-center  px-3 py-12 text-center rounded-md bg-white shadow-2xl glow hover:scale-105 hover:transition duration-200">
                       <Link
                         href={`/societies/${club.clubSociety}/${club.clubName}`}
                         passHref
@@ -118,7 +118,7 @@ const Club = ({ name, tagline }) => {
                 )
                 .map((club) => {
                   return (
-                    <div className="flex flex-col  items-center  px-3 py-12 text-center rounded-md bg-white shadow-2xl glow ">
+                    <div className="flex flex-col  items-center  px-3 py-12 text-center rounded-md bg-white shadow-2xl glow hover:scale-105 hover:transition duration-200">
                       <Link
                         href={`/societies/${club.clubSociety}/${club.clubName}`}
                         passHref

@@ -16,7 +16,7 @@ const Skew2 = () => {
               <span className="font-medium text-9xl mr-0.5">A</span>ctivity
             </h1>
             <h1 className=" text-white text-4xl xl:text-7xl font-normal my-2  pl-[6rem]">
-              <span className="font-medium text-9xl mr-0.5">C</span>enter
+              <span className="font-medium text-9xl mr-0.5">C</span>entre
             </h1>
           </div>
         </div>
