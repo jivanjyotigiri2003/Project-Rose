@@ -29,7 +29,7 @@ const data = [
     category: "Annual Sports Fest",
     desc: "Vriddhi is East India's biggest sports festival. A sports gala of sorts, several sports enthusiasts grace the platform to prove their mettle with the motto to ignite the sportsman in you and educate you about the spirit of the game.It has been enhancing the sportsmanship qualities of young talents in this modern era of sports. ",
     img: "https://res.cloudinary.com/dnqipwdsl/image/upload/v1677824671/inno2_dk4jzk.png",
-    link: "",
+    link:'https://vriddhi2022.live/'
   },
 ];
 export default data;
