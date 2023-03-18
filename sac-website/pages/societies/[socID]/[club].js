@@ -4,6 +4,7 @@ import clubData from "../../../data/data";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
 import ContactCard from "@/components/ContactPage/ContactCard";
 import { BsFillEnvelopeFill } from "react-icons/bs";
+import ClubCard from "./ClubCard";
 
 export default function club({ data }) {
   let backImg;
@@ -32,44 +33,19 @@ export default function club({ data }) {
         link={data.clubLinkedin}
         backImg={backImg}
       />
-      <DeanSpeaks data={`About ${data.clubName}`} image={data.clubGroupPhoto} description={data.clubDescription}/>
+      <DeanSpeaks
+        data={`About ${data.clubName}`}
+        image={data.clubGroupPhoto}
+        description={data.clubDescription}
+      />
       {/* <SocietyRepresentative data="Club Representatives"/> */}
 
-      <div
-        className="w-[90%] md:w-[22vw] h-fit py-8  rounded-md"
-        style={{
-          backgroundColor: "white",
-          boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-          margin: "1rem",
-        }}
-      >
-        <div
-          className="text-center font-semibold text-base lg:text-xl "
-          style={{ color: "black" }}
-        >
-          Name
-        </div>
-
-        <div className="text-center  text-lg mb-3" style={{ color: "black" }}>
-          designation
-        </div>
-        {/* <div className={stroke}></div> */}
-        <div
-          className="flex p-2 my-5 mx-auto w-[85%] rounded-lg h-fit  justify-center"
-          style={{ backgroundColor: "red" }}
-        >
-          <BsFillEnvelopeFill
-            className=" mr-3 lg:mt-1 -mt-0.5"
-            style={{ color: "white" }}
-          ></BsFillEnvelopeFill>
-          <a
-            href="mailto:sdbjwbdhij@gmail.com"
-            className=" text-[0.5rem] sm:text-xs lg:text-sm xl:text-base"
-            style={{ color: "white" }}
-          >
-            Email
-          </a>
-        </div>
+      <div className="md:grid md:grid-cols-3">
+        {data.clubEB.map((data) => {
+          return (
+            <ClubCard name={data[1]} designation={data[0]} phone={data[2]} />
+          );
+        })}
       </div>
     </>
   );
