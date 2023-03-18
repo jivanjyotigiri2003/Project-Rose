@@ -13,7 +13,7 @@ const Navbar = () => {
           {/* <img src="logo.svg" alt="" />
           <Link href="/"></Link> */}
 
-          <Link href="/"><img src="logo.svg" /> alt="HTML tutorial"</Link> 
+          <Link href="/"><img src="logo.svg" /> </Link> 
           
         </div>
         <div className=" flex justify-around space-x-12 p-5 text-white font-light">
