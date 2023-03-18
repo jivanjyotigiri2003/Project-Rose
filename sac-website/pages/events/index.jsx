@@ -83,7 +83,7 @@ export default function Events() {
       </Head>
       <div>
         {/* Events Hero */}
-        <div className="bg-[url('https://res.cloudinary.com/dkqxnquga/image/upload/v1678430362/image_767_hnhpi2.png')] bg-no-repeat w-full bg-cover bg-center h-full">
+        <div className="bg-[url('https://res.cloudinary.com/webwiznitr/image/upload/v1679092342/inno/315696878_683488323339728_2316976895124832065_n_z8zmbw.jpg')] bg-no-repeat w-full bg-cover bg-center h-full">
           <div className="  bg-gradient-to-b from-[#850101cc] to-[#8501011a] bg-no-repeat w-full bg-cover bg-center h-full">
             <div className="bg-[#00000073] bg-no-repeat w-full bg-cover bg-center h-full">
               <div className="flex justify-center items-center h-screen">
