@@ -306,6 +306,7 @@ const clubData = [
     clubFacadMob: "+91 94379 40105",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/13yGFabexmsFT3OXyrDq3BlLaMgCpnd7-Yn97w9XU9a4/edit",
+    clubEB: [["President", "Satabdi Beuria", "6371991105"]],
   },
   {
     index: 12,
@@ -590,7 +591,7 @@ const clubData = [
       "https://docs.google.com/spreadsheets/d/1lUPum2ZO_B_qmLxk3Z_UQ4syc8S5RmvRG8YonRIMUy0/edit#gid=0",
     clubGroupPhoto:
       "https://res.cloudinary.com/webwiznitr/image/upload/v1679136520/ClubGroupPhoto/spic_macay_club_-_Abhinav_kumar_Gupta_tffwcl.jpg",
-    //  "clubEB": [""]
+    clubEB: ["President", "Jon Doe", "9999999999"],
   },
   {
     index: 22,
@@ -1221,7 +1222,7 @@ const clubData = [
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/10nQwLaU7JnJmLinBlNDIbKXcktpgOy61JBqxAudFZbg/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679174272/20230119_194656_-_SATYAM_SONI_hchhiw__2_dfsfts.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168814/20230119_194656_-_SATYAM_SONI_hchhiw.heic",
     clubEB: [
       ["President", "Aditi Bhakat", "9832559861"],
       ["Treasurer", "Satyam Soni", "8717974194"],
