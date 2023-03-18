@@ -39,17 +39,16 @@ export default function club({ data }) {
       {/* <SocietyRepresentative data="Club Representatives"/> */}
 
       <div className="md:grid md:grid-cols-3">
-        {data.clubEB.length &&
-          data.clubEB.map((data, idx) => {
-            return (
-              <ClubCard
-                key={idx}
-                name={data[1]}
-                designation={data[0]}
-                phone={data[2]}
-              />
-            );
-          })}
+        {data.clubEB.map((data, idx) => {
+          return (
+            <ClubCard
+              key={idx}
+              name={data[1]}
+              designation={data[0]}
+              phone={data[2]}
+            />
+          );
+        })}
       </div>
     </>
   );
