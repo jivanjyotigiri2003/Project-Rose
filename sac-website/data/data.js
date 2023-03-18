@@ -539,11 +539,11 @@ const clubData=[
      "clubFacadMob": 6612462288,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1lPVD3aBXYuei3NYnkXFcmpTkWyi9QQ6rXTrjjH0OSOU/edit?usp=sharing",
      "clubEB":[
-        ["President","Aman Sarin","9439580818"],
-        ["Vice President","Swetlana Chatterjee","9836570232"],
-        ["Secretary","Jagadish Das","7008914381"],
-        ["Coordinator","Soumya Ranjan Nayak","6372529014"],
-        ["Cinematography Head","Raj Aryan Vishwakarma","9977114187"],    
+        "President",["Aman Sarin","9439580818"],
+        "Vice President",["Swetlana Chatterjee","9836570232"],
+        "Secretary",["Jagadish Das","7008914381"],
+        "Coordinator",["Soumya Ranjan Nayak","6372529014"],
+        "Cinematography Head",["Raj Aryan Vishwakarma","9977114187"],    
         ]
     },
     {
@@ -562,10 +562,10 @@ const clubData=[
      "clubFacad": "Prasoon Kumar",
      "clubFacadMob": 8105648520,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1cl3VbkJQ6YMbze9dd4N-0NdIQV41ZOod-3Qpzu8fGD0/edit?usp=sharing",
-     "clubEB":[["President",	"Abhay Thakur", "8981564862"],
-        ["Vice President",	"Krishnanshu Sharma","9149890855"],
-        ["Secretary",	"Sudhansh Prasad Arya",	"9462254958"],
-        ["Treasurer",	"Siddharth Shekhar",	"7205849274"],
+     "clubEB":["President",[	"Abhay Thakur", "8981564862"],
+     "Vice President",[	"Krishnanshu Sharma","9149890855"],
+     "Secretary",[	"Sudhansh Prasad Arya",	"9462254958"],
+     "Treasurer",[	"Siddharth Shekhar",	"7205849274"],
         ]
     },
     {
@@ -586,16 +586,16 @@ const clubData=[
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1Jn-HJ0mllhXrIkA-POXprAbMvnidsgfW6j5dFczfjH0/edit?usp=sharing",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpghttps://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpg",
      "clubEB":[
-        ["Vipul Dewasthale",	"President",	"9406967902"],
-       [ "Aditi Bhakat",	"Vice-President",	"9832559861"],
-        ["Shreenadan Sahu",	"Secretary",	"7536921319"],
-       [ "Priyanshu Das",	"Treasurer",	"9337991462"],
-       [ "Prerna Komal Chordiya",	"Content Head",	"8625965432"],
-       [ "Abhijeet Govind Anoop",	"PR Head",	"9037474761"],
-        ["Anushka Abhijeet Samant",	"Design Head",	"7715870104"],
-        ["Jagrit Sahu",	"Technical Head",	"6371443154"],
-        ["Isha Biswas",	"Sophomore coordinator",	"6290350648"],
-        ["Aditya Narayan D S Jenamani",	"Sophomore coordinator","7488490089"]]
+        "President",["Vipul Dewasthale", "9406967902"],
+        "Vice-President",[ "Aditi Bhakat",	"9832559861"],
+        "Secretary",["Shreenadan Sahu",	"7536921319"],
+        "Treasurer",[ "Priyanshu Das",	"9337991462"],
+        "Content Head",[ "Prerna Komal Chordiya",	"8625965432"],
+        "PR Head",[ "Abhijeet Govind Anoop",	"9037474761"],
+        "Design Head",["Anushka Abhijeet Samant",		"7715870104"],
+        "Technical Head",["Jagrit Sahu",	"6371443154"],
+        "Sophomore coordinator",["Isha Biswas",	"6290350648"],
+        "Sophomore coordinator",["Aditya Narayan D S Jenamani",	"7488490089"]]
     },
     {
      "index": 34,
@@ -613,16 +613,16 @@ const clubData=[
      "clubFacad": " Prof. Sasmita Mishra ",
      "clubFacadMob": "+918144923411 / +917750960066",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1CjMg06v7DCfO4MOcMtNsVImPXWqHNEbjLXmL0UVH-2A/edit#gid=0",
-     "clubEB":[["President",	"Aayush Dinesh Kandpal",8291690166],
-        ["Secretary",	"Lokesh Kumar Behera",	9090422962],
-        ["Vice President",	"Agamya Khandelwal",	9834204227],
-       [" PR Head",	"Geethasree Koncha",	8277467085],
-        ["Treasurer",	"Yash Choudhary", 	6305588567],
-        ["Event Management Head","Harsh Ramdas Bangar",	7719861972],
-        ["Finance Head",	"Swarnim Agrawal" ,	8319493047],
-        ["Content Head",	"Rishu Nideesh Pathak",	8763637518],
-        ["Event Management Head",	"Abhisri Das",	7008017752],
-        ["Design Head",	"Khushi Agarwal",	9163617910]]
+     "clubEB":["President",[	"Aayush Dinesh Kandpal","8291690166"],
+     "Vice President",[	"Agamya Khandelwal",	"9834204227"],
+     "Secretary",[	"Lokesh Kumar Behera",	"9090422962"],
+     " PR Head",[	"Geethasree Koncha",	"8277467085"],
+     "Treasurer",[	"Yash Choudhary", 	"6305588567"],
+     "Event Management Head",["Harsh Ramdas Bangar",	"7719861972"],
+     "Finance Head",[	"Swarnim Agrawal" ,	"8319493047"],
+     "Content Head",[	"Rishu Nideesh Pathak",	"8763637518"],
+     "Event Management Head",[	"Abhisri Das",	"7008017752"],
+     "Design Head",[	"Khushi Agarwal",	"9163617910"]]
     },
     {
      "index": 35,
@@ -637,17 +637,17 @@ const clubData=[
      "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679095362/Group_18131_x6oegc.png",
      "clubMembers": 87,
      "clubFacad": "Dr. Divya Singh",
-     "clubFacadMob": 9439951426,
+     "clubFacadMob": "9439951426",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1l1q2JH64sQuGYw9EJsD-8zpEMnivTJlDPRnvofNe-MM/edit?usp=sharing",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138660/ClubGroupPhoto/WhatsApp_Image_2023-03-13_at_10.57.00_PM_-_Nikita_Agarwal_s8jpou.jpg",
-     "clubEB":[["President",	"Nikita Agarwal",	7991030024],
-     ["Vice President",	"Subhendu Shekhar Tripathy",6370021206],
-     ["Chief Coordinator",	"Swapnanil Das",	9163132109],
-     ["Event coordinator",	"Ayashkant Mohapatra",	9438633766],
-    ["Event coordinator",	"Shreejai Pati",	7873180900],
-     ["Design Head",	"Anushka Abhijeet Samant",	7715870104],
-    [ "Treasurer",	"Amandeep",	6204561172]]
-   
+     "clubEB":[
+        "President",[	"Nikita Agarwal",	"7991030024"],
+        "Vice President",[	"Subhendu Shekhar Tripathy", "6370021206"],
+        "Chief Coordinator",[	"Swapnanil Das",	"9163132109"],
+        "Event coordinator",[	"Ayashkant Mohapatra",	"9438633766"],
+        "Event coordinator",[	"Shreejai Pati",	"7873180900"],
+        "Design Head",[	"Anushka Abhijeet Samant",	"7715870104"],
+        "Treasurer", ["Amandeep",	"6204561172"]]
     },
     {
      "index": 36,
@@ -661,14 +661,14 @@ const clubData=[
      "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679095205/Group_18130_y0b736.png",
      "clubMembers": 30,
      "clubFacad": "Prof. Angana sarkar",
-     "clubFacadMob": 9733504234,
+     "clubFacadMob": "9733504234",
      "clubDocccc": "https://drive.google.com/drive/folders/1k6qNdWECsUJQrlTjxhGMww-ij8VQpZVi",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138744/ClubGroupPhoto/IMG-20230314-WA0018_-_Actomania_2029_u6xx5f.jpg",
-     "clubEB":[["President",	"Subhankar Dutta", 	7908450565],
-   [  "Vice President","Biswajit Behera",	7326878233],        
-    [ "Secretary",	"Sushree Priyadarshana",	9348753695],
+     "clubEB":["President",[	"Subhankar Dutta", 	7908450565],
+     "Vice President",[  "Biswajit Behera",	7326878233],        
+     "Secretary",[ 	"Sushree Priyadarshana",	9348753695],
              
-     ["Treasurer",	"Aster Behera",	9348801131]]
+     "Treasurer",[	"Aster Behera",	9348801131]]
     },
     {
      "index": 37,
@@ -686,12 +686,12 @@ const clubData=[
      "clubFacadMob": "+91 9432892150",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1rFPErU1kqZg4BvcwEj8jEVXGqhWcYbVeEE5C880huH4/edit?usp=sharing",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138796/ClubGroupPhoto/group_-_Swayam_Mohanty_dukitj.jpg",
-     "clubEB":[["President",	"Swayam Mohanty",	7978617895],
-        ["Vice President",	"Goutam Sahu",	9078587157],
-       [ "Secretary",	"Ashwini Kumar Nayak",	9438461170],
-        ["Design Head",	"Akshit Anupam Ekka",	9113384543],
-        ["Public Relations Head",	"Sankalp Mishra",	7987467161],
-        ["Treasurer",	"Manas Ranjan Mishra",	7008498374]]
+     "clubEB":["President",[	"Swayam Mohanty",	"7978617895"],
+     "Vice President",[	"Goutam Sahu",	"9078587157"],
+     "Secretary",[ 	"Ashwini Kumar Nayak",	"9438461170"],
+     "Design Head",[	"Akshit Anupam Ekka",	"9113384543"],
+     "Public Relations Head",[	"Sankalp Mishra",	"7987467161"],
+     "Treasurer",[	"Manas Ranjan Mishra",	"7008498374"]]
     },
     {
      "index": 38,
@@ -707,16 +707,16 @@ const clubData=[
      "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679094763/Group_18127_ham0x0.png",
      "clubMembers": 34,
      "clubFacad": "Prof. R. K. BISWAL",
-     "clubFacadMob": 8249348088,
+     "clubFacadMob": "8249348088",
      "clubDocccc": "https://drive.google.com/drive/u/0/folders/1rCPtLAAjNraOr3ThRnkeXzedHxOLnJTE",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138850/ClubGroupPhoto/IMG_20230314_235217_-_Amit_suryadipta_Kar_dk3egn.jpg",
-     "clubEB":[["PRESIDENT" ,"AMIT SURYADIPTA KAR",		8337976733],
-       [ "VICE- PRESIDENT", "SARTHAK PRASAD SAHOO",		7008698366],
-       [ "EDITOR-IN-CHIEF( SECRETARY)", "AKASH KUMAR SWAIN",		9777612417],
-       ["MANAGEMENT HEAD", "M KALYAN KUMAR"	,	6371245585],
-        ["CONTENT HEAD", "KAILASH CHANDRA PUJAHARI",		8144156673],
-        ["DESIGN HEAD", "JYOTIPRAKASH SAMANTA",		8260833919],
-        ["TREASURER", "V RAJA PATRO",		7789942173]]
+     "clubEB":["President",[ "AMIT SURYADIPTA KAR",		"8337976733"],
+     "VICE- PRESIDENT",[ "SARTHAK PRASAD SAHOO",		"7008698366"],
+     "EDITOR-IN-CHIEF(SECRETARY)",[  "AKASH KUMAR SWAIN",		"9777612417"],
+     "MANAGEMENT HEAD",[ "M KALYAN KUMAR"	,	"6371245585"],
+     "CONTENT HEAD",[ "KAILASH CHANDRA PUJAHARI",		"8144156673"],
+     "DESIGN HEAD",[ "JYOTIPRAKASH SAMANTA",		"8260833919"],
+     "TREASURER",[ "V RAJA PATRO",		"7789942173"]]
     },
     {
      "index": 39,
@@ -731,19 +731,19 @@ const clubData=[
      "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679086504/Group_18119_cpx2wq.png",
      "clubMembers": 57,
      "clubFacad": "Prof. Sanjoy Datta",
-     "clubFacadMob": 9556206630,
+     "clubFacadMob": "9556206630",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1ZGpDutWG5-k0_Bl8GynlC7gfM_5XYmXX/edit#gid=577826563",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679138931/ClubGroupPhoto/311780339_234570295561121_8803281892657017261_n_5_-_Krishna_Aditya_Mohanty_khlzhk.png",
-     "clubEB":[["President",	"Krishna Aditya Mohanty", 	9937046915],
-       [" Vice-President",	"Siddharth Ray ",	9668749887],
-       [ "Research Head ",	"Sarthak Sahoo",	6371258214],
-       [ "PR Head",	"Tannmoy", 	7070129599],
-        ["Design Head ", "Ajitesh Srivastava",	7668473007],
-        ["Treasurer",	"Swapnanil Das",	9163132109]]
+     "clubEB":["President",[	"Krishna Aditya Mohanty", 	"9937046915"],
+     " Vice-President",[	"Siddharth Ray ",	"9668749887"],
+     "Research Head ",[ 	"Sarthak Sahoo",	"6371258214"],
+     "PR Head",[ 	"Tannmoy", 	"7070129599"],
+     "Design Head ",[ "Ajitesh Srivastava",	"7668473007"],
+     "Treasurer",[	"Swapnanil Das",	"9163132109"]]
     },
     {
      "index": 40,
-     "clubName": "AKRITI",
+     "clubName": "Akriti",
      "clubSociety": "Film and Music Society",
      "clubTagline": "Unleash the Picasso in you !!!",
      "clubDescription": "AKRITI, The Official Art and Craft club of NIT Rourkela is a group of students that enjoy creating and exploring different forms of art. Students can display their artistic abilities, pick up new skills, and work together on projects. Members are invited to experiment with various materials and techniques, from painting and sketching to crafts and sculpture. Also, the organization arranges outings, workshops, and exhibitions to broaden members' perspectives on art appreciation. The Art, Craft, and Design Club is a friendly and encouraging setting that encourages creativity and self-expression, regardless of your level of experience.",
@@ -755,14 +755,14 @@ const clubData=[
      "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1678968574/20230314_221234_0001_-_Atri_Ranjan_Das_sxo8ym.png",
      "clubMembers": 45,
      "clubFacad": "Prof. Prasanta Kumar Bhuyan",
-     "clubFacadMob": 9658642180,
+     "clubFacadMob": "9658642180",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1hi_zqcO4FgqEMKvvZ350PpJx5sut-ntwi6GnrAEZO80/edit?usp=sharing",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139008/ClubGroupPhoto/AKRITI_-_Atri_Ranjan_Das_l26oht.jpg",
-     "clubEB":[["President","Atri Ranjan Das",	9777369410],
-        ["Vice President",	"Sugyan Bentakar",	7849099718],
-       [ "Chief Coordinator",	"Parth Thakare",	7796304101],
-        ["Design and Content Head",	"Insha Mustafa",	9123436335],
-        ["Art and Craft head",	"Anjan Mridha",	9668361980]
+     "clubEB":["President",["Atri Ranjan Das",	"9777369410"],
+     "Vice President",[	"Sugyan Bentakar",	"7849099718"],
+     "Chief Coordinator",[ 	"Parth Thakare",	"7796304101"],
+     "Design and Content Head",[	"Insha Mustafa",	"9123436335"],
+     "Art and Craft head",[	"Anjan Mridha",	"9668361980"]
     ]
     },
     {
@@ -780,12 +780,12 @@ const clubData=[
      "clubFacadMob": "+91 9778706770",
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1z9Rl0_TgpoXD6Nak-K84mZAv-ePPtJGPfvJ-OskE_uA/edit?usp=sharing",
      "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139071/ClubGroupPhoto/IMG_4429_-_Susmita_Panda_xmluuw.heic",
-     "clubEB": [["President",	"Diwakar Mishra",	7319639134],
-     ["Vice President",	"Prisita Preetam",	8847805647],
-    [ "Technical Head",	"Shubham Arya Singh",	7898729445],
-     ["Treasurer",	"Akansh Nayak",	7848000070],
-     ["Coordinator",	"Bishal Atal ",	 +9779862077887 ],
-    [ "Coordinator","	Susmita Panda",	9861225356]]
+     "clubEB": ["President",[	"Diwakar Mishra",	7319639134],
+     "Vice President",[	"Prisita Preetam",	8847805647],
+     "Technical Head",[ 	"Shubham Arya Singh",	7898729445],
+     "Treasurer",[	"Akansh Nayak",	7848000070],
+     "Coordinator",[	"Bishal Atal ",	 +9779862077887 ],
+     "Coordinator",[ "Susmita Panda",	9861225356]]
 
     },
     {
@@ -804,7 +804,9 @@ const clubData=[
      "clubFacad": "Prof. Syed Nasimul Alam",
      "clubFacadMob": 9937917811,
      "clubDocccc": "https://docs.google.com/spreadsheets/d/1fq80hpt6-iExSOUns2SEdthqvxv7rxmDu0SGt5sh31Q/edit?usp=sharing ",
-     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139141/ClubGroupPhoto/FC_Group_Pic_-_Abhinandan_Mishra_pvgunz.jpg"
+     "clubGroupPhoto": "https://res.cloudinary.com/webwiznitr/image/upload/v1679139141/ClubGroupPhoto/FC_Group_Pic_-_Abhinandan_Mishra_pvgunz.jpg",
+     "clubEB":["President ",["Abhinandan Mishra","9437583729"],"Vice-President",["Rajiv Sahu","9098633074"],"Manager",["Satyam Patra","7327080609"],"Treasurer",["N Vaibhav Kumar","7205044424"],"Secretary",["Krishna Agarwal","9937077609"],"Design Head",["Mayank Sahu","8455034400"]]
+
     },
 
      {
@@ -823,7 +825,8 @@ const clubData=[
   "clubFacad": "Prof. Ramakrishna Biswal",
   "clubFacadMob": "+91 82493 48088 ",
   "clubDocccc ": "https://docs.google.com/spreadsheets/d/1YZ2Ao3cVH1HuLKnlFu5FuALJeYWIxa4-RLNBFgzkvgQ/edit?usp=sharing",
-  "clubGroupPhoto": "https://drive.google.com/open?id=1Mng8kPEsTqhTTvehFgy3bYwWauhQmxkd"
+  "clubGroupPhoto": "https://drive.google.com/open?id=1Mng8kPEsTqhTTvehFgy3bYwWauhQmxkd",
+  "clubEB":["President",["V Raja Patra","7789942173"],"Vice-President",["Ravi Teja Marni","7793941686"],"Secretary",["Sabyasachi Behera","8908978900"],"Treasurer",["Srinibas Panigrahi","8658647925"],"Technical Head",["Purnima Sah","9031599049"],"Design Head",["Eswar Ala","9100378303"]]
  },
 
  {
@@ -840,7 +843,8 @@ const clubData=[
   "clubFacad": "Prof Suchismita Chinara",
   "clubFacadMob": 9437116795,
   "clubDocccc ": "https://docs.google.com/spreadsheets/d/10nQwLaU7JnJmLinBlNDIbKXcktpgOy61JBqxAudFZbg/edit?usp=sharing",
-  "clubGroupPhoto": "https://drive.google.com/open?id=18QN2R16xRSb14PRKCwMxy9cE2YMxjJNv"
+  "clubGroupPhoto": "https://drive.google.com/open?id=18QN2R16xRSb14PRKCwMxy9cE2YMxjJNv",
+  "clubEB":["President",["Aditi Bhakat","9832559861"],"Treasurer",["Satyam Soni","8717974194"],"Design Head",["Shree Acharya","84578 04428"],"Co-ordinator",["Nitya Nalini","91780 08790"],"Co-ordinator",["Chinmayee Priyadarshini","98619 20753"],"Co-ordinator",["Sushrita Lima","78479 83745"]]
  },
  {
   "index": 45,
@@ -857,7 +861,8 @@ const clubData=[
   "clubFacad": "Prof. Ayas Kanta Swain",
   "clubFacadMob": "0661-2462458",
   "clubDocccc ": "https://docs.google.com/spreadsheets/d/1YTdNLO_HpHHy-RbiVTIcFVPK2SUdQnxh1xtEohboMiY/edit?usp=sharing",
-  "clubGroupPhoto": "https://drive.google.com/open?id=1y7VGkuq2njdBuyZCHf2srohzdyoFz9DP"
+  "clubGroupPhoto": "https://drive.google.com/open?id=1y7VGkuq2njdBuyZCHf2srohzdyoFz9DP",
+  "clubEB":["President",["Suyash Umesh Verma","7749028252"],"Vice-President",["Adyasha Jena","7656814344"],"Secretary",["Sanjeet Patro","8658532960"],"Treasurer",["Sayantan Chatterjee ","8073914145"]]
  },
  {
   "index": 46,
@@ -875,7 +880,8 @@ const clubData=[
   "clubFacad": "Dr. Harekrushna Sahoo",
   "clubFacadMob": 8249074243,
   "clubDocccc ": "https://docs.google.com/spreadsheets/d/1GtXzPKY7yMifN9_2jDJ7aCpcL-wKBHGXXjp4KOTLcs8/edit?usp=sharing",
-  "clubGroupPhoto": "https://drive.google.com/open?id=1fT6K1Q4VvJPhWi57InZV5nGoLu8OZkzr"
+  "clubGroupPhoto": "https://drive.google.com/open?id=1fT6K1Q4VvJPhWi57InZV5nGoLu8OZkzr",
+  "clubEB": ["Chief-Coordinator", ["Akash Vardhan Lakkineni", "7337045524"], "Chief-Coordinator", ["Rohan Kumar Sethi", "8114989857"], "Coordinator", ["Anudhriti Rabha", "7326872794"], "Coordinator", ["Tushar Goel", "9001056520"], "Manager", ["Ramnarayan Sahu","6370681998"]]
  },
  {
   "index": 47,
@@ -893,27 +899,11 @@ const clubData=[
   "clubFacad": "Prof. Syed Nasimul Alam",
   "clubFacadMob": 9937917811,
   "clubDocccc ": "https://docs.google.com/document/d/1jVMlsXCidNAgTd4TMKrb4bVdunfriJqF8-fuCEgCj3E/edit?usp=sharing",
-  "clubGroupPhoto": "https://drive.google.com/open?id=1ClA4iW4G4FTN5ixM-23L3uGH2mi1hVTz"
+  "clubGroupPhoto": "https://drive.google.com/open?id=1ClA4iW4G4FTN5ixM-23L3uGH2mi1hVTz",
+  "clubEB": ["President", ["Melvin Ignatius Toppo", "9799097643" ], "Vice President", ["Gajraj Mohini", "9668779283"], "Secretary", ["Devraj Changkakati", "8658959813"], "Treasurer", ["Devraj Changkakati", "8658959813"]]
  },
  {
   "index": 48,
-  "clubName": "SDG Campus Club",
-  "clubSociety": "Literary and Cultural Society",
-  "clubTagline": "A step towards saving our Earth",
-  "clubDescription": "SDG Campus Club is the official sustainability club of NIT Rourkela. Our aim is to work towards achieving the 17 sustainable development goals designated by the UN at an institutional and local level. \n",
-  "clubFoundation": 2020,
-  "clubInstagram": "https://instagram.com/sdgcampusclub_nitrkl?igshid=YmMyMTA2M2Y=",
-  " clubLinkedin": "https://www.linkedin.com/company/sdg-campus-club-nitrkl/",
-  "clubFacebook": "https://www.facebook.com/sdgcampusclubnitrkl",
-  "clubLogo": "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/SDG_white_1_-_Srinibas_Panigrahi_zhtxap.png",
-  "clubMembers": 80,
-  "clubFacad": "Prof. Ramakrishna Biswal",
-  "clubFacadMob": " +91 82493 48088 ",
-  "clubDocccc ": "https://docs.google.com/spreadsheets/d/1YZ2Ao3cVH1HuLKnlFu5FuALJeYWIxa4-RLNBFgzkvgQ/edit?usp=sharing",
-  "clubGroupPhoto": "https://drive.google.com/open?id=1V_johAWOHOnPfeSaIOkbr-RRDCDaXgxl"
- },
- {
-  "index": 49,
   "clubName": "The Knights Club",
   "clubSociety": "Games and Sports Society",
   "clubTagline": "Going beyond 64 squares.",
@@ -926,10 +916,11 @@ const clubData=[
   "clubFacad": "Sirsendu Sekhar Roy",
   "clubFacadMob": 9178238442,
   "clubDocccc ": "https://docs.google.com/spreadsheets/d/1wCAu3NpHpNRRc1TJG7YQYYXgI3A6u-tvtbcSUrPpWa0/edit#gid=0",
-  "clubGroupPhoto": "https://drive.google.com/open?id=1_FpLpsfTFF_UgYteNh0rroV_1pLaftf_"
+  "clubGroupPhoto": "https://drive.google.com/open?id=1_FpLpsfTFF_UgYteNh0rroV_1pLaftf_",
+  "clubEB": ["President", ["Amlan Abhilash Mishra", "7657099478"], "Vice-President", ["Shourya Gyanvarsha", "6371933919"], "Treasurer", ["Aditya Pratap Jena", "7854976639"], "Design Head", ["Anshu Sharma", "9921859682"], "Lead Arbitrer", ["Soumya Saphalya Dash", "7735897085"], "Secretary", ["Abhay Khatavakar", "9450689622"], "Event & Tournament Head", ["Aryaman Biswal", "8895724061"]]
  },
  {
-  "index": 50,
+  "index": 49,
   "clubName": "Webwiz",
   "clubSociety": "Technical Society",
   "clubTagline": "We build things that live on the internet",
@@ -943,7 +934,9 @@ const clubData=[
   "clubMembers": "https://twitter.com/webwiznitr?t=_uJSaYbzl_4A_Y1-jBrRjQ&s=08",
   "clubFacad": "Tapas Kumar Mishra",
   "clubFacadMob": 99,
-  "clubDocccc ": "zz"
+  "clubDocccc ": "zz",
+  "ClubGroupPhoto": "zzzz",
+  "clubEB": ["President", ["Gourab Nanda", "7327080609"], "Vice President", ["Kumar Shantanu", "6203158074"], "Design Head", ["Rituraj Tripathy", "7357708525"], "Secretary", ["Aporanta Mukhopadhay", "7742736709"]]
  }
    ]
 
