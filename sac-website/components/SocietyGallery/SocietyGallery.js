@@ -13,6 +13,9 @@ export default function SocietyGallery({ title }) {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092348/inno/315878086_683465460008681_470484218572244043_n_eq93jn.jpg",
       },
       {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679144161/inno/IMG_9938_ouipmm.jpg",
+      },
+      {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092348/inno/315892003_683487873339773_5476925140535560374_n_p48sqz.jpg",
       },
       {
@@ -66,6 +69,9 @@ export default function SocietyGallery({ title }) {
       
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092343/inno/315637702_681033130251914_8403199372963416692_n_zebmoe.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679144166/inno/IMG_4732_mmvg5o.jpg",
       },
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092343/inno/315713213_683488583339702_4597395922957893521_n_1_fjrhgp.jpg",
@@ -147,6 +153,9 @@ export default function SocietyGallery({ title }) {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092336/inno/74664562_2574441509301178_4125504413533995008_n_aqmnir.jpg",
       },
       {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679144170/inno/IMG_4730_crws4v.jpg",
+      },
+      {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092336/inno/74634348_2574362862642376_4931949845515599872_n_hsqgwi.jpg",
       },
       {
@@ -199,6 +208,10 @@ export default function SocietyGallery({ title }) {
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092333/inno/73133588_2574362759309053_3744700862040113152_n_olg6jf.jpg",
       },
+      {
+        img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679144181/inno/IMG_4778_zclpst.jpg",
+      },
+
       {
         img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092333/inno/315896692_683465240008703_8992531063539606244_n_xsfrnp.jpg",
       },
