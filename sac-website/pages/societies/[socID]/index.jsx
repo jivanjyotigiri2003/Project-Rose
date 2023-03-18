@@ -16,7 +16,6 @@ export default function soc() {
   const { socID } = router.query;
   // console.log(socID);
 
-
   let backImg;
   if (socID == "Film and Music Society") {
     backImg =
@@ -31,7 +30,6 @@ export default function soc() {
     backImg =
       "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150570/societies/G_S_ugs0j8.png";
   }
-
 
   let socDescription = "";
   for (let index = 0; index < 4; index++) {
@@ -110,7 +108,7 @@ export default function soc() {
       <DeanSpeaks
         data={`About ${socID}`}
         description={socDescription}
-        img={socimage}
+        image={socimage}
       />
       <SocietyRepresentative1 />
 
