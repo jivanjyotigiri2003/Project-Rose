@@ -27,7 +27,12 @@ const NavbarMobile = () => {
           <button onClick={modal}>
             <div className="hamburger-icon" onClick={modal}>
               <div className={`line ${isOpen ? "open" : ""}`}></div>
-              <div className={`line ${isOpen ? "open" : ""}`}></div>
+              <div
+                className={`line ${isOpen ? "open" : ""}`}
+                style={{
+                  width: "1rem",
+                }}
+              ></div>
               <div className={`line ${isOpen ? "open" : ""}`}></div>
             </div>
           </button>

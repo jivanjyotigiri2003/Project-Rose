@@ -9,17 +9,20 @@ const ContactCard = ({
   color2,
   color3,
   stroke,
+  image,
 }) => {
   return (
     <div
-      className="w-[90%] md:w-[22vw] h-fit py-8  rounded-md"
+      className="w-[90%] md:w-[22vw] py-8 max-md:h-fit rounded-md px-0.5"
       style={{ backgroundColor: color1 }}
     >
-      <img
-        src="https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792"
-        alt=""
-        className="w-[50%] md:w-36 h-[50%] md:h-36 mb-5 rounded-full shadow-lg mx-auto"
-      />
+      <div className="w-40 md:w-36 h-40 md:h-36 mb-5 rounded-full shadow-lg mx-auto ">
+        <img
+          src={image}
+          alt=""
+          className="h-[100%] w-[100%] rounded-full object-cover"
+        />
+      </div>
 
       <div
         className="text-center font-semibold text-base lg:text-xl "

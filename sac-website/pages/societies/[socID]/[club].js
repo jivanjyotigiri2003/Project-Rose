@@ -8,7 +8,6 @@ import { BsFillEnvelopeFill } from "react-icons/bs";
 export default function club({ data }) {
   return (
     <>
-
       <ClubHero2
         name={data.clubName}
         tagline={data.clubTagline}
@@ -33,7 +32,6 @@ export default function club({ data }) {
         >
           Name
         </div>
-
 
         <div className="text-center  text-lg mb-3" style={{ color: "black" }}>
           designation
@@ -62,8 +60,7 @@ export default function club({ data }) {
 
 export async function getStaticPaths() {
   const allPaths = clubData.map((path) => {
-
-    console.log(path.clubSociety);
+    // console.log(path.clubSociety);
 
     return {
       params: {
