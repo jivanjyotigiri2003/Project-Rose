@@ -129,6 +129,10 @@ const HomePageMobile = () => {
                   alt=""
                 />
               </div>
+              <div
+                className="absolute top-0 bottom-0 left-0 right-0 bg-black hover:text-red-500"
+                style={{ opacity: "0.6" }}
+              ></div>
               <h3
                 style={{
                   position: "absolute",
@@ -138,6 +142,7 @@ const HomePageMobile = () => {
                   color: "white",
                   fontSize: "1.6rem",
                   textShadow: "1px 1px 5px red",
+                  textAlign: "center",
                 }}
               >
                 Film & Music Society
@@ -153,6 +158,7 @@ const HomePageMobile = () => {
                     color: "white",
                     fontSize: "1.6rem",
                     textShadow: "1px 1px 5px red",
+                    textAlign: "center",
                   }}
                 >
                   Technical Society
@@ -177,6 +183,7 @@ const HomePageMobile = () => {
                     color: "white",
                     fontSize: "1.6rem",
                     textShadow: "1px 1px 5px red",
+                    textAlign: "center",
                   }}
                 >
                   Literary & Culture Society
@@ -201,6 +208,7 @@ const HomePageMobile = () => {
                     color: "white",
                     fontSize: "1.6rem",
                     textShadow: "1px 1px 5px red",
+                    textAlign: "center",
                   }}
                 >
                   Games & Sports
