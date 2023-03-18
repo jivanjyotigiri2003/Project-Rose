@@ -37,13 +37,17 @@ const ClubHero2 = ({
       </div>
 
       <div
-        className="w-[100vw] h-[100vh]  mt-0 absolute bg-cover "
+        className="w-[100vw] h-[100vh]  mt-0 absolute bg-cover  "
         style={{
           backgroundImage: `url(${backImg})`,
         }}
       >
-        <div class="w-full h-[33vh] max-w-sm  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto md:my-[30vh] my-[34vh]  ">
-          <div class="flex flex-col items-center ">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-black "
+          style={{ opacity: "0.4" }}
+        ></div>
+        <div class="w-full h-[33vh] max-w-sm  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto md:my-[30vh] my-[34vh]   ">
+          <div class="flex flex-col items-center  ">
             <img
               class="lg:w-52 lg:h-52 md:w-64 md:h-64 w-32 h-32 lg:mb-3 md:mb-5 mb-6 rounded-full shadow-lg  border-4"
               src={logo}

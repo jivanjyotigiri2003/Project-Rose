@@ -205,12 +205,12 @@ li {
 .parallax-card{
   font-size: 1.4rem;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   
     .society-card {
       grid-template-columns: auto auto;
     }
-}
+} */
 
 @media only screen and (min-width: 600px) {
   
@@ -221,16 +221,29 @@ li {
 @media only screen and (max-width: 900px) {
 
 
-  .society-card {
-    grid-template-columns: 40vw 40vw;
-    column-gap: 7vw;
-  }
+  
 
     .web-hide {
       display: none;
     }
 
 }
+
+@media only screen and (max-width: 800px) {
+
+
+
+.society-card {
+    grid-template-columns: 80vw;
+    column-gap: 7vw;
+    margin:auto
+  }
+ 
+
+}
+
+
+
 
 @media only screen and (min-width: 900px) {
 .mobile-hide {

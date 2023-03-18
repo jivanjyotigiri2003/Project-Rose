@@ -19,16 +19,16 @@ export default function soc() {
   let backImg;
   if (socID == "Film and Music Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150593/societies/FMS_kn3ntq.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168254/new%20societies/film1_atasq9.png";
   } else if (socID == "Technical Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150552/societies/Technical_mpiv9h.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168250/new%20societies/technical1_lciid6.png";
   } else if (socID == "Literary and Cultural Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150557/societies/LCS_uzhano.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168258/new%20societies/lcs_2_xwljvb.png";
   } else {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150570/societies/G_S_ugs0j8.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168252/new%20societies/sport_f8whgf.png";
   }
 
   let socDescription = "";
@@ -79,13 +79,15 @@ export default function soc() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div
-        className="w-screen h-screen "
+        className="w-[100vw] h-[100vh] bg-cover  "
         style={{
-          background: "cover",
-          backgroundSize: "100%",
-          background: `url(${backImg})`,
+          backgroundImage: `url(${backImg})`,
         }}
       >
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-black "
+          style={{ opacity: "0.4" }}
+        ></div>
         <div className="   bg-no-repeat w-full bg-cover bg-center min-h-screen">
           <div className=" w-full bg-cover bg-center min-h-screen">
             <div className="flex justify-center items-center min-h-screen">
