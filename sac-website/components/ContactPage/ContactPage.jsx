@@ -42,7 +42,7 @@ function ContactPage() {
 
       {/* sac address */}
       <Fade direction="up" triggerOnce="true" delay="50">
-        <div className=" md:flex lg:h-[60vh]">
+        <div className=" md:flex lg:h-[60vh] md:h-[30vh]">
           <div>
             <img
               src="https://res.cloudinary.com/webwiznitr/image/upload/v1679166960/SAC_2_qkwrrc.png"
