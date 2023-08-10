@@ -37,7 +37,7 @@ const ClubHero2 = ({
       </div>
 
       <div
-        className="w-[100vw] h-[100vh]  mt-0 absolute bg-cover  "
+        className="w-[100vw] h-[100vh]  mt-0 absolute bg-cover"
         style={{
           backgroundImage: `url(${backImg})`,
         }}
