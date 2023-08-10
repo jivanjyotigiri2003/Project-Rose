@@ -42,16 +42,16 @@ function ContactPage() {
 
       {/* sac address */}
       <Fade direction="up" triggerOnce="true" delay="50">
-        <div className=" md:flex">
+        <div className=" md:flex lg:h-[60vh]">
           <div>
             <img
               src="https://res.cloudinary.com/webwiznitr/image/upload/v1679166960/SAC_2_qkwrrc.png"
               alt="FAQ"
-              className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%] "
+              className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%]"
             />
           </div>
-          <div className="flex flex-col lg:my-auto justify-center lg:w-[50%] p-[1rem] pb-4  pl-8 pr-12 h-[100%]">
-            <h1 className="font-semibold text-xl lg:text-4xl mb-10">
+          <div className="flex flex-col lg:my-auto justify-center  lg:w-[50%] lg:p-[0] md:p-[1rem] lg:pb-4 p-[1rem] pl-8  md:pr-8 h-[100%] lg:items-start">
+            <h1 className="font-semibold text-xl lg:text-4xl lg:mb-10 mb-[1rem]">
               SAC Office Address
             </h1>
             <h1 className=" text-md lg:text-2xl mb-1 lg:mb-2">

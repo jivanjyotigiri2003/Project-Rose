@@ -28,8 +28,14 @@ const Club = ({ name, tagline }) => {
           <div className="flex flex-col  pr-4  ">
             <div className="flex justify-center">
               <button
-                className="shadow-xl  rounded-xl md:py-5 xl:py-3 md:px-24  my-4 p-6  h-[vh] text-sm  md:text-xl xl:text-xl xl:h-[10vh] lg:h-[11vh] md:h-[5vh] lg:text-sm  bg-white hover:bg-red-600 hover:text-white mx-auto hover:scale-105 hover:transition duration-200"
-                onClick={() => setCategory("")}
+                className={`${
+                  active == 0
+                    ? "shadow-xl  rounded-xl md:py-5 xl:py-3 md:px-24  my-4 p-6  h-[vh] text-sm  md:text-xl xl:text-xl xl:h-[10vh] lg:h-[11vh] md:h-[5vh] lg:text-sm  bg-red-600 text-white mx-auto hover:scale-105 hover:transition duration-200"
+                    : "shadow-xl  rounded-xl md:py-5 xl:py-3 md:px-24  my-4 p-6  h-[vh] text-sm  md:text-xl xl:text-xl xl:h-[10vh] lg:h-[11vh] md:h-[5vh] lg:text-sm  bg-white hover:bg-red-600 hover:text-white mx-auto hover:scale-105 hover:transition duration-200"
+                }`}
+                onClick={() => {setCategory("");
+                                setActive(0)
+              }}
               >
                 All Societies
               </button>
@@ -39,8 +45,8 @@ const Club = ({ name, tagline }) => {
               <button
                 className={`${
                   active == 1
-                    ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[11vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  hover:bg-white hover:text-black bg-red-600 text-white"
-                    : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[11vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"
+                    ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[11vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md   bg-red-600 text-white"
+                    : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[11vh] bg-white hover:bg-red-600 hover:text-white text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"
                 }`}
                 onClick={() => {
                   setCategory("Technical Society");
@@ -52,8 +58,8 @@ const Club = ({ name, tagline }) => {
               <button
                 className={`${
                   active == 2
-                    ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[11vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  hover:bg-white hover:text-black bg-red-600 text-white"
-                    : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[11vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"
+                    ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[11vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  bg-red-600 text-white"
+                    : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[11vh] bg-white hover:bg-red-600 hover:text-white text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"
                 }`}
                 onClick={() => {
                   setCategory("Literary and Cultural Society");
@@ -65,8 +71,8 @@ const Club = ({ name, tagline }) => {
               <button
                 className={`${
                   active == 3
-                    ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[11vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  hover:bg-white hover:text-black bg-red-600 text-white"
-                    : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[11vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"
+                    ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[11vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md    bg-red-600 text-white"
+                    : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[11vh] bg-white hover:bg-red-600 hover:text-white text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"
                 }`}
                 onClick={() => {
                   setCategory("Film and Music Society");
@@ -78,8 +84,8 @@ const Club = ({ name, tagline }) => {
               <button
                 className={`${
                   active == 4
-                    ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[11vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  hover:bg-white hover:text-black bg-red-600 text-white"
-                    : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[11vh] bg-white hover:bg-red-600 hover:text-black text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"
+                    ? "shadow-xl h-[10vh] md:h-[5vh] lg:h-[11vh]   rounded-xl p-3 text-xs  xl:text-xl lg:text-md  md:text-md  bg-red-600 text-white"
+                    : "shadow-xl rounded-xl p-3 h-[10vh] md:h-[5vh] lg:h-[11vh] bg-white hover:bg-red-600 hover:text-white text-xs  xl:text-xl lg:text-sm md:text-lg hover:scale-105 hover:transition duration-200"
                 }`}
                 onClick={() => {
                   setCategory("Games and Sports Society");
