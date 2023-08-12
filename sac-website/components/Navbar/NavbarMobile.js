@@ -17,11 +17,10 @@ const NavbarMobile = () => {
         className="flex justify-between items-center px-1 py-1 z-9999  navdiv "
       >
         <div>
-          <Link href='/'> <img
-            src="logo.svg"
-            alt=""
-            style={{ width: "50px" }}
-          /> </Link> 
+          <Link href="/">
+            {" "}
+            <img src="logo.svg" alt="" style={{ width: "50px" }} />{" "}
+          </Link>
         </div>
         <div>
           <button onClick={modal}>

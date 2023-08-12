@@ -2,6 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import MarqueeIcon from "./MarqueeIcon";
 import Link from "next/link";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Skew2 = () => {
   return (
@@ -28,12 +29,18 @@ const Skew2 = () => {
 
             <div className="ml-20 -skew-x-12 group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw]  shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <div className="h-full">
-                <img
+                <LazyLoadImage
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
                   src="https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291"
                   //
                   alt=""
                 />
+                {/* <img
+                  className="h-full object-cover transition-all duration-200 group-hover:scale-125 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+                  src="https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291"
+                  //
+                  alt=""
+                /> */}
               </div>
               <div className=" invisible absolute inset-0 bg-gradient-to-b from-red-500/10 to-black group-hover:visible">
                 <div className="p-5 insert-x-5 absolute bottom-6">
@@ -49,11 +56,16 @@ const Skew2 = () => {
 
             <div className="-skew-x-12  group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <div className="h-full">
-                <img
+                <LazyLoadImage
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125"
                   src="https://ik.imagekit.io/tvfucug8t/313401932_672173041137923_522549174449123500_n_1.png?updatedAt=1678715228859"
                   alt=""
                 />
+                {/* <img
+                  className="h-full object-cover transition-all duration-200 group-hover:scale-125"
+                  src="https://ik.imagekit.io/tvfucug8t/313401932_672173041137923_522549174449123500_n_1.png?updatedAt=1678715228859"
+                  alt=""
+                /> */}
               </div>
               <div className="invisible absolute inset-0 bg-gradient-to-b from-red-500/20 to-black group-hover:visible">
                 <div className=" p-5 insert-x-5 absolute bottom-6">
@@ -68,11 +80,16 @@ const Skew2 = () => {
 
             <div className=" -skew-x-12 group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <div className="h-full">
-                <img
+                <LazyLoadImage
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125"
                   src="https://ik.imagekit.io/tvfucug8t/299931819_5474832855928681_3837718550837062886_n_2.png?updatedAt=1678715222688"
                   alt=""
                 />
+                {/* <img
+                  className="h-full object-cover transition-all duration-200 group-hover:scale-125"
+                  src="https://ik.imagekit.io/tvfucug8t/299931819_5474832855928681_3837718550837062886_n_2.png?updatedAt=1678715222688"
+                  alt=""
+                /> */}
               </div>
 
               <div className="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
@@ -88,11 +105,16 @@ const Skew2 = () => {
 
             <div className=" -skew-x-12 -mr-[9rem] group relative h-[100vh] w-[13vw] cursor-pointer overflow-hidden transition-all duration-200 hover:w-[20vw] shadow-[0_10px_20px_rgba(120,0,0,0.7)]">
               <div className="h-full">
-                <img
+                <LazyLoadImage
                   className="h-full object-cover transition-all duration-200 group-hover:scale-125"
                   src="https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100"
                   alt=""
                 />
+                {/* <img
+                  className="h-full object-cover transition-all duration-200 group-hover:scale-125"
+                  src="https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100"
+                  alt=""
+                /> */}
               </div>
 
               <div className="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">

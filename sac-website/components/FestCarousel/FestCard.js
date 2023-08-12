@@ -1,6 +1,7 @@
 import React from "react";
 import { Target } from "react-feather";
 import Link from "next/link";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const FestCarousel = ({ name, category, desc, link, img }) => {
   return (
     <div>
@@ -23,11 +24,16 @@ const FestCarousel = ({ name, category, desc, link, img }) => {
           </div>
           <div className="xl:w-[92vw] lg:w-4/6 md:w-[98vw] lg:h-[90vh] md:h-[55vh] h-[50vh] mx-auto md:my-8 flex mt-[1.4rem] justify-center items-center ">
             <div>
-              <img
+              <LazyLoadImage
                 className="xl:h-full sm:h-[50vh]  md:h-full sm:w-[98vw]  object-cover  h-[50vh] "
                 src={img}
                 alt="img"
               />
+              {/* <img
+                className="xl:h-full sm:h-[50vh]  md:h-full sm:w-[98vw]  object-cover  h-[50vh] "
+                src={img}
+                alt="img"
+              /> */}
             </div>
           </div>
         </div>
