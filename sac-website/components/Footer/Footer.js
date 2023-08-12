@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <Fade direction="up" triggerOnce="true" delay="50">
       <div className="bg-[#660708] ">
-        <div className="  flex flex-wrap md:flex-row content-around justify-around pt-0 md:max-lg:items-center">
+        <div className="  flex flex-wrap md:flex-row content-around justify-around pt-0">
           <div className=" flex flex-col justify-center  ">
             <h1 className="text-lg font-semibold text-white pt-0 mt-4 pl-2">
               Sitemap
@@ -35,7 +35,7 @@ export default function Footer() {
                 </Link>{" "}
               </li>
               <li>
-                <Link href="/events" className="hover:font-bold  ">
+                <Link href="/events" className="hover:font-bold">
                   {" "}
                   Events{" "}
                 </Link>{" "}
