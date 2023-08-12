@@ -146,7 +146,7 @@ const SocietyContactCard = ({
         </div>
       </div>
 
-      <div className=" grid grid-cols-[25vw_25vw_25vw]  place-content-center  gap-x-[5vw] max-[900px]:grid-row-[80vw]  max-[767px]:place-content-center ml-10">
+      <div className=" grid grid-cols-[25vw_25vw_25vw]  place-content-center  gap-x-[5vw] max-[900px]:grid-cols-[80vw]  max-[767px]:place-content-center ml-10">
         {representative3.map((data, idx) => {
           return (
             <div className="flex items-center mt-[10vh] ">

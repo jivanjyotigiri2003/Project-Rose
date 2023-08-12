@@ -20,11 +20,11 @@ function DeanSpeaks({
             className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%] object-cover shadow-2xl"
           />
         </div>
-        <div className="flex flex-col  justify-center md:w-[50vw] lg:w-[50%] text-white   p-[0rem]    lg:pl-[2.5rem] lg:pr-12 h-[100%] ">
-          <h1 className="transition ease-in-out delay-150  font-[500] text-[1rem] lg:text-[2rem] max-lg:text-[1rem] tracking-wide pb-[1.2rem]">
+        <div className="flex flex-col  justify-center md:w-[50vw] lg:w-[50%] text-white   p-[1.5rem]   lg:pl-[2.5rem] lg:pr-12 h-[100%] ">
+          <h1 className="transition ease-in-out delay-150  font-[500] text-[1rem] lg:text-[2rem] tracking-wide pb-[2rem]">
             {data}
           </h1>
-          <div className="lg:text-[1.2rem] max-lg:text-[0.93rem]">{description}</div>
+          <div className="lg:text-[1.2rem] ">{description}</div>
         </div>
       </div>
     </Fade>
