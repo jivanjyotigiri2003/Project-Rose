@@ -56,7 +56,9 @@ export default function Footer() {
           </div>
           <div>
             <div className=" lg:mt-16">
-              <h1 className="text-lg font-bold text-white md:mt-0 mt-5  pl-2">Events</h1>
+              <h1 className="text-lg font-bold text-white md:mt-0 mt-5  pl-2">
+                Events
+              </h1>
               <ul className="text-white text-md cursor-pointer tracking-wide ">
                 <li>
                   {" "}

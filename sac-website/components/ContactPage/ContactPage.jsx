@@ -6,6 +6,7 @@ import dean from "../../public/dean.jpg";
 import { Fade } from "react-awesome-reveal";
 import Image from "next/image";
 import SocietyContactCard from "./SocietyContactCard";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function ContactPage() {
   const stroke1 =
@@ -44,7 +45,7 @@ function ContactPage() {
       <Fade direction="up" triggerOnce="true" delay="50">
         <div className=" md:flex lg:h-[60vh] md:h-[30vh]">
           <div>
-            <img
+            <LazyLoadImage
               src="https://res.cloudinary.com/webwiznitr/image/upload/v1679166960/SAC_2_qkwrrc.png"
               alt="FAQ"
               className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%]"

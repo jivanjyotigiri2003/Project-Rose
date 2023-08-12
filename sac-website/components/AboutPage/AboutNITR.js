@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function AboutNITR({ data = "About NITR", img, description }) {
   return (
@@ -10,12 +11,15 @@ export default function AboutNITR({ data = "About NITR", img, description }) {
           <h1 className="transition ease-in-out delay-150  font-[500] lg:text-[2rem] max-lg:text-[1rem] tracking-wide pb-[1rem] md:pl-6">
             {data}
           </h1>
-          <div className="lg:text-[1.2rem] max-lg:text-[0.93rem] md:pl-6">{description}</div>
+          <div className="lg:text-[1.2rem] max-lg:text-[0.93rem] md:pl-6">
+            {description}
+          </div>
         </div>
         <div>
-          <img
+          <LazyLoadImage
             src={img}
             alt="FAQ"
+            height={"100"}
             className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] h-[100%] md:clip-your-needful-style-right object-cover"
           />
         </div>

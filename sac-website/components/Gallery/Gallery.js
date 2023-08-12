@@ -5,6 +5,7 @@ import style from "./Gallery.module.css";
 import data from "./galleryData";
 import { Fade } from "react-awesome-reveal";
 import Link from "next/link";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Gallery() {
   return (
@@ -19,13 +20,20 @@ function Gallery() {
               return (
                 <div className={style.image_wrapper} key={idx}>
                   <Link href="/gallery">
-                    <Image
+                    <LazyLoadImage
                       src={data.src}
                       height={data.height}
                       width={data.width}
                       alt={data.alt}
                       className="rounded-md h-[100%] bg-cover object-cover"
                     />
+                    {/* <Image
+                      src={data.src}
+                      height={data.height}
+                      width={data.width}
+                      alt={data.alt}
+                      className="rounded-md h-[100%] bg-cover object-cover"
+                    /> */}
                   </Link>
                 </div>
               );
