@@ -1,4 +1,3 @@
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import EventsData from "./EventsData";
 import UpcomingData from "./UpcomingData";
 import { Fade } from "react-awesome-reveal";
@@ -15,9 +14,9 @@ export default function Announcement() {
             <div className="grid-cols-3 space-y-2 lg:space-y-0 lg:grid lg:gap-[0.6rem] lg:grid-rows-3 lg:ml-[20%] max-sm:ml-[20%] ml-[25%] lg:mx-0  ">
               <div className="lg:w-full w-[80%] col-span-2 row-span-2 rounded shadow-inner relative group ">
                 <div class="fullwrap relative ">
-                  <LazyLoadImage
-                    src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092335/inno/74214515_2574362329309096_1284408994911223808_n_kqk3o8.jpg"
+                  <img
                     className="rounded-xl lg:h-[21rem] h-40 object-cover"
+                    src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092335/inno/74214515_2574362329309096_1284408994911223808_n_kqk3o8.jpg"
                   />
                   <div className="overlay"></div>
                   {/*<div className="fullcap max-md:-my-6">Celebrity Night</div> */}
@@ -27,7 +26,7 @@ export default function Announcement() {
                 return (
                   <div className="lg:w-full w-[80%] rounded  relative group">
                     <div class="fullwrap relative">
-                      <LazyLoadImage
+                      <img
                         className="rounded-xl shadow-inner h-40 object-cover"
                         src={data.src}
                       />

@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 // import dean from "../../public/dean.jpg";
 import { Fade } from "react-awesome-reveal";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function DeanSpeaks({
   data = "Dean Speaks",
@@ -15,24 +14,17 @@ function DeanSpeaks({
     <Fade direction="up" triggerOnce="true" delay="50">
       <div className=" md:flex justify-center items-center bg-[#A4161A]">
         <div className=" h-[100%]">
-          <LazyLoadImage
+          <img
             src={image}
             alt="FAQ"
             className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%] object-cover shadow-2xl"
           />
-          {/* <img
-            src={image}
-            alt="FAQ"
-            className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%] object-cover shadow-2xl"
-          /> */}
         </div>
         <div className="flex flex-col  justify-center md:w-[50vw] lg:w-[50%] text-white   p-[0rem]    lg:pl-[2.5rem] lg:pr-12 h-[100%] ">
           <h1 className="transition ease-in-out delay-150  font-[500] text-[1rem] lg:text-[2rem] max-lg:text-[1rem] tracking-wide pb-[1.2rem]">
             {data}
           </h1>
-          <div className="lg:text-[1.2rem] max-lg:text-[0.93rem]">
-            {description}
-          </div>
+          <div className="lg:text-[1.2rem] max-lg:text-[0.93rem]">{description}</div>
         </div>
       </div>
     </Fade>

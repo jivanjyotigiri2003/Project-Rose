@@ -1,7 +1,6 @@
 import Link from "next/link.js";
 import React from "react";
 import clubData from "../../data/data.js";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function ClubName({ socName }) {
   const clubSocData = clubData.filter((club) => {
@@ -28,7 +27,7 @@ export default function ClubName({ socName }) {
               key={index}
             >
               <div className="xl:h-[5rem] xl:w-[5rem] lg:h-[3rem] lg:w-[3rem] md:h-[6rem] md:w-[6rem] h-[3rem] w-[3rem] rounded-[100%]  ">
-                <LazyLoadImage
+                <img
                   src={club.clubLogo}
                   className="h-[90%] w-[90%] rounded-[100%] object-cover flex items-center mt-1"
                 />

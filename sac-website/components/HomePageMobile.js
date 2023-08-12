@@ -4,7 +4,6 @@ import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import react, { useState } from "react";
 import Link from "next/link";
 import { justify } from "@cloudinary/url-gen/qualifiers/textAlignment";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomePageMobile = () => {
   const [showModal, setShowModal] = useState(false);
@@ -119,7 +118,7 @@ const HomePageMobile = () => {
           <ParallaxLayer offset={0.9999999} speed={1.94}>
             <div className="cate h-fill relative ">
               <div>
-                <LazyLoadImage
+                <img
                   style={{
                     width: "100%",
                     height: "15.5vh",
@@ -129,16 +128,6 @@ const HomePageMobile = () => {
                   src="https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100"
                   alt=""
                 />
-                {/* <img
-                  style={{
-                    width: "100%",
-                    height: "15.5vh",
-                    objectFit: "cover",
-                  }}
-                  className="hover:w-9/12 cursor-pointer overflow-scroll"
-                  src="https://ik.imagekit.io/tvfucug8t/fms_3.png?updatedAt=1678715231100"
-                  alt=""
-                /> */}
               </div>
               <div
                 className="absolute top-0 bottom-0 left-0 right-0 bg-black hover:text-red-500"
@@ -175,7 +164,7 @@ const HomePageMobile = () => {
                 >
                   Technical Society
                 </h3>
-                <LazyLoadImage
+                <img
                   style={{
                     width: "100%",
                     height: "15.5vh",
@@ -184,15 +173,6 @@ const HomePageMobile = () => {
                   src="https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291"
                   alt=""
                 />
-                {/* <img
-                  style={{
-                    width: "100%",
-                    height: "15.5vh",
-                    objectFit: "cover",
-                  }}
-                  src="https://ik.imagekit.io/tvfucug8t/315944295_683489136672980_8046188745263207622_n_1.png?updatedAt=1678715474291"
-                  alt=""
-                /> */}
               </div>
               <div>
                 <h3
@@ -210,7 +190,7 @@ const HomePageMobile = () => {
                 >
                   Literary & Culture Society
                 </h3>
-                <LazyLoadImage
+                <img
                   style={{
                     width: "100%",
                     height: "15.5vh",
@@ -219,15 +199,6 @@ const HomePageMobile = () => {
                   src="https://ik.imagekit.io/tvfucug8t/299931819_5474832855928681_3837718550837062886_n_2.png?updatedAt=1678715222688"
                   alt=""
                 />
-                {/* <img
-                  style={{
-                    width: "100%",
-                    height: "15.5vh",
-                    objectFit: "cover",
-                  }}
-                  src="https://ik.imagekit.io/tvfucug8t/299931819_5474832855928681_3837718550837062886_n_2.png?updatedAt=1678715222688"
-                  alt=""
-                /> */}
               </div>
               <div>
                 <h3
@@ -245,7 +216,7 @@ const HomePageMobile = () => {
                 >
                   Games & Sports
                 </h3>
-                <LazyLoadImage
+                <img
                   style={{
                     width: "100%",
                     height: "15.5vh",
@@ -254,15 +225,6 @@ const HomePageMobile = () => {
                   src="https://ik.imagekit.io/gourab18/sports.png?updatedAt=1678795149858"
                   alt=""
                 />
-                {/* <img
-                  style={{
-                    width: "100%",
-                    height: "15.5vh",
-                    objectFit: "cover",
-                  }}
-                  src="https://ik.imagekit.io/gourab18/sports.png?updatedAt=1678795149858"
-                  alt=""
-                /> */}
               </div>
             </div>
           </ParallaxLayer>

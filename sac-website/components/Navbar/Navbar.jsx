@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
-import Link from "next/link";
+import Link  from 'next/link';
+
 
 const Navbar = () => {
   const router = useRouter();
@@ -12,9 +13,8 @@ const Navbar = () => {
           {/* <img src="logo.svg" alt="" />
           <Link href="/"></Link> */}
 
-          <Link href="/">
-            <img src="logo.svg" />
-          </Link>
+          <Link href="/"><img src="logo.svg" /> </Link> 
+          
         </div>
         <div className=" flex justify-around space-x-12 p-5 text-white font-light">
           <Link href="/"> Home </Link>

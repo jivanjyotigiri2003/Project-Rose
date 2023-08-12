@@ -3,7 +3,6 @@ import React from "react";
 import DeanSpeaks from "../DeanSpeaks/DeanSpeaks";
 import AboutNITR from "./AboutNITR";
 import ContactCard from "../ContactPage/ContactCard";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutPage = () => {
   const representative1 = [
@@ -152,9 +151,8 @@ Diverse research shows that the NITR student community is continually engaged an
       <div className=" w-[100vw] h-[60vh] lg:h-[100vh] bg-[url('https://ik.imagekit.io/tvfucug8t/Screenshot_2023-03-18_at_4.40.06_AM.png?updatedAt=1679094625940')] ">
         <div className="absolute bg-gradient-to-b from-[#850101cc] to-[#8501011a] w-[100vw] h-[60vh] lg:h-[100vh] flex items-center justify-center  ">
           <div className="aspect-sqaure lg:h-[85vh] lg:w-[85vw]  rounded-[10px]">
-            <LazyLoadImage
+            <img
               src="https://ik.imagekit.io/tvfucug8t/_SMX0035__1_.jpg?updatedAt=1679092223529"
-              alt="Group Photo"
               className="w-[100%] h-[100%] rounded-[10px] object-cover"
             />
           </div>
