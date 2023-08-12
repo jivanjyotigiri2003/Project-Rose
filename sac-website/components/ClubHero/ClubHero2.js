@@ -2,7 +2,6 @@ import React from "react";
 import SocialsLink from "../SocialsLink/SocialsLink";
 import { FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import DeanSpeaks from "../DeanSpeaks/DeanSpeaks";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 const ClubHero2 = ({
   name,
   tagline,
@@ -49,16 +48,11 @@ const ClubHero2 = ({
         ></div>
         <div class="w-full h-[33vh] max-w-sm  rounded-lg shadow   mx-auto md:my-[30vh] my-[34vh]   ">
           <div class="flex flex-col items-center  ">
-            <LazyLoadImage
+            <img
               class="lg:w-52 lg:h-52 md:w-64 md:h-64 w-32 h-32 lg:mb-3 md:mb-5 mb-6 rounded-full shadow-lg  border-4"
               src={logo}
               alt="Bonnie image"
             />
-            {/* <img
-              class="lg:w-52 lg:h-52 md:w-64 md:h-64 w-32 h-32 lg:mb-3 md:mb-5 mb-6 rounded-full shadow-lg  border-4"
-              src={logo}
-              alt="Bonnie image"
-            /> */}
             <h5 class="lg:my-2 md:my-4 my- md:text-4xl lg:text-3xl font-bold tracking-widest text-white ">
               {name}
             </h5>

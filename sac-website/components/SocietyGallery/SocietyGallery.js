@@ -1,6 +1,5 @@
 import React from "react";
 import { socGalleryData } from "./socGalleryData";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function SocietyGallery({ title }) {
   const inno = [
@@ -864,48 +863,28 @@ export default function SocietyGallery({ title }) {
             <div className=" box">
               <div className="dream">
                 {data1[0].map((e) => {
-                  return (
-                    <>
-                      <LazyLoadImage src={e.img} alt="" />
-                      {/* <img src={e.img} alt="" /> */}
-                    </>
-                  );
+                  return <img src={e.img} alt="" />;
                 })}
               </div>
 
               {/* Section 2 */}
               <div className="dream ">
                 {data1[1].map((e) => {
-                  return (
-                    <>
-                      <LazyLoadImage src={e.img} alt="" />
-                      {/* <img src={e.img} alt="" /> */}
-                    </>
-                  );
+                  return <img src={e.img} alt="" />;
                 })}
               </div>
 
               {/* Section 3 */}
               <div className="dream ">
                 {data1[2].map((e) => {
-                  return (
-                    <>
-                      <LazyLoadImage src={e.img} alt="" />
-                      {/* <img src={e.img} alt="" /> */}
-                    </>
-                  );
+                  return <img src={e.img} alt="" />;
                 })}
               </div>
 
               {/* Section 4 */}
               <div className="dream ">
                 {data1[3].map((e) => {
-                  return (
-                    <>
-                      <LazyLoadImage src={e.img} alt="" />
-                      {/* <img src={e.img} alt="" /> */}
-                    </>
-                  );
+                  return <img src={e.img} alt="" />;
                 })}
               </div>
             </div>

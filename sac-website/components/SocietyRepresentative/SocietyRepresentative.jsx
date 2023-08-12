@@ -1,7 +1,6 @@
 import React from "react";
 import SocietyCarousel from "./SocietyCarouselMobile";
 import { Fade } from "react-awesome-reveal";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative1 = [
@@ -114,16 +113,11 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
                 className="h-[20rem]  flex flex-col justify-center items-center "
               >
                 <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                  <LazyLoadImage
+                  <img
                     src={item.officialsImage}
                     alt="officialsImage"
                     className="w-[100%] h-[100%] rounded-[100%] object-cover"
                   />
-                  {/* <img
-                    src={item.officialsImage}
-                    alt="officialsImage"
-                    className="w-[100%] h-[100%] rounded-[100%] object-cover"
-                  /> */}
                 </div>
 
                 <h2 className="font-bold text-lg">{item.name}</h2>
@@ -141,16 +135,11 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
                 className="h-[20rem] m-[2rem] flex flex-col justify-center items-center "
               >
                 <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                  <LazyLoadImage
+                  <img
                     src={item.officialsImage}
                     alt="officialsImage"
                     className="w-[100%] h-[100%] rounded-[100%] object-cover"
                   />
-                  {/* <img
-                    src={item.officialsImage}
-                    alt="officialsImage"
-                    className="w-[100%] h-[100%] rounded-[100%] object-cover"
-                  /> */}
                 </div>
 
                 <h2 className="font-bold text-lg text-center">{item.name}</h2>
@@ -168,16 +157,11 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
                 className="h-[20rem] m-[2rem] flex flex-col justify-center items-center "
               >
                 <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                  <LazyLoadImage
+                  <img
                     src={item.officialsImage}
                     alt="officialsImage"
                     className="w-[100%] h-[100%] rounded-[100%] object-cover"
                   />
-                  {/* <img
-                    src={item.officialsImage}
-                    alt="officialsImage"
-                    className="w-[100%] h-[100%] rounded-[100%] object-cover"
-                  /> */}
                 </div>
 
                 <h2 className="font-bold text-lg">{item.name}</h2>
