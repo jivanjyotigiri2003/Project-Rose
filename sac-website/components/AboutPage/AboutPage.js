@@ -61,7 +61,7 @@ const AboutPage = () => {
 
   return (
     <div>
-      <div className="bg-[url('https://res.cloudinary.com/dkqxnquga/image/upload/v1678430362/image_767_hnhpi2.png')] bg-no-repeat bg-cover bg-center w-full min-h-screen overflow-x-hidden">
+      <div className="bg-[url('https://res.cloudinary.com/dkqxnquga/image/upload/f_auto,q_70/v1678430362/image_767_hnhpi2.png')] bg-no-repeat bg-cover bg-center w-full min-h-screen overflow-x-hidden">
         <div className="  bg-gradient-to-b from-[#850101cc] to-[#8501011a] bg-no-repeat w-full bg-cover bg-center min-h-screen">
           <div className="bg-[#00000073] bg-no-repeat w-full bg-cover bg-center min-h-screen">
             <div className="flex justify-center items-center min-h-screen">
@@ -74,7 +74,7 @@ const AboutPage = () => {
       </div>
       <DeanSpeaks
         data="About SAC"
-        img="https://res.cloudinary.com/webwiznitr/image/upload/v1679159649/SAC_NITR_wkte8l.jpg"
+        img="https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679159649/SAC_NITR_wkte8l.jpg"
         description="Along with academic excellence, NIT Rourkela promotes extra-curricular activities to ensure all-round development of personality. The Student Activity Centre (SAC) is the central hub for student activities, student organizations, programming, events, sports, recreation and fun at the institute campus. The Student Activity Centre is organized into four primary societies and a host of satellite clubs. Besides, every society has satellite clubs that have their management under the overall supervision of SAC. The facility is devoted to student recreation and socialization to serve students, faculty, staff, alumni, and guests."
       />
       <AboutNITR
@@ -108,7 +108,7 @@ Diverse research shows that the NITR student community is continually engaged an
                   color1="white"
                   color2="black"
                   color3="red"
-                  image="https://res.cloudinary.com/webwiznitr/image/upload/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg"
+                  image="https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg"
                   // stroke={stroke}
                 />
               </div>
@@ -137,7 +137,7 @@ Diverse research shows that the NITR student community is continually engaged an
                   color1="white"
                   color2="black"
                   color3="red"
-                  image="https://res.cloudinary.com/webwiznitr/image/upload/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg"
+                  image="https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg"
                   // stroke={stroke}
                 />
               </div>

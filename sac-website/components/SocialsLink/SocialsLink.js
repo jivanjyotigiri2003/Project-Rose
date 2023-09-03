@@ -4,22 +4,22 @@ const SocialsLink = () => {
   const socials = [
     {
       name: "LinkedIn",
-      icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677806233/Vector_biswa1.png",
+      icon: "https://res.cloudinary.com/dzbax077h/image/upload/f_auto,q_70/v1677806233/Vector_biswa1.png",
       url: "https://www.linkedin.com/company/webwiz-nitr/", 
     },
     {
       name: "Facebook",
-      icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677806976/Vector_1_cjr4k3.png",
+      icon: "https://res.cloudinary.com/dzbax077h/image/upload/f_auto,q_70/v1677806976/Vector_1_cjr4k3.png",
       url: "https://www.facebook.com/webwiz.nitr", 
     },
     {
       name: "Twitter",
-      icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677807014/Vector_2_ihxmsh.png",
+      icon: "https://res.cloudinary.com/dzbax077h/image/upload/f_auto,q_70/v1677807014/Vector_2_ihxmsh.png",
       url: "https://twitter.com/webwiznitr",
     },
     {
       name: "Instagram",
-      icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677807047/Vector_3_geb5pe.png",
+      icon: "https://res.cloudinary.com/dzbax077h/image/upload/f_auto,q_70/v1677807047/Vector_3_geb5pe.png",
       url: "https://www.instagram.com/webwiz.nitr/?hl=en",
     },
   ];

@@ -16,7 +16,7 @@ export default function Announcement() {
                 <div class="fullwrap relative ">
                   <img
                     className="rounded-xl lg:h-[21rem] h-40 object-cover"
-                    src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092335/inno/74214515_2574362329309096_1284408994911223808_n_kqk3o8.jpg"
+                    src="https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_auto/v1679092335/inno/74214515_2574362329309096_1284408994911223808_n_kqk3o8.jpg"
                   />
                   <div className="overlay"></div>
                   {/*<div className="fullcap max-md:-my-6">Celebrity Night</div> */}
