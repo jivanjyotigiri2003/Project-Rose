@@ -8,16 +8,16 @@ export default function club({ data }) {
   let backImg;
   if (data.clubSociety == "Film and Music Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168254/new%20societies/film1_atasq9.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679168254/new%20societies/film1_atasq9.png";
   } else if (data.clubSociety == "Technical Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168250/new%20societies/technical1_lciid6.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679168250/new%20societies/technical1_lciid6.png";
   } else if (data.clubSociety == "Literary and Cultural Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168258/new%20societies/lcs_2_xwljvb.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679168258/new%20societies/lcs_2_xwljvb.png";
   } else {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168252/new%20societies/sport_f8whgf.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679168252/new%20societies/sport_f8whgf.png";
   }
   return (
     <>

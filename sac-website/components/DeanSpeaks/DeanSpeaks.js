@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 function DeanSpeaks({
   data = "Dean Speaks",
   description,
-  image = "https://res.cloudinary.com/webwiznitr/image/upload/v1679159649/SAC_NITR_wkte8l.jpg",
+  image = "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679159649/SAC_NITR_wkte8l.jpg",
 }) {
   const dean =
     "https://ik.imagekit.io/gourab18/101717_Paul_McLoughlin_MDD_129853__1_.jpg?updatedAt=1678787663649";
