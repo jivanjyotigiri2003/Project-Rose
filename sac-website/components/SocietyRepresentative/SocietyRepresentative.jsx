@@ -6,7 +6,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative1 = [
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
       name: "Prof. Poonam Singh",
       designation: "President",
     },
