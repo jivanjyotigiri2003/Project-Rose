@@ -13,7 +13,7 @@ function DeanSpeaks({
   return (
     <Fade direction="up" triggerOnce="true" delay="50">
       <div className=" md:flex justify-center items-center bg-[#A4161A]">
-        <div className=" h-[100%]">
+        <div>
           <img
             src={image}
             alt="FAQ"
