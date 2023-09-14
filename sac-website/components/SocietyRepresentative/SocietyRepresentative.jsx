@@ -7,7 +7,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     {
       officialsImage:
         "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
-      name: "Prof. Poonam Singh",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     // {
@@ -84,13 +84,13 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
       name: "Nalini Nihar Nayak",
       designation: "SAS Officer",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
       name: "T R Pattnaik",
       designation: "SAS Officer",
     },
