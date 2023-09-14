@@ -72,11 +72,7 @@ export default function Home() {
           image="https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679148287/Director_NIT_Rourkela_twwguz.png"
           description="I would request the students to have a little patience. Staying at home might have gotten boring now but I hope that they don’t feel disturbed. Today’s young generation is very vibrant, and they do not want to be stuck within the same four walls. But, the situation doesn’t allow us to have all the flexibility which we wish to have. I hope after the pooja vacations things change and soon all the students will be asked to return to campus."
         />
-        <AboutNITR
-          data="Message from President"
-          img="https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679148287/Director_NIT_Rourkela_twwguz.png"
-          description="I would request the students to have a little patience. Staying at home might have gotten boring now but I hope that they don’t feel disturbed. Today’s young generation is very vibrant, and they do not want to be stuck within the same four walls. But, the situation doesn’t allow us to have all the flexibility which we wish to have. I hope after the pooja vacations things change and soon all the students will be asked to return to campus."
-        />  
+   
         <Announcement />
         <SocietyRepresentative />
         <Carousel />
