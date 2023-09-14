@@ -2,6 +2,7 @@ import React from "react";
 import ClubHero2 from "@/components/ClubHero/ClubHero2";
 import clubData from "../../../data/data";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
+import SocietyGallery from "@/components/SocietyGallery/SocietyGallery";
 import ClubCard from "./ClubCard";
 
 export default function club({ data }) {
@@ -51,6 +52,7 @@ export default function club({ data }) {
           );
         })} 
       </div>
+      <SocietyGallery title={data.clubName} />
     </>
   );
 }
