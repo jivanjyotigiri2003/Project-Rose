@@ -9,7 +9,7 @@ const AboutPage = () => {
     {
       officialsImage:
         "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
-      name: "Prof. Rajeev Kumar Panda",
+      name: "Prof. Rajeev Kumar Panda ",
       designation: "President",
     },
     {
