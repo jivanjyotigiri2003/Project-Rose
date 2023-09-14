@@ -8,14 +8,14 @@ const AboutPage = () => {
   const representative1 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
   ];
@@ -23,38 +23,38 @@ const AboutPage = () => {
   const representative2 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
   ];
