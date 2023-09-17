@@ -833,6 +833,70 @@ export default function SocietyGallery({ title }) {
       },
     ],
   ];
+  const asme = [
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932648/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.48_mwqnvx.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932648/Pictures%20for%20SAC/2_dnbsi1.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.47_k3trbn.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.49_ioaga4.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.500_jhfitz.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/3_gcihgk.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932640/Pictures%20for%20SAC/5_mo4ryp.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932638/Pictures%20for%20SAC/7_atzd52.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932638/Pictures%20for%20SAC/6_bolblq.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.50_dplmmi.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.591_sib2et.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.592_usvl6o.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/4_wlbhh0.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.25.00_cfdvkd.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.51_nb6tsa.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932644/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.511_ejgvmy.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932644/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.58_vih2n5.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932644/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.584_haefmu.jpg",
+      },
+    ],
+  ];
 
   let data1 = inno;
 
@@ -848,6 +912,9 @@ export default function SocietyGallery({ title }) {
   } else if (title === "Games and Sports Society") {
     title = "Vriddhi";
     data1 = vriddhi;
+  } else if (title == "ASME") {
+    title = "";
+    data1 = asme;
   } else {
     title = "";
     data1 = socGalleryData;
