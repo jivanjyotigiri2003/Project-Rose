@@ -11,9 +11,7 @@ export default function AboutNITR({ data = "About NITR", img, description }) {
           <h1 className="transition ease-in-out delay-150  font-[500] lg:text-[2rem] tracking-wide pb-[2rem] md:pl-6">
             {data}
           </h1>
-          <div className="lg:text-[1.2rem] md:pl-6 text-justify">
-            {description}
-          </div>
+          <div className="lg:text-[1.2rem] md:pl-6">{description}</div>
         </div>
         <div>
           <LazyLoadImage
