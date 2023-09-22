@@ -7,70 +7,70 @@ export default function SocietyRepresentative1({ data = "SAC Officials" }) {
   const representative1 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
   ];
   const representative2 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
+      designation: "President",
+    },
+    {
+      officialsImage:
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
+      designation: "President",
+    },
+    {
+      officialsImage:
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
         "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
-    },
-    {
-      officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
-    },
-    {
-      officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
   ];

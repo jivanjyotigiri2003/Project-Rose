@@ -59,7 +59,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        
         <HomePageMobile />
         <Skew2 />
         <AboutNITR
@@ -69,7 +68,7 @@ export default function Home() {
         />
         <Deanspeaks
           data="President SAC Speaks"
-          image="https://res.cloudinary.com/webwiznitr/image/upload/v1679152626/Poonam_Ma_am_New_HD_qumjxe.png"
+          image="https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg"
           description="I would request the students to have a little patience. Staying at home might have gotten boring now but I hope that they don’t feel disturbed. Today’s young generation is very vibrant, and they do not want to be stuck within the same four walls. But, the situation doesn’t allow us to have all the flexibility which we wish to have. I hope after the pooja vacations things change and soon all the students will be asked to return to campus."
         />
         <Announcement />

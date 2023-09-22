@@ -7,8 +7,8 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative1 = [
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg",
-      name: "Prof. Poonam Singh",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
     // {
@@ -33,8 +33,8 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067310/SacOfficials/_SMX0008_olkbzm.jpg",
-      name: "Prasun Chongder",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Not Available",
       designation: "Vice-President, Technical Society",
     },
     {
@@ -64,8 +64,8 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
 
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067308/SacOfficials/_SMX0013_aoss2e.jpg",
-      name: "Balaji P.S.",
+        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+      name: "Not Available",
       designation: "Vice-President, Film and Music Society",
     },
     {
