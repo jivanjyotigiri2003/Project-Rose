@@ -33,7 +33,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "Not Available",
       designation: "Vice-President, Technical Society",
     },
@@ -64,7 +64,7 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
 
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "Not Available",
       designation: "Vice-President, Film and Music Society",
     },
@@ -79,19 +79,19 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative3 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "Rajendra Kar",
       designation: "SAS Officer",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "Nalini Nihar Nayak",
       designation: "SAS Officer",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "T R Pattnaik",
       designation: "SAS Officer",
     },

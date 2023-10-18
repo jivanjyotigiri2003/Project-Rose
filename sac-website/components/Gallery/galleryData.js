@@ -1,43 +1,42 @@
 const data = [
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079930/Gallery%20SAC%20Website/DSC_4723_lorej2.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.500_jhfitz.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679096943/inno/13116038_1012604982151513_4038023389832667068_o_c657xw.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.49_ioaga4.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092348/inno/315878086_683465460008681_470484218572244043_n_eq93jn.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697658721/WhatsApp_Image_2023-09-03_at_4.51.08_PM_gspv26.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092346/inno/315722437_683465106675383_1328129438635095592_n_piyuw8.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697658719/PXL_20221114_164819666_f4yrtx.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
-  
- 
+
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081977/Gallery%20SAC%20Website/326789574_856978982048869_4484573809603125309_n_rqrjta.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654686/WhatsApp_Image_2023-09-03_at_1.30.57_PM_bwned7.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
-   {
+  {
     src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081975/Gallery%20SAC%20Website/315472751_681033226918571_2743477781909159460_n_d2znra.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
-   {
+  {
     src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081975/Gallery%20SAC%20Website/326405315_537616924999715_3825533483181036787_n_uu5ecd.jpg",
     height: "600",
     width: "550",
@@ -49,13 +48,13 @@ const data = [
     width: "550",
     alt: "",
   },
-   {
+  {
     src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081974/Gallery%20SAC%20Website/313403159_672175397804354_5401888747223333019_n_ulvpba.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
-   {
+  {
     src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081972/Gallery%20SAC%20Website/74286308_2574444569300872_6333703518821548032_n_da0fmi.jpg",
     height: "600",
     width: "550",
@@ -67,63 +66,63 @@ const data = [
     width: "550",
     alt: "",
   },
-   {
+  {
     src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081973/Gallery%20SAC%20Website/312584579_672171814471379_7322028413057662395_n_kls7h4.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
-   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081972/Gallery%20SAC%20Website/279617226_5163551493723487_2334109308732222605_n_nhxcmz.jpg",
+  {
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654683/WhatsApp_Image_2023-09-03_at_1.30.54_PM_ueqfll.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081971/Gallery%20SAC%20Website/11012638_806333322778681_6026580690300623600_o_xpnqif.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654682/WhatsApp_Image_2023-09-03_at_1.30.53_PM_ntsceq.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081971/Gallery%20SAC%20Website/23275613_1525904230821583_8003538030007344683_o_akd5p4.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932644/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.584_haefmu.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081972/Gallery%20SAC%20Website/29744346_1671925202886151_2142647009549560375_o_mgzuvk.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.25.00_cfdvkd.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081972/Gallery%20SAC%20Website/46043094_1976477822430886_3291791999421644800_n_ulfvue.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.592_usvl6o.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679081972/Gallery%20SAC%20Website/74214515_2574362329309096_1284408994911223808_n_kckk9t.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.591_sib2et.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092337/inno/74601223_2574361862642476_2683581586145804288_n_scgjxw.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.50_dplmmi.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
-  
+
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092346/inno/315769370_683466470008580_4666538054288297478_n_ldjs0n.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932638/Pictures%20for%20SAC/6_bolblq.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079929/Gallery%20SAC%20Website/IMG_1786_i9bzas.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932638/Pictures%20for%20SAC/7_atzd52.jpg",
     height: "600",
     width: "550",
     alt: "",
@@ -135,25 +134,23 @@ const data = [
   //   alt: "",
   // },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079927/Gallery%20SAC%20Website/DSC07739_pqkhxk.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.500_jhfitz.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679079926/Gallery%20SAC%20Website/NYX_4661-4_btbl1p.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697658715/IMG_6528_su9ekn.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
   {
-    src: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092339/inno/75456942_2569960329749296_8399239259533344768_n_kvnxfl.jpg",
+    src: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697658717/IMG_8815_if52w5.jpg",
     height: "600",
     width: "550",
     alt: "",
   },
-
-  
 ];
 
 export default data;

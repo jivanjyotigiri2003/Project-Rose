@@ -97,7 +97,7 @@ export default function SocietyRepresentative1({ data = "SAC Officials" }) {
                   }}
                 >
                   <ContactCard
-                    name="Prof. Poonam Singh"
+                    name="SAC Official"
                     designation="President SAC"
                     email="sdbjwbdhij@gmail.com"
                     color1="white"
@@ -124,7 +124,7 @@ export default function SocietyRepresentative1({ data = "SAC Officials" }) {
                   }}
                 >
                   <ContactCard
-                    name="Prof. Poonam Singh"
+                    name="SAC Official"
                     designation="President SAC"
                     email="sdbjwbdhij@gmail.com"
                     color1="white"

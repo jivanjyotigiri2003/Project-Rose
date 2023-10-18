@@ -897,6 +897,46 @@ export default function SocietyGallery({ title }) {
       },
     ],
   ];
+  const aiche = [
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654682/WhatsApp_Image_2023-09-03_at_1.30.53_PM_ntsceq.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654681/WhatsApp_Image_2023-09-03_at_1.30.51_PM_uj2nxb.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654681/WhatsApp_Image_2023-09-03_at_1.30.48_PM_n5jydd.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654685/WhatsApp_Image_2023-09-03_at_1.30.55_PM_arh2pm.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654684/WhatsApp_Image_2023-09-03_at_1.30.55_PM_1_qnoebs.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654680/WhatsApp_Image_2023-09-03_at_1.30.50_PM_w0mso7.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654687/WhatsApp_Image_2023-09-03_at_1.37.43_PM_g6f8qs.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654686/WhatsApp_Image_2023-09-03_at_1.30.57_PM_bwned7.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654684/WhatsApp_Image_2023-09-03_at_1.30.55_PM_1_qnoebs.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654683/WhatsApp_Image_2023-09-03_at_1.30.54_PM_ueqfll.jpg",
+      },
+    ],
+  ];
 
   let data1 = inno;
 
@@ -915,6 +955,9 @@ export default function SocietyGallery({ title }) {
   } else if (title == "ASME") {
     title = "";
     data1 = asme;
+  } else if (title == "AICHE") {
+    title = "";
+    data1 = aiche;
   } else {
     title = "";
     data1 = socGalleryData;

@@ -3,7 +3,7 @@ import React from "react";
 import { Avatar } from "@mui/material";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 
-const ClubCard = ({ name, designation, email }) => {
+const ClubCard = ({ name, designation, email, imgsrc }) => {
   return (
     <div
       className="w-[90%] md:w-[22vw] h-fit py-8  rounded-md"
@@ -15,7 +15,8 @@ const ClubCard = ({ name, designation, email }) => {
     >
       <Avatar
         alt="Remy Sharp"
-        src="https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif"
+        // src="https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif"
+        src={`${imgsrc}`}
         sx={{ width: 170, height: 170 }}
         className="m-auto"
       />

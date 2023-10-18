@@ -16,7 +16,7 @@ export default function Announcement() {
               <div className="lg:w-full w-[80%] col-span-2 row-span-2 rounded shadow-inner relative group ">
                 <div class="fullwrap relative ">
                   <LazyLoadImage
-                    src="https://res.cloudinary.com/webwiznitr/image/upload/v1679092335/inno/74214515_2574362329309096_1284408994911223808_n_kqk3o8.jpg"
+                    src="https://res.cloudinary.com/de2s0mcjo/image/upload/v1697658721/WhatsApp_Image_2023-09-03_at_4.51.08_PM_gspv26.jpg"
                     className="rounded-xl lg:h-[21rem] h-40 object-cover"
                   />
                   <div className="overlay"></div>

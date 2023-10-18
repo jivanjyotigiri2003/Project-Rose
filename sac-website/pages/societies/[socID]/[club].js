@@ -43,6 +43,9 @@ export default function club({ data }) {
           name={data.clubFacad}
           designation={"Club Facad"}
           email={"webwiz.support@gmail.com"}
+          imgsrc={
+            "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif"
+          }
           className=""
         />
       </div>
