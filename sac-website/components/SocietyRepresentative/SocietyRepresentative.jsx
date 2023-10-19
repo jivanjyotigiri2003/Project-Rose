@@ -42,7 +42,6 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
       officialsImage:
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697713524/PXL_20230925_133534302.MP_jscubn.jpg",
       name: "Tirthankar Sarkar",
-      name: "Not Available",
 
       designation: "Vice-President, Technical Society",
     },
