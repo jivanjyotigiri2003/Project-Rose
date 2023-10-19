@@ -14,8 +14,12 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Prof. Siddharth S Jena",
+
+
+        "https://res.cloudinary.com/du3uvgzdr/image/upload/v1697693816/Screenshot_2023-10-19_at_11.06.48_AM_tojdfv.png",
+
+      name: "Prof. Sidhartha S. Jena",
+
       designation: "Dean",
     },
     // {

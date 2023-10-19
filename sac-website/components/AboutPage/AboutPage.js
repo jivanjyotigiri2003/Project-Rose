@@ -9,16 +9,16 @@ const AboutPage = () => {
   const representative1 = [
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Avatar",
-      designation: "SAC Official",
+
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda ",
+      designation: "President",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Avatar",
-      designation: "SAC Official",
-      name: "Prof. Rajeev Kumar Panda ",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
+
       designation: "President",
     },
   ];
@@ -26,39 +26,39 @@ const AboutPage = () => {
   const representative2 = [
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Avatar",
-      designation: "SAC Official",
+
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
+      designation: "President",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Avatar",
-      designation: "SAC Official",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
+      designation: "President",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Avatar",
-      designation: "SAC Official",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
+      designation: "President",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Avatar",
-      designation: "SAC Official",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
+      designation: "President",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Avatar",
-      designation: "SAC Official",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+      name: "Prof. Rajeev Kumar Panda",
+      designation: "President",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Avatar",
-      designation: "SAC Official",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+
       name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
@@ -107,13 +107,17 @@ Diverse research shows that the NITR student community is continually engaged an
                 }}
               >
                 <ContactCard
-                  name="Avatar"
-                  designation="SAC Offical"
+
+                  name={item.name}
+                  designation="President SAC"
+
                   email="sdbjwbdhij@gmail.com"
                   color1="white"
                   color2="black"
                   color3="red"
-                  image="https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg"
+
+                  image={item.officialsImage}
+
                   // stroke={stroke}
                 />
               </div>
@@ -136,13 +140,17 @@ Diverse research shows that the NITR student community is continually engaged an
                 }}
               >
                 <ContactCard
-                  name="Avatar"
-                  designation="SAC Offical"
+
+                  name={item.name}
+                  designation="President SAC"
+
                   email="sdbjwbdhij@gmail.com"
                   color1="white"
                   color2="black"
                   color3="red"
-                  image="https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg"
+
+                  image={item.officialsImage}
+
                   // stroke={stroke}
                 />
               </div>
