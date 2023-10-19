@@ -9,54 +9,54 @@ const AboutPage = () => {
   const representative1 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Avatar",
+      designation: "SAC Official",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Avatar",
+      designation: "SAC Official",
     },
   ];
 
   const representative2 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Avatar",
+      designation: "SAC Official",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Avatar",
+      designation: "SAC Official",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Avatar",
+      designation: "SAC Official",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Avatar",
+      designation: "SAC Official",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Avatar",
+      designation: "SAC Official",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
-      name: "Prof. Poonam Singh",
-      designation: "President",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Avatar",
+      designation: "SAC Official",
     },
   ];
 
@@ -103,13 +103,13 @@ Diverse research shows that the NITR student community is continually engaged an
                 }}
               >
                 <ContactCard
-                  name="Prof. Poonam Singh"
-                  designation="President SAC"
+                  name="Avatar"
+                  designation="SAC Offical"
                   email="sdbjwbdhij@gmail.com"
                   color1="white"
                   color2="black"
                   color3="red"
-                  image="https://res.cloudinary.com/webwiznitr/image/upload/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg"
+                  image="https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg"
                   // stroke={stroke}
                 />
               </div>
@@ -132,13 +132,13 @@ Diverse research shows that the NITR student community is continually engaged an
                 }}
               >
                 <ContactCard
-                  name="Prof. Poonam Singh"
-                  designation="President SAC"
+                  name="Avatar"
+                  designation="SAC Offical"
                   email="sdbjwbdhij@gmail.com"
                   color1="white"
                   color2="black"
                   color3="red"
-                  image="https://res.cloudinary.com/webwiznitr/image/upload/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg"
+                  image="https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg"
                   // stroke={stroke}
                 />
               </div>

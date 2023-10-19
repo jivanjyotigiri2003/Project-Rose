@@ -11,6 +11,12 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
       name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
+    {
+      officialsImage:
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Prof. Siddharth S Jena",
+      designation: "Dean",
+    },
     // {
     //   officialsImage:
     //     "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
@@ -33,8 +39,8 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Not Available",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697713524/PXL_20230925_133534302.MP_jscubn.jpg",
+      name: "Tirthankar Sarkar",
       designation: "Vice-President, Technical Society",
     },
     {
