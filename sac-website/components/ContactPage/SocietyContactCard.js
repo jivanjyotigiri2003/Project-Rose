@@ -80,21 +80,21 @@ const SocietyContactCard = ({
   const representative3 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
       name: "Rajendra Kar",
       designation: "SAS Officer",
       email: "sahub@nitrkl.ac.in",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
       name: "Nalini Nihar Nayak",
       designation: "SAS Officer",
       email: "sahub@nitrkl.ac.in",
     },
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+       "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
       name: "T R Pattnaik",
       designation: "SAS Officer",
       email: "sahub@nitrkl.ac.in",
