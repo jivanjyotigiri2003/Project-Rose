@@ -7,7 +7,9 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative1 = [
     {
       officialsImage:
+
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+
       name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
@@ -27,50 +29,54 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative2 = [
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067307/SacOfficials/_SMX0005_zusai0.jpg",
+        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067307/SacOfficials/_SMX0005_zusai0.jpg",
       name: "Kaustav Chaudhury",
       designation: "Vice-President, Technical Society",
     },
     {
       officialsImage:
+
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "Not Available",
+
       designation: "Vice-President, Technical Society",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067300/SacOfficials/_SMX0031_d5jege.jpg",
+        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067300/SacOfficials/_SMX0031_d5jege.jpg",
       name: "Ramesh Kumar Mohapatra",
       designation: "Vice-President, Games and Sports Society",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067309/SacOfficials/_SMX0058_zr1azz.jpg",
+        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067309/SacOfficials/_SMX0058_zr1azz.jpg",
       name: "Mayank Yadav",
       designation: "Vice-President, Games and Sports Society",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067300/SacOfficials/_SMX0025_tkytpq.jpg",
+        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067300/SacOfficials/_SMX0025_tkytpq.jpg",
       name: "Winny Routray",
       designation: "Vice-President, Literary and Cultural Society",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067300/SacOfficials/_SMX0024_faohbx.jpg",
+        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067300/SacOfficials/_SMX0024_faohbx.jpg",
       name: "Sivaraman J.",
       designation: "Vice-President, Literary and Cultural Society",
     },
 
     {
       officialsImage:
+
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "Not Available",
+
       designation: "Vice-President, Film and Music Society",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1679067310/SacOfficials/_SMX0019_enah3a.jpg",
+        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067310/SacOfficials/_SMX0019_enah3a.jpg",
       name: "Binod Bihari Sahu",
       designation: "Vice-President, Film and Music Society",
     },
@@ -85,13 +91,17 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
+
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+
       name: "Nalini Nihar Nayak",
       designation: "SAS Officer",
     },
     {
       officialsImage:
+
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+
       name: "T R Pattnaik",
       designation: "SAS Officer",
     },

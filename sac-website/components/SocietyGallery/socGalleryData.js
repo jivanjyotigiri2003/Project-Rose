@@ -1,5 +1,6 @@
 export const socGalleryData = [
   //1 inno
+
   [
     //SAC INFRA
     {
@@ -163,6 +164,7 @@ export const socGalleryData = [
     //   img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092338/inno/75534262_2574363752642287_3561131859570065408_n_nhiach.jpg",
     // },
 
+
     // {
     //   img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679096943/inno/13131363_1012604552151556_866511025157889187_o_wid9gi.jpg",
     // },
@@ -211,6 +213,7 @@ export const socGalleryData = [
     // {
     //   img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092339/inno/76751625_2569980353080627_1796883148345180160_n_kp5kff.jpg",
     // },
+
 
     // {
     //   img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679092335/inno/74286308_2574444569300872_6333703518821548032_n_nb3bbz.jpg",
@@ -798,6 +801,7 @@ export const socGalleryData = [
     {
       img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679094506/cosmo/46002466_1977927952285873_188821811897565184_n_pllnll.jpg",
     },
+
 
     {
       img: "https://res.cloudinary.com/webwiznitr/image/upload/v1679094534/cosmo/326490759_1330091007843983_3991087101077979600_n_sphvaf.jpg",
