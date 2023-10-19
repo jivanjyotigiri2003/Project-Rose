@@ -1,5 +1,6 @@
 import React from "react";
 import { socGalleryData } from "./socGalleryData";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function SocietyGallery({ title }) {
   const inno = [
@@ -832,6 +833,110 @@ export default function SocietyGallery({ title }) {
       },
     ],
   ];
+  const asme = [
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932648/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.48_mwqnvx.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932648/Pictures%20for%20SAC/2_dnbsi1.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.47_k3trbn.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.49_ioaga4.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.500_jhfitz.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/3_gcihgk.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932640/Pictures%20for%20SAC/5_mo4ryp.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932638/Pictures%20for%20SAC/7_atzd52.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932638/Pictures%20for%20SAC/6_bolblq.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.50_dplmmi.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.591_sib2et.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.592_usvl6o.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/4_wlbhh0.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932643/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.25.00_cfdvkd.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932645/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.51_nb6tsa.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932644/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.511_ejgvmy.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932644/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.58_vih2n5.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/f_auto,q_70/v1694932644/Pictures%20for%20SAC/WhatsApp_Image_2023-09-01_at_17.24.584_haefmu.jpg",
+      },
+    ],
+  ];
+  const aiche = [
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654682/WhatsApp_Image_2023-09-03_at_1.30.53_PM_ntsceq.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654681/WhatsApp_Image_2023-09-03_at_1.30.51_PM_uj2nxb.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654681/WhatsApp_Image_2023-09-03_at_1.30.48_PM_n5jydd.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654685/WhatsApp_Image_2023-09-03_at_1.30.55_PM_arh2pm.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654684/WhatsApp_Image_2023-09-03_at_1.30.55_PM_1_qnoebs.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654680/WhatsApp_Image_2023-09-03_at_1.30.50_PM_w0mso7.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654687/WhatsApp_Image_2023-09-03_at_1.37.43_PM_g6f8qs.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654686/WhatsApp_Image_2023-09-03_at_1.30.57_PM_bwned7.jpg",
+      },
+    ],
+    [
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654684/WhatsApp_Image_2023-09-03_at_1.30.55_PM_1_qnoebs.jpg",
+      },
+      {
+        img: "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697654683/WhatsApp_Image_2023-09-03_at_1.30.54_PM_ueqfll.jpg",
+      },
+    ],
+  ];
 
   let data1 = inno;
 
@@ -847,6 +952,12 @@ export default function SocietyGallery({ title }) {
   } else if (title === "Games and Sports Society") {
     title = "Vriddhi";
     data1 = vriddhi;
+  } else if (title == "ASME") {
+    title = "";
+    data1 = asme;
+  } else if (title == "AICHE") {
+    title = "";
+    data1 = aiche;
   } else {
     title = "";
     data1 = socGalleryData;
@@ -863,28 +974,48 @@ export default function SocietyGallery({ title }) {
             <div className=" box">
               <div className="dream">
                 {data1[0].map((e) => {
-                  return <img src={e.img} alt="" />;
+                  return (
+                    <>
+                      <LazyLoadImage src={e.img} alt="" />
+                      {/* <img src={e.img} alt="" /> */}
+                    </>
+                  );
                 })}
               </div>
 
               {/* Section 2 */}
               <div className="dream ">
                 {data1[1].map((e) => {
-                  return <img src={e.img} alt="" />;
+                  return (
+                    <>
+                      <LazyLoadImage src={e.img} alt="" />
+                      {/* <img src={e.img} alt="" /> */}
+                    </>
+                  );
                 })}
               </div>
 
               {/* Section 3 */}
               <div className="dream ">
                 {data1[2].map((e) => {
-                  return <img src={e.img} alt="" />;
+                  return (
+                    <>
+                      <LazyLoadImage src={e.img} alt="" />
+                      {/* <img src={e.img} alt="" /> */}
+                    </>
+                  );
                 })}
               </div>
 
               {/* Section 4 */}
               <div className="dream ">
                 {data1[3].map((e) => {
-                  return <img src={e.img} alt="" />;
+                  return (
+                    <>
+                      <LazyLoadImage src={e.img} alt="" />
+                      {/* <img src={e.img} alt="" /> */}
+                    </>
+                  );
                 })}
               </div>
             </div>

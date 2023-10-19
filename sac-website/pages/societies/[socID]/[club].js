@@ -38,19 +38,28 @@ export default function club({ data }) {
         description={data.clubDescription}
       />
       {/* <SocietyRepresentative data="Club Representatives"/> */}
-
+      <div className="flex justify-center">
+        <ClubCard
+          name={data.clubFacad}
+          designation={"Club Facad"}
+          email={"webwiz.support@gmail.com"}
+          imgsrc={
+            "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif"
+          }
+          className=""
+        />
+      </div>
       <div className="md:grid md:grid-cols-3 lg:flex lg:items-center lg:flex-wrap lg:justify-evenly p-[2rem]  ">
-       {data.clubEB.map((data, idx) => {
+        {data.clubEB.map((data, idx) => {
           return (
-              
-            <ClubCard  
+            <ClubCard
               key={idx}
               name={data[1]}
               designation={data[0]}
-              phone={data[2]}
+              email={"webwiz.support@gmail.com"}
             />
           );
-        })} 
+        })}
       </div>
       <SocietyGallery title={data.clubName} />
     </>

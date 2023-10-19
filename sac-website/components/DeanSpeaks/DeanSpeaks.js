@@ -24,7 +24,7 @@ function DeanSpeaks({
           <h1 className="transition ease-in-out delay-150  font-[500] text-[1rem] lg:text-[2rem] tracking-wide pb-[2rem]">
             {data}
           </h1>
-          <div className="lg:text-[1.2rem] ">{description}</div>
+          <div className="lg:text-[1.2rem] text-justify">{description}</div>
         </div>
       </div>
     </Fade>

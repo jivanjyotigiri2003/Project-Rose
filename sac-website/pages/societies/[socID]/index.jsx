@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import ClubName from "@/components/ClubName/ClubName";
 import DeanSpeaks from "@/components/DeanSpeaks/DeanSpeaks";
 import SocietyGallery from "@/components/SocietyGallery/SocietyGallery";
-import SocietyRepresentative1 from "@/components/SocietyRepresentative/SocietyContacts";
+// import SocietyRepresentative1 from "@/components/SocietyRepresentative/SocietyContacts";
 import { socData } from "../index.jsx";
 import Head from "next/head.js";
 import clubData from "../../../data/data.js";
@@ -112,7 +112,7 @@ export default function soc() {
         description={socDescription}
         image={socimage}
       />
-      <SocietyRepresentative1 />
+      {/* <SocietyRepresentative1 /> */}
 
       <ClubName socName={socID} />
 

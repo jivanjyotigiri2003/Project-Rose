@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillEnvelopeFill } from "react-icons/bs";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ContactCard = ({
   designation,
@@ -17,7 +18,7 @@ const ContactCard = ({
       style={{ backgroundColor: color1 }}
     >
       <div className="w-40 md:w-36 h-40 md:h-36 mb-5 rounded-full shadow-lg mx-auto ">
-        <img
+        <LazyLoadImage
           src={image}
           alt=""
           className="h-[100%] w-[100%] rounded-full object-cover"
@@ -36,22 +37,22 @@ const ContactCard = ({
       </div>
       <div className={stroke}></div>
       <a
-          href="mailto:sdbjwbdhij@gmail.com" target="_blank"
-          className=" text-[0.5rem] sm:text-xs lg:text-sm xl:text-base"
-          style={{ color: color1 }}
-        >
-      <div
-        className="flex p-2 my-5 mx-auto w-[85%] rounded-lg h-fit  justify-center"
-        style={{ backgroundColor: color3 }}
+        href="mailto:sdbjwbdhij@gmail.com"
+        target="_blank"
+        className=" text-[0.5rem] sm:text-xs lg:text-sm xl:text-base"
+        style={{ color: color1 }}
       >
-        <BsFillEnvelopeFill
-          className=" mr-3 lg:mt-1 -mt-0.5"
-          style={{ color: color1 }}
-        ></BsFillEnvelopeFill>
-       
+        <div
+          className="flex p-2 my-5 mx-auto w-[85%] rounded-lg h-fit  justify-center"
+          style={{ backgroundColor: color3 }}
+        >
+          <BsFillEnvelopeFill
+            className=" mr-3 lg:mt-1 -mt-0.5"
+            style={{ color: color1 }}
+          ></BsFillEnvelopeFill>
+
           {email}
-       
-      </div>
+        </div>
       </a>
     </div>
   );

@@ -1,12 +1,15 @@
 import React from "react";
 import SocietyCarousel from "./SocietyCarouselMobile";
 import { Fade } from "react-awesome-reveal";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative1 = [
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+
       name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
@@ -32,8 +35,10 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067310/SacOfficials/_SMX0008_olkbzm.jpg",
-      name: "Prasun Chongder",
+
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Not Available",
+
       designation: "Vice-President, Technical Society",
     },
     {
@@ -63,8 +68,10 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
 
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067308/SacOfficials/_SMX0013_aoss2e.jpg",
-      name: "Balaji P.S.",
+
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+      name: "Not Available",
+
       designation: "Vice-President, Film and Music Society",
     },
     {
@@ -78,19 +85,23 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative3 = [
     {
       officialsImage:
-        "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "Rajendra Kar",
       designation: "SAS Officer",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+
       name: "Nalini Nihar Nayak",
       designation: "SAS Officer",
     },
     {
       officialsImage:
-        "https://res.cloudinary.com/webwiznitr/image/upload/v1694627760/manavatar_z7rrut.avif",
+
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
+
       name: "T R Pattnaik",
       designation: "SAS Officer",
     },
@@ -113,11 +124,16 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
                 className="h-[20rem]  flex flex-col justify-center items-center "
               >
                 <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                  <img
+                  <LazyLoadImage
                     src={item.officialsImage}
                     alt="officialsImage"
                     className="w-[100%] h-[100%] rounded-[100%] object-cover"
                   />
+                  {/* <img
+                    src={item.officialsImage}
+                    alt="officialsImage"
+                    className="w-[100%] h-[100%] rounded-[100%] object-cover"
+                  /> */}
                 </div>
 
                 <h2 className="font-bold text-lg">{item.name}</h2>
@@ -135,11 +151,16 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
                 className="h-[20rem] m-[2rem] flex flex-col justify-center items-center "
               >
                 <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                  <img
+                  <LazyLoadImage
                     src={item.officialsImage}
                     alt="officialsImage"
                     className="w-[100%] h-[100%] rounded-[100%] object-cover"
                   />
+                  {/* <img
+                    src={item.officialsImage}
+                    alt="officialsImage"
+                    className="w-[100%] h-[100%] rounded-[100%] object-cover"
+                  /> */}
                 </div>
 
                 <h2 className="font-bold text-lg text-center">{item.name}</h2>
@@ -157,11 +178,16 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
                 className="h-[20rem] m-[2rem] flex flex-col justify-center items-center "
               >
                 <div className="w-[15rem] h-[15rem]  rounded-[100%]  m-[1rem] drop-shadow-xl shadow-2xl">
-                  <img
+                  <LazyLoadImage
                     src={item.officialsImage}
                     alt="officialsImage"
                     className="w-[100%] h-[100%] rounded-[100%] object-cover"
                   />
+                  {/* <img
+                    src={item.officialsImage}
+                    alt="officialsImage"
+                    className="w-[100%] h-[100%] rounded-[100%] object-cover"
+                  /> */}
                 </div>
 
                 <h2 className="font-bold text-lg">{item.name}</h2>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Fade } from "react-awesome-reveal";
-import QnA from './QnA';
+import QnA from "./QnA";
 
 const FAQ = () => {
   {
@@ -11,17 +11,17 @@ const FAQ = () => {
   }
   const questions = [
     {
-      question: "Lorem ipsum dolor sit amet?",
+      question: "Who is SAC?",
       answer:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic soluta, fuga temporibus voluptate velit fugiat rerum? Temporibus sunt necessitatibus quam.",
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
+      question: "What SAC does?",
       answer:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic soluta, fuga temporibus voluptate velit fugiat rerum? Temporibus sunt necessitatibus quam.",
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
+      question: "Why to we need SAC?",
       answer:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic soluta, fuga temporibus voluptate velit fugiat rerum? Temporibus sunt necessitatibus quam.",
     },
@@ -41,7 +41,6 @@ const FAQ = () => {
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic soluta, fuga temporibus voluptate velit fugiat rerum? Temporibus sunt necessitatibus quam.",
     },
   ];
-  
 
   return (
     <Fade direction="up" triggerOnce="true" delay="50">
@@ -52,7 +51,9 @@ const FAQ = () => {
           </h1>
 
           <div className="w-full md:w-3/5 ">
-            {questions.map((q, index) => <QnA question={q.question} answer={q.answer} key={index}/>)}
+            {questions.map((q, index) => (
+              <QnA question={q.question} answer={q.answer} key={index} />
+            ))}
           </div>
         </div>
       </div>

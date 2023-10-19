@@ -1,16 +1,19 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const SocialsLink = () => {
   const socials = [
     {
       name: "LinkedIn",
-      icon: "https://res.cloudinary.com/dzbax077h/image/upload/f_auto,q_70/v1677806233/Vector_biswa1.png",
-      url: "https://www.linkedin.com/company/webwiz-nitr/", 
+
+      icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677806233/Vector_biswa1.png",
+      url: "https://www.linkedin.com/company/webwiz-nitr/",
     },
     {
       name: "Facebook",
-      icon: "https://res.cloudinary.com/dzbax077h/image/upload/f_auto,q_70/v1677806976/Vector_1_cjr4k3.png",
-      url: "https://www.facebook.com/webwiz.nitr", 
+      icon: "https://res.cloudinary.com/dzbax077h/image/upload/v1677806976/Vector_1_cjr4k3.png",
+      url: "https://www.facebook.com/webwiz.nitr",
+
     },
     {
       name: "Twitter",
@@ -30,7 +33,11 @@ const SocialsLink = () => {
         return (
           <div className="">
             <a href={socialItem.url}>
-              <img src={socialItem.icon} className="h-[3vh] w-[3vh]" />
+              <LazyLoadImage
+                src={socialItem.icon}
+                className="h-[3vh] w-[3vh]"
+              />
+              {/* <img src={socialItem.icon} className="h-[3vh] w-[3vh]" /> */}
             </a>
           </div>
         );
