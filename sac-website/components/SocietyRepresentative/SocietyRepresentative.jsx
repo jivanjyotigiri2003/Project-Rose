@@ -13,6 +13,14 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
       name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
+    {
+      officialsImage:
+
+        "https://res.cloudinary.com/du3uvgzdr/image/upload/v1697693816/Screenshot_2023-10-19_at_11.06.48_AM_tojdfv.png",
+
+      name: "Prof. Sidhartha S. Jena",
+      designation: "Dean",
+    },
     // {
     //   officialsImage:
     //     "https://ik.imagekit.io/gourab18/ps.jpg?updatedAt=1678788056792",
