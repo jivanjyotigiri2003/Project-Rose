@@ -16,7 +16,7 @@ function ContactPage() {
   return (
     <div className="">
       {/* Sac management page */}
-      <div className="bg-[url('https://res.cloudinary.com/dkqxnquga/image/upload/v1678430362/image_767_hnhpi2.png')] bg-no-repeat bg-cover bg-center w-full min-h-screen overflow-x-hidden">
+      <div className="bg-[url('https://res.cloudinary.com/dkqxnquga/image/upload/f_auto,q_70/v1678430362/image_767_hnhpi2.png')] bg-no-repeat bg-cover bg-center w-full min-h-screen overflow-x-hidden">
         <div className="  bg-gradient-to-b from-[#850101cc] to-[#8501011a] bg-no-repeat w-full bg-cover bg-center min-h-screen">
           <div className="bg-[#00000073] bg-no-repeat w-full bg-cover bg-center min-h-screen">
             <div className="flex justify-center items-center min-h-screen">
@@ -45,8 +45,10 @@ function ContactPage() {
       <Fade direction="up" triggerOnce="true" delay="50">
         <div className=" md:flex lg:h-[60vh]">
           <div>
+
             <LazyLoadImage
               src="https://res.cloudinary.com/webwiznitr/image/upload/v1679166960/SAC_2_qkwrrc.png"
+
               alt="FAQ"
               className="w-[100vw]  clip-your-needful-style-down md:w-[50vw] md:clip-your-needful-style h-[100%]"
             />

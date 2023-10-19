@@ -18,6 +18,8 @@ export default function Announcement() {
                   <LazyLoadImage
                     src="https://res.cloudinary.com/de2s0mcjo/image/upload/v1697658721/WhatsApp_Image_2023-09-03_at_4.51.08_PM_gspv26.jpg"
                     className="rounded-xl lg:h-[21rem] h-40 object-cover"
+
+
                   />
                   <div className="overlay"></div>
                   {/*<div className="fullcap max-md:-my-6">Celebrity Night</div> */}

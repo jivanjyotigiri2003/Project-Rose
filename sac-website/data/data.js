@@ -8,14 +8,14 @@ const clubData = [
       "The official open-source and cybersecurity community of NIT Rourkela. \n\nOpenCode believes in \"Code and Collaboration.\" We develop, upstream, and contribute to opensource projects providing a collaborative platform for developers to learn and upskill. We participate and win accolades in opensource programs, hackathons, and CTFs. We take pride in successfully organizing India's largest student run hackathon - HackNITR, become the first ever club in NIT Rourkela to organize a CTF - Brains 'n Brawns, conduct multiple hands-on workshops and informative sessions round the year. We drive action and focus on growth.",
     clubFoundation: 2017,
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968578/opencode_logo_-_Swatishree_Mahapatra_axvklg.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968578/opencode_logo_-_Swatishree_Mahapatra_axvklg.jpg",
     clubMembers: 80,
     clubFacad: "Prof. Sumanta Pyne",
     clubFacadMob: 9433746069,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1tjfgKwTEH068SkRO6KLHfiXh5JmdZzhAULNxEB4j04s/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679066856/ClubGroupPhoto/opencode_2021-22_-_Swatishree_Mahapatra_aiqr94.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679066856/ClubGroupPhoto/opencode_2021-22_-_Swatishree_Mahapatra_aiqr94.jpg",
     clubEB: [
       ["President", "Swatishree Mahapatra", "9348257557"],
       ["Vice President", "Ratnakar Sahoo", "9178842858"],
@@ -35,14 +35,14 @@ const clubData = [
     clubInstagram: "https://www.instagram.com/aps.nitr/",
     clubLinkedin: "https://www.linkedin.com/company/aps-nitr/mycompany/",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679086069/aps_logo_1_nqjlq0.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679086069/aps_logo_1_nqjlq0.jpg",
     clubMembers: 100,
     clubFacad: "Dr. Arun Kumar",
     clubFacadMob: 9971867785,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1V4inmYAXBDcZJwErd_Ay8D_gHDzKuwgPSZV2f9R43Mk/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679066821/ClubGroupPhoto/APS_EB_Pic_-_Abhijit_Panda_e3n095.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679066821/ClubGroupPhoto/APS_EB_Pic_-_Abhijit_Panda_e3n095.jpg",
     clubEB: [
       ["President", "Dablu Saha", "7064718446"],
       ["Vice President", "Abhijit Panda", "7848957529"],
@@ -66,14 +66,14 @@ const clubData = [
     clubLinkedin: "https://www.linkedin.com/company/incers-nitr/mycompany/",
     clubFacebook: "https://www.facebook.com/profile.php?id=100063778220889",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968575/Incers_logo_final_-_InCerS_NITR_arsfkf.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968575/Incers_logo_final_-_InCerS_NITR_arsfkf.png",
     clubMembers: 115,
     clubFacad: "Prof. Bibhuti Bhusan Nayak",
     clubFacadMob: 8249427529,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1-4Lu9Tdi3Es5xNdWNC_V8gcvcQG3hsdD39Es_xkNhxo/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679066925/ClubGroupPhoto/InCerS_Club_Members_-_InCerS_NITR_tsx5r7.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679066925/ClubGroupPhoto/InCerS_Club_Members_-_InCerS_NITR_tsx5r7.jpg",
     clubEB: [
       ["Chairperson", "Deepsikha Brahma", "6371166807"],
       ["Vice-Chairperson", "Partha Mishra", "9861339236"],
@@ -98,14 +98,14 @@ const clubData = [
     clubLinkedin:
       "BMR - https://www.linkedin.com/company/black-mamba-racing/  TRR - https://www.linkedin.com/company/team-roadrunner-formula-student-team-of-nit-rourkela/",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679095089/Group_18129_jrfqrf.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679095089/Group_18129_jrfqrf.png",
     clubMembers: 120,
     clubFacad: "Prof. Suraj Kumar Behera",
     clubFacadMob: 9040893760,
     clubDocccc:
       "https://drive.google.com/drive/folders/1NUgq2GTKSTAAuOgCYBRPO787yU9J2_Kp?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679066977/ClubGroupPhoto/sae_united_-_Puneeth_Param_Senapati_ntc6zr.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679066977/ClubGroupPhoto/sae_united_-_Puneeth_Param_Senapati_ntc6zr.jpg",
     clubEB: [
       ["President", "Satyajeet Sahoo", "9668150260"],
       ["Vice-President", "Swagatika Jena", "6370446871"],
@@ -125,14 +125,14 @@ const clubData = [
     clubLinkedin: "https://www.linkedin.com/company/aspirants-nitr/about/",
     clubFacebook: "https://www.facebook.com/aspirantsnitr",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679085811/Group_18116_1_rdqcd4.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679085811/Group_18116_1_rdqcd4.png",
     clubMembers: 45,
     clubFacad: "Prof S.N Alam",
     clubFacadMob: 9937917811,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/17bY3dkgi1lXGIh5JZjFQmbo3R5Agvr8oy2iZnU_3_mM/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679067074/ClubGroupPhoto/IMG20230301181555_-_Aspirants_NITR_yno9jj.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067074/ClubGroupPhoto/IMG20230301181555_-_Aspirants_NITR_yno9jj.jpg",
     clubEB: [
       ["President", "Rittwik Devdatta Das", "7978117118"],
       ["Vice-President", "Manali MIshra", "7008755671"],
@@ -157,14 +157,14 @@ const clubData = [
     clubFacebook: "Third Eye - The Photography Club of NIT Rourkela",
     clubTwitter: "@ThirdEyeNITRKL",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679086625/Group_18120_ukjk7e.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679086625/Group_18120_ukjk7e.png",
     clubMembers: 38,
     clubFacad: "Suverna Trivedi",
     clubFacadMob: 9451811492,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1CyV_1VkRcgUX52oWVMsf_uc8JJHZzF9POzHdlncyLBs/edit#gid=0",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679067189/ClubGroupPhoto/3E_Group_Pic_-_Md_Kudratullah_bznj5b.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067189/ClubGroupPhoto/3E_Group_Pic_-_Md_Kudratullah_bznj5b.jpg",
     clubEB: [
       ["President", "Priyanshu Das", "9337991462"],
       ["Vice-President", "Abhinov Mohanta", "8249811436"],
@@ -183,14 +183,14 @@ const clubData = [
     clubLinkedin: "NA",
     clubTwitter: "NA",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679086710/Group_18121_yghwzx.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679086710/Group_18121_yghwzx.png",
     clubMembers: 60,
     clubFacad: "Prof.Manish Okade",
     clubFacadMob: "+91 88958 53758",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1BQUNTL1Un1LMvqom309PuFJxjiWfSIENFWpnnpZFx6g/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679136581/group_photo_rotaract_-_Maya_Yadav_mspkax.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679136581/group_photo_rotaract_-_Maya_Yadav_mspkax.jpg",
     clubEB: [
       ["President", "Maya Yadav", "8260263048"],
       ["Vice President ", "Piyush Kumar Sahoo", "82492 38274"],
@@ -213,14 +213,14 @@ const clubData = [
     clubFacebook: "https://www.facebook.com/DrillnBassNITR/",
     clubTwitter: "-",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968577/logodnb_-_Ray_Jew_ptfbcb.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968577/logodnb_-_Ray_Jew_ptfbcb.jpg",
     clubMembers: 39,
     clubFacad: "Prof R.K Biswal ",
     clubFacadMob: "82493 48088",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1ADmtPOoLYnc2j1oiALzcV5H3GbcDxfrO9_dZrVTO9-k/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679137275/ClubGroupPhoto/9ddb9730-aaf0-4e39-a5fc-48ade9ee2927_-_Ray_Jew_ig9vqy.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679137275/ClubGroupPhoto/9ddb9730-aaf0-4e39-a5fc-48ade9ee2927_-_Ray_Jew_ig9vqy.jpg",
     clubEB: [
       ["President", "Dhruv Asnora", "77359 84876"],
       ["Vice President", "Shreyas Padhy ", "82492 81341"],
@@ -240,14 +240,14 @@ const clubData = [
     clubLinkedin: "https://www.linkedin.com/company/game-to-aim/about/",
     clubFacebook: "https://www.facebook.com/gametoaim",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968575/GTALogoPink_2x_-_Game_To_Aim_lc3ttf.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968575/GTALogoPink_2x_-_Game_To_Aim_lc3ttf.png",
     clubMembers: 110,
     clubFacad: "Prof. UC Pati",
     clubFacadMob: 9438622795,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1FI1jv4wnAe38F4krpXOC0Xk1EbtbUTGpN5T3gZJBNKs/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679135535/ClubGroupPhoto/WhatsApp_Image_2023-03-14_at_01.08.32_-_Game_To_Aim_rst4lu.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679135535/ClubGroupPhoto/WhatsApp_Image_2023-03-14_at_01.08.32_-_Game_To_Aim_rst4lu.jpg",
     clubEB: [
       ["President", "Saksham Devkota", "977 9847280780"],
       ["Vice-President", "Mihir Bibhuty", "9339233880"],
@@ -271,14 +271,14 @@ const clubData = [
     clubFacebook: "rainbowdotclub (https://bit.ly/3kkz9BP)",
     clubTwitter: "@rainbowdot_nitr (https://bit.ly/3ZPDnld)",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968579/rainbow_dot_logo_black_PNG_-_Tripali_Tah_c4zbff.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968579/rainbow_dot_logo_black_PNG_-_Tripali_Tah_c4zbff.png",
     clubMembers: 45,
     clubFacad: "Prof. Sambit Bakshi",
     clubFacadMob: 9778706770,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/165dqUw9OX964YXlx5XThqchSbiZZowWxBm8zYcRHi0U/edit#gid=0",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679135697/ClubGroupPhoto/RD_Group_Image_1_-_Tripali_Tah_fm2yt8.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679135697/ClubGroupPhoto/RD_Group_Image_1_-_Tripali_Tah_fm2yt8.jpg",
     clubEB: [
       ["President", "Tejsi Giri", "9771213020"],
       ["Vice President", "Tanya Gupta", "9369061210"],
@@ -300,7 +300,7 @@ const clubData = [
     clubFacebook: "Chitraang the official  graffiti club ",
     clubTwitter: "-",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968569/AAA01_4x_-_Prachi_pratikshya_Dansana_eejj45.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968569/AAA01_4x_-_Prachi_pratikshya_Dansana_eejj45.png",
     clubMembers: 32,
     clubFacad: "Prof. Santos Kumar Das",
     clubFacadMob: "+91 94379 40105",
@@ -320,14 +320,14 @@ const clubData = [
     clubLinkedin: "https://www.linkedin.com/company/ritvic-nit-rourkela/",
     clubFacebook: "https://www.facebook.com/ritvic.nitr?mibextid=ZbWKwL",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968579/RITVIC_color-01_-_RITVIC_-_NIT_Rourkela_guyr4n.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968579/RITVIC_color-01_-_RITVIC_-_NIT_Rourkela_guyr4n.png",
     clubMembers: 112,
     clubFacad: "Prof. Syed Nasimul Alam ",
     clubFacadMob: "+91 9937917811",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/19ha1Bsir13VcMNOusar-nykTras1IEDNmQHJUTDLC_U/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679136043/ClubGroupPhoto/DSC00674_-_RITVIC_-_NIT_Rourkela_cncvhw.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679136043/ClubGroupPhoto/DSC00674_-_RITVIC_-_NIT_Rourkela_cncvhw.jpg",
     clubEB: [
       ["PRESIDENT", "Debahuti Mishra", "7032815435"],
       ["VICE-PRESIDENT", "Sipra Sahoo", "7008523904"],
@@ -353,14 +353,14 @@ const clubData = [
     clubFacebook: "https://www.facebook.com/ebsbnitr/",
     clubTwitter: "https://twitter.com/ebsb_nitrkl?lang=en",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968574/EBSB_logo_1_-_Bikash_Rao_i2xnhe.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968574/EBSB_logo_1_-_Bikash_Rao_i2xnhe.png",
     clubMembers: 45,
     clubFacad: "Prof. Pabitra Mohan Khilar",
     clubFacadMob: 9556228979,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1QC71CZyg1GCVsVISv4rBTV-SYA7T-50iZ6EjtNaLF8Y/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679136050/ClubGroupPhoto/WhatsApp_Image_2023-03-14_at_6.01.09_PM_1_-_Bikash_Rao_h8ufd9.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679136050/ClubGroupPhoto/WhatsApp_Image_2023-03-14_at_6.01.09_PM_1_-_Bikash_Rao_h8ufd9.jpg",
     clubEB: [
       ["President", "Jyoti Prajapat", "8952820491"],
       ["Treasurer ", "M Bikash Rao", "7077903888"],
@@ -385,14 +385,14 @@ const clubData = [
     clubTwitter:
       "https://twitter.com/aichenit?s=11&amp;t=3gce8KKTOmC18ffwwx6MvA",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679085132/Group_18116_iojoda.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679085132/Group_18116_iojoda.png",
     clubMembers: 70,
     clubFacad: "Prof. Sujit Sen",
     clubFacadMob: "+91 99382 46590",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/19tbTU-oF6UaWJJ9GZOHoPAMHZfks-9L0_0L0U4ESEFA/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679137516/ClubGroupPhoto/AIChE_NITR-Club_Group_pic_-_Bibhuti_Bhusan_Pradhan_ulcg6i.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679137516/ClubGroupPhoto/AIChE_NITR-Club_Group_pic_-_Bibhuti_Bhusan_Pradhan_ulcg6i.jpg",
     clubEB: [
       ["President", "Siddharth Ray", "96687 49887"],
       ["Vice-President", "Suman Kumar Mishra", "78488 02390"],
@@ -417,14 +417,14 @@ const clubData = [
     clubInstagram: "3d.nitrkl",
     clubLinkedin: "https://www.linkedin.com/company/3d-nitrkl/",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968570/3d_-_Manas_Teertha_Nayak_of3pac.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968570/3d_-_Manas_Teertha_Nayak_of3pac.png",
     clubMembers: 50,
     clubFacad: "Prof. Anup Nandy",
     clubFacadMob: 6370066981,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/17mO38b6gxHriM8zjABjvTLNHo-uYDKLPe5vd5XEkTEw/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679136204/ClubGroupPhoto/IMG-20230313-WA0004_-_Manas_Teertha_Nayak_1_x3rcia.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679136204/ClubGroupPhoto/IMG-20230313-WA0004_-_Manas_Teertha_Nayak_1_x3rcia.jpg",
     clubEB: [
       ["President", "Ratanpalke Kavya", "96034 30476"],
       ["Vice President", "Manas Teertha Nayak", "94370 00717"],
@@ -447,14 +447,14 @@ const clubData = [
     clubInstagram: "asme.nitrkl",
     clubLinkedin: "https://www.linkedin.com/in/team-bluestreak-16736988/",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679094978/Group_18128_yjg90h.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679094978/Group_18128_yjg90h.png",
     clubMembers: 50,
     clubFacad: "DR. SUMAN GHOSH",
     clubFacadMob: 9437809878,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1rtWvYUsZ_4O69-SMNUHWjWGqIlNid_MMSqFXSe3OFkM/edit#gid=0",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679136262/ClubGroupPhoto/IMG_2721_-_ASME_NITR_qlcooc.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679136262/ClubGroupPhoto/IMG_2721_-_ASME_NITR_qlcooc.jpg",
     clubEB: [
       ["President", "Deepak Kumar Mohanty", "7846869751"],
       ["Vice-President", "Anisha Mohapatra", "6371392608"],
@@ -478,14 +478,14 @@ const clubData = [
     clubFacebook: "https://www.facebook.com/cestnitr",
     clubTwitter: "https://twitter.com/cestnit?s=20",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968570/CEST_LOGO_-_Sushmit_Singh_elhrvk.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968570/CEST_LOGO_-_Sushmit_Singh_elhrvk.jpg",
     clubMembers: 60,
     clubFacad: "Prof. Dr. Subhajit Monda",
     clubFacadMob: 8116205595,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1GwCJPaluhwPh8u2VHQfRbQ4Cy7LXFQqu2Ol7RdA8pxc/edit#gid=0",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679136296/ClubGroupPhoto/CEST_GROUP_PHOTO_-_Sushmit_Singh_igdeje.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679136296/ClubGroupPhoto/CEST_GROUP_PHOTO_-_Sushmit_Singh_igdeje.jpg",
     clubEB: [
       ["President", "Vinayak Agrawal", "8839544766"],
       ["Vice-President", "Satyajeet Swain", "7848800477"],
@@ -507,14 +507,14 @@ const clubData = [
     clubFacebook: "@euphonynitr",
     clubTwitter: "nil",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968574/Euphony_Logo_-_Rish_Potti_l7i4nz.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968574/Euphony_Logo_-_Rish_Potti_l7i4nz.png",
     clubMembers: 17,
     clubFacad: "Prof. Madhuresh Dwivedhi",
     clubFacadMob: 9635111104,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1Ki_z8MEO6noK7vVUwS8qyIBpj_lO5XafgVbm-e4ptL8/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169332/312307268_1207246603339136_2087314578149925646_n.jpeg_utkdzy.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679169332/312307268_1207246603339136_2087314578149925646_n.jpeg_utkdzy.jpg",
     clubEB: [
       ["President", "Rishabhdev Potti", "9446134852"],
       ["Vice-President", "Shounak Das", "7603006661"],
@@ -534,14 +534,14 @@ const clubData = [
     clubLinkedin: "https://www.linkedin.com/company/tbs-nitr-chapter/",
     clubFacebook: "https://www.facebook.com/thebiosciencesociety",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679094072/Group_18123_cepg7h.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679094072/Group_18123_cepg7h.png",
     clubMembers: "30+",
     clubFacad: "Dr Srinivasan Muthuswamy",
     clubFacadMob: "+919621429923",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1N_1LlK_s4FbaBvodUdQQDEDbPTLphXqvhhXznk4q2e4/edit?usp=drivesdk",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679136345/ClubGroupPhoto/IMG-20230314-WA0015_-_The_Bioscience_Society_gawnjq.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679136345/ClubGroupPhoto/IMG-20230314-WA0015_-_The_Bioscience_Society_gawnjq.jpg",
     clubEB: [
       ["President", "Sambit Kumar Pradhan", "7205353738"],
       ["Vice President", "Arpita Subhadarshini", "9938460530"],
@@ -583,14 +583,14 @@ const clubData = [
     clubLinkedin: "Na",
     clubFacebook: "SpicMacayNITR",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679086892/Group_18122_nbj6us.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679086892/Group_18122_nbj6us.png",
     clubMembers: 32,
     clubFacad: "Prof. Anwesha Sengupta",
     clubFacadMob: " (+91) 9432187482 ",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1lUPum2ZO_B_qmLxk3Z_UQ4syc8S5RmvRG8YonRIMUy0/edit#gid=0",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679136520/ClubGroupPhoto/spic_macay_club_-_Abhinav_kumar_Gupta_tffwcl.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679136520/ClubGroupPhoto/spic_macay_club_-_Abhinav_kumar_Gupta_tffwcl.jpg",
     clubEB: ["President", "Jon Doe", "9999999999"],
   },
   {
@@ -604,13 +604,13 @@ const clubData = [
     clubInstagram: "themavericks.official",
     clubLinkedin: "--",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968577/MicrosoftTeams-image_-_Krithika_Mudavath_i49hoo.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968577/MicrosoftTeams-image_-_Krithika_Mudavath_i49hoo.jpg",
     clubMembers: 62,
     clubFacad: "PS BALAJI",
     clubFacadMob: 7395979565,
     clubDocccc: "https://1drv.ms/x/s!Amv22uxFn3R8gRKtVaISaZqwiA4t?e=Hff7ls",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679137655/ClubGroupPhoto/MicrosoftTeams-image_1_-_Krithika_Mudavath_ocdxeu.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679137655/ClubGroupPhoto/MicrosoftTeams-image_1_-_Krithika_Mudavath_ocdxeu.jpg",
     clubEB: [
       ["Chief Coordinator", "Harsh Prajapati", "8917490334"],
       ["Chief Coordinator", "Haripriya Kishan", "6372679482"],
@@ -635,14 +635,14 @@ const clubData = [
       "Udaan - The Aeromodelling &amp; Robotics Club of NIT Rourkela (Link - https://www.facebook.com/udaanclubnitrkl?mibextid=ZbWKwL)",
     clubTwitter: "NA",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968582/Udaan_Logo_2_-_Devansh_Saxena_gsnm55.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968582/Udaan_Logo_2_-_Devansh_Saxena_gsnm55.png",
     clubMembers: 36,
     clubFacad: "Dr. Balaji P.S.",
     clubFacadMob: 7395979565,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1iAFcBveJbHtaJs2cE5GUS2e18NAnBYWCDKImrFCPPrQ/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679137719/ClubGroupPhoto/PXL_20220805_214847143_-_Devansh_Saxena_jo390j.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679137719/ClubGroupPhoto/PXL_20220805_214847143_-_Devansh_Saxena_jo390j.jpg",
     clubEB: [
       ["President", "Devansh Saxena", "9827934117"],
       ["Vice - President", "Yaswant Ku Jena", "8280724647"],
@@ -663,7 +663,7 @@ const clubData = [
     clubInstagram: "printstation_nitrkl",
     clubLinkedin: "printstation",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968577/mini_logo_-_Sankalp_Singh_tlket6.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968577/mini_logo_-_Sankalp_Singh_tlket6.png",
     clubMembers: 40,
     clubFacad: "Dr. ARUN PRASATH VENUGOPAL",
     clubFacadMob: 9597775712,
@@ -691,14 +691,14 @@ const clubData = [
     clubFacebook: "https://www.facebook.com/cognizen.nitrkl",
     clubTwitter: "https://twitter.com/Cognizen_nitr",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968572/cognizen_logo-1_-_Akankshya_Dash_yfwktv.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968572/cognizen_logo-1_-_Akankshya_Dash_yfwktv.png",
     clubMembers: 80,
     clubFacad: "Dr Mahendra Chinthalla",
     clubFacadMob: "+91 96555 75685",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1e2gKKEaGezEINCSdZ2JMoUafYvoDP64Lig8uurRvolU/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679137904/ClubGroupPhoto/Club_Photos_Cognizen_-_Akankshya_Dash_qgp70p.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679137904/ClubGroupPhoto/Club_Photos_Cognizen_-_Akankshya_Dash_qgp70p.jpg",
     clubEB: [
       ["President", "Akankshya Dash", "77359 08838"],
       ["Vice-President", "Atharva Mahesh Anturkar", "93700 46097"],
@@ -719,14 +719,14 @@ const clubData = [
     clubLinkedin: "https://www.linkedin.com/company/iichenitr/",
     clubFacebook: "https://www.facebook.com/IIChENITR/",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968576/Logo_-_Sagar_Mangaraj_dckk75.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968576/Logo_-_Sagar_Mangaraj_dckk75.png",
     clubMembers: 47,
     clubFacad: "Prof. Suverna Trivedi",
     clubFacadMob: 9451811492,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1idx2BqfQv5oo8LrZgoEEFJQbEyMbZzd_rAFq9HUnGSs/edit#gid=0",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679137937/ClubGroupPhoto/Group_Photo_-_Sagar_Mangaraj_ooah5c.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679137937/ClubGroupPhoto/Group_Photo_-_Sagar_Mangaraj_ooah5c.jpg",
     clubEB: [
       ["President", "Nalin Kumar", "9635985263"],
       ["Vice-President", "Buddharatna B. Hingole", "9145137116"],
@@ -749,7 +749,7 @@ const clubData = [
     clubLinkedin: "linkedin.com/company/degree361mag",
     clubFacebook: "facebook.com/shout.d361",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679094235/Group_18124_gdzzgd.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679094235/Group_18124_gdzzgd.png",
     clubMembers: 20,
     clubFacad: "Prof. Anwesha Sengupta",
     clubFacadMob: 9432187482,
@@ -774,14 +774,14 @@ const clubData = [
     clubLinkedin: "https://www.linkedin.com/company/pantomime-nit-rourkela",
     clubFacebook: "https://www.facebook.com/drama.club.nitrkl",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679095515/Group_18132_utauci.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679095515/Group_18132_utauci.png",
     clubMembers: 105,
     clubFacad: "Dr Srinivasan Muthuswamy",
     clubFacadMob: 9621429923,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1jqfeqOsFw49pttvJ4pb7hws8nPcvdcN2yPw9szOajsY/edit?usp=drivesdk",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679138243/ClubGroupPhoto/IMG_7068_-_Ankush_Lohani_pjhnlb.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679138243/ClubGroupPhoto/IMG_7068_-_Ankush_Lohani_pjhnlb.jpg",
     clubEB: [
       ["President", "Ankush Lohani", "8107810784"],
       ["Vice President", "Sayambika Das", "9438150363"],
@@ -808,7 +808,7 @@ const clubData = [
     clubInstagram: "vov_nitr",
     clubLinkedin: "Voice Of Voiceless",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968581/vov_mod2_-_G_1_pcwikk.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968581/vov_mod2_-_G_1_pcwikk.jpg",
     clubMembers: 51,
     clubFacad: "SUCHISMITA CHINARA",
     clubFacadMob: 9437116795,
@@ -829,14 +829,14 @@ const clubData = [
     clubFacebook: "-",
     clubTwitter: "-",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968575/Hourglass_Logo_-_Abhijeet_Govind_cytebu.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968575/Hourglass_Logo_-_Abhijeet_Govind_cytebu.png",
     clubMembers: 133,
     clubFacad: "Proff Tushar Gupta",
     clubFacadMob: "+91&nbsp;99205&nbsp;81558",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1KYWcoV-K7CupG4WXdHhtDl-mPZACUmgxYTogMED5aI0/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679138378/ClubGroupPhoto/Hourglass_Club_Group_Photo_-_Abhijeet_Govind_hoa0ow.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679138378/ClubGroupPhoto/Hourglass_Club_Group_Photo_-_Abhijeet_Govind_hoa0ow.jpg",
     clubEB: [
       ["President", "Prerna Komal Chordiya", "8625965432"],
       ["Vice President", "Midatana Sai Praneetha", "8309196050"],
@@ -858,7 +858,7 @@ const clubData = [
     clubLinkedin: "NA",
     clubFacebook: "Cinematics.nitr",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679094538/Group_18125_vsem91.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679094538/Group_18125_vsem91.png",
     clubMembers: 35,
     clubFacad: "Sirsendu Sekhar Ray",
     clubFacadMob: 6612462288,
@@ -885,7 +885,7 @@ const clubData = [
     clubFacebook: "NA",
     clubTwitter: "NA",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679094674/Group_18126_qygx0v.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679094674/Group_18126_qygx0v.png",
     clubMembers: 24,
     clubFacad: "Prasoon Kumar",
     clubFacadMob: 8105648520,
@@ -912,14 +912,14 @@ const clubData = [
     clubFacebook: "nitr.genesys (https://www.facebook.com/nitr.genesys/?ti=as)",
     clubTwitter: "NA",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968577/mini_-_aditya_jenamani_hpyetv.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968577/mini_-_aditya_jenamani_hpyetv.png",
     clubMembers: 58,
     clubFacad: "Professor Devendra Verma",
     clubFacadMob: 7682943105,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1Jn-HJ0mllhXrIkA-POXprAbMvnidsgfW6j5dFczfjH0/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679138536/ClubGroupPhoto/Screenshot_20221114-165422_WhatsApp_-_aditya_jenamani_dphqeo.jpg",
     clubEB: [
       ["Vipul Dewasthale", "President", "9406967902"],
       ["Aditi Bhakat", "Vice-President", "9832559861"],
@@ -947,7 +947,7 @@ const clubData = [
     clubFacebook: "NA",
     clubTwitter: "https://twitter.com/ecellnitr",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968573/ecell_logo_-_Aayush_Kandpal_toen6m.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968573/ecell_logo_-_Aayush_Kandpal_toen6m.png",
     clubMembers: 50,
     clubFacad: " Prof. Sasmita Mishra ",
     clubFacadMob: "+918144923411 / +917750960066",
@@ -978,14 +978,14 @@ const clubData = [
     clubLinkedin: "NA",
     clubFacebook: "AXIOM, The Mathematics Club",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679095362/Group_18131_x6oegc.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679095362/Group_18131_x6oegc.png",
     clubMembers: 87,
     clubFacad: "Dr. Divya Singh",
     clubFacadMob: 9439951426,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1l1q2JH64sQuGYw9EJsD-8zpEMnivTJlDPRnvofNe-MM/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679138660/ClubGroupPhoto/WhatsApp_Image_2023-03-13_at_10.57.00_PM_-_Nikita_Agarwal_s8jpou.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679138660/ClubGroupPhoto/WhatsApp_Image_2023-03-13_at_10.57.00_PM_-_Nikita_Agarwal_s8jpou.jpg",
     clubEB: [
       ["President", "Nikita Agarwal", 7991030024],
       ["Vice President", "Subhendu Shekhar Tripathy", 6370021206],
@@ -1007,14 +1007,14 @@ const clubData = [
     clubInstagram: "actomania_nitr",
     clubLinkedin: "NA",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679095205/Group_18130_y0b736.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679095205/Group_18130_y0b736.png",
     clubMembers: 30,
     clubFacad: "Prof. Angana sarkar",
     clubFacadMob: 9733504234,
     clubDocccc:
       "https://drive.google.com/drive/folders/1k6qNdWECsUJQrlTjxhGMww-ij8VQpZVi",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679138744/ClubGroupPhoto/IMG-20230314-WA0018_-_Actomania_2029_u6xx5f.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679138744/ClubGroupPhoto/IMG-20230314-WA0018_-_Actomania_2029_u6xx5f.jpg",
     clubEB: [
       ["President", "Subhankar Dutta", 7908450565],
       ["Vice President", "Biswajit Behera", 7326878233],
@@ -1036,14 +1036,14 @@ const clubData = [
     clubLinkedin: "https://www.linkedin.com/company/shortcircuit-nitr/",
     clubFacebook: "https://www.facebook.com/profile.php?id=100067238183945",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968577/MicrosoftTeams-image_-_Swayam_Mohanty_sofch8.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968577/MicrosoftTeams-image_-_Swayam_Mohanty_sofch8.jpg",
     clubMembers: 48,
     clubFacad: "Professor Atin Mukherjee",
     clubFacadMob: "+91 9432892150",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1rFPErU1kqZg4BvcwEj8jEVXGqhWcYbVeEE5C880huH4/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679138796/ClubGroupPhoto/group_-_Swayam_Mohanty_dukitj.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679138796/ClubGroupPhoto/group_-_Swayam_Mohanty_dukitj.jpg",
     clubEB: [
       ["President", "Swayam Mohanty", 7978617895],
       ["Vice President", "Goutam Sahu", 9078587157],
@@ -1067,14 +1067,14 @@ const clubData = [
     clubFacebook: "Odia sahitya samaja NITR",
     clubTwitter: "Oss_Nit_Rkl",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679094763/Group_18127_ham0x0.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679094763/Group_18127_ham0x0.png",
     clubMembers: 34,
     clubFacad: "Prof. R. K. BISWAL",
     clubFacadMob: 8249348088,
     clubDocccc:
       "https://drive.google.com/drive/u/0/folders/1rCPtLAAjNraOr3ThRnkeXzedHxOLnJTE",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679138850/ClubGroupPhoto/IMG_20230314_235217_-_Amit_suryadipta_Kar_dk3egn.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679138850/ClubGroupPhoto/IMG_20230314_235217_-_Amit_suryadipta_Kar_dk3egn.jpg",
     clubEB: [
       ["PRESIDENT", "AMIT SURYADIPTA KAR", 8337976733],
       ["VICE- PRESIDENT", "SARTHAK PRASAD SAHOO", 7008698366],
@@ -1097,14 +1097,14 @@ const clubData = [
     clubLinkedin: "NA",
     clubFacebook: "https://www.facebook.com/inquizzitive.nitrkl",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679086504/Group_18119_cpx2wq.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679086504/Group_18119_cpx2wq.png",
     clubMembers: 57,
     clubFacad: "Prof. Sanjoy Datta",
     clubFacadMob: 9556206630,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1ZGpDutWG5-k0_Bl8GynlC7gfM_5XYmXX/edit#gid=577826563",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679138931/ClubGroupPhoto/311780339_234570295561121_8803281892657017261_n_5_-_Krishna_Aditya_Mohanty_khlzhk.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679138931/ClubGroupPhoto/311780339_234570295561121_8803281892657017261_n_5_-_Krishna_Aditya_Mohanty_khlzhk.png",
     clubEB: [
       ["President", "Krishna Aditya Mohanty", 9937046915],
       [" Vice-President", "Siddharth Ray ", 9668749887],
@@ -1127,14 +1127,14 @@ const clubData = [
     clubFacebook: "https://www.facebook.com/akriti.nitrkl",
     clubTwitter: "N.A.",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968574/20230314_221234_0001_-_Atri_Ranjan_Das_sxo8ym.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968574/20230314_221234_0001_-_Atri_Ranjan_Das_sxo8ym.png",
     clubMembers: 45,
     clubFacad: "Prof. Prasanta Kumar Bhuyan",
     clubFacadMob: 9658642180,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1hi_zqcO4FgqEMKvvZ350PpJx5sut-ntwi6GnrAEZO80/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679139008/ClubGroupPhoto/AKRITI_-_Atri_Ranjan_Das_l26oht.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679139008/ClubGroupPhoto/AKRITI_-_Atri_Ranjan_Das_l26oht.jpg",
     clubEB: [
       ["President", "Atri Ranjan Das", 9777369410],
       ["Vice President", "Sugyan Bentakar", 7849099718],
@@ -1155,14 +1155,14 @@ const clubData = [
     clubInstagram: "kalaam_nitr",
     clubLinkedin: "No profile",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679086183/Group_18117_nwcsv7.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679086183/Group_18117_nwcsv7.png",
     clubMembers: 70,
     clubFacad: "Prof. Sambit Bakshi",
     clubFacadMob: "+91 9778706770",
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1z9Rl0_TgpoXD6Nak-K84mZAv-ePPtJGPfvJ-OskE_uA/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679139071/ClubGroupPhoto/IMG_4429_-_Susmita_Panda_xmluuw.heic",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679139071/ClubGroupPhoto/IMG_4429_-_Susmita_Panda_xmluuw.heic",
     clubEB: [
       ["President", "Diwakar Mishra", 7319639134],
       ["Vice President", "Prisita Preetam", 8847805647],
@@ -1186,14 +1186,14 @@ const clubData = [
     clubFacebook: "https://www.facebook.com/sdgcampusclubnitrkl",
     clubTwitter: " ",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/SDG_white_1_-_Srinibas_Panigrahi_zhtxap.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679160026/SDG_white_1_-_Srinibas_Panigrahi_zhtxap.png",
     clubMembers: 80,
     clubFacad: "Prof. Ramakrishna Biswal",
     clubFacadMob: "+91 82493 48088 ",
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/1YZ2Ao3cVH1HuLKnlFu5FuALJeYWIxa4-RLNBFgzkvgQ/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168748/club_photo_-_Srinibas_Panigrahi_a3pwtx.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679168748/club_photo_-_Srinibas_Panigrahi_a3pwtx.jpg",
     clubEB: [
       ["President", "V Raja Patra", "7789942173"],
       ["Vice-President", "Ravi Teja Marni", "7793941686"],
@@ -1215,14 +1215,14 @@ const clubData = [
     clubInstagram: "https://www.instagram.com/nrityunjay_nitr/",
     " clubLinkedin": "NA",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/Group_15_vadmr7.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679160026/Group_15_vadmr7.png",
     clubMembers: 30,
     clubFacad: "Prof Suchismita Chinara",
     clubFacadMob: 9437116795,
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/10nQwLaU7JnJmLinBlNDIbKXcktpgOy61JBqxAudFZbg/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679174272/20230119_194656_-_SATYAM_SONI_hchhiw__2_dfsfts.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679174272/20230119_194656_-_SATYAM_SONI_hchhiw__2_dfsfts.jpg",
     clubEB: [
       ["President", "Aditi Bhakat", "9832559861"],
       ["Treasurer", "Satyam Soni", "8717974194"],
@@ -1245,14 +1245,14 @@ const clubData = [
       "https://www.linkedin.com/company/cyborg-official-robotics-club-of-nit-rourkela/mycompany/",
     clubFacebook: "https://www.facebook.com/cyborg.nitr/",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679160025/Group_14_zfj3sc.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679160025/Group_14_zfj3sc.png",
     clubMembers: 70,
     clubFacad: "Prof. Ayas Kanta Swain",
     clubFacadMob: "0661-2462458",
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/1YTdNLO_HpHHy-RbiVTIcFVPK2SUdQnxh1xtEohboMiY/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168868/20221114_150223_-_Sanjeet_Patro_qmt7j6.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679168868/20221114_150223_-_Sanjeet_Patro_qmt7j6.jpg",
     clubEB: [
       ["President", "Suyash Umesh Verma", "7749028252"],
       ["Vice-President", "Adyasha Jena", "7656814344"],
@@ -1273,14 +1273,14 @@ const clubData = [
     clubFacebook: "Synergy NIT Rourkela",
     clubTwitter: "NA",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/Group_13_ykzrs5.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679160026/Group_13_ykzrs5.png",
     clubMembers: 40,
     clubFacad: "Dr. Harekrushna Sahoo",
     clubFacadMob: 8249074243,
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/1GtXzPKY7yMifN9_2jDJ7aCpcL-wKBHGXXjp4KOTLcs8/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168915/1678823795278_-_Rohan_Kumar_1_hqmf7t.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679168915/1678823795278_-_Rohan_Kumar_1_hqmf7t.jpg",
     clubEB: [
       ["Chief-Coordinator", "Akash Vardhan Lakkineni", "7337045524"],
       ["Chief-Coordinator", "Rohan Kumar Sethi", "8114989857"],
@@ -1302,14 +1302,14 @@ const clubData = [
     clubFacebook: "https://www.facebook.com/HeartBeatsNITR",
     clubTwitter: "na",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/Group_12_gd7u0x.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679160026/Group_12_gd7u0x.png",
     clubMembers: 18,
     clubFacad: "Prof. Syed Nasimul Alam",
     clubFacadMob: 9937917811,
     "clubDocccc ":
       "https://docs.google.com/document/d/1jVMlsXCidNAgTd4TMKrb4bVdunfriJqF8-fuCEgCj3E/edit?usp=sharing",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679168975/Heartbeats_-_devraj_changkakati_hwegre.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679168975/Heartbeats_-_devraj_changkakati_hwegre.jpg",
     clubEB: [
       ["President", "Melvin Ignatius Toppo", "9799097643"],
       ["Vice President", "Gajraj Mohini", "9668779283"],
@@ -1328,14 +1328,14 @@ const clubData = [
     clubInstagram: "https://www.instagram.com/knights_club_nitr/",
     " clubLinkedin": "https://www.linkedin.com/company/knights-club-nitr/",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679160025/knight_club_-_Shourya_Gyanvarsha_bodjoh.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679160025/knight_club_-_Shourya_Gyanvarsha_bodjoh.png",
     clubMembers: 68,
     clubFacad: "Sirsendu Sekhar Roy",
     clubFacadMob: 9178238442,
     "clubDocccc ":
       "https://docs.google.com/spreadsheets/d/1wCAu3NpHpNRRc1TJG7YQYYXgI3A6u-tvtbcSUrPpWa0/edit#gid=0",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169117/Club_Photo_-_Shourya_Gyanvarsha_xzxqrx.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679169117/Club_Photo_-_Shourya_Gyanvarsha_xzxqrx.jpg",
     clubEB: [
       ["President", "Amlan Abhilash Mishra", "7657099478"],
       ["Vice-President", "Shourya Gyanvarsha", "6371933919"],
@@ -1359,12 +1359,12 @@ const clubData = [
     clubFacebook: "https://m.facebook.com/webwiz.nitr",
     clubTwitter: "https://twitter.com/webwiznitr",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1679160026/WEBWIZ_BLACK_BACKGROUD_LOGO_3_-_Sibasis_Malla_myk9au.png",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679160026/WEBWIZ_BLACK_BACKGROUD_LOGO_3_-_Sibasis_Malla_myk9au.png",
     clubMembers: "https://twitter.com/webwiznitr?t=_uJSaYbzl_4A_Y1-jBrRjQ&s=08",
     clubFacad: "Tapas Kumar Mishra",
     clubFacadMob: 99,
     "clubDocccc ": "zz",
-    clubGroupPhoto:"https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169760/IMG_9448_jjhqkv.jpg",
+    clubGroupPhoto:"https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679169760/IMG_9448_jjhqkv.jpg",
     clubEB: [
       ["President", "Gourab Nanda", "7327080609"],
       ["Vice President", "Kumar Shantanu", "6203158074"],
@@ -1387,14 +1387,14 @@ const clubData = [
     clubFacebook: "https://m.facebook.com/100064113309537/",
     clubTwitter: "financeclub0",
     clubLogo:
-      "https://res.cloudinary.com/webwiznitr/image/upload/v1678968574/FC_LOGO_-_Abhinandan_Mishra_ywk8jj.jpg",
+      "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1678968574/FC_LOGO_-_Abhinandan_Mishra_ywk8jj.jpg",
     clubMembers: 110,
     clubFacad: "Prof. Syed Nasimul Alam",
     clubFacadMob: 9937917811,
     clubDocccc:
       "https://docs.google.com/spreadsheets/d/1fq80hpt6-iExSOUns2SEdthqvxv7rxmDu0SGt5sh31Q/edit?usp=sharing ",
     clubGroupPhoto:
-      "https://res.cloudinary.com/dnvnnngxz/image/upload/v1679169217/FC_Group_Pic_-_Abhinandan_Mishra_efczou.jpg",
+      "https://res.cloudinary.com/dnvnnngxz/image/upload/f_auto,q_70/v1679169217/FC_Group_Pic_-_Abhinandan_Mishra_efczou.jpg",
     clubEB: [
       ["President ", "Abhinandan Mishra", "9437583729"],
       ["Vice-President", "Rajiv Sahu", "9098633074"],

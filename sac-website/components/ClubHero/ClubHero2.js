@@ -14,7 +14,7 @@ const ClubHero2 = ({
   backImg,
 }) => {
   // const backImg =
-  //   "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679150593/societies/FMS_kn3ntq.png";
+  //   "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679150593/societies/FMS_kn3ntq.png";
   return (
     <div className="w-full h-[100vh]  ">
       {/* <div className=" fixed right-0 top-[50%] -translate-y-[50%] border-2 p-3 r bg-[white] z-[999] shadow-xl rounded-l-lg  "> 
