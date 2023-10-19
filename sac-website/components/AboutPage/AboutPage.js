@@ -103,13 +103,13 @@ Diverse research shows that the NITR student community is continually engaged an
                 }}
               >
                 <ContactCard
-                  name="Prof. Poonam Singh"
+                  name={item.name}
                   designation="President SAC"
                   email="sdbjwbdhij@gmail.com"
                   color1="white"
                   color2="black"
                   color3="red"
-                  image="https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg"
+                  image={item.officialsImage}
                   // stroke={stroke}
                 />
               </div>
@@ -132,13 +132,13 @@ Diverse research shows that the NITR student community is continually engaged an
                 }}
               >
                 <ContactCard
-                  name="Prof. Poonam Singh"
+                  name={item.name}
                   designation="President SAC"
                   email="sdbjwbdhij@gmail.com"
                   color1="white"
                   color2="black"
                   color3="red"
-                  image="https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg"
+                  image={item.officialsImage}
                   // stroke={stroke}
                 />
               </div>
