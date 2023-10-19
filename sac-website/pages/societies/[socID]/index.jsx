@@ -8,6 +8,7 @@ import SocietyGallery from "@/components/SocietyGallery/SocietyGallery";
 import { socData } from "../index.jsx";
 import Head from "next/head.js";
 import clubData from "../../../data/data.js";
+import AboutNITR from "@/components/AboutPage/AboutNITR.js";
 
 // import clubData from "../../../data/data.js";
 
@@ -17,18 +18,36 @@ export default function soc() {
   // console.log(socID);
 
   let backImg;
+  let vcimg1;
+  let vcimg2;
   if (socID == "Film and Music Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679168254/new%20societies/film1_atasq9.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168254/new%20societies/film1_atasq9.png";
+    vcimg1 =
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
+    vcimg2 =
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
   } else if (socID == "Technical Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679168250/new%20societies/technical1_lciid6.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168250/new%20societies/technical1_lciid6.png";
+    vcimg1 =
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
+    vcimg2 =
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697713524/PXL_20230925_133534302.MP_jscubn.jpg";
   } else if (socID == "Literary and Cultural Society") {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679168258/new%20societies/lcs_2_xwljvb.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168258/new%20societies/lcs_2_xwljvb.png";
+    vcimg1 =
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
+    vcimg2 =
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
   } else {
     backImg =
-      "https://res.cloudinary.com/dlru9kd0x/image/upload/f_auto,q_70/v1679168252/new%20societies/sport_f8whgf.png";
+      "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168252/new%20societies/sport_f8whgf.png";
+    vcimg1 =
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
+    vcimg2 =
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
   }
 
   let socDescription = "";
@@ -113,6 +132,16 @@ export default function soc() {
         image={socimage}
       />
       {/* <SocietyRepresentative1 /> */}
+      <AboutNITR
+        data="Vice President Speaks"
+        img={`${vcimg1}`}
+        description="It is a privilege for me to have assumed the position of Vice President, Technical Society of Students Activity Centre, NIT Rourkela, on 3rd July 2023. It gives me immense pleasure to say that the Students Activity Centre is getting its own website after a long drawn effort. Not only the NITian community but beyond, will now be updated with the facts and updates of mesmerizing events of the students’ societies. I would like to thank all the members involved in successfully putting up their collaborative efforts in successfully bringing up the official website."
+      />
+      <DeanSpeaks
+        data="Vice President Speaks"
+        image={`${vcimg2}`}
+        description="It is a privilege for me to have assumed the position of Vice President, Technical Society of Students Activity Centre, NIT Rourkela, on 3rd July 2023. It gives me immense pleasure to say that the Students Activity Centre is getting its own website after a long drawn effort. Not only the NITian community but beyond, will now be updated with the facts and updates of mesmerizing events of the students’ societies. I would like to thank all the members involved in successfully putting up their collaborative efforts in successfully bringing up the official website."
+      />
 
       <ClubName socName={socID} />
 

@@ -7,7 +7,6 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
   const representative1 = [
     {
       officialsImage:
-
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
 
       name: "Prof. Rajeev Kumar Panda",
@@ -16,9 +15,11 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     {
       officialsImage:
 
+
         "https://res.cloudinary.com/du3uvgzdr/image/upload/v1697693816/Screenshot_2023-10-19_at_11.06.48_AM_tojdfv.png",
 
       name: "Prof. Sidhartha S. Jena",
+
       designation: "Dean",
     },
     // {
@@ -43,9 +44,8 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-
-        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
-      name: "Not Available",
+        "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697713524/PXL_20230925_133534302.MP_jscubn.jpg",
+      name: "Tirthankar Sarkar",
 
       designation: "Vice-President, Technical Society",
     },
@@ -76,7 +76,6 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
 
     {
       officialsImage:
-
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
       name: "Not Available",
 
@@ -99,7 +98,6 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
 
       name: "Nalini Nihar Nayak",
@@ -107,7 +105,6 @@ export default function SocietyRepresentative({ data = "SAC Officials" }) {
     },
     {
       officialsImage:
-
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg",
 
       name: "T R Pattnaik",

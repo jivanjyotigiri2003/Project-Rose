@@ -9,6 +9,7 @@ const AboutPage = () => {
   const representative1 = [
     {
       officialsImage:
+
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
       name: "Prof. Rajeev Kumar Panda ",
       designation: "President",
@@ -17,6 +18,7 @@ const AboutPage = () => {
       officialsImage:
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
       name: "Prof. Rajeev Kumar Panda",
+
       designation: "President",
     },
   ];
@@ -24,6 +26,7 @@ const AboutPage = () => {
   const representative2 = [
     {
       officialsImage:
+
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
       name: "Prof. Rajeev Kumar Panda",
       designation: "President",
@@ -55,6 +58,7 @@ const AboutPage = () => {
     {
       officialsImage:
         "https://res.cloudinary.com/de2s0mcjo/image/upload/v1695409082/IMG-20230913-WA0135_nanw4l.jpg",
+
       name: "Prof. Rajeev Kumar Panda",
       designation: "President",
     },
@@ -103,13 +107,17 @@ Diverse research shows that the NITR student community is continually engaged an
                 }}
               >
                 <ContactCard
+
                   name={item.name}
                   designation="President SAC"
+
                   email="sdbjwbdhij@gmail.com"
                   color1="white"
                   color2="black"
                   color3="red"
+
                   image={item.officialsImage}
+
                   // stroke={stroke}
                 />
               </div>
@@ -132,13 +140,17 @@ Diverse research shows that the NITR student community is continually engaged an
                 }}
               >
                 <ContactCard
+
                   name={item.name}
                   designation="President SAC"
+
                   email="sdbjwbdhij@gmail.com"
                   color1="white"
                   color2="black"
                   color3="red"
+
                   image={item.officialsImage}
+
                   // stroke={stroke}
                 />
               </div>
