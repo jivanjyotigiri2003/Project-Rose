@@ -33,7 +33,7 @@ export default function soc() {
     vcimg1 =
       "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
     vcimg2 =
-      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697713524/PXL_20230925_133534302.MP_jscubn.jpg";
+      "https://res.cloudinary.com/de2s0mcjo/image/upload/v1697660892/manavatar_z7rrut_n5fnbm.jpg";
   } else if (socID == "Literary and Cultural Society") {
     backImg =
       "https://res.cloudinary.com/dlru9kd0x/image/upload/v1679168258/new%20societies/lcs_2_xwljvb.png";
