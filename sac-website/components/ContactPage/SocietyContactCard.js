@@ -12,9 +12,9 @@ const SocietyContactCard = ({
     {
       officialsImage:
         "https://res.cloudinary.com/webwiznitr/image/upload/f_auto,q_70/v1679067314/SacOfficials/_SMX0028_cenbfl.jpg",
-      name: "Prof. Poonam Singh",
+      name: "Prof. Rajeev Kumar Panda",
       designation: "President",
-      email: "psingh@nitrkl.ac.in",
+      email: "rkpanda@nitrkl.ac.in",
     },
   ];
   const representative2 = [
