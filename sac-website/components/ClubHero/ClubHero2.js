@@ -6,10 +6,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const ClubHero2 = ({
   name,
   tagline,
-  logo,
-  inst,
-  twit,
-  face,
   link,
   backImg,
 }) => {
